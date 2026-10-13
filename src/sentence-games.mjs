@@ -24,7 +24,7 @@ export function validateLabSentence(words,items,lang){
  const clauses=parts.map(p=>catalog.find(c=>norm(c.text,lang)===norm(p.join(' '),lang)));
  if(clauses.some(c=>!c)||new Set(clauses.map(c=>norm(c.text,lang))).size!==clauses.length)return {ok:false};
  const sources=[...new Set(clauses.flatMap(c=>c.sources))];
- return {ok:true,text:words.join(' '),sources,words:words.length,clauses:clauses.length,points:Math.min(1500,30+words.length*8+Math.max(0,words.length-5)**2+20*(clauses.length-1))};
+ return {ok:true,text:words.join(' '),sources,parts:clauses.map(c=>({text:c.text,context:c.sources[0]})),words:words.length,clauses:clauses.length,points:Math.min(1500,30+words.length*8+Math.max(0,words.length-5)**2+20*(clauses.length-1))};
 }
 export function labPayloads(items,lang){return items.flatMap(item=>tokens(item.text[lang]).map((text,tokenIndex)=>({text,itemId:item.id,lang,tokenIndex,type:'word'})));}
 export function labModel(board,items,lang,used=[],prefix=[],extend=false){

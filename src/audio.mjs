@@ -27,7 +27,7 @@ export class AudioPlayer {
    if(serial!==this.serial)return false;
    const ent=this.entry(lang,text,context),device=this.voice(lang),order=preference==='auto'?[['device',device],['file',ent]]:[['file',ent],['device',device]];
    for(const [kind,v] of order){if(!v)continue;this.lastPlayback={lang,kind,voice:kind==='device'?v.name:v.voice||'eSpeak',rate};this.onActivity(true,this.lastPlayback);try{const success=await(kind==='file'?this.playFile(v,rate,serial):this.playVoice(v,lang,this.pronunciation(lang,text,context),rate,serial));if(success)return true;if(serial!==this.serial)return false;}catch{if(serial!==this.serial)return false;}}
-   if(serial===this.serial)this.onError('audioUnavailable');return false;
+   if(serial===this.serial)this.onError(!ent&&!device?'audioTextUnavailable':'audioUnavailable');return false;
   }finally{if(serial===this.serial)this.activity(false);}
  }
  async playFile(entry,rate,serial){const ready=this.prepared.get(entry.path);if(rate===1&&ready?.buffer&&this.context){const ok=await this.playBuffer(ready.buffer,serial);if(ok||serial!==this.serial)return ok;}return new Promise(resolve=>{

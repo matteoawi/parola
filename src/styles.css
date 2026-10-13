@@ -270,3 +270,5 @@ progress{appearance:none;border:0;border-radius:8px;height:6px;background:#dde5d
  .modal:has(#write-answer) .modal-actions .button{min-height:38px;padding:7px 12px;font-size:13px}
  .modal:has(#write-answer) .tiny-note{margin:0}
 }
+
+.lab-recorded-parts{margin:8px 0 12px;font-size:13px}.lab-recorded-parts summary{cursor:pointer;min-height:40px;padding:8px 0;font-weight:800;color:var(--teal)}.lab-recorded-parts>p{font-size:12px;margin:7px 0}.lab-recorded-parts>div{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:8px 0}.lab-recorded-parts bdi{min-width:0;overflow-wrap:anywhere}.lab-recorded-parts .audio-buttons{flex-shrink:0}

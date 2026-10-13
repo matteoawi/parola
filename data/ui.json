@@ -482,7 +482,7 @@
     "labChooseAction": "Scegli frasi o coppie",
     "labSentences": "Frasi",
     "labPairs": "Coppie",
-    "labInstruction": "Crea una frase. Puoi collegare fino a quattro parti diverse con «e». Se un percorso valido resta bloccato, il tavolo lo riapre senza consumare aiuti.",
+    "labInstruction": "Crea una frase. Puoi collegare fino a quattro parti diverse con «{link}». Se un percorso valido resta bloccato, il tavolo lo riapre senza consumare aiuti.",
     "labPairInstruction": "Abbina due tessere libere con la stessa parola. Ogni parola dà punti una volta per tavolo.",
     "labLengthScore": "{n} parole · +8 punti per parola, bonus lunghezza e collegamenti",
     "labGoal": "5 frasi o coppie diverse",
@@ -493,7 +493,7 @@
     "labMaxLength": "Massimo 48 parole: verifica la frase o annulla una tessera.",
     "labUndoSwitch": "Annulla le parole della frase prima di passare alle coppie.",
     "labUndoForHint": "Non trovo un seguito nei modelli studiati. Annulla l’ultima tessera oppure usa Svuota frase per ripartire.",
-    "labCoverage": "Il laboratorio verifica modelli studiati, bevande compatibili e collegamenti con «e»: non riconosce ogni frase possibile della lingua.",
+    "labCoverage": "Il laboratorio verifica modelli studiati, bevande compatibili e collegamenti con «{link}»: non riconosce ogni frase possibile della lingua.",
     "validateSentence": "Verifica frase",
     "clearSentence": "Svuota frase",
     "labReadyToCheck": "La frase è completa: premi Verifica frase.",
@@ -508,7 +508,10 @@
     "remainingLabOne": "1 frase o coppia da completare",
     "remainingClozeOne": "1 parola mancante da trovare",
     "remainingSentence": "1 frase da comporre",
-    "freeCountOne": "1 tessera libera"
+    "freeCountOne": "1 tessera libera",
+    "labAudioParts": "Ascolta le parti registrate",
+    "labAudioPartsNote": "La lettura continua di questa frase richiede una voce della lingua sul dispositivo. Qui puoi ascoltare separatamente gli esempi registrati, senza la congiunzione.",
+    "audioTextUnavailable": "Per questo testo manca una registrazione e non è disponibile una voce della lingua sul dispositivo. Gli altri audio già inclusi restano utilizzabili."
   },
   "en": {
     "tagline": "A world of words. One idea at a time.",
@@ -993,7 +996,7 @@
     "labChooseAction": "Choose sentences or pairs",
     "labSentences": "Sentences",
     "labPairs": "Pairs",
-    "labInstruction": "Build a sentence. Join up to four different clauses with “and”. If a valid path becomes blocked, the board reopens it without using a hint.",
+    "labInstruction": "Build a sentence. Join up to four different clauses with “{link}”. If a valid path becomes blocked, the board reopens it without using a hint.",
     "labPairInstruction": "Match two free tiles showing the same word. Each word scores once per table.",
     "labLengthScore": "{n} words · +8 points per word, length and linking bonuses",
     "labGoal": "5 different sentences or pairs",
@@ -1004,7 +1007,7 @@
     "labMaxLength": "48-word maximum: check the sentence or undo a tile.",
     "labUndoSwitch": "Undo the sentence words before switching to pairs.",
     "labUndoForHint": "No continuation matches the studied patterns. Undo the last tile or use Clear sentence to start again.",
-    "labCoverage": "The lab checks studied patterns, compatible drinks and “and” links; it does not recognise every possible sentence.",
+    "labCoverage": "The lab checks studied patterns, compatible drinks and “{link}” links; it does not recognise every possible sentence.",
     "validateSentence": "Check sentence",
     "clearSentence": "Clear sentence",
     "labReadyToCheck": "The sentence is complete: press Check sentence.",
@@ -1019,7 +1022,10 @@
     "remainingLabOne": "1 sentence or pair remaining",
     "remainingClozeOne": "1 missing word to find",
     "remainingSentence": "1 sentence remaining",
-    "freeCountOne": "1 free tile"
+    "freeCountOne": "1 free tile",
+    "labAudioParts": "Listen to recorded parts",
+    "labAudioPartsNote": "Reading this whole sentence needs a device voice for the language. Listen to available recorded examples separately here, without the conjunction.",
+    "audioTextUnavailable": "This text has no recording and no matching device voice is available. Other included recordings still work."
   },
   "ar": {
     "tagline": "عالم من الكلمات. قاعدة واحدة في كل مرة.",
@@ -1504,7 +1510,7 @@
     "labChooseAction": "اختر الجمل أو الأزواج",
     "labSentences": "الجمل",
     "labPairs": "الأزواج",
-    "labInstruction": "كوّن جملة واربط حتى أربع جمل مختلفة باستخدام «و». إذا انسد مسار صحيح، تفتحه اللوحة دون استهلاك تلميح.",
+    "labInstruction": "كوّن جملة واربط حتى أربع جمل مختلفة باستخدام «{link}». إذا انسد مسار صحيح، تفتحه اللوحة دون استهلاك تلميح.",
     "labPairInstruction": "طابق قطعتين متاحتين تحملان الكلمة نفسها. كل كلمة تكسب نقاطًا مرة واحدة في كل لوحة.",
     "labLengthScore": "{n} كلمات · +8 نقاط لكل كلمة ومكافآت للطول والربط",
     "labGoal": "5 جمل أو أزواج مختلفة",
@@ -1515,7 +1521,7 @@
     "labMaxLength": "الحد الأقصى 48 كلمة: تحقق من الجملة أو تراجع عن قطعة.",
     "labUndoSwitch": "تراجع عن كلمات الجملة قبل الانتقال إلى الأزواج.",
     "labUndoForHint": "لا يوجد تتمة ضمن الأنماط المدروسة. تراجع عن آخر قطعة أو امسح الجملة للبدء مجددًا.",
-    "labCoverage": "يتحقق المختبر من الأنماط المدروسة والمشروبات المتوافقة والربط باستخدام «و»؛ ولا يتعرف على كل جملة ممكنة.",
+    "labCoverage": "يتحقق المختبر من الأنماط المدروسة والمشروبات المتوافقة والربط باستخدام «{link}»؛ ولا يتعرف على كل جملة ممكنة.",
     "validateSentence": "تحقق من الجملة",
     "clearSentence": "امسح الجملة",
     "labReadyToCheck": "الجملة كاملة: اضغط تحقق من الجملة.",
@@ -1530,7 +1536,10 @@
     "remainingLabOne": "جملة أو زوج واحد متبقٍّ",
     "remainingClozeOne": "كلمة ناقصة واحدة",
     "remainingSentence": "جملة واحدة متبقّية",
-    "freeCountOne": "قطعة واحدة متاحة"
+    "freeCountOne": "قطعة واحدة متاحة",
+    "labAudioParts": "استمع إلى الأجزاء المسجّلة",
+    "labAudioPartsNote": "قراءة الجملة كاملة تتطلب صوتًا لهذه اللغة على الجهاز. يمكنك الاستماع هنا إلى الأمثلة المسجّلة منفصلة دون أداة الربط.",
+    "audioTextUnavailable": "لا يوجد تسجيل لهذا النص ولا صوت مطابق على الجهاز. التسجيلات الأخرى المضمّنة ما زالت متاحة."
   },
   "ru": {
     "tagline": "Мир слов. Одно правило за раз.",
@@ -2015,7 +2024,7 @@
     "labChooseAction": "Выбери фразы или пары",
     "labSentences": "Фразы",
     "labPairs": "Пары",
-    "labInstruction": "Составь фразу из четырёх разных частей с «и». Если правильный путь заблокирован, поле откроет его без расхода подсказок.",
+    "labInstruction": "Составь фразу из четырёх разных частей с «{link}». Если правильный путь заблокирован, поле откроет его без расхода подсказок.",
     "labPairInstruction": "Соедини две свободные костяшки с одним словом. Каждое слово даёт очки один раз за игру.",
     "labLengthScore": "{n} слов · +8 очков за слово, бонусы за длину и связи",
     "labGoal": "5 разных фраз или пар",
@@ -2026,7 +2035,7 @@
     "labMaxLength": "Максимум 48 слов: проверь фразу или отмени костяшку.",
     "labUndoSwitch": "Отмени слова фразы перед переходом к парам.",
     "labUndoForHint": "В изученных образцах нет продолжения. Отмени последнюю костяшку или очисти фразу.",
-    "labCoverage": "Лаборатория проверяет изученные образцы, названия напитков и связи с «и», а не все возможные предложения.",
+    "labCoverage": "Лаборатория проверяет изученные образцы, названия напитков и связи с «{link}», а не все возможные предложения.",
     "validateSentence": "Проверить фразу",
     "clearSentence": "Очистить фразу",
     "labReadyToCheck": "Фраза готова: нажми Проверить фразу.",
@@ -2041,6 +2050,9 @@
     "remainingLabOne": "Осталась 1 фраза или пара",
     "remainingClozeOne": "Найди ещё 1 пропущенное слово",
     "remainingSentence": "Осталась 1 фраза",
-    "freeCountOne": "1 свободная костяшка"
+    "freeCountOne": "1 свободная костяшка",
+    "labAudioParts": "Послушать записанные части",
+    "labAudioPartsNote": "Для чтения всей фразы нужен голос этого языка на устройстве. Здесь можно послушать записанные примеры отдельно, без союза.",
+    "audioTextUnavailable": "Для этого текста нет записи и подходящего голоса на устройстве. Другие включённые записи доступны."
   }
 }
