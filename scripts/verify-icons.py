@@ -18,5 +18,11 @@ embedded=re.search(r'data:image/svg\+xml;base64,([^"]+)',offline).group(1)
 assert base64.b64decode(embedded)==(ROOT/'icon.svg').read_bytes()
 svgs={p.relative_to(ROOT).as_posix() for p in ROOT.rglob('*.svg') if '.git' not in p.parts}
 expected={'icon.svg'}|{f'assets/icons/lucide/{name}.svg' for name in originals}
+picture_sources=json.loads((ROOT/'assets/pictures/twemoji/sources.json').read_text(encoding='utf-8'))
+for name,digest in picture_sources['sha256'].items():
+ path=ROOT/f'assets/pictures/twemoji/{name}.svg'
+ assert hashlib.sha256(path.read_bytes()).hexdigest()==digest,name+' modified picture'
+ expected.add(path.relative_to(ROOT).as_posix())
+ assert ('data:image/svg+xml;base64,'+base64.b64encode(path.read_bytes()).decode()) in offline,name+' missing offline picture'
 assert svgs==expected,svgs^expected
-print(f'PASS: {len(originals)} upstream originals, all inline markup, favicon geometry and both licenses')
+print(f'PASS: {len(originals)} Lucide originals, 8 Twemoji originals, embedded pictures, favicon geometry and licenses')

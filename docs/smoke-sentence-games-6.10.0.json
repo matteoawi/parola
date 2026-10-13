@@ -1,0 +1,11 @@
+{
+  "version": "6.10.0",
+  "url": "http://127.0.0.1:8765/Parola-v6-sorgenti-e-verifiche/",
+  "checks": [
+    "lab: actual long sentence, source introductions, reload/resume, four simple pairs, refills, scoring and truthful summary/memory",
+    "cloze: exactly one blank, accessible correct answer, three rounds, all four languages and monolingual routes",
+    "pictures: visible entry, eight genuine local drawings, introductions, word-picture matching, Arabic mono and Russian bilingual completion",
+    "six findable modes and responsive mobile/desktop boards"
+  ],
+  "passed": true
+}

@@ -1,0 +1,27 @@
+{
+  "library": "Twemoji",
+  "version": "17.0.3",
+  "commit": "b6b55fef1e8636b540a6d016a4729ca8cdf2e60b",
+  "repository": "https://github.com/jdecked/twemoji",
+  "license": "CC-BY-4.0",
+  "assets": {
+    "book": "1f4d6",
+    "house": "1f3e0",
+    "school": "1f3eb",
+    "water": "1f4a7",
+    "tea": "1f375",
+    "coffee": "2615",
+    "door": "1f6aa",
+    "pen": "1f58a"
+  },
+  "sha256": {
+    "book": "78f4d87e4e97c7ab24215a1a04cf9093a1a7556709e00c2e65543ad21e54413d",
+    "house": "914fdd0d0eecc2c3c9a1c960a44201845256498e236e1dfadb109b14e6cf0097",
+    "school": "301e89109c866e3d4d8f8f015d78efe7acc6b48ab16c6216c98554bc5c620335",
+    "water": "9ec35e46c27db799e43a08bd2a3c4353d51a0c037f8bdbbc63684f7fefbb0cc0",
+    "tea": "37d814314fd2c40ea44b63849a4551473f501ebc7623caa47ce5e76a8af30b7f",
+    "coffee": "8b8afd8f60833ca51907899d4a3279cdfd355282858ba8a73cd1034d2a1e31ff",
+    "door": "19e3a07fb16d79e5ff225ce303bc5ac1343a2aa0188edc1795b1edbf9c566dfe",
+    "pen": "e443e632207b1bff6579fddd794cf95d957c0720ea6aa0d88d7ce4415c65d2df"
+  }
+}

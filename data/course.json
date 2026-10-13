@@ -1,5 +1,5 @@
 {
-  "version": "6.9.0",
+  "version": "6.10.0",
   "reviewStatus": "authored-not-native-reviewed",
   "units": [
     {
@@ -5127,6 +5127,347 @@
         "ar": "ضمير الغائب المفرد.",
         "ru": "Местоимение: мужчина, о котором говоришь."
       }
+    },
+    {
+      "id": "lab_link",
+      "text": {
+        "it": "e",
+        "en": "and",
+        "ar": "و",
+        "ru": "и"
+      },
+      "unitId": "objects",
+      "vocab": true,
+      "clue": {
+        "it": "Collega due frasi o due elementi.",
+        "en": "Joins two clauses or elements.",
+        "ar": "تربط جملتين أو عنصرين.",
+        "ru": "Соединяет две части предложения."
+      },
+      "speech": {
+        "it": "e",
+        "en": "and",
+        "ar": "و",
+        "ru": "и"
+      },
+      "accepted": {
+        "it": [
+          "e"
+        ],
+        "en": [
+          "and"
+        ],
+        "ar": [
+          "و"
+        ],
+        "ru": [
+          "и"
+        ]
+      }
+    },
+    {
+      "id": "pic_book",
+      "text": {
+        "it": "libro",
+        "en": "book",
+        "ar": "كتاب",
+        "ru": "книга"
+      },
+      "unitId": "objects",
+      "vocab": true,
+      "clue": {
+        "it": "Oggetto da leggere.",
+        "en": "Something you read.",
+        "ar": "شيء تقرؤه.",
+        "ru": "То, что читают."
+      },
+      "speech": {
+        "it": "libro",
+        "en": "book",
+        "ar": "كتاب",
+        "ru": "книга"
+      },
+      "accepted": {
+        "it": [
+          "libro"
+        ],
+        "en": [
+          "book"
+        ],
+        "ar": [
+          "كتاب"
+        ],
+        "ru": [
+          "книга"
+        ]
+      },
+      "picture": "./assets/pictures/twemoji/book.svg"
+    },
+    {
+      "id": "pic_house",
+      "text": {
+        "it": "casa",
+        "en": "house",
+        "ar": "بيت",
+        "ru": "дом"
+      },
+      "unitId": "objects",
+      "vocab": true,
+      "clue": {
+        "it": "Edificio in cui abiti.",
+        "en": "A building you live in.",
+        "ar": "مبنى تسكن فيه.",
+        "ru": "Здание, в котором живут."
+      },
+      "speech": {
+        "it": "casa",
+        "en": "house",
+        "ar": "بيت",
+        "ru": "дом"
+      },
+      "accepted": {
+        "it": [
+          "casa"
+        ],
+        "en": [
+          "house"
+        ],
+        "ar": [
+          "بيت"
+        ],
+        "ru": [
+          "дом"
+        ]
+      },
+      "picture": "./assets/pictures/twemoji/house.svg"
+    },
+    {
+      "id": "pic_school",
+      "text": {
+        "it": "scuola",
+        "en": "school",
+        "ar": "مدرسة",
+        "ru": "школа"
+      },
+      "unitId": "objects",
+      "vocab": true,
+      "clue": {
+        "it": "Luogo in cui si studia.",
+        "en": "A place where you study.",
+        "ar": "مكان للدراسة.",
+        "ru": "Место, где учатся."
+      },
+      "speech": {
+        "it": "scuola",
+        "en": "school",
+        "ar": "مدرسة",
+        "ru": "школа"
+      },
+      "accepted": {
+        "it": [
+          "scuola"
+        ],
+        "en": [
+          "school"
+        ],
+        "ar": [
+          "مدرسة"
+        ],
+        "ru": [
+          "школа"
+        ]
+      },
+      "picture": "./assets/pictures/twemoji/school.svg"
+    },
+    {
+      "id": "pic_water",
+      "text": {
+        "it": "acqua",
+        "en": "water",
+        "ar": "ماء",
+        "ru": "вода"
+      },
+      "unitId": "objects",
+      "vocab": true,
+      "clue": {
+        "it": "Liquido che bevi quando hai sete.",
+        "en": "A liquid you drink when thirsty.",
+        "ar": "سائل تشربه عند العطش.",
+        "ru": "Жидкость, которую пьют при жажде."
+      },
+      "speech": {
+        "it": "acqua",
+        "en": "water",
+        "ar": "ماء",
+        "ru": "вода"
+      },
+      "accepted": {
+        "it": [
+          "acqua"
+        ],
+        "en": [
+          "water"
+        ],
+        "ar": [
+          "ماء"
+        ],
+        "ru": [
+          "вода"
+        ]
+      },
+      "picture": "./assets/pictures/twemoji/water.svg"
+    },
+    {
+      "id": "pic_tea",
+      "text": {
+        "it": "tè",
+        "en": "tea",
+        "ar": "شاي",
+        "ru": "чай"
+      },
+      "unitId": "objects",
+      "vocab": true,
+      "clue": {
+        "it": "Bevanda preparata con foglie.",
+        "en": "A drink made from leaves.",
+        "ar": "شراب يُحضّر من الأوراق.",
+        "ru": "Напиток из листьев."
+      },
+      "speech": {
+        "it": "tè",
+        "en": "tea",
+        "ar": "شاي",
+        "ru": "чай"
+      },
+      "accepted": {
+        "it": [
+          "tè"
+        ],
+        "en": [
+          "tea"
+        ],
+        "ar": [
+          "شاي"
+        ],
+        "ru": [
+          "чай"
+        ]
+      },
+      "picture": "./assets/pictures/twemoji/tea.svg"
+    },
+    {
+      "id": "pic_coffee",
+      "text": {
+        "it": "caffè",
+        "en": "coffee",
+        "ar": "قهوة",
+        "ru": "кофе"
+      },
+      "unitId": "objects",
+      "vocab": true,
+      "clue": {
+        "it": "Bevanda preparata con chicchi tostati.",
+        "en": "A drink made from roasted beans.",
+        "ar": "شراب يُحضّر من حبوب محمصة.",
+        "ru": "Напиток из обжаренных зёрен."
+      },
+      "speech": {
+        "it": "caffè",
+        "en": "coffee",
+        "ar": "قهوة",
+        "ru": "кофе"
+      },
+      "accepted": {
+        "it": [
+          "caffè"
+        ],
+        "en": [
+          "coffee"
+        ],
+        "ar": [
+          "قهوة"
+        ],
+        "ru": [
+          "кофе"
+        ]
+      },
+      "picture": "./assets/pictures/twemoji/coffee.svg"
+    },
+    {
+      "id": "pic_door",
+      "text": {
+        "it": "porta",
+        "en": "door",
+        "ar": "باب",
+        "ru": "дверь"
+      },
+      "unitId": "objects",
+      "vocab": true,
+      "clue": {
+        "it": "Si apre per entrare in una stanza.",
+        "en": "You open it to enter a room.",
+        "ar": "تفتحه لدخول الغرفة.",
+        "ru": "Открывают, чтобы войти в комнату."
+      },
+      "speech": {
+        "it": "porta",
+        "en": "door",
+        "ar": "باب",
+        "ru": "дверь"
+      },
+      "accepted": {
+        "it": [
+          "porta"
+        ],
+        "en": [
+          "door"
+        ],
+        "ar": [
+          "باب"
+        ],
+        "ru": [
+          "дверь"
+        ]
+      },
+      "picture": "./assets/pictures/twemoji/door.svg"
+    },
+    {
+      "id": "pic_pen",
+      "text": {
+        "it": "penna",
+        "en": "pen",
+        "ar": "قلم",
+        "ru": "ручка"
+      },
+      "unitId": "objects",
+      "vocab": true,
+      "clue": {
+        "it": "Oggetto per scrivere con inchiostro.",
+        "en": "Something you write with using ink.",
+        "ar": "أداة للكتابة بالحبر.",
+        "ru": "Предмет для письма чернилами."
+      },
+      "speech": {
+        "it": "penna",
+        "en": "pen",
+        "ar": "قلم",
+        "ru": "ручка"
+      },
+      "accepted": {
+        "it": [
+          "penna"
+        ],
+        "en": [
+          "pen"
+        ],
+        "ar": [
+          "قلم"
+        ],
+        "ru": [
+          "ручка"
+        ]
+      },
+      "picture": "./assets/pictures/twemoji/pen.svg"
     }
   ],
   "languages": [

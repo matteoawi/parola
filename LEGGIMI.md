@@ -1,4 +1,4 @@
-# Parola 6.9.0 — Mahjong delle lingue
+# Parola 6.10.0 — Mahjong delle lingue
 
 La versione 6.1.0 aggiunge quattro percorsi monolingua e un percorso di alfabeto con 45 lezioni e 294 elementi. Dalla home puoi scegliere se iniziare dalle lettere o dalle frasi. Dettagli in `docs/ALFABETO_E_MONOLINGUA.md`.
 
@@ -22,7 +22,7 @@ La versione 6.8.0 ridisegna le tessere, aggiunge pinch e controlli di zoom a tut
 
 La versione 6.8.1 ripristina la priorità alle voci del dispositivo in tutte le lingue, con scelta e prova per lingua, eSpeak come riserva e silenzio degli effetti durante la pronuncia. Dettagli in `docs/VOCE-6.8.1.md`.
 
-La versione 6.9.0 riorganizza Gioca, Impara e Progressi, rinnova colori e tipografia, mostra i traguardi reali e compatta il mobile. Tutti i formati sono visibili insieme; la tastiera alfabetica funziona anche in orizzontale. Dettagli in `docs/DESIGN-6.9.0.md`.
+La versione 6.10.0 riorganizza Gioca, Impara e Progressi, rinnova colori e tipografia, mostra i traguardi reali e compatta il mobile. Tutti i formati sono visibili insieme; la tastiera alfabetica funziona anche in orizzontale. Dettagli in `docs/DESIGN-6.10.0.md`.
 
 ## Apri il gioco
 

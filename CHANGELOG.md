@@ -1,5 +1,13 @@
 # Aggiornamenti di Parola
 
+## 6.10.0 — 13 ottobre 2026
+
+- Laboratorio di frasi sul Mahjong: parole con categorie grammaticali, strutture studiate e combinazioni compatibili per le bevande. Si possono collegare fino a quattro parti distinte con e/and/و/и, fino a 48 parole. Punti per parole, lunghezza e collegamenti; una frase ripetuta non dà punti di nuovo. Il verificatore riconosce questo repertorio definito, non qualsiasi frase della lingua.
+- Sullo stesso laboratorio si può passare alle coppie semplici di parole identiche. Cinque frasi o coppie diverse completano il tavolo; ogni round rifornisce le tessere. Formati da 24, 32 e 52 parole, tessere libere, indizi, annullamento, audio e zoom mantenuti.
+- Completa ora mostra in alto una frase nella lingua studiata con una sola parola mancante. La risposta si sceglie tra tessere Mahjong libere, insieme a distrattori introdotti. Tre frasi per tavolo, con correzione, indizi e pronuncia dopo la risposta.
+- Modalità Immagini direttamente visibile nei Tavoli: parola ↔ disegno, otto concetti concreti in quattro lingue, tavoli da 6, 12 o 16 tessere. Disegni Twemoji originali, provenienza e licenza pubbliche; inclusi nello standalone. Tutte le nuove parole sono introdotte insieme all’immagine prima della partita.
+- Compatibilità con le partite salvate delle precedenti modalità di frasi, navigazione, sfide, progressi e monolingua. Le frasi create sono riportate nel riepilogo senza attribuire padronanza a frasi del corso che non sono state risolte.
+
 ## 6.9.0 — 13 ottobre 2026
 
 - Home riorganizzata attorno al tavolo da continuare o riprendere, con ingresso diretto dall’alfabeto, tavolo libero e tre obiettivi giornalieri azionabili. Gioca, Impara e Progressi hanno lo stesso comportamento su mobile e desktop; spedizioni e opzioni aggiuntive sono raccolte in un’area secondaria.

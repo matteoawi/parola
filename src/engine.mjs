@@ -4,7 +4,7 @@ import {sanitizeDaily,mergeDaily,BADGES,TABLE_FORMATS} from './progression.mjs';
 import {sanitizeTours,mergeTours} from './adventure.mjs';
 import {sanitizeIntroductions} from './introduction.mjs';
 export const LANGS = ['it','en','ar','ru'];
-export const MODES = ['pair','listen','complete','compose','write'];
+export const MODES = ['pair','picture','listen','complete','compose','write'];
 export function norm(text, lang='it') {
   let s=String(text).normalize('NFC').toLocaleLowerCase(lang).replace(/[’‘`]/g,"'");
   if(lang==='ar') s=s.replace(/[\u064B-\u065F\u0670\u0640]/g,'');

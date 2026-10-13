@@ -1,0 +1,28 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {LAB_IDS,LAB_LINK,wordTableSize,labCatalog,validateLabSentence,makeLabBoard,clozeIndex,makeClozeBoard,labPairHint} from '../src/sentence-games.mjs';
+import {tokens,norm,rng,freeTiles,canSpell,sequenceHint,repairSequence} from '../src/engine.mjs';
+const course=JSON.parse(fs.readFileSync(new URL('../data/course.json',import.meta.url))),items=[...course.items,...course.vocab],lab=LAB_IDS.map(id=>items.find(i=>i.id===id));
+test('four language grammars accept supported combinations and reward length, reject agreement errors and repeated clauses',()=>{
+ for(const lang of course.languages){const catalog=labCatalog(lab,lang),a=catalog[0].text,b=catalog[1].text,c=catalog[2].text;const short=validateLabSentence(tokens(a),lab,lang),long=validateLabSentence(tokens([a,b,c].join(' '+LAB_LINK[lang]+' ')),lab,lang);assert.ok(short.ok&&long.ok);assert.ok(long.points>short.points);assert.equal(long.clauses,3);assert.equal(validateLabSentence(tokens(a+' '+LAB_LINK[lang]+' '+a),lab,lang).ok,false);assert.equal(validateLabSentence(tokens(LAB_LINK[lang]+' '+a),lab,lang).ok,false);assert.equal(validateLabSentence(tokens(a+' '+LAB_LINK[lang]),lab,lang).ok,false);assert.equal(validateLabSentence(tokens(Array(5).fill(a).join(' '+LAB_LINK[lang]+' ')),lab,lang).ok,false);}
+ for(const [lang,text]of [['it','Io beve acqua'],['en','He drink water'],['ru','Я пьёт чай'],['ar','هو أشرب الماء'],['it','Io leggo acqua']])assert.equal(validateLabSentence(tokens(text),lab,lang).ok,false,text);
+});
+test('every lab board provides an accessible pair and a long sentence, using only introduced source words',()=>{
+ for(const lang of course.languages)for(const format of ['focus','classic','explorer','grand','marathon'])for(let round=0;round<5;round++){
+  const board=makeLabBoard(lab,lang,format,rng(122+round),round);assert.equal(board.length,wordTableSize(format));assert.equal(labPairHint(board,lang).length,2);
+  for(const tile of board)assert.ok(tokens(items.find(i=>i.id===tile.itemId).text[lang]).includes(tile.text),'unknown played word');
+  const catalog=labCatalog(lab,lang),sentence=catalog[round].text+' '+LAB_LINK[lang]+' '+catalog[round+1].text;assert.ok(canSpell(tokens(sentence),board,lang));
+  // Taking the optional pair cannot be allowed to break later rounds: each new round refills.
+  let work=board;for(const word of tokens(sentence)){if(!sequenceHint(work,word,lang).length)work=repairSequence(work,[word],lang,rng(5));const id=sequenceHint(work,word,lang)[0];assert.ok(id!=null);work.find(t=>t.id===id).gone=true;}
+ }
+});
+test('cloze contains one known answer reachable by Mahjong rules, distractors, all languages and formats',()=>{
+ const examples=course.items.filter(i=>i.unitId==='habits');
+ for(const lang of course.languages)for(const format of ['focus','grand','marathon'])for(const [round,item]of examples.entries()){
+  const index=clozeIndex(item,lang,4321,round),answer=tokens(item.text[lang])[index],board=makeClozeBoard(examples,item,lang,index,format,rng(4321));assert.equal(board.length,wordTableSize(format));assert.ok(freeTiles(board).some(t=>norm(t.text,lang)===norm(answer,lang)));assert.ok(board.some(t=>norm(t.text,lang)!==norm(answer,lang)));assert.ok(index>=0&&index<tokens(item.text[lang]).length);
+ }
+});
+test('picture vocabulary is distinct, has all translations, mono clues, assets and no ambiguous coffee/tea drawing',()=>{
+ const pictures=course.vocab.filter(i=>i.picture);assert.equal(pictures.length,8);assert.equal(new Set(pictures.map(i=>i.picture)).size,8);for(const item of pictures){assert.ok(fs.existsSync(new URL('../'+item.picture.slice(2),import.meta.url)));for(const lang of course.languages){assert.ok(item.text[lang]&&item.clue[lang]);assert.notEqual(norm(item.text[lang],lang),norm(item.clue[lang],lang));}}
+});
