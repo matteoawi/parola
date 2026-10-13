@@ -4,7 +4,7 @@ Gioco di lingue con 24 unità, sei modalità e 12 direzioni bilingui, quattro pe
 
 **Gioca:** https://matteoawi.github.io/parola/
 
-**Versione:** 6.10.1 · [Aggiornamenti pubblici](https://matteoawi.github.io/parola/changelog.html)
+**Versione:** 6.10.2 · [Aggiornamenti pubblici](https://matteoawi.github.io/parola/changelog.html)
 
 I 566 MP3 disponibili coprono italiano, inglese e russo. La pagina iniziale è leggera; scarica Parola-offline.html dal gioco per avere tutti gli MP3 in un unico file. Per l'arabo serve una voce disponibile sul dispositivo.
 

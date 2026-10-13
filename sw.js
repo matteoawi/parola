@@ -1,6 +1,6 @@
 /* Cache is scoped to this repository, never to other GitHub Pages apps. */
 const PREFIX='parola-v6:'+new URL(self.registration.scope).pathname+':';
-const CACHE=PREFIX+'6.10.1';
+const CACHE=PREFIX+'6.10.2';
 const SHELL=['./','./index.html','./manifest.webmanifest','./icon.svg','./changelog.html','./credits.html','./assets/fonts/Nunito-variable.ttf','./assets/fonts/OFL.txt','./assets/pictures/twemoji/book.svg','./assets/pictures/twemoji/house.svg','./assets/pictures/twemoji/school.svg','./assets/pictures/twemoji/water.svg','./assets/pictures/twemoji/tea.svg','./assets/pictures/twemoji/coffee.svg','./assets/pictures/twemoji/door.svg','./assets/pictures/twemoji/pen.svg'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(SHELL)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil((async()=>{

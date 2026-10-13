@@ -500,7 +500,15 @@
     "remainingLab": "{n} frasi o coppie da completare",
     "remainingCloze": "{n} parole mancanti da trovare",
     "clozeGoal": "Completa 3 frasi",
-    "pictureFull": "Completo"
+    "pictureFull": "Completo",
+    "pictureRole": "Immagine",
+    "pictureOf": "Immagine: {word}",
+    "gameProgress": "Progresso: {current} di {total}",
+    "remainingPair": "1 coppia da scoprire",
+    "remainingLabOne": "1 frase o coppia da completare",
+    "remainingClozeOne": "1 parola mancante da trovare",
+    "remainingSentence": "1 frase da comporre",
+    "freeCountOne": "1 tessera libera"
   },
   "en": {
     "tagline": "A world of words. One idea at a time.",
@@ -1003,7 +1011,15 @@
     "remainingLab": "{n} sentences or pairs remaining",
     "remainingCloze": "{n} missing words to find",
     "clozeGoal": "Complete 3 sentences",
-    "pictureFull": "Full set"
+    "pictureFull": "Full set",
+    "pictureRole": "Picture",
+    "pictureOf": "Picture: {word}",
+    "gameProgress": "Progress: {current} of {total}",
+    "remainingPair": "1 pair remaining",
+    "remainingLabOne": "1 sentence or pair remaining",
+    "remainingClozeOne": "1 missing word to find",
+    "remainingSentence": "1 sentence remaining",
+    "freeCountOne": "1 free tile"
   },
   "ar": {
     "tagline": "عالم من الكلمات. قاعدة واحدة في كل مرة.",
@@ -1506,7 +1522,15 @@
     "remainingLab": "تبقّت {n} جمل أو أزواج",
     "remainingCloze": "تبقّت {n} كلمات ناقصة",
     "clozeGoal": "أكمل 3 جمل",
-    "pictureFull": "كامل"
+    "pictureFull": "كامل",
+    "pictureRole": "صورة",
+    "pictureOf": "صورة: {word}",
+    "gameProgress": "التقدم: {current} من {total}",
+    "remainingPair": "زوج واحد متبقٍّ",
+    "remainingLabOne": "جملة أو زوج واحد متبقٍّ",
+    "remainingClozeOne": "كلمة ناقصة واحدة",
+    "remainingSentence": "جملة واحدة متبقّية",
+    "freeCountOne": "قطعة واحدة متاحة"
   },
   "ru": {
     "tagline": "Мир слов. Одно правило за раз.",
@@ -2009,6 +2033,14 @@
     "remainingLab": "Осталось {n} фраз или пар",
     "remainingCloze": "Найди ещё {n} пропущенных слов",
     "clozeGoal": "Дополни 3 предложения",
-    "pictureFull": "Полный"
+    "pictureFull": "Полный",
+    "pictureRole": "Картинка",
+    "pictureOf": "Картинка: {word}",
+    "gameProgress": "Прогресс: {current} из {total}",
+    "remainingPair": "Осталась 1 пара",
+    "remainingLabOne": "Осталась 1 фраза или пара",
+    "remainingClozeOne": "Найди ещё 1 пропущенное слово",
+    "remainingSentence": "Осталась 1 фраза",
+    "freeCountOne": "1 свободная костяшка"
   }
 }
