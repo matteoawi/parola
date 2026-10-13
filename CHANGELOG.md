@@ -1,5 +1,15 @@
 # Aggiornamenti di Parola
 
+## 6.4.0 — 13 ottobre 2026
+
+- Gli audio disponibili delle lingue scelte vengono caricati integralmente, con avanzamento visibile. Il caricamento parte alla scelta della lingua o alla riapertura di un percorso già avviato, senza bloccare il gioco.
+- I suoni caricati sono decodificati in memoria: l’ascolto normale usa Web Audio senza richieste HTTP al tocco. Il rallentamento usa il file già in memoria mantenendo il tono della voce.
+- Pacchetti conservati nella cache, riutilizzabili dopo una ricarica offline. Cambiare lingua libera gli audio decodificati delle lingue inattive. Download concorrenti limitati, rispetto del risparmio dati e comando esplicito per completare o riprovare un caricamento.
+- Stato distinto per suoni pronti, download parziale e lingue prive di pacchetto. I nomi dei segni russi e delle varianti arabe sono esplicitati nei relativi esercizi di ascolto.
+- Preparato un generatore opzionale di file neurali tramite edge-tts, separato dal sito. Quattro campioni ottenuti; la generazione completa non è riuscita e non ha sostituito i file pubblicati.
+
+Questa release migliora il caricamento e la latenza, ma mantiene i 566 MP3 sintetici di base già disponibili. L’arabo continua a usare una voce del dispositivo quando presente. Le nuove voci naturali richiedono ancora un pacchetto generato con successo. Nel controllo Chromium locale, 377 file italiani e inglesi decodificati, riproduzione normale e lenta offline e zero richieste audio durante l’ascolto. Non è una garanzia di latenza acustica nulla su ogni dispositivo.
+
 ## 6.3.0 — 13 ottobre 2026
 
 - Primo avvio con scelta delle lingue e ingresso dall’alfabeto o dalle frasi. La prima partita parte subito con tre coppie e una coppia evidenziata; quell’aiuto viene registrato come assistito. Chi ha già progressi continua senza ripetere l’introduzione.

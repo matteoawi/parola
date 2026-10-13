@@ -134,7 +134,8 @@
               "a"
             ],
             "kind": "letters",
-            "upper": "A"
+            "upper": "A",
+            "context": "alpha_it_letters_1_0"
           },
           {
             "id": "it_letters_1_1",
@@ -145,7 +146,8 @@
               "b"
             ],
             "kind": "letters",
-            "upper": "B"
+            "upper": "B",
+            "context": "alpha_it_letters_1_1"
           },
           {
             "id": "it_letters_1_2",
@@ -156,7 +158,8 @@
               "c"
             ],
             "kind": "letters",
-            "upper": "C"
+            "upper": "C",
+            "context": "alpha_it_letters_1_2"
           },
           {
             "id": "it_letters_1_3",
@@ -167,7 +170,8 @@
               "d"
             ],
             "kind": "letters",
-            "upper": "D"
+            "upper": "D",
+            "context": "alpha_it_letters_1_3"
           },
           {
             "id": "it_letters_1_4",
@@ -178,7 +182,8 @@
               "e"
             ],
             "kind": "letters",
-            "upper": "E"
+            "upper": "E",
+            "context": "alpha_it_letters_1_4"
           },
           {
             "id": "it_letters_1_5",
@@ -189,7 +194,8 @@
               "f"
             ],
             "kind": "letters",
-            "upper": "F"
+            "upper": "F",
+            "context": "alpha_it_letters_1_5"
           }
         ]
       },
@@ -218,7 +224,8 @@
               "g"
             ],
             "kind": "letters",
-            "upper": "G"
+            "upper": "G",
+            "context": "alpha_it_letters_2_0"
           },
           {
             "id": "it_letters_2_1",
@@ -229,7 +236,8 @@
               "h"
             ],
             "kind": "letters",
-            "upper": "H"
+            "upper": "H",
+            "context": "alpha_it_letters_2_1"
           },
           {
             "id": "it_letters_2_2",
@@ -240,7 +248,8 @@
               "i"
             ],
             "kind": "letters",
-            "upper": "I"
+            "upper": "I",
+            "context": "alpha_it_letters_2_2"
           },
           {
             "id": "it_letters_2_3",
@@ -251,7 +260,8 @@
               "l"
             ],
             "kind": "letters",
-            "upper": "L"
+            "upper": "L",
+            "context": "alpha_it_letters_2_3"
           },
           {
             "id": "it_letters_2_4",
@@ -262,7 +272,8 @@
               "m"
             ],
             "kind": "letters",
-            "upper": "M"
+            "upper": "M",
+            "context": "alpha_it_letters_2_4"
           },
           {
             "id": "it_letters_2_5",
@@ -273,7 +284,8 @@
               "n"
             ],
             "kind": "letters",
-            "upper": "N"
+            "upper": "N",
+            "context": "alpha_it_letters_2_5"
           }
         ]
       },
@@ -302,7 +314,8 @@
               "o"
             ],
             "kind": "letters",
-            "upper": "O"
+            "upper": "O",
+            "context": "alpha_it_letters_3_0"
           },
           {
             "id": "it_letters_3_1",
@@ -313,7 +326,8 @@
               "p"
             ],
             "kind": "letters",
-            "upper": "P"
+            "upper": "P",
+            "context": "alpha_it_letters_3_1"
           },
           {
             "id": "it_letters_3_2",
@@ -324,7 +338,8 @@
               "q"
             ],
             "kind": "letters",
-            "upper": "Q"
+            "upper": "Q",
+            "context": "alpha_it_letters_3_2"
           },
           {
             "id": "it_letters_3_3",
@@ -335,7 +350,8 @@
               "r"
             ],
             "kind": "letters",
-            "upper": "R"
+            "upper": "R",
+            "context": "alpha_it_letters_3_3"
           },
           {
             "id": "it_letters_3_4",
@@ -346,7 +362,8 @@
               "s"
             ],
             "kind": "letters",
-            "upper": "S"
+            "upper": "S",
+            "context": "alpha_it_letters_3_4"
           },
           {
             "id": "it_letters_3_5",
@@ -357,7 +374,8 @@
               "t"
             ],
             "kind": "letters",
-            "upper": "T"
+            "upper": "T",
+            "context": "alpha_it_letters_3_5"
           }
         ]
       },
@@ -386,7 +404,8 @@
               "u"
             ],
             "kind": "letters",
-            "upper": "U"
+            "upper": "U",
+            "context": "alpha_it_letters_4_0"
           },
           {
             "id": "it_letters_4_1",
@@ -397,7 +416,8 @@
               "v"
             ],
             "kind": "letters",
-            "upper": "V"
+            "upper": "V",
+            "context": "alpha_it_letters_4_1"
           },
           {
             "id": "it_letters_4_2",
@@ -408,7 +428,8 @@
               "z"
             ],
             "kind": "letters",
-            "upper": "Z"
+            "upper": "Z",
+            "context": "alpha_it_letters_4_2"
           }
         ]
       },
@@ -436,7 +457,8 @@
             "answers": [
               "j"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_it_foreign_0"
           },
           {
             "id": "it_foreign_1",
@@ -446,7 +468,8 @@
             "answers": [
               "k"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_it_foreign_1"
           },
           {
             "id": "it_foreign_2",
@@ -456,7 +479,8 @@
             "answers": [
               "w"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_it_foreign_2"
           },
           {
             "id": "it_foreign_3",
@@ -466,7 +490,8 @@
             "answers": [
               "x"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_it_foreign_3"
           },
           {
             "id": "it_foreign_4",
@@ -476,7 +501,8 @@
             "answers": [
               "y"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_it_foreign_4"
           }
         ]
       },
@@ -504,7 +530,8 @@
             "answers": [
               "è"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_it_accents_0"
           },
           {
             "id": "it_accents_1",
@@ -514,7 +541,8 @@
             "answers": [
               "sì"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_it_accents_1"
           },
           {
             "id": "it_accents_2",
@@ -524,7 +552,8 @@
             "answers": [
               "caffè"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_it_accents_2"
           },
           {
             "id": "it_accents_3",
@@ -534,7 +563,8 @@
             "answers": [
               "perché"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_it_accents_3"
           },
           {
             "id": "it_accents_4",
@@ -544,7 +574,8 @@
             "answers": [
               "tè"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_it_accents_4"
           },
           {
             "id": "it_accents_5",
@@ -554,7 +585,8 @@
             "answers": [
               "lunedì"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_it_accents_5"
           }
         ]
       },
@@ -582,7 +614,8 @@
             "answers": [
               "casa"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_it_hard_soft_0"
           },
           {
             "id": "it_hard_soft_1",
@@ -592,7 +625,8 @@
             "answers": [
               "cena"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_it_hard_soft_1"
           },
           {
             "id": "it_hard_soft_2",
@@ -602,7 +636,8 @@
             "answers": [
               "chi"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_it_hard_soft_2"
           },
           {
             "id": "it_hard_soft_3",
@@ -612,7 +647,8 @@
             "answers": [
               "che"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_it_hard_soft_3"
           },
           {
             "id": "it_hard_soft_4",
@@ -622,7 +658,8 @@
             "answers": [
               "gatto"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_it_hard_soft_4"
           },
           {
             "id": "it_hard_soft_5",
@@ -632,7 +669,8 @@
             "answers": [
               "ghiro"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_it_hard_soft_5"
           }
         ]
       },
@@ -660,7 +698,8 @@
             "answers": [
               "gnomo"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_it_groups_0"
           },
           {
             "id": "it_groups_1",
@@ -670,7 +709,8 @@
             "answers": [
               "figlio"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_it_groups_1"
           },
           {
             "id": "it_groups_2",
@@ -680,7 +720,8 @@
             "answers": [
               "sciarpa"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_it_groups_2"
           },
           {
             "id": "it_groups_3",
@@ -690,7 +731,8 @@
             "answers": [
               "scuola"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_it_groups_3"
           },
           {
             "id": "it_groups_4",
@@ -700,7 +742,8 @@
             "answers": [
               "scheda"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_it_groups_4"
           },
           {
             "id": "it_groups_5",
@@ -710,7 +753,8 @@
             "answers": [
               "glicine"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_it_groups_5"
           }
         ]
       },
@@ -738,7 +782,8 @@
             "answers": [
               "pala"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_it_doubles_0"
           },
           {
             "id": "it_doubles_1",
@@ -748,7 +793,8 @@
             "answers": [
               "palla"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_it_doubles_1"
           },
           {
             "id": "it_doubles_2",
@@ -758,7 +804,8 @@
             "answers": [
               "nono"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_it_doubles_2"
           },
           {
             "id": "it_doubles_3",
@@ -768,7 +815,8 @@
             "answers": [
               "nonno"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_it_doubles_3"
           },
           {
             "id": "it_doubles_4",
@@ -779,7 +827,8 @@
               "l’acqua",
               "l'acqua"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_it_doubles_4"
           }
         ]
       },
@@ -996,7 +1045,8 @@
               "a"
             ],
             "kind": "letters",
-            "upper": "A"
+            "upper": "A",
+            "context": "alpha_en_letters_1_0"
           },
           {
             "id": "en_letters_1_1",
@@ -1007,7 +1057,8 @@
               "b"
             ],
             "kind": "letters",
-            "upper": "B"
+            "upper": "B",
+            "context": "alpha_en_letters_1_1"
           },
           {
             "id": "en_letters_1_2",
@@ -1018,7 +1069,8 @@
               "c"
             ],
             "kind": "letters",
-            "upper": "C"
+            "upper": "C",
+            "context": "alpha_en_letters_1_2"
           },
           {
             "id": "en_letters_1_3",
@@ -1029,7 +1081,8 @@
               "d"
             ],
             "kind": "letters",
-            "upper": "D"
+            "upper": "D",
+            "context": "alpha_en_letters_1_3"
           },
           {
             "id": "en_letters_1_4",
@@ -1040,7 +1093,8 @@
               "e"
             ],
             "kind": "letters",
-            "upper": "E"
+            "upper": "E",
+            "context": "alpha_en_letters_1_4"
           },
           {
             "id": "en_letters_1_5",
@@ -1051,7 +1105,8 @@
               "f"
             ],
             "kind": "letters",
-            "upper": "F"
+            "upper": "F",
+            "context": "alpha_en_letters_1_5"
           }
         ]
       },
@@ -1080,7 +1135,8 @@
               "g"
             ],
             "kind": "letters",
-            "upper": "G"
+            "upper": "G",
+            "context": "alpha_en_letters_2_0"
           },
           {
             "id": "en_letters_2_1",
@@ -1091,7 +1147,8 @@
               "h"
             ],
             "kind": "letters",
-            "upper": "H"
+            "upper": "H",
+            "context": "alpha_en_letters_2_1"
           },
           {
             "id": "en_letters_2_2",
@@ -1102,7 +1159,8 @@
               "i"
             ],
             "kind": "letters",
-            "upper": "I"
+            "upper": "I",
+            "context": "alpha_en_letters_2_2"
           },
           {
             "id": "en_letters_2_3",
@@ -1113,7 +1171,8 @@
               "j"
             ],
             "kind": "letters",
-            "upper": "J"
+            "upper": "J",
+            "context": "alpha_en_letters_2_3"
           },
           {
             "id": "en_letters_2_4",
@@ -1124,7 +1183,8 @@
               "k"
             ],
             "kind": "letters",
-            "upper": "K"
+            "upper": "K",
+            "context": "alpha_en_letters_2_4"
           },
           {
             "id": "en_letters_2_5",
@@ -1135,7 +1195,8 @@
               "l"
             ],
             "kind": "letters",
-            "upper": "L"
+            "upper": "L",
+            "context": "alpha_en_letters_2_5"
           }
         ]
       },
@@ -1164,7 +1225,8 @@
               "m"
             ],
             "kind": "letters",
-            "upper": "M"
+            "upper": "M",
+            "context": "alpha_en_letters_3_0"
           },
           {
             "id": "en_letters_3_1",
@@ -1175,7 +1237,8 @@
               "n"
             ],
             "kind": "letters",
-            "upper": "N"
+            "upper": "N",
+            "context": "alpha_en_letters_3_1"
           },
           {
             "id": "en_letters_3_2",
@@ -1186,7 +1249,8 @@
               "o"
             ],
             "kind": "letters",
-            "upper": "O"
+            "upper": "O",
+            "context": "alpha_en_letters_3_2"
           },
           {
             "id": "en_letters_3_3",
@@ -1197,7 +1261,8 @@
               "p"
             ],
             "kind": "letters",
-            "upper": "P"
+            "upper": "P",
+            "context": "alpha_en_letters_3_3"
           },
           {
             "id": "en_letters_3_4",
@@ -1208,7 +1273,8 @@
               "q"
             ],
             "kind": "letters",
-            "upper": "Q"
+            "upper": "Q",
+            "context": "alpha_en_letters_3_4"
           },
           {
             "id": "en_letters_3_5",
@@ -1219,7 +1285,8 @@
               "r"
             ],
             "kind": "letters",
-            "upper": "R"
+            "upper": "R",
+            "context": "alpha_en_letters_3_5"
           }
         ]
       },
@@ -1248,7 +1315,8 @@
               "s"
             ],
             "kind": "letters",
-            "upper": "S"
+            "upper": "S",
+            "context": "alpha_en_letters_4_0"
           },
           {
             "id": "en_letters_4_1",
@@ -1259,7 +1327,8 @@
               "t"
             ],
             "kind": "letters",
-            "upper": "T"
+            "upper": "T",
+            "context": "alpha_en_letters_4_1"
           },
           {
             "id": "en_letters_4_2",
@@ -1270,7 +1339,8 @@
               "u"
             ],
             "kind": "letters",
-            "upper": "U"
+            "upper": "U",
+            "context": "alpha_en_letters_4_2"
           },
           {
             "id": "en_letters_4_3",
@@ -1281,7 +1351,8 @@
               "v"
             ],
             "kind": "letters",
-            "upper": "V"
+            "upper": "V",
+            "context": "alpha_en_letters_4_3"
           },
           {
             "id": "en_letters_4_4",
@@ -1292,7 +1363,8 @@
               "w"
             ],
             "kind": "letters",
-            "upper": "W"
+            "upper": "W",
+            "context": "alpha_en_letters_4_4"
           },
           {
             "id": "en_letters_4_5",
@@ -1303,7 +1375,8 @@
               "x"
             ],
             "kind": "letters",
-            "upper": "X"
+            "upper": "X",
+            "context": "alpha_en_letters_4_5"
           }
         ]
       },
@@ -1332,7 +1405,8 @@
               "y"
             ],
             "kind": "letters",
-            "upper": "Y"
+            "upper": "Y",
+            "context": "alpha_en_letters_5_0"
           },
           {
             "id": "en_letters_5_1",
@@ -1343,7 +1417,8 @@
               "z"
             ],
             "kind": "letters",
-            "upper": "Z"
+            "upper": "Z",
+            "context": "alpha_en_letters_5_1"
           }
         ]
       },
@@ -1371,7 +1446,8 @@
             "answers": [
               "cat"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_en_short_vowels_0"
           },
           {
             "id": "en_short_vowels_1",
@@ -1381,7 +1457,8 @@
             "answers": [
               "bed"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_en_short_vowels_1"
           },
           {
             "id": "en_short_vowels_2",
@@ -1391,7 +1468,8 @@
             "answers": [
               "sit"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_en_short_vowels_2"
           },
           {
             "id": "en_short_vowels_3",
@@ -1401,7 +1479,8 @@
             "answers": [
               "hot"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_en_short_vowels_3"
           },
           {
             "id": "en_short_vowels_4",
@@ -1411,7 +1490,8 @@
             "answers": [
               "cup"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_en_short_vowels_4"
           }
         ]
       },
@@ -1439,7 +1519,8 @@
             "answers": [
               "cap"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_en_vowel_patterns_0"
           },
           {
             "id": "en_vowel_patterns_1",
@@ -1449,7 +1530,8 @@
             "answers": [
               "cape"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_en_vowel_patterns_1"
           },
           {
             "id": "en_vowel_patterns_2",
@@ -1459,7 +1541,8 @@
             "answers": [
               "kite"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_en_vowel_patterns_2"
           },
           {
             "id": "en_vowel_patterns_3",
@@ -1469,7 +1552,8 @@
             "answers": [
               "see"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_en_vowel_patterns_3"
           },
           {
             "id": "en_vowel_patterns_4",
@@ -1479,7 +1563,8 @@
             "answers": [
               "rain"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_en_vowel_patterns_4"
           },
           {
             "id": "en_vowel_patterns_5",
@@ -1489,7 +1574,8 @@
             "answers": [
               "boat"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_en_vowel_patterns_5"
           }
         ]
       },
@@ -1517,7 +1603,8 @@
             "answers": [
               "ship"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_en_consonant_groups_0"
           },
           {
             "id": "en_consonant_groups_1",
@@ -1527,7 +1614,8 @@
             "answers": [
               "chair"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_en_consonant_groups_1"
           },
           {
             "id": "en_consonant_groups_2",
@@ -1537,7 +1625,8 @@
             "answers": [
               "think"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_en_consonant_groups_2"
           },
           {
             "id": "en_consonant_groups_3",
@@ -1547,7 +1636,8 @@
             "answers": [
               "the"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_en_consonant_groups_3"
           },
           {
             "id": "en_consonant_groups_4",
@@ -1557,7 +1647,8 @@
             "answers": [
               "know"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_en_consonant_groups_4"
           },
           {
             "id": "en_consonant_groups_5",
@@ -1567,7 +1658,8 @@
             "answers": [
               "write"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_en_consonant_groups_5"
           }
         ]
       },
@@ -1595,7 +1687,8 @@
             "answers": [
               "one"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_en_exceptions_0"
           },
           {
             "id": "en_exceptions_1",
@@ -1605,7 +1698,8 @@
             "answers": [
               "two"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_en_exceptions_1"
           },
           {
             "id": "en_exceptions_2",
@@ -1615,7 +1709,8 @@
             "answers": [
               "three"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_en_exceptions_2"
           },
           {
             "id": "en_exceptions_3",
@@ -1625,7 +1720,8 @@
             "answers": [
               "read"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_en_exceptions_3"
           },
           {
             "id": "en_exceptions_4",
@@ -1635,7 +1731,8 @@
             "answers": [
               "have"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_en_exceptions_4"
           }
         ]
       },
@@ -2058,7 +2155,8 @@
               "ا"
             ],
             "kind": "letters",
-            "upper": "ا"
+            "upper": "ا",
+            "context": "alpha_ar_letters_1_0"
           },
           {
             "id": "ar_letters_1_1",
@@ -2069,7 +2167,8 @@
               "ب"
             ],
             "kind": "letters",
-            "upper": "ب"
+            "upper": "ب",
+            "context": "alpha_ar_letters_1_1"
           },
           {
             "id": "ar_letters_1_2",
@@ -2080,7 +2179,8 @@
               "ت"
             ],
             "kind": "letters",
-            "upper": "ت"
+            "upper": "ت",
+            "context": "alpha_ar_letters_1_2"
           },
           {
             "id": "ar_letters_1_3",
@@ -2091,7 +2191,8 @@
               "ث"
             ],
             "kind": "letters",
-            "upper": "ث"
+            "upper": "ث",
+            "context": "alpha_ar_letters_1_3"
           },
           {
             "id": "ar_letters_1_4",
@@ -2102,7 +2203,8 @@
               "ج"
             ],
             "kind": "letters",
-            "upper": "ج"
+            "upper": "ج",
+            "context": "alpha_ar_letters_1_4"
           },
           {
             "id": "ar_letters_1_5",
@@ -2113,7 +2215,8 @@
               "ح"
             ],
             "kind": "letters",
-            "upper": "ح"
+            "upper": "ح",
+            "context": "alpha_ar_letters_1_5"
           }
         ]
       },
@@ -2142,7 +2245,8 @@
               "خ"
             ],
             "kind": "letters",
-            "upper": "خ"
+            "upper": "خ",
+            "context": "alpha_ar_letters_2_0"
           },
           {
             "id": "ar_letters_2_1",
@@ -2153,7 +2257,8 @@
               "د"
             ],
             "kind": "letters",
-            "upper": "د"
+            "upper": "د",
+            "context": "alpha_ar_letters_2_1"
           },
           {
             "id": "ar_letters_2_2",
@@ -2164,7 +2269,8 @@
               "ذ"
             ],
             "kind": "letters",
-            "upper": "ذ"
+            "upper": "ذ",
+            "context": "alpha_ar_letters_2_2"
           },
           {
             "id": "ar_letters_2_3",
@@ -2175,7 +2281,8 @@
               "ر"
             ],
             "kind": "letters",
-            "upper": "ر"
+            "upper": "ر",
+            "context": "alpha_ar_letters_2_3"
           },
           {
             "id": "ar_letters_2_4",
@@ -2186,7 +2293,8 @@
               "ز"
             ],
             "kind": "letters",
-            "upper": "ز"
+            "upper": "ز",
+            "context": "alpha_ar_letters_2_4"
           },
           {
             "id": "ar_letters_2_5",
@@ -2197,7 +2305,8 @@
               "س"
             ],
             "kind": "letters",
-            "upper": "س"
+            "upper": "س",
+            "context": "alpha_ar_letters_2_5"
           }
         ]
       },
@@ -2226,7 +2335,8 @@
               "ش"
             ],
             "kind": "letters",
-            "upper": "ش"
+            "upper": "ش",
+            "context": "alpha_ar_letters_3_0"
           },
           {
             "id": "ar_letters_3_1",
@@ -2237,7 +2347,8 @@
               "ص"
             ],
             "kind": "letters",
-            "upper": "ص"
+            "upper": "ص",
+            "context": "alpha_ar_letters_3_1"
           },
           {
             "id": "ar_letters_3_2",
@@ -2248,7 +2359,8 @@
               "ض"
             ],
             "kind": "letters",
-            "upper": "ض"
+            "upper": "ض",
+            "context": "alpha_ar_letters_3_2"
           },
           {
             "id": "ar_letters_3_3",
@@ -2259,7 +2371,8 @@
               "ط"
             ],
             "kind": "letters",
-            "upper": "ط"
+            "upper": "ط",
+            "context": "alpha_ar_letters_3_3"
           },
           {
             "id": "ar_letters_3_4",
@@ -2270,7 +2383,8 @@
               "ظ"
             ],
             "kind": "letters",
-            "upper": "ظ"
+            "upper": "ظ",
+            "context": "alpha_ar_letters_3_4"
           },
           {
             "id": "ar_letters_3_5",
@@ -2281,7 +2395,8 @@
               "ع"
             ],
             "kind": "letters",
-            "upper": "ع"
+            "upper": "ع",
+            "context": "alpha_ar_letters_3_5"
           }
         ]
       },
@@ -2310,7 +2425,8 @@
               "غ"
             ],
             "kind": "letters",
-            "upper": "غ"
+            "upper": "غ",
+            "context": "alpha_ar_letters_4_0"
           },
           {
             "id": "ar_letters_4_1",
@@ -2321,7 +2437,8 @@
               "ف"
             ],
             "kind": "letters",
-            "upper": "ف"
+            "upper": "ف",
+            "context": "alpha_ar_letters_4_1"
           },
           {
             "id": "ar_letters_4_2",
@@ -2332,7 +2449,8 @@
               "ق"
             ],
             "kind": "letters",
-            "upper": "ق"
+            "upper": "ق",
+            "context": "alpha_ar_letters_4_2"
           },
           {
             "id": "ar_letters_4_3",
@@ -2343,7 +2461,8 @@
               "ك"
             ],
             "kind": "letters",
-            "upper": "ك"
+            "upper": "ك",
+            "context": "alpha_ar_letters_4_3"
           },
           {
             "id": "ar_letters_4_4",
@@ -2354,7 +2473,8 @@
               "ل"
             ],
             "kind": "letters",
-            "upper": "ل"
+            "upper": "ل",
+            "context": "alpha_ar_letters_4_4"
           },
           {
             "id": "ar_letters_4_5",
@@ -2365,7 +2485,8 @@
               "م"
             ],
             "kind": "letters",
-            "upper": "م"
+            "upper": "م",
+            "context": "alpha_ar_letters_4_5"
           }
         ]
       },
@@ -2394,7 +2515,8 @@
               "ن"
             ],
             "kind": "letters",
-            "upper": "ن"
+            "upper": "ن",
+            "context": "alpha_ar_letters_5_0"
           },
           {
             "id": "ar_letters_5_1",
@@ -2405,7 +2527,8 @@
               "ه"
             ],
             "kind": "letters",
-            "upper": "ه"
+            "upper": "ه",
+            "context": "alpha_ar_letters_5_1"
           },
           {
             "id": "ar_letters_5_2",
@@ -2416,7 +2539,8 @@
               "و"
             ],
             "kind": "letters",
-            "upper": "و"
+            "upper": "و",
+            "context": "alpha_ar_letters_5_2"
           },
           {
             "id": "ar_letters_5_3",
@@ -2427,7 +2551,8 @@
               "ي"
             ],
             "kind": "letters",
-            "upper": "ي"
+            "upper": "ي",
+            "context": "alpha_ar_letters_5_3"
           }
         ]
       },
@@ -2455,7 +2580,8 @@
             "answers": [
               "ب"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_1_0"
           },
           {
             "id": "ar_forms_1_1",
@@ -2465,7 +2591,8 @@
             "answers": [
               "ت"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_1_1"
           },
           {
             "id": "ar_forms_1_2",
@@ -2475,7 +2602,8 @@
             "answers": [
               "ث"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_1_2"
           },
           {
             "id": "ar_forms_1_3",
@@ -2485,7 +2613,8 @@
             "answers": [
               "ج"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_1_3"
           },
           {
             "id": "ar_forms_1_4",
@@ -2495,7 +2624,8 @@
             "answers": [
               "ح"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_1_4"
           },
           {
             "id": "ar_forms_1_5",
@@ -2505,7 +2635,8 @@
             "answers": [
               "خ"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_1_5"
           },
           {
             "id": "ar_forms_1_6",
@@ -2515,7 +2646,8 @@
             "answers": [
               "س"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_1_6"
           },
           {
             "id": "ar_forms_1_7",
@@ -2525,7 +2657,8 @@
             "answers": [
               "ش"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_1_7"
           },
           {
             "id": "ar_forms_1_8",
@@ -2535,7 +2668,8 @@
             "answers": [
               "ص"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_1_8"
           },
           {
             "id": "ar_forms_1_9",
@@ -2545,7 +2679,8 @@
             "answers": [
               "ض"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_1_9"
           },
           {
             "id": "ar_forms_1_10",
@@ -2555,7 +2690,8 @@
             "answers": [
               "ط"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_1_10"
           },
           {
             "id": "ar_forms_1_11",
@@ -2565,7 +2701,8 @@
             "answers": [
               "ظ"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_1_11"
           },
           {
             "id": "ar_forms_1_12",
@@ -2575,7 +2712,8 @@
             "answers": [
               "ع"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_1_12"
           },
           {
             "id": "ar_forms_1_13",
@@ -2585,7 +2723,8 @@
             "answers": [
               "غ"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_1_13"
           },
           {
             "id": "ar_forms_1_14",
@@ -2595,7 +2734,8 @@
             "answers": [
               "ف"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_1_14"
           },
           {
             "id": "ar_forms_1_15",
@@ -2605,7 +2745,8 @@
             "answers": [
               "ق"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_1_15"
           },
           {
             "id": "ar_forms_1_16",
@@ -2615,7 +2756,8 @@
             "answers": [
               "ك"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_1_16"
           },
           {
             "id": "ar_forms_1_17",
@@ -2625,7 +2767,8 @@
             "answers": [
               "ل"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_1_17"
           },
           {
             "id": "ar_forms_1_18",
@@ -2635,7 +2778,8 @@
             "answers": [
               "م"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_1_18"
           },
           {
             "id": "ar_forms_1_19",
@@ -2645,7 +2789,8 @@
             "answers": [
               "ن"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_1_19"
           },
           {
             "id": "ar_forms_1_20",
@@ -2655,7 +2800,8 @@
             "answers": [
               "ه"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_1_20"
           },
           {
             "id": "ar_forms_1_21",
@@ -2665,7 +2811,8 @@
             "answers": [
               "ي"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_1_21"
           }
         ]
       },
@@ -2693,7 +2840,8 @@
             "answers": [
               "ب"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_2_0"
           },
           {
             "id": "ar_forms_2_1",
@@ -2703,7 +2851,8 @@
             "answers": [
               "ت"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_2_1"
           },
           {
             "id": "ar_forms_2_2",
@@ -2713,7 +2862,8 @@
             "answers": [
               "ث"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_2_2"
           },
           {
             "id": "ar_forms_2_3",
@@ -2723,7 +2873,8 @@
             "answers": [
               "ج"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_2_3"
           },
           {
             "id": "ar_forms_2_4",
@@ -2733,7 +2884,8 @@
             "answers": [
               "ح"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_2_4"
           },
           {
             "id": "ar_forms_2_5",
@@ -2743,7 +2895,8 @@
             "answers": [
               "خ"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_2_5"
           },
           {
             "id": "ar_forms_2_6",
@@ -2753,7 +2906,8 @@
             "answers": [
               "س"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_2_6"
           },
           {
             "id": "ar_forms_2_7",
@@ -2763,7 +2917,8 @@
             "answers": [
               "ش"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_2_7"
           },
           {
             "id": "ar_forms_2_8",
@@ -2773,7 +2928,8 @@
             "answers": [
               "ص"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_2_8"
           },
           {
             "id": "ar_forms_2_9",
@@ -2783,7 +2939,8 @@
             "answers": [
               "ض"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_2_9"
           },
           {
             "id": "ar_forms_2_10",
@@ -2793,7 +2950,8 @@
             "answers": [
               "ط"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_2_10"
           },
           {
             "id": "ar_forms_2_11",
@@ -2803,7 +2961,8 @@
             "answers": [
               "ظ"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_2_11"
           },
           {
             "id": "ar_forms_2_12",
@@ -2813,7 +2972,8 @@
             "answers": [
               "ع"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_2_12"
           },
           {
             "id": "ar_forms_2_13",
@@ -2823,7 +2983,8 @@
             "answers": [
               "غ"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_2_13"
           },
           {
             "id": "ar_forms_2_14",
@@ -2833,7 +2994,8 @@
             "answers": [
               "ف"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_2_14"
           },
           {
             "id": "ar_forms_2_15",
@@ -2843,7 +3005,8 @@
             "answers": [
               "ق"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_2_15"
           },
           {
             "id": "ar_forms_2_16",
@@ -2853,7 +3016,8 @@
             "answers": [
               "ك"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_2_16"
           },
           {
             "id": "ar_forms_2_17",
@@ -2863,7 +3027,8 @@
             "answers": [
               "ل"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_2_17"
           },
           {
             "id": "ar_forms_2_18",
@@ -2873,7 +3038,8 @@
             "answers": [
               "م"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_2_18"
           },
           {
             "id": "ar_forms_2_19",
@@ -2883,7 +3049,8 @@
             "answers": [
               "ن"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_2_19"
           },
           {
             "id": "ar_forms_2_20",
@@ -2893,7 +3060,8 @@
             "answers": [
               "ه"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_2_20"
           },
           {
             "id": "ar_forms_2_21",
@@ -2903,7 +3071,8 @@
             "answers": [
               "ي"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_2_21"
           }
         ]
       },
@@ -2931,7 +3100,8 @@
             "answers": [
               "ا"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_3_0"
           },
           {
             "id": "ar_forms_3_1",
@@ -2941,7 +3111,8 @@
             "answers": [
               "ب"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_3_1"
           },
           {
             "id": "ar_forms_3_2",
@@ -2951,7 +3122,8 @@
             "answers": [
               "ت"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_3_2"
           },
           {
             "id": "ar_forms_3_3",
@@ -2961,7 +3133,8 @@
             "answers": [
               "ث"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_3_3"
           },
           {
             "id": "ar_forms_3_4",
@@ -2971,7 +3144,8 @@
             "answers": [
               "ج"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_3_4"
           },
           {
             "id": "ar_forms_3_5",
@@ -2981,7 +3155,8 @@
             "answers": [
               "ح"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_3_5"
           },
           {
             "id": "ar_forms_3_6",
@@ -2991,7 +3166,8 @@
             "answers": [
               "خ"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_3_6"
           },
           {
             "id": "ar_forms_3_7",
@@ -3001,7 +3177,8 @@
             "answers": [
               "د"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_3_7"
           },
           {
             "id": "ar_forms_3_8",
@@ -3011,7 +3188,8 @@
             "answers": [
               "ذ"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_3_8"
           },
           {
             "id": "ar_forms_3_9",
@@ -3021,7 +3199,8 @@
             "answers": [
               "ر"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_3_9"
           },
           {
             "id": "ar_forms_3_10",
@@ -3031,7 +3210,8 @@
             "answers": [
               "ز"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_3_10"
           },
           {
             "id": "ar_forms_3_11",
@@ -3041,7 +3221,8 @@
             "answers": [
               "س"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_3_11"
           },
           {
             "id": "ar_forms_3_12",
@@ -3051,7 +3232,8 @@
             "answers": [
               "ش"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_3_12"
           },
           {
             "id": "ar_forms_3_13",
@@ -3061,7 +3243,8 @@
             "answers": [
               "ص"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_3_13"
           },
           {
             "id": "ar_forms_3_14",
@@ -3071,7 +3254,8 @@
             "answers": [
               "ض"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_3_14"
           },
           {
             "id": "ar_forms_3_15",
@@ -3081,7 +3265,8 @@
             "answers": [
               "ط"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_3_15"
           },
           {
             "id": "ar_forms_3_16",
@@ -3091,7 +3276,8 @@
             "answers": [
               "ظ"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_3_16"
           },
           {
             "id": "ar_forms_3_17",
@@ -3101,7 +3287,8 @@
             "answers": [
               "ع"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_3_17"
           },
           {
             "id": "ar_forms_3_18",
@@ -3111,7 +3298,8 @@
             "answers": [
               "غ"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_3_18"
           },
           {
             "id": "ar_forms_3_19",
@@ -3121,7 +3309,8 @@
             "answers": [
               "ف"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_3_19"
           },
           {
             "id": "ar_forms_3_20",
@@ -3131,7 +3320,8 @@
             "answers": [
               "ق"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_3_20"
           },
           {
             "id": "ar_forms_3_21",
@@ -3141,7 +3331,8 @@
             "answers": [
               "ك"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_3_21"
           },
           {
             "id": "ar_forms_3_22",
@@ -3151,7 +3342,8 @@
             "answers": [
               "ل"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_3_22"
           },
           {
             "id": "ar_forms_3_23",
@@ -3161,7 +3353,8 @@
             "answers": [
               "م"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_3_23"
           },
           {
             "id": "ar_forms_3_24",
@@ -3171,7 +3364,8 @@
             "answers": [
               "ن"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_3_24"
           },
           {
             "id": "ar_forms_3_25",
@@ -3181,7 +3375,8 @@
             "answers": [
               "ه"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_3_25"
           },
           {
             "id": "ar_forms_3_26",
@@ -3191,7 +3386,8 @@
             "answers": [
               "و"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_3_26"
           },
           {
             "id": "ar_forms_3_27",
@@ -3201,7 +3397,8 @@
             "answers": [
               "ي"
             ],
-            "kind": "forms"
+            "kind": "forms",
+            "context": "alpha_ar_forms_3_27"
           }
         ]
       },
@@ -3225,61 +3422,67 @@
             "id": "ar_breaks_0",
             "cue": "ألف",
             "model": "ا",
-            "speech": "ا",
+            "speech": "ألف",
             "answers": [
               "ا"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ar_breaks_0"
           },
           {
             "id": "ar_breaks_1",
             "cue": "دال",
             "model": "د",
-            "speech": "د",
+            "speech": "دال",
             "answers": [
               "د"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ar_breaks_1"
           },
           {
             "id": "ar_breaks_2",
             "cue": "ذال",
             "model": "ذ",
-            "speech": "ذ",
+            "speech": "ذال",
             "answers": [
               "ذ"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ar_breaks_2"
           },
           {
             "id": "ar_breaks_3",
             "cue": "راء",
             "model": "ر",
-            "speech": "ر",
+            "speech": "راء",
             "answers": [
               "ر"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ar_breaks_3"
           },
           {
             "id": "ar_breaks_4",
             "cue": "زاي",
             "model": "ز",
-            "speech": "ز",
+            "speech": "زاي",
             "answers": [
               "ز"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ar_breaks_4"
           },
           {
             "id": "ar_breaks_5",
             "cue": "واو",
             "model": "و",
-            "speech": "و",
+            "speech": "واو",
             "answers": [
               "و"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ar_breaks_5"
           }
         ]
       },
@@ -3312,7 +3515,8 @@
               "بِ",
               "بُ",
               "بْ"
-            ]
+            ],
+            "context": "alpha_ar_short_vowels_0"
           },
           {
             "id": "ar_short_vowels_1",
@@ -3322,7 +3526,8 @@
             "answers": [
               "بِ"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ar_short_vowels_1"
           },
           {
             "id": "ar_short_vowels_2",
@@ -3332,7 +3537,8 @@
             "answers": [
               "بُ"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ar_short_vowels_2"
           },
           {
             "id": "ar_short_vowels_3",
@@ -3342,7 +3548,8 @@
             "answers": [
               "بْ"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ar_short_vowels_3"
           }
         ]
       },
@@ -3370,7 +3577,8 @@
             "answers": [
               "بَا"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ar_length_0"
           },
           {
             "id": "ar_length_1",
@@ -3380,7 +3588,8 @@
             "answers": [
               "بِي"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ar_length_1"
           },
           {
             "id": "ar_length_2",
@@ -3390,7 +3599,8 @@
             "answers": [
               "بُو"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ar_length_2"
           },
           {
             "id": "ar_length_3",
@@ -3400,7 +3610,8 @@
             "answers": [
               "بَّ"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ar_length_3"
           },
           {
             "id": "ar_length_4",
@@ -3410,7 +3621,8 @@
             "answers": [
               "بٌ"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ar_length_4"
           },
           {
             "id": "ar_length_5",
@@ -3420,7 +3632,8 @@
             "answers": [
               "بٍ"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ar_length_5"
           }
         ]
       },
@@ -3444,91 +3657,100 @@
             "id": "ar_variants_0",
             "cue": "همزة منفصلة",
             "model": "ء",
-            "speech": "ء",
+            "speech": "همزة منفصلة",
             "answers": [
               "ء"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ar_variants_0"
           },
           {
             "id": "ar_variants_1",
             "cue": "همزة فوق الألف",
             "model": "أ",
-            "speech": "أ",
+            "speech": "همزة فوق الألف",
             "answers": [
               "أ"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ar_variants_1"
           },
           {
             "id": "ar_variants_2",
             "cue": "همزة تحت الألف",
             "model": "إ",
-            "speech": "إ",
+            "speech": "همزة تحت الألف",
             "answers": [
               "إ"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ar_variants_2"
           },
           {
             "id": "ar_variants_3",
             "cue": "ألف مع مدّة",
             "model": "آ",
-            "speech": "آ",
+            "speech": "ألف مع مدّة",
             "answers": [
               "آ"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ar_variants_3"
           },
           {
             "id": "ar_variants_4",
             "cue": "همزة على واو",
             "model": "ؤ",
-            "speech": "ؤ",
+            "speech": "همزة على واو",
             "answers": [
               "ؤ"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ar_variants_4"
           },
           {
             "id": "ar_variants_5",
             "cue": "همزة على ياء",
             "model": "ئ",
-            "speech": "ئ",
+            "speech": "همزة على ياء",
             "answers": [
               "ئ"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ar_variants_5"
           },
           {
             "id": "ar_variants_6",
             "cue": "تاء مربوطة",
             "model": "ة",
-            "speech": "ة",
+            "speech": "تاء مربوطة",
             "answers": [
               "ة"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ar_variants_6"
           },
           {
             "id": "ar_variants_7",
             "cue": "ألف مقصورة",
             "model": "ى",
-            "speech": "ى",
+            "speech": "ألف مقصورة",
             "answers": [
               "ى"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ar_variants_7"
           },
           {
             "id": "ar_variants_8",
             "cue": "لام وألف",
             "model": "لا",
-            "speech": "لا",
+            "speech": "لام وألف",
             "answers": [
               "لا"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ar_variants_8"
           }
         ]
       },
@@ -3556,7 +3778,8 @@
             "answers": [
               "كَتَبَ"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ar_reading_0"
           },
           {
             "id": "ar_reading_1",
@@ -3566,7 +3789,8 @@
             "answers": [
               "كِتَاب"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ar_reading_1"
           },
           {
             "id": "ar_reading_2",
@@ -3576,7 +3800,8 @@
             "answers": [
               "بَاب"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ar_reading_2"
           },
           {
             "id": "ar_reading_3",
@@ -3586,7 +3811,8 @@
             "answers": [
               "بَيْت"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ar_reading_3"
           },
           {
             "id": "ar_reading_4",
@@ -3596,7 +3822,8 @@
             "answers": [
               "ث"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ar_reading_4"
           },
           {
             "id": "ar_reading_5",
@@ -3606,7 +3833,8 @@
             "answers": [
               "ب"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ar_reading_5"
           }
         ]
       },
@@ -3858,7 +4086,8 @@
               "а"
             ],
             "kind": "letters",
-            "upper": "А"
+            "upper": "А",
+            "context": "alpha_ru_letters_1_0"
           },
           {
             "id": "ru_letters_1_1",
@@ -3869,7 +4098,8 @@
               "б"
             ],
             "kind": "letters",
-            "upper": "Б"
+            "upper": "Б",
+            "context": "alpha_ru_letters_1_1"
           },
           {
             "id": "ru_letters_1_2",
@@ -3880,7 +4110,8 @@
               "в"
             ],
             "kind": "letters",
-            "upper": "В"
+            "upper": "В",
+            "context": "alpha_ru_letters_1_2"
           },
           {
             "id": "ru_letters_1_3",
@@ -3891,7 +4122,8 @@
               "г"
             ],
             "kind": "letters",
-            "upper": "Г"
+            "upper": "Г",
+            "context": "alpha_ru_letters_1_3"
           },
           {
             "id": "ru_letters_1_4",
@@ -3902,7 +4134,8 @@
               "д"
             ],
             "kind": "letters",
-            "upper": "Д"
+            "upper": "Д",
+            "context": "alpha_ru_letters_1_4"
           },
           {
             "id": "ru_letters_1_5",
@@ -3913,7 +4146,8 @@
               "е"
             ],
             "kind": "letters",
-            "upper": "Е"
+            "upper": "Е",
+            "context": "alpha_ru_letters_1_5"
           }
         ]
       },
@@ -3942,7 +4176,8 @@
               "ё"
             ],
             "kind": "letters",
-            "upper": "Ё"
+            "upper": "Ё",
+            "context": "alpha_ru_letters_2_0"
           },
           {
             "id": "ru_letters_2_1",
@@ -3953,7 +4188,8 @@
               "ж"
             ],
             "kind": "letters",
-            "upper": "Ж"
+            "upper": "Ж",
+            "context": "alpha_ru_letters_2_1"
           },
           {
             "id": "ru_letters_2_2",
@@ -3964,7 +4200,8 @@
               "з"
             ],
             "kind": "letters",
-            "upper": "З"
+            "upper": "З",
+            "context": "alpha_ru_letters_2_2"
           },
           {
             "id": "ru_letters_2_3",
@@ -3975,7 +4212,8 @@
               "и"
             ],
             "kind": "letters",
-            "upper": "И"
+            "upper": "И",
+            "context": "alpha_ru_letters_2_3"
           },
           {
             "id": "ru_letters_2_4",
@@ -3986,7 +4224,8 @@
               "й"
             ],
             "kind": "letters",
-            "upper": "Й"
+            "upper": "Й",
+            "context": "alpha_ru_letters_2_4"
           },
           {
             "id": "ru_letters_2_5",
@@ -3997,7 +4236,8 @@
               "к"
             ],
             "kind": "letters",
-            "upper": "К"
+            "upper": "К",
+            "context": "alpha_ru_letters_2_5"
           }
         ]
       },
@@ -4026,7 +4266,8 @@
               "л"
             ],
             "kind": "letters",
-            "upper": "Л"
+            "upper": "Л",
+            "context": "alpha_ru_letters_3_0"
           },
           {
             "id": "ru_letters_3_1",
@@ -4037,7 +4278,8 @@
               "м"
             ],
             "kind": "letters",
-            "upper": "М"
+            "upper": "М",
+            "context": "alpha_ru_letters_3_1"
           },
           {
             "id": "ru_letters_3_2",
@@ -4048,7 +4290,8 @@
               "н"
             ],
             "kind": "letters",
-            "upper": "Н"
+            "upper": "Н",
+            "context": "alpha_ru_letters_3_2"
           },
           {
             "id": "ru_letters_3_3",
@@ -4059,7 +4302,8 @@
               "о"
             ],
             "kind": "letters",
-            "upper": "О"
+            "upper": "О",
+            "context": "alpha_ru_letters_3_3"
           },
           {
             "id": "ru_letters_3_4",
@@ -4070,7 +4314,8 @@
               "п"
             ],
             "kind": "letters",
-            "upper": "П"
+            "upper": "П",
+            "context": "alpha_ru_letters_3_4"
           },
           {
             "id": "ru_letters_3_5",
@@ -4081,7 +4326,8 @@
               "р"
             ],
             "kind": "letters",
-            "upper": "Р"
+            "upper": "Р",
+            "context": "alpha_ru_letters_3_5"
           }
         ]
       },
@@ -4110,7 +4356,8 @@
               "с"
             ],
             "kind": "letters",
-            "upper": "С"
+            "upper": "С",
+            "context": "alpha_ru_letters_4_0"
           },
           {
             "id": "ru_letters_4_1",
@@ -4121,7 +4368,8 @@
               "т"
             ],
             "kind": "letters",
-            "upper": "Т"
+            "upper": "Т",
+            "context": "alpha_ru_letters_4_1"
           },
           {
             "id": "ru_letters_4_2",
@@ -4132,7 +4380,8 @@
               "у"
             ],
             "kind": "letters",
-            "upper": "У"
+            "upper": "У",
+            "context": "alpha_ru_letters_4_2"
           },
           {
             "id": "ru_letters_4_3",
@@ -4143,7 +4392,8 @@
               "ф"
             ],
             "kind": "letters",
-            "upper": "Ф"
+            "upper": "Ф",
+            "context": "alpha_ru_letters_4_3"
           },
           {
             "id": "ru_letters_4_4",
@@ -4154,7 +4404,8 @@
               "х"
             ],
             "kind": "letters",
-            "upper": "Х"
+            "upper": "Х",
+            "context": "alpha_ru_letters_4_4"
           },
           {
             "id": "ru_letters_4_5",
@@ -4165,7 +4416,8 @@
               "ц"
             ],
             "kind": "letters",
-            "upper": "Ц"
+            "upper": "Ц",
+            "context": "alpha_ru_letters_4_5"
           }
         ]
       },
@@ -4194,7 +4446,8 @@
               "ч"
             ],
             "kind": "letters",
-            "upper": "Ч"
+            "upper": "Ч",
+            "context": "alpha_ru_letters_5_0"
           },
           {
             "id": "ru_letters_5_1",
@@ -4205,7 +4458,8 @@
               "ш"
             ],
             "kind": "letters",
-            "upper": "Ш"
+            "upper": "Ш",
+            "context": "alpha_ru_letters_5_1"
           },
           {
             "id": "ru_letters_5_2",
@@ -4216,7 +4470,8 @@
               "щ"
             ],
             "kind": "letters",
-            "upper": "Щ"
+            "upper": "Щ",
+            "context": "alpha_ru_letters_5_2"
           },
           {
             "id": "ru_letters_5_3",
@@ -4227,7 +4482,8 @@
               "ъ"
             ],
             "kind": "letters",
-            "upper": "Ъ"
+            "upper": "Ъ",
+            "context": "alpha_ru_letters_5_3"
           },
           {
             "id": "ru_letters_5_4",
@@ -4238,7 +4494,8 @@
               "ы"
             ],
             "kind": "letters",
-            "upper": "Ы"
+            "upper": "Ы",
+            "context": "alpha_ru_letters_5_4"
           },
           {
             "id": "ru_letters_5_5",
@@ -4249,7 +4506,8 @@
               "ь"
             ],
             "kind": "letters",
-            "upper": "Ь"
+            "upper": "Ь",
+            "context": "alpha_ru_letters_5_5"
           }
         ]
       },
@@ -4278,7 +4536,8 @@
               "э"
             ],
             "kind": "letters",
-            "upper": "Э"
+            "upper": "Э",
+            "context": "alpha_ru_letters_6_0"
           },
           {
             "id": "ru_letters_6_1",
@@ -4289,7 +4548,8 @@
               "ю"
             ],
             "kind": "letters",
-            "upper": "Ю"
+            "upper": "Ю",
+            "context": "alpha_ru_letters_6_1"
           },
           {
             "id": "ru_letters_6_2",
@@ -4300,7 +4560,8 @@
               "я"
             ],
             "kind": "letters",
-            "upper": "Я"
+            "upper": "Я",
+            "context": "alpha_ru_letters_6_2"
           }
         ]
       },
@@ -4328,7 +4589,8 @@
             "answers": [
               "в"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ru_lookalikes_0"
           },
           {
             "id": "ru_lookalikes_1",
@@ -4338,7 +4600,8 @@
             "answers": [
               "н"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ru_lookalikes_1"
           },
           {
             "id": "ru_lookalikes_2",
@@ -4348,7 +4611,8 @@
             "answers": [
               "р"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ru_lookalikes_2"
           },
           {
             "id": "ru_lookalikes_3",
@@ -4358,7 +4622,8 @@
             "answers": [
               "с"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ru_lookalikes_3"
           },
           {
             "id": "ru_lookalikes_4",
@@ -4368,7 +4633,8 @@
             "answers": [
               "у"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ru_lookalikes_4"
           },
           {
             "id": "ru_lookalikes_5",
@@ -4378,7 +4644,8 @@
             "answers": [
               "х"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ru_lookalikes_5"
           }
         ]
       },
@@ -4411,7 +4678,8 @@
               "й",
               "ы",
               "е"
-            ]
+            ],
+            "context": "alpha_ru_vowels_0"
           },
           {
             "id": "ru_vowels_1",
@@ -4421,7 +4689,8 @@
             "answers": [
               "й"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ru_vowels_1"
           },
           {
             "id": "ru_vowels_2",
@@ -4431,7 +4700,8 @@
             "answers": [
               "ё"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ru_vowels_2"
           },
           {
             "id": "ru_vowels_3",
@@ -4441,7 +4711,8 @@
             "answers": [
               "ы"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ru_vowels_3"
           },
           {
             "id": "ru_vowels_4",
@@ -4451,7 +4722,8 @@
             "answers": [
               "ю"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ru_vowels_4"
           },
           {
             "id": "ru_vowels_5",
@@ -4461,7 +4733,8 @@
             "answers": [
               "я"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ru_vowels_5"
           }
         ]
       },
@@ -4485,21 +4758,23 @@
             "id": "ru_signs_0",
             "cue": "мягкий знак",
             "model": "ь",
-            "speech": "ь",
+            "speech": "мягкий знак",
             "answers": [
               "ь"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ru_signs_0"
           },
           {
             "id": "ru_signs_1",
             "cue": "твёрдый знак",
             "model": "ъ",
-            "speech": "ъ",
+            "speech": "твёрдый знак",
             "answers": [
               "ъ"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ru_signs_1"
           },
           {
             "id": "ru_signs_2",
@@ -4509,7 +4784,8 @@
             "answers": [
               "день"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ru_signs_2"
           },
           {
             "id": "ru_signs_3",
@@ -4519,7 +4795,8 @@
             "answers": [
               "семья"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ru_signs_3"
           },
           {
             "id": "ru_signs_4",
@@ -4529,7 +4806,8 @@
             "answers": [
               "подъезд"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ru_signs_4"
           }
         ]
       },
@@ -4557,7 +4835,8 @@
             "answers": [
               "вода́"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ru_stress_0"
           },
           {
             "id": "ru_stress_1",
@@ -4567,7 +4846,8 @@
             "answers": [
               "молоко́"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ru_stress_1"
           },
           {
             "id": "ru_stress_2",
@@ -4577,7 +4857,8 @@
             "answers": [
               "кни́га"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ru_stress_2"
           },
           {
             "id": "ru_stress_3",
@@ -4587,7 +4868,8 @@
             "answers": [
               "мама"
             ],
-            "kind": "patterns"
+            "kind": "patterns",
+            "context": "alpha_ru_stress_3"
           }
         ]
       },

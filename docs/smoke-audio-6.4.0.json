@@ -1,0 +1,38 @@
+{
+  "version": "6.4.0",
+  "url": "http://127.0.0.1:8765/Parola-v6-sorgenti-e-verifiche/",
+  "packs": {
+    "states": {
+      "it": {
+        "status": "ready",
+        "loaded": 195,
+        "total": 195,
+        "bytes": 1308769,
+        "failed": 0
+      },
+      "en": {
+        "status": "ready",
+        "loaded": 182,
+        "total": 182,
+        "bytes": 1174682,
+        "failed": 0
+      }
+    },
+    "prepared": 377,
+    "decoded": 377
+  },
+  "playback": {
+    "normal": true,
+    "slow": true,
+    "scheduleMs": 13.5
+  },
+  "playbackRequests": 0,
+  "checks": [
+    "all selected Italian and English clips decoded",
+    "normal and slow playback offline without audio HTTP requests",
+    "cached packs available after offline reload",
+    "Russian selection unloads inactive decoded packs",
+    "missing Arabic pack reported honestly and RTL layout fits"
+  ],
+  "passed": true
+}

@@ -126,6 +126,9 @@ def add(lang,id,title,note,rows,stage='patterns'):
   cue,model,*extra=row
   card={'id':f'{lang}_{id}_{i}','cue':cue,'model':model,'speech':model,'answers':[model],'kind':stage}
   if extra:card.update(extra[0])
+  card.setdefault('context','alpha_'+card['id'])
+  if lang=='ru' and card['model'] in ['ь','ъ']:card['speech']='мягкий знак' if card['model']=='ь' else 'твёрдый знак'
+  if lang=='ar' and id in ['breaks','variants']:card['speech']=card['cue']
   cards.append(card)
  catalog[lang]['lessons'].append({'id':id,'title':title,'note':note,'stage':stage,'cards':cards})
 for lang,letters in alphabets.items():

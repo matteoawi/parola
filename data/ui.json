@@ -185,7 +185,7 @@
     "routeSaved": "Percorso aggiornato. I progressi delle altre lingue restano salvi.",
     "apply": "Applica",
     "audioTitle": "La voce fa parte del gioco.",
-    "audioDesc": "Audio e rallentamento non consumano aiuti. I file incorporati funzionano anche senza rete.",
+    "audioDesc": "Gli audio della lingua scelta si scaricano una volta e restano disponibili sul dispositivo. Ascolto e rallentamento non consumano aiuti.",
     "audioEmbedded": "Voce sintetica inclusa",
     "audioDevice": "Voce del dispositivo",
     "audioNeedPack": "Pacchetto vocale da generare",
@@ -393,7 +393,14 @@
     "inviteGoal": "Obiettivo proposto: {n} punti",
     "inviteWon": "Obiettivo raggiunto!",
     "inviteRetry": "Un altro tavolo, un altro passo.",
-    "inviteResult": "Il tuo punteggio: {score}. Obiettivo proposto: {target}. Il link è una sfida tra amici, senza classifica verificata."
+    "inviteResult": "Il tuo punteggio: {score}. Obiettivo proposto: {target}. Il link è una sfida tra amici, senza classifica verificata.",
+    "packReady": "suoni pronti",
+    "packLoading": "caricamento {n}/{total}",
+    "packPaused": "download in pausa · risparmio dati",
+    "packPartial": "{n}/{total} suoni pronti · riprova",
+    "packMissing": "pacchetto non disponibile",
+    "packDevice": "voce del dispositivo",
+    "packDownload": "Carica gli audio"
   },
   "en": {
     "tagline": "A world of words. One idea at a time.",
@@ -581,7 +588,7 @@
     "routeSaved": "Journey updated. Progress in other languages stays saved.",
     "apply": "Apply",
     "audioTitle": "Voice is part of the game.",
-    "audioDesc": "Audio and slower playback never use help. Embedded audio files work without a network.",
+    "audioDesc": "Audio for the selected language downloads once and stays available on your device. Listening and slow playback do not use hints.",
     "audioEmbedded": "Synthetic voice included",
     "audioDevice": "Device voice",
     "audioNeedPack": "Voice pack needs generation",
@@ -789,7 +796,14 @@
     "inviteGoal": "Proposed target: {n} points",
     "inviteWon": "Target reached!",
     "inviteRetry": "Another table, another step.",
-    "inviteResult": "Your score: {score}. Proposed target: {target}. This link is a challenge between friends, without a verified leaderboard."
+    "inviteResult": "Your score: {score}. Proposed target: {target}. This link is a challenge between friends, without a verified leaderboard.",
+    "packReady": "sounds ready",
+    "packLoading": "loading {n}/{total}",
+    "packPaused": "download paused · data saver",
+    "packPartial": "{n}/{total} sounds ready · retry",
+    "packMissing": "pack unavailable",
+    "packDevice": "device voice",
+    "packDownload": "Load audio"
   },
   "ar": {
     "tagline": "عالم من الكلمات. قاعدة واحدة في كل مرة.",
@@ -977,7 +991,7 @@
     "routeSaved": "حُدّث المسار. يبقى تقدم اللغات الأخرى محفوظًا.",
     "apply": "تطبيق",
     "audioTitle": "الصوت جزء من اللعبة.",
-    "audioDesc": "الصوت والتشغيل البطيء لا يستهلكان مساعدات. تعمل الملفات المضمنة بلا شبكة.",
+    "audioDesc": "يتم تحميل صوت اللغة المختارة مرة واحدة ويبقى على جهازك. الاستماع والتشغيل البطيء لا يستهلكان المساعدة.",
     "audioEmbedded": "صوت اصطناعي مضمن",
     "audioDevice": "صوت الجهاز",
     "audioNeedPack": "يلزم إنشاء حزمة صوتية",
@@ -1185,7 +1199,14 @@
     "inviteGoal": "الهدف المقترح: {n} نقطة",
     "inviteWon": "تحقق الهدف!",
     "inviteRetry": "طاولة أخرى، خطوة أخرى.",
-    "inviteResult": "نتيجتك: {score}. الهدف المقترح: {target}. الرابط تحدٍ بين الأصدقاء دون ترتيب موثّق."
+    "inviteResult": "نتيجتك: {score}. الهدف المقترح: {target}. الرابط تحدٍ بين الأصدقاء دون ترتيب موثّق.",
+    "packReady": "الأصوات جاهزة",
+    "packLoading": "تحميل {n}/{total}",
+    "packPaused": "التحميل متوقف · توفير البيانات",
+    "packPartial": "جاهز {n}/{total} · أعد المحاولة",
+    "packMissing": "الحزمة غير متوفرة",
+    "packDevice": "صوت الجهاز",
+    "packDownload": "تحميل الصوت"
   },
   "ru": {
     "tagline": "Мир слов. Одно правило за раз.",
@@ -1373,7 +1394,7 @@
     "routeSaved": "Маршрут обновлён. Прогресс в других языках сохранён.",
     "apply": "Применить",
     "audioTitle": "Голос — часть игры.",
-    "audioDesc": "Звук и замедление не тратят подсказки. Встроенные записи работают без сети.",
+    "audioDesc": "Аудио выбранного языка загружается один раз и сохраняется на устройстве. Прослушивание и замедление не расходуют подсказки.",
     "audioEmbedded": "Встроенный синтезированный голос",
     "audioDevice": "Голос устройства",
     "audioNeedPack": "Нужно создать голосовой пакет",
@@ -1581,6 +1602,13 @@
     "inviteGoal": "Предложенная цель: {n} очков",
     "inviteWon": "Цель достигнута!",
     "inviteRetry": "Ещё один стол, ещё один шаг.",
-    "inviteResult": "Ваш результат: {score}. Предложенная цель: {target}. Это вызов друзьям без проверенной таблицы лидеров."
+    "inviteResult": "Ваш результат: {score}. Предложенная цель: {target}. Это вызов друзьям без проверенной таблицы лидеров.",
+    "packReady": "звуки готовы",
+    "packLoading": "загрузка {n}/{total}",
+    "packPaused": "загрузка приостановлена · экономия трафика",
+    "packPartial": "готово {n}/{total} · повторить",
+    "packMissing": "пакет недоступен",
+    "packDevice": "голос устройства",
+    "packDownload": "Загрузить аудио"
   }
 }
