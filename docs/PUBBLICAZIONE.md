@@ -155,3 +155,9 @@ Versione, manifest, cache, corso, README, LEGGIMI, changelog pubblico, crediti e
 ## Ripubblicazione richiesta — 6.10.1
 
 Richiesta una nuova build GitHub Pages tramite API sul repository ufficiale `matteoawi/parola`, ramo master e cartella radice, senza modifiche al gioco. Recuperati e integrati gli aggiornamenti remoti (già aggiornato). Versione 6.10.1 conservata perché si ripubblica lo stesso contenuto. Verifica dell’indirizzo https://matteoawi.github.io/parola/: HTTP 200 e metadati versione 6.10.1. Nessun push all’account florame. Questo commit conserva lo step di ripubblicazione.
+
+## 6.10.2 — correzioni dalla prova dal vivo
+
+Sito ufficiale verificato mediante interazioni reali nel browser integrato, con provider audio attivi, a 390 × 844 e 844 × 390. Correzioni conservate nei commit 8ca30eb, d3fd764, f5d4943, 4430e62 e 2ec3f72; build Pages dell’ultimo commit funzionale completata. Nessun nuovo audio o servizio esterno introdotto. Fetch/merge prima dei push, versione e changelog pubblico aggiornati.
+
+Tavoli completi di coppie, immagini, cloze, ascolto guidato e riconoscimento alfabetico; invio reale dalla tastiera russa; laboratorio con frase da 11 parole e coppie, poi verifica finale da sette parole con ascolto separato delle parti registrate. Barra e progressi alfabetici a 107 XP senza ricarica. Resoconto preciso, limiti e screenshot: [Prova dal vivo 6.10.2](PROVA-DAL-VIVO-6.10.2.md). La voce russa naturale non è disponibile su questo PC; nessuna valutazione acustica o prova su hardware telefonico dichiarata.

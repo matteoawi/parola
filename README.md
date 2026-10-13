@@ -12,6 +12,8 @@ Primo avvio guidato, spedizioni di tre tavoli, passaporto delle parole, sfide co
 
 Coerenza dei gameplay e verifiche: [Revisione 6.10.1](docs/COERENZA-GAMEPLAY-6.10.1.md).
 
+Interazioni sul sito pubblico, audio reale e correzioni: [Prova dal vivo 6.10.2](docs/PROVA-DAL-VIVO-6.10.2.md).
+
 Laboratorio, frasi con parola mancante e immagini: [Modalità 6.10](docs/MODALITA-6.10.0.md).
 
 Home, colori, progressi, ricompense e mobile: [Design 6.9](docs/DESIGN-6.9.0.md).
