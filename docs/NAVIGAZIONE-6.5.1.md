@@ -20,10 +20,14 @@ La cronologia dettagliata vive nella scheda aperta, con al massimo 100 contesti 
 
 ## Verifica locale
 
-- Nove gruppi Chromium con azioni sui pulsanti reali, presentazioni reali, cronologia, focus, invito monolingua completato e rigiocato sullo stesso tavolo, condivisione, passaporto e seconda tappa di spedizione: `smoke-navigation-6.5.1.json`.
-- Undici gruppi di regressione per mobile, tutte le modalità, RTL, vecchi salvataggi, scorrimento e presentazioni obbligatorie: `smoke-mobile-6.5.1.json`.
+- Nove gruppi Chromium con azioni sui pulsanti reali, presentazioni reali, cronologia, focus, invito monolingua completato e rigiocato sullo stesso tavolo, condivisione, passaporto e seconda tappa di spedizione: `local-smoke-navigation-6.5.1.json`.
+- Undici gruppi di regressione per mobile, tutte le modalità, RTL, vecchi salvataggi, scorrimento e presentazioni obbligatorie: `local-smoke-mobile-6.5.1.json`.
 - Tre test mirati per introduzioni, invalidazione del materiale e movimento con velocità conservata.
 - Ispezione visiva riunita su lezione mobile 390 px e home desktop 1360 px: controlli leggibili, nessuno scorrimento orizzontale e focus sul titolo.
 - Rilevatore UI: soltanto tre avvisi preesistenti sui bordi delle tessere nella CSS storica; identità visiva mantenuta, nessuna nuova decorazione.
 
 La verifica riguarda Chromium emulato, non un collaudo su ogni dispositivo reale.
+
+## Pubblicazione verificata
+
+Commit funzionali `15fde04` e `990ee5d`, inviati a master dopo fetch/merge senza modifiche concorrenti. GitHub Pages ha completato la build del commit `990ee5d`. Sul sito ufficiale, tutti e nove i gruppi di navigazione sono passati: `smoke-navigation-6.5.1.json`. Verificati versione pubblica, azioni reali, ritorni, riprese, lingue, dialoghi, invito, condivisione, passaporto e continuazione della spedizione; nessun errore JavaScript nello smoke. Non è stata ripetuta la suite storica completa.

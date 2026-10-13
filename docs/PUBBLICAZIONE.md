@@ -55,3 +55,12 @@ Tre test puri mirati superati. Report locali e pubblico: local-smoke-mobile-6.5.
 Gli elementi delle tessere, il contenitore di scorrimento e il suo elemento padre mantengono la loro identita durante l’aggiornamento. Un tap sintetico abbina una coppia; uno swipe sintetico Chromium scorre il tavolo anche quando viene aggiornato, senza attivare una tessera di scrittura. Verificati 390x844, 320x667, 844x390, RTL, movimento ridotto e desktop. I comandi di partita restano nel viewport. Le schermate sono home-mobile-6.5.0.png, game-mobile-6.5.0.png e home-desktop-6.5.0.png. Nessuna dichiarazione di frame rate misurato su telefoni fisici.
 
 Fetch e merge di origin/master eseguiti senza aggiornamenti concorrenti da integrare; push normali, changelog e numero versione pubblico coerenti. Sorgenti, file offline, registri di verifica e checksum conservati. La suite completa storica non è stata ripetuta.
+
+
+## Release 6.5.1 — 13 ottobre 2026
+
+Commit funzionali 15fde04 e 990ee5d. GitHub Pages ha completato la build di 990ee5d; il sito ufficiale https://matteoawi.github.io/parola/ ha superato nove gruppi Chromium sui collegamenti e sulla coerenza dei flussi. Report pubblico smoke-navigation-6.5.1.json; risultati locali conservati in local-smoke-navigation-6.5.1.json e local-smoke-mobile-6.5.1.json.
+
+Indietro/Avanti del browser e pulsanti di ritorno collegati a schermata, sezione, lezione, focus e scorrimento. Partite salvate prima di cambiare schermata, riprese con lo stesso identificativo e presentazioni obbligatorie mantenute. Rigioca conserva il tavolo dell’invito e il suo obiettivo; spedizioni e primo successo hanno una continuazione principale coerente. Inviti e anteprima impostazioni monolingua allineano interfaccia, supporto e audio. Changelog offline collegato alla pagina pubblica.
+
+Verifiche locali: nove gruppi di navigazione, undici di mobile/presentazioni e tre test mirati. Ispezione mobile/desktop riunita, con una correzione delle etichette Indietro. Nessun collaudo dichiarato su hardware fisico o ripetizione della suite completa. Versione, cache, manifest, sorgenti, standalone, changelog e checksum aggiornati; fetch/merge e push normali su master.
