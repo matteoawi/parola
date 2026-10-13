@@ -16,6 +16,7 @@ export function rng(seed) { let a=seed>>>0;return ()=>{a+=0x6D2B79F5;let t=a;t=M
 export function shuffled(a,random=Math.random){a=[...a];for(let i=a.length-1;i>0;i--){let j=Math.floor(random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
 export function geometry(n, words=false){
  if(!Number.isInteger(n)||n<1||n>120)throw Error('Invalid tile count');
+ if(!words&&[32,52].includes(n)){const out=[],base=n===52?36:24;for(let i=0;i<base;i++)out.push({id:out.length,x:i%6,y:Math.floor(i/6),z:0,gone:false});const middle=n===52?12:6,width=n===52?4:3;for(let i=0;i<middle;i++)out.push({id:out.length,x:1+i%width,y:1+Math.floor(i/width),z:1,gone:false});const top=n-base-middle;for(let i=0;i<top;i++)out.push({id:out.length,x:2+i%2,y:1+Math.floor(i/2),z:2,gone:false});return out;}
  const cols=words?5:4, top=n>=12?4:n>=8?2:0,base=n-top,out=[];
  for(let i=0;i<base;i++)out.push({id:i,x:i%cols,y:Math.floor(i/cols),z:0,gone:false});
  for(let i=0;i<top;i++)out.push({id:base+i,x:top===2?1:1+i%2,y:top===2?i:Math.floor(i/2),z:1,gone:false});
@@ -78,7 +79,7 @@ export function supportText(item,target,support){
 }
 export function routeKey(settings){if(!LANGS.includes(settings.target)||!LANGS.includes(settings.support))throw Error('Invalid direction');return `${settings.support}>${settings.target}`;}
 export function localDay(now=Date.now()){const d=new Date(now);return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;}
-export function newProgress(){return{version:6,settings:{target:'it',support:'en',ui:'it',voice:'offline',effects:true,labels:true,large:false,tableFormat:'classic',keyboardMode:'game'},missions:{},memory:{},seen:[],days:[],active:null,alphabetSessions:{},daily:{},awards:[],tours:{},onboarded:false,introduced:{}};}
+export function newProgress(){return{version:6,settings:{target:'it',support:'en',ui:'it',voice:'offline',effects:true,labels:true,large:false,tableFormat:'grand',tablePreferencesVersion:2,keyboardMode:'game'},missions:{},memory:{},seen:[],days:[],active:null,alphabetSessions:{},daily:{},awards:[],tours:{},onboarded:false,introduced:{}};}
 export function memoryKey(route,skill,item){return `${route}|${skill}|${item}`;}
 export function updateMemory(prev,success,assisted,now=Date.now()) {
  if(!Number.isFinite(now)||now<0)throw Error('Invalid review timestamp');
@@ -105,7 +106,9 @@ export function validateProgress(p){
  clean.introduced=sanitizeIntroductions(p.introduced);
  clean.daily=sanitizeDaily(p.daily);clean.awards=BADGES.filter(id=>p.awards?.includes?.(id));
  clean.tours=sanitizeTours(p.tours);clean.onboarded=Boolean(p.onboarded||Object.keys(p.missions).length||p.days.length||p.seen.length||Object.keys(p.sessions||{}).length||Object.keys(p.alphabetSessions||{}).length);
- clean.settings.tableFormat=Object.hasOwn(TABLE_FORMATS,p.settings.tableFormat)?p.settings.tableFormat:'classic';
+ clean.settings.tableFormat=Object.hasOwn(TABLE_FORMATS,p.settings.tableFormat)?p.settings.tableFormat:'grand';
+ if(p.settings.tablePreferencesVersion!==2&&clean.settings.tableFormat==='classic')clean.settings.tableFormat='grand';
+ clean.settings.tablePreferencesVersion=2;
  for(const k of ['target','support','ui','voice','effects','labels','large'])if(Object.hasOwn(p.settings,k))clean.settings[k]=p.settings[k];
  clean.settings.keyboardMode=p.settings.keyboardMode==='device'?'device':'game';
  clean.settings.voice=['offline','auto'].includes(clean.settings.voice)?clean.settings.voice:'offline';

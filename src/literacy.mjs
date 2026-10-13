@@ -7,6 +7,7 @@ export function literacyNorm(value,caseSensitive=false){
 export function literacyMatches(card,value){const normalize=text=>literacyNorm(text,card.caseSensitive).replace(card.kind==='phrases'?/[.!?؟]+$/g:/$^/g,'');return (card.answers||[card.model]).some(answer=>normalize(answer)===normalize(value));}
 export function literacyKey(lang,skill,id){return `${lang}>${lang}|alpha_${skill}|${id}`;}
 export function literacyMastered(memory,lang,skill,card){const m=memory[literacyKey(lang,skill,card.id)];return Boolean(m?.correct&&!m.assisted&&m.independent>0);}
+export function literacyPool(course,lesson){const kinds=new Set(lesson.cards.map(c=>c.kind));const other=course.lessons.filter(l=>l.id!==lesson.id);return {...lesson,cards:[...lesson.cards,...other.flatMap(l=>l.cards).filter(c=>kinds.has(c.kind)),...other.flatMap(l=>l.cards).filter(c=>!kinds.has(c.kind))]};}
 export function literacyQueue(lesson,memory,lang,skill,available=()=>true,limit=6){
  const cards=lesson.cards.filter(card=>skill!=='listen'||available(card));
  const pending=cards.filter(card=>!literacyMastered(memory,lang,skill,card));
@@ -24,8 +25,8 @@ export function literacyChoices(card,lesson,random=null){
 export function sanitizeLiteracySessions(sessions){
  const out={};
  for(const lang of ['it','en','ar','ru']){
-  const s=sessions?.[lang];if(!s||!ALPHA_SKILLS.includes(s.skill)||typeof s.lesson!=='string'||!/^[a-z_0-9]{1,80}$/.test(s.lesson)||!Array.isArray(s.queue)||!s.queue.length||s.queue.length>6||new Set(s.queue).size!==s.queue.length||s.queue.some(id=>typeof id!=='string'||!/^[a-z_0-9]{1,80}$/.test(id))||!Number.isInteger(s.index)||s.index<0||s.index>s.queue.length)continue;
-  out[lang]={lesson:s.lesson,skill:s.skill,queue:[...new Set(s.queue)],index:s.index,answer:String(s.answer||'').slice(0,100),errors:Math.max(0,Math.min(1000,Number(s.errors)||0)),assisted:Boolean(s.assisted),heard:false,feedback:s.feedback===true?true:s.feedback===false?false:null};
+  const s=sessions?.[lang];if(!s||!ALPHA_SKILLS.includes(s.skill)||typeof s.lesson!=='string'||!/^[a-z_0-9]{1,80}$/.test(s.lesson)||!Array.isArray(s.queue)||!s.queue.length||s.queue.length>26||new Set(s.queue).size!==s.queue.length||s.queue.some(id=>typeof id!=='string'||!/^[a-z_0-9]{1,80}$/.test(id))||!Number.isInteger(s.index)||s.index<0||s.index>s.queue.length)continue;
+  out[lang]={lesson:s.lesson,skill:s.skill,tableFormat:['focus','classic','explorer','grand','marathon'].includes(s.tableFormat)?s.tableFormat:'classic',queue:[...new Set(s.queue)],index:s.index,answer:String(s.answer||'').slice(0,100),errors:Math.max(0,Math.min(1000,Number(s.errors)||0)),assisted:Boolean(s.assisted),heard:false,feedback:s.feedback===true?true:s.feedback===false?false:null};
   if(s.mahjong&&typeof s.mahjong==='object'){
    const m=s.mahjong,ids=s.queue,subset=value=>[...new Set(Array.isArray(value)?value.filter(id=>ids.includes(id)):[])];
    const layout=Array.isArray(m.layout)&&m.layout.length===ids.length*2&&ids.every(id=>['target','support'].every(type=>m.layout.filter(t=>t?.itemId===id&&t.type===type).length===1))?m.layout.map(t=>({itemId:t.itemId,type:t.type})):null;

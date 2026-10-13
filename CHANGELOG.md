@@ -1,5 +1,14 @@
 # Aggiornamenti di Parola
 
+## 6.7.0 — 13 ottobre 2026
+
+- Tavoli Grande da 32 tessere e Maratona da 52 tessere, oltre ai formati 6, 12 e 18. Grande diventa la scelta iniziale dei nuovi percorsi; la vecchia preferenza predefinita Classico viene aggiornata, mantenendo le partite già salvate.
+- I tavoli grandi delle frasi includono altre unità del percorso; ogni nuovo elemento è presentato prima di giocare. Gli esercizi dell’alfabeto offrono gli stessi formati e ampliano il materiale partendo dalla lezione scelta, dando priorità a elementi dello stesso tipo.
+- Tavoli da 32 e 52 tessere su tre livelli e sei colonne. Vista intera e ingrandimento, scorrimento interno su mobile e desktop, testi leggibili senza far debordare la pagina.
+- Tastiera del gioco più compatta, con righe familiari, segni raggruppati e tasto Invia evidente. Invia verifica la risposta in alfabeto, frasi e aiuti; resta disabilitato finché il campo è vuoto. Anche il tasto Invio della tastiera di sistema verifica la risposta.
+- Salvataggi, riprese, importazioni, suggerimenti, mescolamento e sfide condivise supportano i nuovi formati. I vecchi link conservano le dimensioni originali.
+- Sfida giornaliera da 32 tessere nelle modalità a coppie; spedizioni con formati 12, 32 e 52 per le tappe a coppie. Il primo tavolo introduttivo resta breve. Completa e Componi mantengono il tavolo di parole previsto dalla loro lezione.
+
 ## 6.6.0 — 13 ottobre 2026
 
 - Tutti gli esercizi dell’alfabeto usano ora un tavolo Mahjong, con coppie, sovrapposizioni e lati liberi: riconoscimento, ascolto e scrittura. Ascolta prima di abbinare; nella scrittura digita per sbloccare il segno e poi libera la coppia.

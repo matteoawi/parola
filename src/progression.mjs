@@ -1,5 +1,5 @@
 /** Local progression: deterministic challenges and rewards backed by unique activities. */
-export const TABLE_FORMATS={focus:3,classic:6,explorer:9};
+export const TABLE_FORMATS={focus:3,classic:6,explorer:9,grand:16,marathon:26};
 export const BADGES=['first','mono','traveller','alphabet','writer','combo','explorer','habit','tour'];
 export function seedFor(text){return Array.from(text).reduce((n,c)=>Math.imul(n^c.charCodeAt(0),16777619),2166136261)>>>0;}
 export function challengePlan(day,route,units){const seed=seedFor(day+'|'+route);return {day,unit:units[seed%units.length].id,mode:['pair','write','complete','compose'][(seed>>>8)%4],seed};}

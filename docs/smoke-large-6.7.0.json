@@ -1,0 +1,21 @@
+{
+  "version": "6.7.0",
+  "url": "http://127.0.0.1:8765/Parola-v6-sorgenti-e-verifiche/",
+  "checks": [
+    "32-tile default, five reachable formats and full presentation",
+    "52 phrase tiles on three levels, pan and overview without page overflow",
+    "52-tile phrase save and resume retain the same table",
+    "52 Cyrillic tiles, 26 introduced items and out-of-order resume",
+    "visible Send key submits and unlocks a Russian tile on a 52-tile board",
+    "Send also validates phrase writing and survives a keyboard switch",
+    "shared 52-tile challenge opens at the right size on desktop"
+  ],
+  "phone": {
+    "width": 390,
+    "board": 546,
+    "viewport": 390,
+    "tools": 834
+  },
+  "sendBottom": 770,
+  "passed": true
+}

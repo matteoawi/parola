@@ -256,7 +256,7 @@
     "tryMono": "Prova monolingua",
     "alphabetPath": "Il percorso dell’alfabeto",
     "alphabetIntro": "Lettere, forme e parole: un percorso diverso per ogni scrittura. Tutte le lezioni sono accessibili; parti da quelle che ti servono.",
-    "alphabetSessions": "Fino a 6 coppie per tavolo Mahjong. Riconoscimento, scrittura e ascolto hanno progressi separati.",
+    "alphabetSessions": "Scegli fino a 52 tessere. Riconoscimento, scrittura e ascolto hanno progressi separati.",
     "startLetters": "Imparo le lettere",
     "knowLetters": "Conosco già le lettere",
     "resumeAlphabet": "Riprendi gli esercizi",
@@ -428,7 +428,15 @@
     "alphaClue": "Indizio",
     "alphaMahjong_recognize": "Abbina segno e indizio. Libera le tessere scoperte con almeno un lato libero.",
     "alphaMahjong_listen": "Ascolta la tessera sonora, poi abbinala al segno. Valgono le regole del Mahjong.",
-    "alphaMahjong_write": "Tocca una tessera da scrivere, sbloccala digitando il segno e abbina la coppia libera."
+    "alphaMahjong_write": "Tocca una tessera da scrivere, sbloccala digitando il segno e abbina la coppia libera.",
+    "format_grand": "Grande",
+    "format_marathon": "Maratona",
+    "largeTableNote": "Tavolo misto del percorso: ogni frase nuova viene presentata prima di giocare.",
+    "alphaLargeTableNote": "I tavoli grandi aggiungono materiale del percorso alla lezione scelta. Ogni elemento viene prima presentato.",
+    "boardOverview": "Vista intera",
+    "boardReadable": "Ingrandisci",
+    "keyboardSend": "Invia",
+    "keyboardCase": "Maiuscole / minuscole"
   },
   "en": {
     "tagline": "A world of words. One idea at a time.",
@@ -687,7 +695,7 @@
     "tryMono": "Try one language",
     "alphabetPath": "The alphabet path",
     "alphabetIntro": "Letters, shapes and words: a different path for each script. All lessons are available; start where you need to.",
-    "alphabetSessions": "Up to 6 pairs per Mahjong table. Recognition, writing and listening have separate progress.",
+    "alphabetSessions": "Choose up to 52 tiles. Recognition, writing and listening have separate progress.",
     "startLetters": "Learn the letters",
     "knowLetters": "I know the letters",
     "resumeAlphabet": "Resume exercises",
@@ -859,7 +867,15 @@
     "alphaClue": "Clue",
     "alphaMahjong_recognize": "Match each symbol and clue. Clear uncovered tiles with at least one open side.",
     "alphaMahjong_listen": "Listen to the sound tile, then match its symbol. Mahjong rules apply.",
-    "alphaMahjong_write": "Tap a writing tile, type its symbol to unlock it, then match the free pair."
+    "alphaMahjong_write": "Tap a writing tile, type its symbol to unlock it, then match the free pair.",
+    "format_grand": "Large",
+    "format_marathon": "Marathon",
+    "largeTableNote": "A mixed course table: every new phrase is introduced before you play.",
+    "alphaLargeTableNote": "Larger tables add course material to your chosen lesson. Each item is introduced first.",
+    "boardOverview": "Full view",
+    "boardReadable": "Enlarge",
+    "keyboardSend": "Send",
+    "keyboardCase": "Uppercase / lowercase"
   },
   "ar": {
     "tagline": "عالم من الكلمات. قاعدة واحدة في كل مرة.",
@@ -1118,7 +1134,7 @@
     "tryMono": "جرّب لغة واحدة",
     "alphabetPath": "مسار الحروف",
     "alphabetIntro": "حروف وأشكال وكلمات: مسار خاص بكل نظام كتابة. جميع الدروس متاحة؛ ابدأ بما تحتاج إليه.",
-    "alphabetSessions": "حتى ٦ أزواج لكل لوحة ماهجونغ. للتعرف والكتابة والاستماع تقدم مستقل.",
+    "alphabetSessions": "اختر حتى ٥٢ قطعة. للتعرف والكتابة والاستماع تقدم مستقل.",
     "startLetters": "أتعلم الحروف",
     "knowLetters": "أعرف الحروف بالفعل",
     "resumeAlphabet": "تابع التمارين",
@@ -1290,7 +1306,15 @@
     "alphaClue": "دليل",
     "alphaMahjong_recognize": "طابق الرمز والدليل. أزل القطع المكشوفة التي لها جانب حر واحد على الأقل.",
     "alphaMahjong_listen": "استمع إلى قطعة الصوت ثم طابقها مع الرمز. تنطبق قواعد الماهجونغ.",
-    "alphaMahjong_write": "المس قطعة الكتابة واكتب رمزها لفتحها ثم طابق الزوج الحر."
+    "alphaMahjong_write": "المس قطعة الكتابة واكتب رمزها لفتحها ثم طابق الزوج الحر.",
+    "format_grand": "كبير",
+    "format_marathon": "ماراثون",
+    "largeTableNote": "لوحة متنوعة من المسار: تُقدَّم كل عبارة جديدة قبل اللعب.",
+    "alphaLargeTableNote": "تضيف اللوحات الكبيرة مواد من المسار إلى الدرس المختار. يُقدَّم كل عنصر أولاً.",
+    "boardOverview": "عرض كامل",
+    "boardReadable": "تكبير",
+    "keyboardSend": "إرسال",
+    "keyboardCase": "الأحرف الكبيرة والصغيرة"
   },
   "ru": {
     "tagline": "Мир слов. Одно правило за раз.",
@@ -1549,7 +1573,7 @@
     "tryMono": "Попробуй один язык",
     "alphabetPath": "Путь изучения алфавита",
     "alphabetIntro": "Буквы, формы и слова: отдельный путь для каждой письменности. Все уроки доступны; начни с нужного.",
-    "alphabetSessions": "До 6 пар на столе маджонга. Узнавание, ввод и аудирование учитываются отдельно.",
+    "alphabetSessions": "Выбери до 52 плиток. Узнавание, ввод и аудирование учитываются отдельно.",
     "startLetters": "Изучаю буквы",
     "knowLetters": "Я уже знаю буквы",
     "resumeAlphabet": "Продолжить задания",
@@ -1721,6 +1745,14 @@
     "alphaClue": "Подсказка",
     "alphaMahjong_recognize": "Соедини знак и подсказку. Убирай открытые плитки со свободной стороной.",
     "alphaMahjong_listen": "Послушай звуковую плитку и найди её знак. Действуют правила маджонга.",
-    "alphaMahjong_write": "Нажми плитку для ввода, напиши знак, чтобы открыть её, затем убери свободную пару."
+    "alphaMahjong_write": "Нажми плитку для ввода, напиши знак, чтобы открыть её, затем убери свободную пару.",
+    "format_grand": "Большой",
+    "format_marathon": "Марафон",
+    "largeTableNote": "Смешанный стол курса: каждая новая фраза представляется перед игрой.",
+    "alphaLargeTableNote": "Большие столы добавляют материал курса к выбранному уроку. Каждый элемент сначала представляется.",
+    "boardOverview": "Весь стол",
+    "boardReadable": "Увеличить",
+    "keyboardSend": "Отправить",
+    "keyboardCase": "Заглавные / строчные"
   }
 }
