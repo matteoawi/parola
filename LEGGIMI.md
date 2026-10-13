@@ -1,6 +1,8 @@
-# Parola 6.1.0 — Mahjong delle lingue
+# Parola 6.2.0 — Mahjong delle lingue
 
 La versione 6.1.0 aggiunge quattro percorsi monolingua e un percorso di alfabeto con 45 lezioni e 294 elementi. Dalla home puoi scegliere se iniziare dalle lettere o dalle frasi. Dettagli in `docs/ALFABETO_E_MONOLINGUA.md`.
+
+La versione 6.2.0 aggiunge sfida del giorno, dimensioni dei tavoli, obiettivi, traguardi e interazioni aggiornate. Dettagli in `docs/GIOCO-6.2.0.md`.
 
 ## Apri il gioco
 

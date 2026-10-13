@@ -4,9 +4,11 @@ Gioco di lingue con 24 unità, cinque modalità e 12 direzioni bilingui, quattro
 
 **Gioca:** https://matteoawi.github.io/parola/
 
-**Versione:** 6.1.0 · [Aggiornamenti pubblici](https://matteoawi.github.io/parola/changelog.html)
+**Versione:** 6.2.0 · [Aggiornamenti pubblici](https://matteoawi.github.io/parola/changelog.html)
 
 I 566 MP3 inclusi coprono italiano, inglese e russo. Per l'arabo serve una voce disponibile sul dispositivo.
+
+Sfida del giorno, tavoli da 6/12/18 tessere, obiettivi giornalieri, otto traguardi e progressione XP. Dettagli: [Dinamiche 6.2](docs/GIOCO-6.2.0.md).
 
 ## Ricostruzione e verifiche
 

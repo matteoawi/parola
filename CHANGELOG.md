@@ -1,5 +1,17 @@
 # Aggiornamenti di Parola
 
+## 6.2.0 — 13 ottobre 2026
+
+- Nuova home con sfida del giorno, livello di gioco, avanzamento XP e tre obiettivi giornalieri. I capitoli del corso possono essere richiusi e la partita in corso resta raggiungibile.
+- Tre dimensioni negli abbinamenti: Essenziale con 6 tessere, Classico con 12 ed Esploratore con 18. Nei tavoli più ampi si incontrano anche parole ed espressioni precedenti.
+- Sfida giornaliera riproducibile per giorno e percorso, scelta tra le unità vicine ai progressi reali. Può essere salvata e ripresa; il bonus di 15 XP viene assegnato una sola volta per giorno e percorso.
+- Obiettivi: completare un tavolo, dare cinque risposte autonome e fare sei esercizi di alfabeto oppure tre ripassi dovuti. Completare i tre passi assegna 30 XP una volta al giorno; gli eventi ripetuti e le importazioni non duplicano i premi.
+- Otto traguardi legati a missioni, monolingua, lingue studiate, alfabeto, scrittura, serie, tavoli grandi e giorni di pratica. La serie giornaliera distingue i giorni consecutivi dal totale dei giorni giocati.
+- Tessere con uscita e riposizionamento animati, conservazione dello scorrimento e del focus, risposta immediata al tocco e navigazione tra tessere libere con le frecce della tastiera. Movimento ridotto rispettato.
+- Etichette Frase/Indizio nel monolingua, riepilogo dei premi e interfaccia aggiornata nelle quattro lingue. I progressi e le sessioni precedenti restano compatibili.
+
+Il livello di gioco e i traguardi descrivono l’attività nel gioco; non rappresentano una certificazione linguistica. Verifica della release limitata ai nuovi flussi e ai layout principali per mantenere rapido il lavoro.
+
 ## 6.1.0 — 13 ottobre 2026
 
 - Quattro percorsi monolingua, uno per ogni lingua: frasi abbinate a indizi nella stessa lingua, con progressi distinti dai dodici percorsi bilingui. Accesso diretto dalla home e dalle Impostazioni.

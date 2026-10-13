@@ -1,0 +1,13 @@
+{
+  "version": "6.2.0",
+  "url": "http://127.0.0.1:8765/Parola-v6-sorgenti-e-verifiche/",
+  "checks": [
+    "boot and daily hub",
+    "three table sizes",
+    "challenge reload and completion",
+    "reward and eight achievements",
+    "mobile and Arabic RTL",
+    "no JavaScript errors"
+  ],
+  "passed": true
+}

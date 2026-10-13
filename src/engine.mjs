@@ -1,5 +1,6 @@
 /** Parola v6 — pure Mahjong geometry and language-game logic. No DOM dependencies. */
 import {sanitizeLiteracySessions} from './literacy.mjs';
+import {sanitizeDaily,mergeDaily,BADGES,TABLE_FORMATS} from './progression.mjs';
 export const LANGS = ['it','en','ar','ru'];
 export const MODES = ['pair','listen','complete','compose','write'];
 export function norm(text, lang='it') {
@@ -75,7 +76,7 @@ export function supportText(item,target,support){
 }
 export function routeKey(settings){if(!LANGS.includes(settings.target)||!LANGS.includes(settings.support))throw Error('Invalid direction');return `${settings.support}>${settings.target}`;}
 export function localDay(now=Date.now()){const d=new Date(now);return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;}
-export function newProgress(){return{version:6,settings:{target:'it',support:'en',ui:'it',voice:'offline',effects:true,labels:true,large:false},missions:{},memory:{},seen:[],days:[],active:null,alphabetSessions:{}};}
+export function newProgress(){return{version:6,settings:{target:'it',support:'en',ui:'it',voice:'offline',effects:true,labels:true,large:false,tableFormat:'classic'},missions:{},memory:{},seen:[],days:[],active:null,alphabetSessions:{},daily:{},awards:[]};}
 export function memoryKey(route,skill,item){return `${route}|${skill}|${item}`;}
 export function updateMemory(prev,success,assisted,now=Date.now()) {
  if(!Number.isFinite(now)||now<0)throw Error('Invalid review timestamp');
@@ -99,6 +100,8 @@ export function validateProgress(p){
  routeKey(p.settings);if(!LANGS.includes(p.settings.ui))throw Error('Invalid UI language');
  const clean=newProgress();
  clean.alphabetSessions=sanitizeLiteracySessions(p.alphabetSessions);
+ clean.daily=sanitizeDaily(p.daily);clean.awards=BADGES.filter(id=>p.awards?.includes?.(id));
+ clean.settings.tableFormat=Object.hasOwn(TABLE_FORMATS,p.settings.tableFormat)?p.settings.tableFormat:'classic';
  for(const k of ['target','support','ui','voice','effects','labels','large'])if(Object.hasOwn(p.settings,k))clean.settings[k]=p.settings[k];
  clean.settings.voice=['offline','auto'].includes(clean.settings.voice)?clean.settings.voice:'offline';
  for(const k of ['effects','labels','large'])clean.settings[k]=Boolean(clean.settings[k]);
@@ -111,6 +114,7 @@ export function validateProgress(p){
 }
 export function mergeProgress(a,b){
  const out=validateProgress(a),other=validateProgress(b);
+ out.daily=mergeDaily(out.daily,other.daily);out.awards=[...new Set([...out.awards,...other.awards])];
  for(const [k,v]of Object.entries(other.missions))if(!out.missions[k]||out.missions[k].score<v.score)out.missions[k]=v;
  for(const [k,v]of Object.entries(other.memory))if(!out.memory[k]||out.memory[k].last<v.last)out.memory[k]=v;
  out.seen=[...new Set([...out.seen,...other.seen])];out.days=[...new Set([...out.days,...other.days])].sort();return out;
