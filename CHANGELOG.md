@@ -1,5 +1,12 @@
 # Aggiornamenti di Parola
 
+## 6.5.2 — 13 ottobre 2026
+
+- Tutte le icone SVG del gioco sostituite con 36 disegni originali della libreria Lucide, versione fissata 1.56.0: navigazione, modalità, audio, aiuti, premi, risultati, logo e icona installabile.
+- Geometrie originali conservate, con dimensioni e colori adattati al gioco. Nessuna icona SVG disegnata appositamente e nessun caricamento da CDN durante il gioco.
+- Fonti, file SVG originali, licenze ISC/MIT e impronte dei file conservati nel repository. Pagina pubblica Icone e licenze accessibile dal gioco; licenze incluse anche nel file offline.
+- Generazione ripetibile delle icone dalla copia locale, per mantenere coerenti il sito e l’edizione offline negli aggiornamenti successivi.
+
 ## 6.5.1 — 13 ottobre 2026
 
 - Navigazione Indietro e Avanti del browser collegata alle schermate del gioco. I ritorni recuperano la sezione della home, la lezione, il contesto della sfida e lo scorrimento; le partite in corso vengono salvate prima di cambiare schermata.

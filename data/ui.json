@@ -416,7 +416,8 @@
     "playNow": "Gioca",
     "nextLesson": "Prossima lezione",
     "lessonNotes": "Regola ed esempi",
-    "allLetterLessons": "Tutte le lezioni di alfabeto"
+    "allLetterLessons": "Tutte le lezioni di alfabeto",
+    "iconCredits": "Icone e licenze"
   },
   "en": {
     "tagline": "A world of words. One idea at a time.",
@@ -835,7 +836,8 @@
     "playNow": "Play",
     "nextLesson": "Next lesson",
     "lessonNotes": "Rule and examples",
-    "allLetterLessons": "All alphabet lessons"
+    "allLetterLessons": "All alphabet lessons",
+    "iconCredits": "Icons and licences"
   },
   "ar": {
     "tagline": "عالم من الكلمات. قاعدة واحدة في كل مرة.",
@@ -1254,7 +1256,8 @@
     "playNow": "العب",
     "nextLesson": "الدرس التالي",
     "lessonNotes": "القاعدة والأمثلة",
-    "allLetterLessons": "كل دروس الأبجدية"
+    "allLetterLessons": "كل دروس الأبجدية",
+    "iconCredits": "الأيقونات والتراخيص"
   },
   "ru": {
     "tagline": "Мир слов. Одно правило за раз.",
@@ -1673,6 +1676,7 @@
     "playNow": "Играть",
     "nextLesson": "Следующий урок",
     "lessonNotes": "Правило и примеры",
-    "allLetterLessons": "Все уроки алфавита"
+    "allLetterLessons": "Все уроки алфавита",
+    "iconCredits": "Значки и лицензии"
   }
 }

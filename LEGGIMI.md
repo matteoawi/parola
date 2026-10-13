@@ -1,4 +1,4 @@
-# Parola 6.5.1 — Mahjong delle lingue
+# Parola 6.5.2 — Mahjong delle lingue
 
 La versione 6.1.0 aggiunge quattro percorsi monolingua e un percorso di alfabeto con 45 lezioni e 294 elementi. Dalla home puoi scegliere se iniziare dalle lettere o dalle frasi. Dettagli in `docs/ALFABETO_E_MONOLINGUA.md`.
 
@@ -11,6 +11,8 @@ La versione 6.4.0 precarica tutti gli audio disponibili delle lingue scelte e li
 La versione 6.5.0 compatta il mobile, mantiene i comandi di gioco in vista e presenta prima tutto il materiale effettivo del tavolo, anche in spedizioni, inviti, ripassi e sessioni riprese. Dettagli in `docs/MOBILE-E-PRESENTAZIONI-6.5.0.md`.
 
 La versione 6.5.1 collega i ritorni, la cronologia del browser e i riepiloghi, mantenendo il contesto di lezioni, inviti e spedizioni. Dettagli in `docs/NAVIGAZIONE-6.5.1.md`.
+
+La versione 6.5.2 sostituisce tutte le SVG del gioco con originali Lucide conservati nel repository, incluse logo e icona app. Le fonti e le licenze sono in `credits.html` e `assets/icons/lucide/`.
 
 ## Apri il gioco
 
