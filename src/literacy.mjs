@@ -26,6 +26,13 @@ export function sanitizeLiteracySessions(sessions){
  for(const lang of ['it','en','ar','ru']){
   const s=sessions?.[lang];if(!s||!ALPHA_SKILLS.includes(s.skill)||typeof s.lesson!=='string'||!/^[a-z_0-9]{1,80}$/.test(s.lesson)||!Array.isArray(s.queue)||!s.queue.length||s.queue.length>6||new Set(s.queue).size!==s.queue.length||s.queue.some(id=>typeof id!=='string'||!/^[a-z_0-9]{1,80}$/.test(id))||!Number.isInteger(s.index)||s.index<0||s.index>s.queue.length)continue;
   out[lang]={lesson:s.lesson,skill:s.skill,queue:[...new Set(s.queue)],index:s.index,answer:String(s.answer||'').slice(0,100),errors:Math.max(0,Math.min(1000,Number(s.errors)||0)),assisted:Boolean(s.assisted),heard:false,feedback:s.feedback===true?true:s.feedback===false?false:null};
+  if(s.mahjong&&typeof s.mahjong==='object'){
+   const m=s.mahjong,ids=s.queue,subset=value=>[...new Set(Array.isArray(value)?value.filter(id=>ids.includes(id)):[])];
+   const layout=Array.isArray(m.layout)&&m.layout.length===ids.length*2&&ids.every(id=>['target','support'].every(type=>m.layout.filter(t=>t?.itemId===id&&t.type===type).length===1))?m.layout.map(t=>({itemId:t.itemId,type:t.type})):null;
+   const completed=subset(m.completed),mistakes={};for(const id of ids)if(Number.isFinite(m.mistakes?.[id]))mistakes[id]=Math.max(0,Math.min(1000,Math.floor(m.mistakes[id])));
+   out[lang].mahjong={seed:Number.isInteger(m.seed)?m.seed>>>0:0,completed,layout,selected:Number.isInteger(m.selected)&&m.selected>=0&&m.selected<ids.length*2?m.selected:null,focus:ids.includes(m.focus)?m.focus:null,unlocked:subset(m.unlocked),heard:[],assisted:subset(m.assisted),mistakes,hints:[]};out[lang].index=completed.length;
+  }
+
  }
  return out;
 }

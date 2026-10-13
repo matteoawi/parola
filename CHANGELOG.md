@@ -1,5 +1,12 @@
 # Aggiornamenti di Parola
 
+## 6.6.0 — 13 ottobre 2026
+
+- Tutti gli esercizi dell’alfabeto usano ora un tavolo Mahjong, con coppie, sovrapposizioni e lati liberi: riconoscimento, ascolto e scrittura. Ascolta prima di abbinare; nella scrittura digita per sbloccare il segno e poi libera la coppia.
+- Stato del tavolo, tessere abbinate, risposte e progressi salvati per lingua e abilità. Presentazioni del materiale obbligatorie anche prima delle riprese; vecchie sessioni migrate senza perdere i risultati. Indizi e mescolamento registrati come pratica assistita.
+- Switch esplicito tra tastiera del gioco e tastiera del dispositivo in alfabeto, scrittura delle frasi e aiuti. La tastiera del gioco usa un campo di sola lettura con inputmode none per tenere chiusa quella del telefono; la tastiera di sistema nasconde quella del gioco. Scelta salvata, lettere maiuscole, spazio, cancellazione e segni supportati.
+- Velocità audio riapplicata al caricamento e all’avvio della riproduzione, con mantenimento del tono anche sui browser che usano il prefisso WebKit. Web Audio segue la frequenza del dispositivo. Nessun nuovo file vocale pubblicato e nessuna nuova voce naturale dichiarata.
+
 ## 6.5.2 — 13 ottobre 2026
 
 - Tutte le icone SVG del gioco sostituite con 36 disegni originali della libreria Lucide, versione fissata 1.56.0: navigazione, modalità, audio, aiuti, premi, risultati, logo e icona installabile.

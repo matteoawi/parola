@@ -78,7 +78,7 @@ export function supportText(item,target,support){
 }
 export function routeKey(settings){if(!LANGS.includes(settings.target)||!LANGS.includes(settings.support))throw Error('Invalid direction');return `${settings.support}>${settings.target}`;}
 export function localDay(now=Date.now()){const d=new Date(now);return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;}
-export function newProgress(){return{version:6,settings:{target:'it',support:'en',ui:'it',voice:'offline',effects:true,labels:true,large:false,tableFormat:'classic'},missions:{},memory:{},seen:[],days:[],active:null,alphabetSessions:{},daily:{},awards:[],tours:{},onboarded:false,introduced:{}};}
+export function newProgress(){return{version:6,settings:{target:'it',support:'en',ui:'it',voice:'offline',effects:true,labels:true,large:false,tableFormat:'classic',keyboardMode:'game'},missions:{},memory:{},seen:[],days:[],active:null,alphabetSessions:{},daily:{},awards:[],tours:{},onboarded:false,introduced:{}};}
 export function memoryKey(route,skill,item){return `${route}|${skill}|${item}`;}
 export function updateMemory(prev,success,assisted,now=Date.now()) {
  if(!Number.isFinite(now)||now<0)throw Error('Invalid review timestamp');
@@ -107,6 +107,7 @@ export function validateProgress(p){
  clean.tours=sanitizeTours(p.tours);clean.onboarded=Boolean(p.onboarded||Object.keys(p.missions).length||p.days.length||p.seen.length||Object.keys(p.sessions||{}).length||Object.keys(p.alphabetSessions||{}).length);
  clean.settings.tableFormat=Object.hasOwn(TABLE_FORMATS,p.settings.tableFormat)?p.settings.tableFormat:'classic';
  for(const k of ['target','support','ui','voice','effects','labels','large'])if(Object.hasOwn(p.settings,k))clean.settings[k]=p.settings[k];
+ clean.settings.keyboardMode=p.settings.keyboardMode==='device'?'device':'game';
  clean.settings.voice=['offline','auto'].includes(clean.settings.voice)?clean.settings.voice:'offline';
  for(const k of ['effects','labels','large'])clean.settings[k]=Boolean(clean.settings[k]);
  const safeKey=k=>/^(it|en|ar|ru)>(it|en|ar|ru)\|[a-z_]+\|[a-z_0-9]+$/.test(k);

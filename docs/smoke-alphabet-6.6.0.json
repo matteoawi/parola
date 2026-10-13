@@ -1,0 +1,31 @@
+{
+  "version": "6.6.0",
+  "url": "http://127.0.0.1:8765/Parola-v6-sorgenti-e-verifiche/",
+  "checks": [
+    "real Mahjong pairing and blocked geometry: it",
+    "real Mahjong pairing and blocked geometry: en",
+    "real Mahjong pairing and blocked geometry: ar",
+    "real Mahjong pairing and blocked geometry: ru",
+    "saved board and removed pairs survive reload",
+    "Russian game/device switch preserves text and unlocks a Mahjong pair",
+    "listening requires successful playback before removing a pair",
+    "complete table reaches the alphabet result and continuation",
+    "phrase writing uses the same exclusive keyboard switch",
+    "real 0.8x playback preserves pitch and lasts longer than the original clip",
+    "desktop alphabet uses the same Mahjong table"
+  ],
+  "keyboardMetrics": {
+    "width": 390,
+    "height": 845,
+    "viewport": 844,
+    "input": 480.5625,
+    "check": 840.5625
+  },
+  "audio": {
+    "rate": 0.8,
+    "duration": 2.471791,
+    "pitch": true,
+    "elapsed": 3.166699999999255
+  },
+  "passed": true
+}
