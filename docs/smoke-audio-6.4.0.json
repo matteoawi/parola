@@ -1,6 +1,6 @@
 {
   "version": "6.4.0",
-  "url": "http://127.0.0.1:8765/Parola-v6-sorgenti-e-verifiche/",
+  "url": "https://matteoawi.github.io/parola/",
   "packs": {
     "states": {
       "it": {
@@ -24,7 +24,7 @@
   "playback": {
     "normal": true,
     "slow": true,
-    "scheduleMs": 13.5
+    "scheduleMs": 2.5
   },
   "playbackRequests": 0,
   "checks": [

@@ -33,3 +33,14 @@ Gli MP3 arabi sono ancora assenti. Il gioco usa una voce araba del dispositivo, 
 ## Conservazione e aggiornamenti
 
 Il commit iniziale conserva integralmente la versione 6.0.0 ricevuta. Un secondo commit prepara la release 6.0.1 e un terzo conserva la verifica pubblica. I push avvengono su master dopo aver recuperato e integrato gli aggiornamenti remoti, senza forzature. `CHECKSUMS.sha256` elenca i file attualmente conservati.
+
+
+## Release 6.3.0 e 6.4.0 — 13 ottobre 2026
+
+Repository ufficiale: https://github.com/matteoawi/parola. Sito: https://matteoawi.github.io/parola/. Il ramo master e tutti i commit precedenti sono conservati. Fetch e merge di origin/master eseguiti prima dei due aggiornamenti; nessun aggiornamento remoto da integrare e nessun push forzato.
+
+La 6.3.0, commit f27e9f1, introduce primo avvio, spedizioni di tre tavoli, checkpoint, passaporto e inviti riproducibili. HTML iniziale ridotto da 5.438.799 a 609.574 byte prima della successiva release. Build GitHub Pages completata. Sei test puri mirati e otto gruppi Chromium locali superati; report local-smoke-6.3.0.json. Non è stata ripetuta la suite completa e non viene dichiarato un risultato di 50 milioni di download.
+
+La 6.4.0, commit 99761f9, introduce pacchetti audio completi delle lingue selezionate, buffer decodificati, cache e download recuperabile. Build Pages completata e cinque gruppi Chromium superati sia in locale sia sul sito pubblico. Report local-smoke-audio-6.4.0.json e smoke-audio-6.4.0.json: 377 file iniziali pronti, riproduzione normale e lenta senza rete, zero richieste audio durante l’ascolto, ricarica offline, selezione russa e stato arabo dichiarato. Il tempo di programmazione del buffer misurato sul browser pubblico è 2,5 ms; non è una misura della latenza acustica su tutti i dispositivi. Due test puri mirati superati.
+
+I 566 MP3 eSpeak restano pubblicati. I quattro campioni naturali Edge sono riusciti, ma la generazione completa è fallita prima di sostituire file e manifest. Il generatore sperimentale è conservato e le alternative sono descritte in AUDIO-6.4.0.md. Le credenziali cloud non sono presenti nel sito o nel repository.
