@@ -1,14 +1,16 @@
-# Parola 6.2.0 — Mahjong delle lingue
+# Parola 6.3.0 — Mahjong delle lingue
 
 La versione 6.1.0 aggiunge quattro percorsi monolingua e un percorso di alfabeto con 45 lezioni e 294 elementi. Dalla home puoi scegliere se iniziare dalle lettere o dalle frasi. Dettagli in `docs/ALFABETO_E_MONOLINGUA.md`.
 
 La versione 6.2.0 aggiunge sfida del giorno, dimensioni dei tavoli, obiettivi, traguardi e interazioni aggiornate. Dettagli in `docs/GIOCO-6.2.0.md`.
 
+La versione 6.3.0 aggiunge primo avvio guidato, spedizioni, passaporto, sfide condivise e pagina iniziale leggera. Dettagli in `docs/GIOCO-6.3.0.md`.
+
 ## Apri il gioco
 
-Apri **index.html** con un browser. Il file consegnato incorpora il gioco e i 566 MP3 disponibili: non occorre installare librerie per giocare.
+Gioca su https://matteoawi.github.io/parola/ oppure apri **Parola-offline.html** con un browser. Il file offline incorpora il gioco e i 566 MP3 disponibili: non occorre installare librerie per giocare. `index.html` contiene il gioco con audio separati nella cartella `audio/`; sul sito vengono conservati offline i suoni caricati.
 
-Questa v6 è stata ricostruita dai sorgenti v5 effettivamente disponibili. Non è il recupero del vecchio archivio v6 citato in chat, che non era presente. La versione 6.1.0 è pubblicata su GitHub Pages: https://matteoawi.github.io/parola/. Sorgenti: https://github.com/matteoawi/parola. Gli aggiornamenti sono descritti in CHANGELOG.md e nella pagina pubblica changelog.html.
+Questa v6 è stata ricostruita dai sorgenti v5 effettivamente disponibili. Non è il recupero del vecchio archivio v6 citato in chat, che non era presente. La versione corrente è pubblicata su GitHub Pages: https://matteoawi.github.io/parola/. Sorgenti: https://github.com/matteoawi/parola. Gli aggiornamenti sono descritti in CHANGELOG.md e nella pagina pubblica changelog.html.
 
 ## Modifiche reali rispetto alla v5
 
@@ -24,7 +26,8 @@ Il contenuto resta di **24 unità**, con **72 frasi/significati principali allin
 
 ## File dell'archivio
 
-- `index.html`: gioco autonomo, con i file audio disponibili incorporati.
+- `index.html`: pagina ospitata leggera, con audio separati.
+- `Parola-offline.html`: edizione autonoma con tutti gli MP3 disponibili incorporati.
 - `src/`: motore, interfaccia, audio, salvataggi e CSS modificabili.
 - `data/`: corso, traduzioni e richieste audio.
 - `audio/`: MP3 e relativo manifesto. Servono per ricostruire il gioco dai sorgenti.
@@ -45,7 +48,7 @@ python scripts/build.py
 Per ricostruire anche l'edizione in un solo file:
 
 ```sh
-python scripts/build.py --standalone Parola-Mahjong-v6.html
+python scripts/build.py --standalone Parola-offline.html
 ```
 
 Per rendere autonomo `index.html` dopo la ricostruzione:

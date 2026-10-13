@@ -1,5 +1,17 @@
 # Aggiornamenti di Parola
 
+## 6.3.0 — 13 ottobre 2026
+
+- Primo avvio con scelta delle lingue e ingresso dall’alfabeto o dalle frasi. La prima partita parte subito con tre coppie e una coppia evidenziata; quell’aiuto viene registrato come assistito. Chi ha già progressi continua senza ripetere l’introduzione.
+- Spedizioni di tre tavoli: abbina, ricostruisci e scrivi. Le unità avanzano lungo il corso; tavoli, checkpoint e punteggio si salvano per ciascun percorso. Nuovo traguardo per la prima spedizione completata.
+- Passaporto delle parole con 78 timbri per percorso. Una frase si scopre dopo almeno una risposta autonoma: la semplice apertura del tavolo o un aiuto non la sbloccano.
+- Sfide tra amici tramite link: stessa lingua, modalità, dimensione e disposizione iniziale delle tessere, con obiettivo di punteggio e risultato finale. Condivisione del browser quando disponibile, altrimenti copia del link. Nessun salvataggio personale viene incluso.
+- Nuova home con viaggio, accesso al passaporto, inviti raggiungibili anche al primo avvio e comandi per installazione e download. Layout mobile, tastiera, RTL e movimento ridotto mantenuti.
+- Pagina iniziale alleggerita di circa l’89% rispetto alla 6.2.0: audio separati e precaricamento dei suoni del tavolo. La cache permette il gioco offline dopo un caricamento riuscito, con gli MP3 già caricati. Corretto il recupero dei segmenti audio e il rischio che il changelog sostituisse il gioco nella cache.
+- Edizione Parola-offline.html scaricabile: gioco, corso e tutti i 566 MP3 disponibili incorporati in un solo file. Installazione sul dispositivo con comando nativo quando supportato o istruzioni per il browser.
+
+Le sfide condivise usano un obiettivo proposto nel link, senza classifica verificata. Il passaporto registra una prova autonoma, non la padronanza definitiva della lingua. L’audio arabo e le nuove lettere continuano a dipendere dalle voci del dispositivo. Test mirati sui nuovi flussi, senza ripetere l’intera suite storica.
+
 ## 6.2.0 — 13 ottobre 2026
 
 - Nuova home con sfida del giorno, livello di gioco, avanzamento XP e tre obiettivi giornalieri. I capitoli del corso possono essere richiusi e la partita in corso resta raggiungibile.

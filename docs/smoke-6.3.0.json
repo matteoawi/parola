@@ -1,0 +1,15 @@
+{
+  "version": "6.3.0",
+  "url": "http://127.0.0.1:8765/Parola-v6-sorgenti-e-verifiche/",
+  "checks": [
+    "first win with two highlighted tiles",
+    "three modes and durable tour checkpoint",
+    "ninth achievement and real passport recall",
+    "seeded invitation and share fallback",
+    "mobile layout and install guide",
+    "offline shell and actual MP3 playback",
+    "changelog does not replace offline game",
+    "566 embedded MP3 in complete edition"
+  ],
+  "passed": true
+}

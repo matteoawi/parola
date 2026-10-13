@@ -1,6 +1,6 @@
 /** Local progression: deterministic challenges and rewards backed by unique activities. */
 export const TABLE_FORMATS={focus:3,classic:6,explorer:9};
-export const BADGES=['first','mono','traveller','alphabet','writer','combo','explorer','habit'];
+export const BADGES=['first','mono','traveller','alphabet','writer','combo','explorer','habit','tour'];
 export function seedFor(text){return Array.from(text).reduce((n,c)=>Math.imul(n^c.charCodeAt(0),16777619),2166136261)>>>0;}
 export function challengePlan(day,route,units){const seed=seedFor(day+'|'+route);return {day,unit:units[seed%units.length].id,mode:['pair','write','complete','compose'][(seed>>>8)%4],seed};}
 export function practiceStreak(days,today){const known=new Set(days);let day=today,n=0;if(!known.has(day))day=previousDay(day);while(known.has(day)){n++;day=previousDay(day);}return n;}
@@ -26,5 +26,6 @@ export function earnedBadges(progress){const missions=Object.entries(progress.mi
  if(daily.some(d=>d.bestCombo>=8))earned.add('combo');
  if(daily.some(d=>d.formats.includes('explorer')))earned.add('explorer');
  if(progress.days.length>=7)earned.add('habit');
+ if(Object.values(progress.tours||{}).some(tour=>tour.stage===3))earned.add('tour');
  return BADGES.filter(id=>earned.has(id));
 }

@@ -10,7 +10,7 @@ const results=[];function pass(check,details={}){results.push({check,passed:true
  try{
   const context=await browser.newContext({viewport:{width:1360,height:950},reducedMotion:'reduce',acceptDownloads:true});
   const page=await context.newPage(),errors=[];page.on('pageerror',e=>errors.push(String(e)));page.on('console',m=>{if(m.type()==='error')errors.push(m.text())});
-  await page.goto(url);await page.waitForFunction(()=>!!window.Parola);
+  await page.goto(url);await page.waitForFunction(()=>!!window.Parola);if(await page.locator('[data-action=welcomeSkip]').count())await page.locator('[data-action=welcomeSkip]').click();
   await page.locator('[data-action="mono"]').click();
   assert.equal(await page.evaluate(()=>Parola.state.store.settings.support),'it');
   assert.equal(await page.evaluate(()=>Parola.state.store.settings.ui),'it');pass('visible monolingual entry selects one language');

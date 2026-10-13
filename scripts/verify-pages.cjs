@@ -18,6 +18,7 @@ function passed(check, details = {}) { checks.push({check, passed: true, ...deta
   const response = await page.goto(url);
   assert.equal(response.status(), 200);
   await page.waitForFunction(() => !!window.Parola);
+  if(await page.locator('[data-action=welcomeSkip]').count())await page.locator('[data-action=welcomeSkip]').click();
   assert.equal(await page.locator('meta[name="application-version"]').getAttribute('content'), version);
   assert.equal(await page.locator('.unitcard').count(), 24);
   assert.equal(await page.locator('a[href="./changelog.html"]').count(), 1);
