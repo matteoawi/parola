@@ -1,6 +1,6 @@
 {
   "version": "6.9.0",
-  "url": "http://127.0.0.1:8765/Parola-v6-sorgenti-e-verifiche/",
+  "url": "https://matteoawi.github.io/parola/",
   "checks": [
     "one active home section, next table and actionable goals, local display font, mobile containment",
     "lesson and milestone back navigation preserve home sections; all five table formats and start remain visible",
@@ -11,7 +11,7 @@
     "desktop matches mobile sections, Arabic RTL and keyboard tabs, reduced motion and 360-pixel layout"
   ],
   "alphabetDailyTables": [
-    "alpha:ru:recognize:742493283"
+    "alpha:ru:recognize:1837540264"
   ],
   "passed": true
 }
