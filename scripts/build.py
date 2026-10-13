@@ -19,7 +19,7 @@ if a.standalone:
  audio={v['path']:'data:audio/mpeg;base64,'+base64.b64encode((R/v['path']).read_bytes()).decode() for v in manifest['entries'].values()}
  document=html(audio)
  if a.standalone.resolve()==(R/'index.html').resolve():document=hosted(document)
- else:document=document.replace('<title>Parola 6 —',f'<title>Parola {version} —').replace('</head>',f'<meta name="application-version" content="{version}"></head>').replace('<link rel="icon" href="./icon.svg" type="image/svg+xml">','')
+ else:document=document.replace('<title>Parola 6 —',f'<title>Parola {version} —').replace('</head>',f'<meta name="application-version" content="{version}"></head>').replace('<link rel="icon" href="./icon.svg" type="image/svg+xml">','').replace('href="./changelog.html"','href="https://matteoawi.github.io/parola/changelog.html"')
  a.standalone.write_text(document,encoding='utf-8',newline='\n');print('Standalone:',a.standalone,'bytes',a.standalone.stat().st_size)
 
 # Public release notes share the source changelog with the repository.

@@ -1,5 +1,16 @@
 # Aggiornamenti di Parola
 
+## 6.5.1 — 13 ottobre 2026
+
+- Navigazione Indietro e Avanti del browser collegata alle schermate del gioco. I ritorni recuperano la sezione della home, la lezione, il contesto della sfida e lo scorrimento; le partite in corso vengono salvate prima di cambiare schermata.
+- I pulsanti Indietro di presentazioni, lezioni, passaporto, condivisione e installazione tornano alla schermata di provenienza. Le schermate transitorie di presentazione e partita conclusa non si accumulano nella cronologia.
+- Rigiocare conserva seme, formato, obiettivo degli inviti e contesto giornaliero o di spedizione. I riepiloghi di spedizione e prima vittoria hanno un solo percorso principale per continuare.
+- Inviti monolingua con interfaccia nella stessa lingua. La sezione attiva nella navigazione resta coerente anche nei flussi di gioco libero e ripasso.
+- Etichette Indietro coerenti in tutte le lingue; il file offline collega gli aggiornamenti pubblici anche quando aperto da solo.
+- Dialoghi chiusi correttamente con Esc e focus restituito al comando di provenienza. Le schermate nuove portano il focus sul titolo, senza aprire la tastiera del telefono.
+
+I progressi e le presentazioni già salvate restano compatibili. Tornare a una vecchia schermata di un altro percorso linguistico porta alla home del percorso attuale, evitando di mescolare le lingue.
+
 ## 6.5.0 — 13 ottobre 2026
 
 - Home mobile divisa in Gioca, Percorso e Oggi, con navigazione in basso. Sfida e continuazione sono compatte; capitoli, regole, esempi, catalogo dell’alfabeto e strumenti secondari si aprono su richiesta.

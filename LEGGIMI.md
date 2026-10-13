@@ -1,4 +1,4 @@
-# Parola 6.5.0 — Mahjong delle lingue
+# Parola 6.5.1 — Mahjong delle lingue
 
 La versione 6.1.0 aggiunge quattro percorsi monolingua e un percorso di alfabeto con 45 lezioni e 294 elementi. Dalla home puoi scegliere se iniziare dalle lettere o dalle frasi. Dettagli in `docs/ALFABETO_E_MONOLINGUA.md`.
 
@@ -9,6 +9,8 @@ La versione 6.3.0 aggiunge primo avvio guidato, spedizioni, passaporto, sfide co
 La versione 6.4.0 precarica tutti gli audio disponibili delle lingue scelte e li decodifica in memoria. Le voci naturali complete non sono ancora state sostituite: dettagli in `docs/AUDIO-6.4.0.md`.
 
 La versione 6.5.0 compatta il mobile, mantiene i comandi di gioco in vista e presenta prima tutto il materiale effettivo del tavolo, anche in spedizioni, inviti, ripassi e sessioni riprese. Dettagli in `docs/MOBILE-E-PRESENTAZIONI-6.5.0.md`.
+
+La versione 6.5.1 collega i ritorni, la cronologia del browser e i riepiloghi, mantenendo il contesto di lezioni, inviti e spedizioni. Dettagli in `docs/NAVIGAZIONE-6.5.1.md`.
 
 ## Apri il gioco
 

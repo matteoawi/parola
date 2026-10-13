@@ -4,11 +4,13 @@ Gioco di lingue con 24 unità, cinque modalità e 12 direzioni bilingui, quattro
 
 **Gioca:** https://matteoawi.github.io/parola/
 
-**Versione:** 6.5.0 · [Aggiornamenti pubblici](https://matteoawi.github.io/parola/changelog.html)
+**Versione:** 6.5.1 · [Aggiornamenti pubblici](https://matteoawi.github.io/parola/changelog.html)
 
 I 566 MP3 disponibili coprono italiano, inglese e russo. La pagina iniziale è leggera; scarica Parola-offline.html dal gioco per avere tutti gli MP3 in un unico file. Per l'arabo serve una voce disponibile sul dispositivo.
 
 Primo avvio guidato, spedizioni di tre tavoli, passaporto delle parole, sfide condivisibili, sfida del giorno, tavoli da 6/12/18 tessere, obiettivi, nove traguardi e progressione XP. Dettagli: [Dinamiche 6.3](docs/GIOCO-6.3.0.md).
+
+Navigazione, ritorni e sfide collegati: [Coerenza 6.5.1](docs/NAVIGAZIONE-6.5.1.md).
 
 Home mobile compatta, comandi di partita in vista e presentazioni obbligatorie di tutto il materiale prima di giocare: [Mobile e presentazioni 6.5](docs/MOBILE-E-PRESENTAZIONI-6.5.0.md).
 
