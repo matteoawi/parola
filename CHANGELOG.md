@@ -7,6 +7,7 @@
 - Tastiera di scrittura affiancata al campo risposta in orizzontale, con Invia dentro il viewport. Annuncio di successo aggiornato dopo una risposta corretta, evitando che resti l’ultimo messaggio di errore.
 - Il laboratorio indica la congiunzione della lingua studiata anche quando l’interfaccia usa un’altra lingua. Senza una voce capace di leggere la frase nuova, offre esplicitamente l’ascolto separato delle parti già registrate. I messaggi distinguono un testo senza audio dall’indisponibilità generale di una lingua. Nessun nuovo file audio generato.
 - Riconoscimento alfabetico riallineato a lettere identiche nella stessa scrittura (Б = Б), con nome e parola d’esempio sotto. Gli esempi provengono dal corso, sono introdotti prima del tavolo e usano disegni già presenti quando disponibili. Scrittura e ascolto conservano i propri indizi.
+- Indicazione esplicita dei tavoli alfabetici misti; controlli audio disabilitati quando quella lettera non ha una voce o registrazione disponibile. XP e serie della barra superiore aggiornati anche dopo una sessione alfabetica, senza richiedere una ricarica.
 - Prova sul sito pubblico con controlli reali, salvataggio/ripresa e provider audio non simulato. La disponibilità della voce naturale russa continua a dipendere dal dispositivo; quando manca viene usata la voce sintetica inclusa.
 
 ## 6.10.1 — 13 ottobre 2026

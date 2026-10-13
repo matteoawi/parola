@@ -513,7 +513,8 @@
     "labAudioPartsNote": "La lettura continua di questa frase richiede una voce della lingua sul dispositivo. Qui puoi ascoltare separatamente gli esempi registrati, senza la congiunzione.",
     "audioTextUnavailable": "Per questo testo manca una registrazione e non è disponibile una voce della lingua sul dispositivo. Gli altri audio già inclusi restano utilizzabili.",
     "letterExample": "Una parola con questo segno",
-    "alphaSameLetters": "Abbina due lettere uguali. Il nome e la parola sotto aiutano a riconoscere il segno nella sua lingua."
+    "alphaSameLetters": "Abbina due lettere uguali. Il nome e la parola sotto aiutano a riconoscere il segno nella sua lingua.",
+    "alphaMixedTitle": "Alfabeto · {lang} · Tavolo misto"
   },
   "en": {
     "tagline": "A world of words. One idea at a time.",
@@ -1029,7 +1030,8 @@
     "labAudioPartsNote": "Reading this whole sentence needs a device voice for the language. Listen to available recorded examples separately here, without the conjunction.",
     "audioTextUnavailable": "This text has no recording and no matching device voice is available. Other included recordings still work.",
     "letterExample": "A word containing this letter",
-    "alphaSameLetters": "Match two identical letters. The name and word below connect the shape to its language."
+    "alphaSameLetters": "Match two identical letters. The name and word below connect the shape to its language.",
+    "alphaMixedTitle": "Alphabet · {lang} · Mixed table"
   },
   "ar": {
     "tagline": "عالم من الكلمات. قاعدة واحدة في كل مرة.",
@@ -1545,7 +1547,8 @@
     "labAudioPartsNote": "قراءة الجملة كاملة تتطلب صوتًا لهذه اللغة على الجهاز. يمكنك الاستماع هنا إلى الأمثلة المسجّلة منفصلة دون أداة الربط.",
     "audioTextUnavailable": "لا يوجد تسجيل لهذا النص ولا صوت مطابق على الجهاز. التسجيلات الأخرى المضمّنة ما زالت متاحة.",
     "letterExample": "كلمة تحتوي هذا الحرف",
-    "alphaSameLetters": "طابق حرفين متماثلين. يساعد الاسم والكلمة أسفله على ربط الشكل بلغته."
+    "alphaSameLetters": "طابق حرفين متماثلين. يساعد الاسم والكلمة أسفله على ربط الشكل بلغته.",
+    "alphaMixedTitle": "الأبجدية · {lang} · لوحة مختلطة"
   },
   "ru": {
     "tagline": "Мир слов. Одно правило за раз.",
@@ -2061,6 +2064,7 @@
     "labAudioPartsNote": "Для чтения всей фразы нужен голос этого языка на устройстве. Здесь можно послушать записанные примеры отдельно, без союза.",
     "audioTextUnavailable": "Для этого текста нет записи и подходящего голоса на устройстве. Другие включённые записи доступны.",
     "letterExample": "Слово с этой буквой",
-    "alphaSameLetters": "Соедини две одинаковые буквы. Название и слово внизу помогают связать знак с его языком."
+    "alphaSameLetters": "Соедини две одинаковые буквы. Название и слово внизу помогают связать знак с его языком.",
+    "alphaMixedTitle": "Алфавит · {lang} · Смешанное поле"
   }
 }
