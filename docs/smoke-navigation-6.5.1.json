@@ -9,7 +9,8 @@
     "Passport and achievements return to the originating home section",
     "History cannot restore a screen from another language route",
     "Monolingual invite, summary, share, passport and identical replay remain connected",
-    "Tour continuation starts the next stage instead of an unrelated mission"
+    "Tour continuation starts the next stage instead of an unrelated mission",
+    "Monolingual settings preview, UI language and audio pack follow the selected target"
   ],
   "passed": true
 }

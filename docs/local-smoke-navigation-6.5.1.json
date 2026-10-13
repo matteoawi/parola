@@ -1,0 +1,16 @@
+{
+  "version": "6.5.1",
+  "url": "http://127.0.0.1:8765/Parola-v6-sorgenti-e-verifiche/",
+  "checks": [
+    "Alphabet presentation back/forward and quiz keep the exact lesson",
+    "Escape closes rule dialog and restores focus",
+    "Browser back, forward and home resume preserve the same table",
+    "Free-play lesson retains its active navigation section",
+    "Passport and achievements return to the originating home section",
+    "History cannot restore a screen from another language route",
+    "Monolingual invite, summary, share, passport and identical replay remain connected",
+    "Tour continuation starts the next stage instead of an unrelated mission",
+    "Monolingual settings preview, UI language and audio pack follow the selected target"
+  ],
+  "passed": true
+}

@@ -5,7 +5,7 @@
 - Navigazione Indietro e Avanti del browser collegata alle schermate del gioco. I ritorni recuperano la sezione della home, la lezione, il contesto della sfida e lo scorrimento; le partite in corso vengono salvate prima di cambiare schermata.
 - I pulsanti Indietro di presentazioni, lezioni, passaporto, condivisione e installazione tornano alla schermata di provenienza. Le schermate transitorie di presentazione e partita conclusa non si accumulano nella cronologia.
 - Rigiocare conserva seme, formato, obiettivo degli inviti e contesto giornaliero o di spedizione. I riepiloghi di spedizione e prima vittoria hanno un solo percorso principale per continuare.
-- Inviti monolingua con interfaccia nella stessa lingua. La sezione attiva nella navigazione resta coerente anche nei flussi di gioco libero e ripasso.
+- Inviti monolingua con interfaccia nella stessa lingua. Nelle impostazioni, anche l’anteprima delle lingue e del pacchetto audio si allinea subito al percorso monolingua. La sezione attiva nella navigazione resta coerente anche nei flussi di gioco libero e ripasso.
 - Etichette Indietro coerenti in tutte le lingue; il file offline collega gli aggiornamenti pubblici anche quando aperto da solo.
 - Dialoghi chiusi correttamente con Esc e focus restituito al comando di provenienza. Le schermate nuove portano il focus sul titolo, senza aprire la tastiera del telefono.
 

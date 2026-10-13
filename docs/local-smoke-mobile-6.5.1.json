@@ -1,0 +1,35 @@
+{
+  "version": "6.5.1",
+  "url": "http://127.0.0.1:8765/Parola-v6-sorgenti-e-verifiche/",
+  "homeHeight": 849,
+  "gameMetrics": {
+    "height": 845,
+    "viewport": 844,
+    "width": 390,
+    "board": 582,
+    "tools": 834
+  },
+  "introduced": 6,
+  "continuity": {
+    "selection": true,
+    "tile": true,
+    "scroll": true,
+    "scrollParent": true,
+    "ghosts": 2,
+    "completed": 1
+  },
+  "checks": [
+    "compact mobile home and all three sections",
+    "every actual pool item presented before first game",
+    "persistent introduction and session reload",
+    "new sentence unit and monolingual tour cannot bypass presentation",
+    "alphabet models and alternatives presented before quiz",
+    "live tile nodes, scroll node and pair collection animation",
+    "viewport-fitting game controls and full monolingual text",
+    "Arabic RTL and reduced motion",
+    "all five modes share the presentation gate",
+    "fresh invitation and legacy session require presentation",
+    "desktop retains all sections"
+  ],
+  "passed": true
+}
