@@ -1,6 +1,8 @@
 # Parola — piano dell’esperienza 7.0
 
-Revisione 2 · 13 ottobre 2026 · proposta da realizzare, non funzionalità già pubblicate.
+Revisione 3 · 13 ottobre 2026 · proposta da realizzare, non funzionalità già pubblicate.
+
+Specifica di schermate, interazioni, aiuti, apprendimento, stati di recupero e criteri del prototipo: [UI/UX completa 7.0](UX-ESPERIENZA-7.0.md).
 
 La versione del gioco resta 6.10.2. Questo piano riguarda una ricostruzione dell’esperienza, delle tessere e dei gameplay, non una nuova passata di rifinitura dell’interfaccia attuale. La struttura proposta assume un percorso guidato principale con laboratorio libero sempre disponibile; la preferenza tra percorso e gioco libero è stata chiesta all’utente e resta aperta al momento della stesura. Il resto del piano funziona anche invertendo i due accessi.
 
@@ -169,3 +171,5 @@ Verifiche circoscritte per tappa: proprietà del motore per solvibilità e annul
 - Estensione delle costruzioni e revisione linguistica: dipendenza contenutistica della tappa D, non capacità universale già presente.
 
 Il piano è completo come sequenza di prodotto, gameplay, design e implementazione. Le scelte aperte sono isolate e non impediscono di valutare la ricostruzione proposta.
+
+Prima della tappa A, usare la specifica UI/UX per costruire una sequenza dall’ingresso al secondo tavolo, non una sola schermata bella. Home con un’azione dominante, aiuti in vista, gestione delle bozze e recuperi fanno parte del prototipo. Nessun nuovo sistema di monete, vite o negozi nel primo rilascio: priorità a continuità, leggibilità e pratica linguistica.
