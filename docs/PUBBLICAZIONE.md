@@ -73,3 +73,12 @@ Commit funzionale 1bd9e9d. Build Pages completata e confronto pubblico superato 
 Tutte le SVG del gioco corrente provengono dal pacchetto ufficiale lucide-static 1.56.0. Originali e licenze in assets/icons/lucide, con provenienza del pacchetto e impronte per file. Logo e icona installabile condividono layers-2; sito e standalone incorporano la stessa libreria, senza CDN. Il file offline incorpora anche il favicon. Provenienza verificabile e build ripetibile dalla copia locale, senza modificare i disegni.
 
 Versione, cache, manifest, changelog, sorgenti, artefatti, report e checksum aggiornati. Fetch/merge e push normali su master; nessuna suite storica ripetuta. Ispezione visiva mobile/desktop e tavola completa riunita in una sola passata.
+
+
+## Release 6.6.0 — 13 ottobre 2026
+
+Commit funzionale 8e4c7f4. GitHub Pages compilato e sito ufficiale https://matteoawi.github.io/parola/ verificato con undici gruppi Chromium: tavoli alfabetici per riconoscimento, ascolto e scrittura, coppie e tessere bloccate nelle quattro lingue, salvataggio, ripresa, completamento e desktop. Switch esclusivo delle tastiere in alfabeto e scrittura delle frasi, risposte conservate e controlli mobile nel viewport. Report locale local-smoke-alphabet-6.6.0.json e pubblico smoke-alphabet-6.6.0.json.
+
+Quattordici test puri mirati superati. Il requisito di ascolto è verificato con provider simulato; non viene dichiarata una nuova voce per le lettere. La velocità del file reale è verificata a 0,8× con mantenimento del tono: 2,47 secondi di contenuto riprodotti in circa 3,31 secondi nel browser pubblico, inclusa la partenza. Nessun nuovo file audio pubblicato o API TTS dichiarata attiva. Proposta gratuita documentata: Gemini Flash Preview TTS tramite proxy Cloudflare e buffer del tavolo nel browser, con quote da verificare nel progetto dell’account.
+
+Manifest, cache, corso, numero versione, sito, standalone e changelog allineati alla 6.6.0. Build delle licenze reso atomico dopo un blocco OneDrive. Sorgenti, immagini e verifiche conservati; push normali su master, nessuna suite storica completa ripetuta.

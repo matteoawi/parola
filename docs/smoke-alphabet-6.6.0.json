@@ -1,6 +1,6 @@
 {
   "version": "6.6.0",
-  "url": "http://127.0.0.1:8765/Parola-v6-sorgenti-e-verifiche/",
+  "url": "https://matteoawi.github.io/parola/",
   "checks": [
     "real Mahjong pairing and blocked geometry: it",
     "real Mahjong pairing and blocked geometry: en",
@@ -25,7 +25,7 @@
     "rate": 0.8,
     "duration": 2.471791,
     "pitch": true,
-    "elapsed": 3.166699999999255
+    "elapsed": 3.310599999997765
   },
   "passed": true
 }

@@ -1,6 +1,6 @@
 # Parola 6.6.0 — Alfabeto Mahjong e tastiere esclusive
 
-La richiesta attiva riparte soltanto dal Mahjong per tutti gli esercizi dell’alfabeto e dallo switch delle tastiere. Non aggiunge nuove immagini, parole illustrative o il successivo schema lettera uguale lettera, perché queste estensioni sono state ritirate. Include la correzione della velocità audio e le indicazioni per una futura API gratuita, richieste durante il lavoro.
+Tutti gli esercizi dell’alfabeto usano il Mahjong. La scrittura offre una scelta esclusiva tra tastiera del gioco e tastiera del dispositivo. La release include il controllo della velocità audio e le indicazioni per collegare in seguito un’API gratuita.
 
 ## Gioco
 
@@ -20,7 +20,7 @@ Il layout russo usa righe cirilliche. I controlli e la verifica restano raggiung
 
 La riproduzione dei suoni esistenti reimposta defaultPlaybackRate e playbackRate dopo caricamento e avvio, reagisce a un reset del lettore e applica preservesPitch anche con prefissi WebKit. Web Audio segue la frequenza nativa del dispositivo invece di imporre 24 kHz. La velocità non può superare 1× attraverso il player.
 
-Misura locale Chromium: file di 2,471791 secondi, rate effettivo 0,8 e mantenimento del tono, riproduzione di circa 3,17 secondi inclusa la partenza. Non è una verifica della qualità della voce su tutti i dispositivi. I 566 suoni precedenti restano invariati: nessun nuovo MP3 o pacchetto naturale viene pubblicato. I temporanei rallentati sono stati esclusi dal progetto pubblico. Le lettere russe non hanno file dedicati: l’ascolto richiede una voce russa del dispositivo; senza una voce corretta la modalità resta indisponibile. Il test del flusso di ascolto usa un provider simulato per verificare il blocco prima di un ascolto riuscito.
+Misura locale Chromium: file di 2,471791 secondi, rate effettivo 0,8 e mantenimento del tono, riproduzione di circa 3,17 secondi inclusa la partenza. Non è una verifica della qualità della voce su tutti i dispositivi. I 566 suoni precedenti restano invariati: nessun nuovo MP3 o pacchetto naturale viene pubblicato. Le lettere russe non hanno file dedicati: l’ascolto richiede una voce russa del dispositivo; senza una voce corretta la modalità resta indisponibile. Il test del flusso di ascolto usa un provider simulato per verificare il blocco prima di un ascolto riuscito.
 
 ## API gratuita proposta, ancora da collegare
 
@@ -38,3 +38,7 @@ Fonti ufficiali consultate il 13 ottobre 2026:
 Quattordici test puri mirati superati: tutte le 45 lezioni nelle tre abilità, soluzione geometrica, salvataggi, migrazione, normalizzazione delle lingue, presentazioni e reset della velocità. Undici gruppi Chromium locali per tavoli in quattro lingue, tessere bloccate, ripresa, scrittura, ascolto, completamento, tastiera nelle frasi, riproduzione 0,8× e desktop. Report `local-smoke-alphabet-6.6.0.json`.
 
 Immagini `alphabet-mobile-6.6.0.png`, `keyboard-mobile-6.6.0.png`, `alphabet-desktop-6.6.0.png`. I tre avvisi sui bordi storici delle tessere sono mantenuti; le nuove SVG continuano a provenire dagli originali Lucide. Nessuna suite storica completa ripetuta.
+
+## Pubblicazione verificata
+
+Commit funzionale `8e4c7f4` inviato a master dopo fetch/merge. Build GitHub Pages completata. Undici gruppi dello smoke superati anche sul sito ufficiale https://matteoawi.github.io/parola/: report `smoke-alphabet-6.6.0.json`. Verificati versione, geometria, coppie, ripresa, switch, scrittura, requisito di ascolto, risultato, desktop e velocità 0,8×. Misura pubblica: circa 3,31 secondi inclusa la partenza per il suono originale di 2,47 secondi. Nessun errore JavaScript nello smoke. API naturale ancora da collegare, nessuna nuova registrazione aggiunta al repository.
