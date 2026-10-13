@@ -1,0 +1,53 @@
+{
+  "version": "6.8.1",
+  "url": "http://127.0.0.1:8765/Parola-v6-sorgenti-e-verifiche/",
+  "checks": [
+    "auto default, four language choices and settings fit phone and desktop",
+    "real existing MP3 completes at 0.8 with longer duration; explicit preference survives reload",
+    "simulated device voices: ranked selection, manual previews, saved per-language choice and quiet effects at 0.8",
+    "simulated device failure uses the real Russian file and reports its actual source"
+  ],
+  "actualBrowserVoices": [
+    {
+      "name": "Microsoft Cosimo - Italian (Italy)",
+      "lang": "it-IT"
+    },
+    {
+      "name": "Microsoft George - English (United Kingdom)",
+      "lang": "en-GB"
+    },
+    {
+      "name": "Microsoft Hazel - English (United Kingdom)",
+      "lang": "en-GB"
+    },
+    {
+      "name": "Microsoft Susan - English (United Kingdom)",
+      "lang": "en-GB"
+    },
+    {
+      "name": "Microsoft Hoda - Arabic (Egypt)",
+      "lang": "ar-EG"
+    },
+    {
+      "name": "Microsoft Elsa - Italian (Italy)",
+      "lang": "it-IT"
+    },
+    {
+      "name": "Microsoft Adam - Polish (Poland)",
+      "lang": "pl-PL"
+    },
+    {
+      "name": "Microsoft Paulina - Polish (Poland)",
+      "lang": "pl-PL"
+    }
+  ],
+  "realFile": {
+    "ok": true,
+    "requestedRate": 0.8,
+    "duration": 0.986757,
+    "elapsed": 1.4345999999977648,
+    "voice": "eSpeak it"
+  },
+  "deviceVoiceTests": "simulated; sound quality on the user device is not measured",
+  "passed": true
+}

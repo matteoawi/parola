@@ -105,3 +105,10 @@ Nove test Node mirati e sei gruppi dello smoke Chromium locale superati. Pinch e
 
 
 Commit funzionale a59e5e2 pubblicato su master; GitHub Pages ha completato la build senza errori. Sei gruppi dello smoke superati anche su https://matteoawi.github.io/parola/, versione 6.8.0 confermata dal meta pubblico. Report smoke-tiles-6.8.0.json separato dal report locale. Verificati anche gli ingombri effettivi dello scorrimento: in Vista intera non rimane spazio vuoto dovuto alla geometria originale non scalata. Sorgenti, artefatti offline, versione, changelog, documentazione e checksum conservati su GitHub con push normale.
+
+
+## Release 6.8.1 — 13 ottobre 2026
+
+Priorità ripristinata alla voce del dispositivo in tutte e quattro le lingue, con scelta manuale per lingua, nome della fonte effettiva, graduatoria basata anche sui metadati e migrazione unica dei vecchi valori iniziali. eSpeak rimane riserva/opzione; nessun file audio sostituito o API attivata. Gli effetti sono silenziosi durante la pronuncia. Velocità e tono espliciti, code cancellate prima del recupero dal fallimento, pronunce contestuali conservate.
+
+Dieci casi Node mirati superati e quattro gruppi Chromium locali, con ispezione dell’area Audio su mobile/desktop. Riproduzione reale a 0,8 verificata; scelte e fallimenti del provider di dispositivo simulati, senza dichiarare verificata la qualità percepita dal telefono dell’utente. Report locale local-smoke-voice-6.8.1.json; documentazione VOCE-6.8.1.md. Nessuna suite storica completa ripetuta. Versione, manifest, cache, corso, changelog pubblico, sito, standalone e checksum allineati.

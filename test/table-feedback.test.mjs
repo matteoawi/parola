@@ -11,10 +11,11 @@ test('fit preserves proportions within both axes; zoom has stable limits',()=>{
 test('all nine game sounds use one context, bounded volume, and respect mute',()=>{
  let made=0,notes=0,enabled=true;const volumes=[];
  globalThis.document={hidden:false};
- globalThis.AudioContext=class{constructor(){made++;this.state='running';this.currentTime=0;this.destination={};}createOscillator(){notes++;return{frequency:{setValueAtTime(){}},connect(){},start(){},stop(){},disconnect(){}};}createGain(){return{gain:{setValueAtTime(){},linearRampToValueAtTime(v){volumes.push(v);},exponentialRampToValueAtTime(){}},connect(){},disconnect(){}};}suspend(){this.state='suspended';return Promise.resolve();}resume(){this.state='running';return Promise.resolve();}};
+ globalThis.AudioContext=class{constructor(){made++;this.state='running';this.currentTime=0;this.destination={};}createOscillator(){notes++;return{frequency:{setValueAtTime(){}},connect(){},start(){},stop(){},disconnect(){}};}createGain(){return{gain:{setValueAtTime(v){this.value=v;},linearRampToValueAtTime(v){volumes.push(v);},exponentialRampToValueAtTime(){}},connect(){},disconnect(){}};}suspend(){this.state='suspended';return Promise.resolve();}resume(){this.state='running';return Promise.resolve();}};
  const effects=new SoundEffects(()=>enabled);
  for(const cue of Object.keys(SOUND_CUES)){effects.last=-100;effects.play(cue);}
  assert.equal(made,1);assert.equal(notes,Object.values(SOUND_CUES).reduce((n,cue)=>n+cue.length,0));assert.ok(volumes.every(v=>v>0&&v<=.028));
+ effects.setSpeechActive(true);assert.equal(effects.output.gain.value,0);effects.play('win');assert.equal(effects.played,9);effects.setSpeechActive(false);assert.equal(effects.output.gain.value,1);
  enabled=false;effects.last=-100;effects.play('win');assert.equal(effects.played,9);
  enabled=true;document.hidden=true;effects.play('win');assert.equal(effects.played,9);
  document.hidden=false;effects.suspend();effects.play('win');assert.equal(effects.context.state,'running');assert.equal(made,1);

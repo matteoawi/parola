@@ -79,7 +79,7 @@ export function supportText(item,target,support){
 }
 export function routeKey(settings){if(!LANGS.includes(settings.target)||!LANGS.includes(settings.support))throw Error('Invalid direction');return `${settings.support}>${settings.target}`;}
 export function localDay(now=Date.now()){const d=new Date(now);return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;}
-export function newProgress(){return{version:6,settings:{target:'it',support:'en',ui:'it',voice:'offline',effects:true,labels:true,large:false,tableFormat:'grand',tablePreferencesVersion:2,keyboardMode:'game'},missions:{},memory:{},seen:[],days:[],active:null,alphabetSessions:{},daily:{},awards:[],tours:{},onboarded:false,introduced:{}};}
+export function newProgress(){return{version:6,settings:{target:'it',support:'en',ui:'it',voice:'auto',voicePreferencesVersion:1,deviceVoices:{},effects:true,labels:true,large:false,tableFormat:'grand',tablePreferencesVersion:2,keyboardMode:'game'},missions:{},memory:{},seen:[],days:[],active:null,alphabetSessions:{},daily:{},awards:[],tours:{},onboarded:false,introduced:{}};}
 export function memoryKey(route,skill,item){return `${route}|${skill}|${item}`;}
 export function updateMemory(prev,success,assisted,now=Date.now()) {
  if(!Number.isFinite(now)||now<0)throw Error('Invalid review timestamp');
@@ -111,7 +111,9 @@ export function validateProgress(p){
  clean.settings.tablePreferencesVersion=2;
  for(const k of ['target','support','ui','voice','effects','labels','large'])if(Object.hasOwn(p.settings,k))clean.settings[k]=p.settings[k];
  clean.settings.keyboardMode=p.settings.keyboardMode==='device'?'device':'game';
- clean.settings.voice=['offline','auto'].includes(clean.settings.voice)?clean.settings.voice:'offline';
+ clean.settings.voice=p.settings.voicePreferencesVersion===1&&['offline','auto'].includes(clean.settings.voice)?p.settings.voice:'auto';
+ clean.settings.voicePreferencesVersion=1;clean.settings.deviceVoices={};
+ for(const lang of LANGS){const voice=p.settings.deviceVoices?.[lang];if(typeof voice==='string'&&voice.length<=300)clean.settings.deviceVoices[lang]=voice;}
  for(const k of ['effects','labels','large'])clean.settings[k]=Boolean(clean.settings[k]);
  const safeKey=k=>/^(it|en|ar|ru)>(it|en|ar|ru)\|[a-z_]+\|[a-z_0-9]+$/.test(k);
  for(const [k,v]of Object.entries(p.missions).slice(0,10000))if(safeKey(k)&&v&&Number.isFinite(v.score)&&v.score>=0&&v.score<=10000)clean.missions[k]={score:v.score,stars:Math.min(3,Math.max(1,Number.isFinite(v.stars)?Math.floor(v.stars):1)),done:true,date:Number.isFinite(v.date)?Math.max(0,v.date):0};

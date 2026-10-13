@@ -1,5 +1,13 @@
 # Aggiornamenti di Parola
 
+## 6.8.1 — 13 ottobre 2026
+
+- Pronuncia: preferenza iniziale aggiornata alle voci della lingua disponibili sul dispositivo, con priorità agli indicatori Natural, Neural, Premium, Enhanced e alle voci Google. La scelta usa anche i metadati delle voci; resta modificabile dall’utente. Non viene più presa semplicemente la prima voce della lingua.
+- Scelta e prova di una voce per ogni lingua in Le tue lingue → Audio. Nome dell’ultima voce effettivamente usata, salvataggio della scelta e recupero automatico se non è disponibile su un altro dispositivo. La qualità varia con le voci offerte dal browser e dal sistema.
+- Effetti di gioco silenziati durante la pronuncia, anche se erano già iniziati. Velocità 0,8× e tono neutro espliciti per la sintesi vocale. Interruzioni, caricamento tardivo delle voci e recupero dal fallimento gestiti senza sovrapporre due pronunce.
+- Correzioni di pronuncia già presenti nei file mantenute anche nella voce del dispositivo: read al passato e accento di Дома́.
+- I vecchi valori predefiniti passano una sola volta al dispositivo; le successive scelte esplicite vengono mantenute. I file inclusi restano come riserva e come opzione selezionabile. Nessun nuovo file audio generato o nuova API attivata.
+
 ## 6.8.0 — 13 ottobre 2026
 
 - Tessere ridisegnate in avorio e lilla, con proporzioni equilibrate, testo centrato, spessore morbido e audio separato in basso. I testi lunghi si adattano alla singola tessera; quelle bloccate mantengono un contrasto leggibile.
