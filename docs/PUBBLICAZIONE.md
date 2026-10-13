@@ -115,3 +115,16 @@ Dieci casi Node mirati superati e quattro gruppi Chromium locali, con ispezione 
 
 
 Commit funzionale 9047d15 pubblicato su master e compilato da GitHub Pages senza errori. Quattro gruppi dello smoke superati anche sul sito ufficiale, versione 6.8.1 confermata. Report pubblico smoke-voice-6.8.1.json separato dal locale. La riproduzione del vero file lento mantiene 0,8 e termina; il provider di dispositivo per scelta manuale/fallimento è simulato. Il browser di verifica enumera otto voci per quattro lingue, senza russo. La release non dichiara una nuova voce russa dove il browser non la offre.
+
+
+## Release 6.9.0 — 13 ottobre 2026
+
+Home, gerarchia e percorso riorganizzati: prossimo tavolo/ripresa in primo piano, accesso diretto ad alfabeto e tavolo libero, obiettivi giornalieri azionabili; Gioca, Impara e Progressi coerenti anche sul desktop. Profilo diviso in Lingue, Audio e Dati. Palette bosco, avorio, corallo, lilla e oro; Nunito locale con licenza e fonte, incorporato nello standalone e nella cache. SVG originali Lucide conservate.
+
+Traguardi con progresso reale, calendario di pratica, passaporto e riepilogo con XP animati e continuazione accessibile. Esploratore accetta 18/32/52 tessere. I tavoli alfabetici completati contano per il giorno una sola volta, senza duplicare il bonus da 30 XP. Ricompense, voci e salvataggi conservati; ogni materiale nuovo resta presentato prima di giocare.
+
+Mobile: cinque formati visibili, avvio del tavolo raggiungibile, navbar breve, zoom con comandi più grandi. Scrittura alfabetica orizzontale con tavolo e tutte le righe della tastiera affiancati: digitazione del segno russo e Invia verificati anche al ritorno in verticale. Profilo e progressi arabi contenuti con RTL e tastiera di navigazione coerenti. Animazioni brevi e movimento ridotto rispettato.
+
+Dodici casi Node mirati e sette gruppi Chromium locali superati. Immagini prima/dopo e report local-smoke-design-6.9.0.json conservati. Ispezione unica mobile/desktop, correzione delle interferenze titolo/anteprima e della tastiera orizzontale, poi conferma; detector senza segnalazioni sullo scope e SVG originali verificate. Nessuna suite storica completa ripetuta.
+
+Controllo funzionale aggiuntivo circoscritto alla tastiera orizzontale: la vecchia regola sul campo #alpha-answer prevaleva per specificità. Dimensioni del campo rese esplicite; Invia è ora interamente nel pannello visibile e il segno russo viene realmente inviato e sbloccato. Nessuna nuova passata di rifinitura visiva.

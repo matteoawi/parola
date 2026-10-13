@@ -17,15 +17,12 @@ export function sanitizeDaily(daily){const out={};for(const [day,d]of Object.ent
  out[day]=clean;
  }return out;}
 export function mergeDaily(a,b){const out=sanitizeDaily(a);for(const [day,entry]of Object.entries(sanitizeDaily(b))){if(!out[day]){out[day]=entry;continue;}const d=out[day];for(const key of ['games','answers','alphabet','reviews','formats'])d[key]=[...new Set([...d[key],...entry[key]])];d.bestCombo=Math.max(d.bestCombo,entry.bestCombo);for(const [route,c]of Object.entries(entry.challenges)){const old=d.challenges[route];if(!old||c.score>old.score||c.completed&&!old.completed)d.challenges[route]=c;}}return sanitizeDaily(out);}
-export function earnedBadges(progress){const missions=Object.entries(progress.missions||{}),daily=Object.values(progress.daily||{}),earned=new Set(progress.awards||[]);
- if(missions.length)earned.add('first');
- if(missions.some(([key])=>{const [a,b]=key.split('|')[0].split('>');return a===b&&!key.includes('|alpha_')}))earned.add('mono');
- if(new Set(missions.map(([key])=>key.split('|')[0].split('>')[1])).size>=2)earned.add('traveller');
- if(Object.entries(progress.memory||{}).filter(([key,m])=>(key.includes('|alpha_recognize|')||key.includes('|alpha_write|'))&&m.independent>0).length>=10)earned.add('alphabet');
- if(missions.filter(([key])=>key.includes('|write|')).length>=5)earned.add('writer');
- if(daily.some(d=>d.bestCombo>=8))earned.add('combo');
- if(daily.some(d=>d.formats.includes('explorer')))earned.add('explorer');
- if(progress.days.length>=7)earned.add('habit');
- if(Object.values(progress.tours||{}).some(tour=>tour.stage===3))earned.add('tour');
- return BADGES.filter(id=>earned.has(id));
+export function badgeProgress(progress,id){const missions=Object.entries(progress.missions||{}),daily=Object.values(progress.daily||{});
+ const counts={first:[missions.length,1],mono:[missions.filter(([key])=>{const [a,b]=key.split('|')[0].split('>');return a===b&&!key.includes('|alpha_');}).length,1],traveller:[new Set(missions.map(([key])=>key.split('|')[0].split('>')[1])).size,2],alphabet:[Object.entries(progress.memory||{}).filter(([key,m])=>(key.includes('|alpha_recognize|')||key.includes('|alpha_write|'))&&m.independent>0).length,10],writer:[missions.filter(([key])=>key.includes('|write|')).length,5],combo:[Math.max(0,...daily.map(d=>d.bestCombo||0)),8],explorer:[Number(daily.some(d=>(d.formats||[]).some(format=>['explorer','grand','marathon'].includes(format)))),1],habit:[new Set(progress.days||[]).size,7],tour:[Math.max(0,...Object.values(progress.tours||{}).map(t=>t.stage)),3]};
+ const [value,total]=counts[id]||[0,1],earned=value>=total||progress.awards?.includes(id);return {id,current:earned?total:Math.min(value,total),total,earned:Boolean(earned)};
+}
+export function earnedBadges(progress){return BADGES.filter(id=>badgeProgress(progress,id).earned);}
+export function practiceWeek(days,today){const known=new Set(days);return Array.from({length:7},(_,i)=>{const day=new Date(Date.parse(today+'T12:00:00Z')-(6-i)*86400000).toISOString().slice(0,10);return {day,practised:known.has(day),today:day===today};});}
+/** A completed alphabet table counts once, including after resume or import. */
+export function recordAlphabetTable(daily,lang,session){if(!session.queue?.length||!session.mahjong||session.mahjong.completed.length!==session.queue.length)return false;const id=`alpha:${lang}:${session.skill}:${session.mahjong.seed}`;daily.games??=[];daily.formats??=[];if(!daily.games.includes(id))daily.games.push(id);if(session.tableFormat&&!daily.formats.includes(session.tableFormat))daily.formats.push(session.tableFormat);return true;
 }

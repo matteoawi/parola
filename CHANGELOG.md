@@ -1,5 +1,14 @@
 # Aggiornamenti di Parola
 
+## 6.9.0 — 13 ottobre 2026
+
+- Home riorganizzata attorno al tavolo da continuare o riprendere, con ingresso diretto dall’alfabeto, tavolo libero e tre obiettivi giornalieri azionabili. Gioca, Impara e Progressi hanno lo stesso comportamento su mobile e desktop; spedizioni e opzioni aggiuntive sono raccolte in un’area secondaria.
+- Palette verde bosco, avorio, corallo, lilla e oro, controlli coerenti e font Nunito distribuito localmente e incluso nello standalone. Tavolo più pulito e gerarchia leggibile senza etichette ripetute.
+- Tutti i cinque formati, fino a 52 tessere, visibili insieme su telefono. Preparazione compatta, descrizione della modalità selezionata, avvio accessibile e zoom con comandi più grandi. Layout della scrittura alfabetica adattato anche al telefono orizzontale.
+- Progressi settimanali, raccolta delle parole e avvicinamento ai nove traguardi mostrati con dati reali. I tavoli alfabetici completati contano per l’obiettivo giornaliero del tavolo; il traguardo Esploratore vale anche per i formati 32 e 52. Ricompense esistenti e salvataggi conservati.
+- Riepilogo con XP, progresso verso il livello successivo e continuazione subito raggiungibile; le parole scoperte sono raccolte in una sezione espandibile. Animazione breve della ricompensa e dei segmenti, con alternativa per movimento ridotto.
+- Profilo diviso in Lingue, Audio e Dati. Scelta e prova delle voci per lingua mantenute, insieme al silenzio degli effetti durante la pronuncia. Nessuna nuova API vocale o file audio generato.
+
 ## 6.8.1 — 13 ottobre 2026
 
 - Pronuncia: preferenza iniziale aggiornata alle voci della lingua disponibili sul dispositivo, con priorità agli indicatori Natural, Neural, Premium, Enhanced e alle voci Google. La scelta usa anche i metadati delle voci; resta modificabile dall’utente. Non viene più presa semplicemente la prima voce della lingua.
