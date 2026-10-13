@@ -5,6 +5,9 @@ import {alphabetTable,shuffleAlphabet} from '../src/alphabet-mahjong.mjs';
 import {free,pairHint} from '../src/engine.mjs';
 import {sanitizeLiteracySessions} from '../src/literacy.mjs';
 const alphabet=JSON.parse(fs.readFileSync(new URL('../data/alphabet.json',import.meta.url)));
+test('letter recognition matches the same script glyph; listening and writing retain the sound/name clue',()=>{
+ for(const [lang,course]of Object.entries(alphabet))for(const lesson of course.lessons){const cards=lesson.cards.filter(c=>c.kind==='letters').slice(0,6);if(!cards.length)continue;for(const skill of ['recognize','listen','write']){const s={lesson:lesson.id,skill,queue:cards.map(c=>c.id),index:0},board=alphabetTable(s,lesson,lang);for(const card of cards){const pair=board.filter(t=>t.itemId===card.id);if(skill==='recognize')assert.ok(pair.every(t=>t.text===(card.upper||card.model)));else assert.equal(pair.find(t=>t.type==='support').text,card.cue);}}}
+});
 test('all literacy lessons have real, solvable Mahjong geometry in all three skills',()=>{
  for(const [lang,course] of Object.entries(alphabet))for(const lesson of course.lessons)for(const skill of ['recognize','listen','write']){
   const s={lesson:lesson.id,skill,queue:lesson.cards.slice(0,6).map(c=>c.id),index:0};let board=alphabetTable(s,lesson,lang);
