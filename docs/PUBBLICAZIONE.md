@@ -44,3 +44,14 @@ La 6.3.0, commit f27e9f1, introduce primo avvio, spedizioni di tre tavoli, check
 La 6.4.0, commit 99761f9, introduce pacchetti audio completi delle lingue selezionate, buffer decodificati, cache e download recuperabile. Build Pages completata e cinque gruppi Chromium superati sia in locale sia sul sito pubblico. Report local-smoke-audio-6.4.0.json e smoke-audio-6.4.0.json: 377 file iniziali pronti, riproduzione normale e lenta senza rete, zero richieste audio durante l’ascolto, ricarica offline, selezione russa e stato arabo dichiarato. Il tempo di programmazione del buffer misurato sul browser pubblico è 2,5 ms; non è una misura della latenza acustica su tutti i dispositivi. Due test puri mirati superati.
 
 I 566 MP3 eSpeak restano pubblicati. I quattro campioni naturali Edge sono riusciti, ma la generazione completa è fallita prima di sostituire file e manifest. Il generatore sperimentale è conservato e le alternative sono descritte in AUDIO-6.4.0.md. Le credenziali cloud non sono presenti nel sito o nel repository.
+
+
+## Release 6.5.0 — 13 ottobre 2026
+
+Commit della release: d777a06. GitHub Pages ha completato la build di master e il sito ufficiale https://matteoawi.github.io/parola/ ha superato gli undici gruppi dello smoke mobile/presentazioni. Il vecchio indirizzo Florame non identifica questa pubblicazione.
+
+Tre test puri mirati superati. Report locali e pubblico: local-smoke-mobile-6.5.0.json e smoke-mobile-6.5.0.json. Verificati home in tre sezioni, tessere presentate prima del tavolo, registri persistenti, cinque modalita, invito su profilo nuovo, vecchia sessione e rifiuto di parole alterate nel salvataggio senza cancellare i progressi. Anche l’alfabeto presenta modelli e alternative prima dell’esercizio.
+
+Gli elementi delle tessere, il contenitore di scorrimento e il suo elemento padre mantengono la loro identita durante l’aggiornamento. Un tap sintetico abbina una coppia; uno swipe sintetico Chromium scorre il tavolo anche quando viene aggiornato, senza attivare una tessera di scrittura. Verificati 390x844, 320x667, 844x390, RTL, movimento ridotto e desktop. I comandi di partita restano nel viewport. Le schermate sono home-mobile-6.5.0.png, game-mobile-6.5.0.png e home-desktop-6.5.0.png. Nessuna dichiarazione di frame rate misurato su telefoni fisici.
+
+Fetch e merge di origin/master eseguiti senza aggiornamenti concorrenti da integrare; push normali, changelog e numero versione pubblico coerenti. Sorgenti, file offline, registri di verifica e checksum conservati. La suite completa storica non è stata ripetuta.
