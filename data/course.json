@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": "6.1.0",
   "reviewStatus": "authored-not-native-reviewed",
   "units": [
     {
@@ -1535,6 +1535,12 @@
         "ru": {
           "assessDiacritics": false
         }
+      },
+      "clue": {
+        "it": "Presentati: il tuo nome è Anna.",
+        "en": "Introduce yourself: your name is Anna.",
+        "ar": "قدم نفسك: اسمك آنا.",
+        "ru": "Представься: тебя зовут Анна."
       }
     },
     {
@@ -1587,6 +1593,12 @@
         "ru": {
           "assessDiacritics": false
         }
+      },
+      "clue": {
+        "it": "Presenta una donna: il suo nome è Maria.",
+        "en": "Introduce a woman: her name is Maria.",
+        "ar": "قدم امرأة: اسمها ماريا.",
+        "ru": "Представь женщину: её зовут Мария."
       }
     },
     {
@@ -1639,6 +1651,12 @@
         "ru": {
           "assessDiacritics": false
         }
+      },
+      "clue": {
+        "it": "Presenta un uomo: il suo nome è Marco.",
+        "en": "Introduce a man: his name is Marco.",
+        "ar": "قدم رجلًا: اسمه ماركو.",
+        "ru": "Представь мужчину: его зовут Марко."
       }
     },
     {
@@ -1689,6 +1707,12 @@
         "ru": {
           "assessDiacritics": false
         }
+      },
+      "clue": {
+        "it": "Presenta questo oggetto: un libro.",
+        "en": "Identify this object: a book.",
+        "ar": "عرّف هذا الشيء: كتاب.",
+        "ru": "Назови этот предмет: книга."
       }
     },
     {
@@ -1739,6 +1763,12 @@
         "ru": {
           "assessDiacritics": false
         }
+      },
+      "clue": {
+        "it": "Presenta questo edificio: una casa.",
+        "en": "Identify this building: a house.",
+        "ar": "عرّف هذا المبنى: بيت.",
+        "ru": "Назови это здание: дом."
       }
     },
     {
@@ -1789,6 +1819,12 @@
         "ru": {
           "assessDiacritics": false
         }
+      },
+      "clue": {
+        "it": "Presenta questo edificio: una scuola.",
+        "en": "Identify this building: a school.",
+        "ar": "عرّف هذا المبنى: مدرسة.",
+        "ru": "Назови это здание: школа."
       }
     },
     {
@@ -1839,6 +1875,12 @@
         "ru": {
           "assessDiacritics": false
         }
+      },
+      "clue": {
+        "it": "Descrivi il libro: è appena comprato.",
+        "en": "Describe the book: it is not old.",
+        "ar": "صف الكتاب: ليس قديمًا.",
+        "ru": "Опиши книгу: она не старая."
       }
     },
     {
@@ -1889,6 +1931,12 @@
         "ru": {
           "assessDiacritics": false
         }
+      },
+      "clue": {
+        "it": "Descrivi la casa: non è piccola.",
+        "en": "Describe the house: it is not small.",
+        "ar": "صف البيت: ليس صغيرًا.",
+        "ru": "Опиши дом: он не маленький."
       }
     },
     {
@@ -1939,6 +1987,12 @@
         "ru": {
           "assessDiacritics": false
         }
+      },
+      "clue": {
+        "it": "Descrivi la porta: non è vecchia.",
+        "en": "Describe the door: it is not old.",
+        "ar": "صف الباب: ليس قديمًا.",
+        "ru": "Опиши дверь: она не старая."
       }
     },
     {
@@ -1993,6 +2047,12 @@
         "ru": {
           "assessDiacritics": false
         }
+      },
+      "clue": {
+        "it": "Racconta: tu + leggere + un libro.",
+        "en": "Talk about yourself: read a book.",
+        "ar": "كوّن جملة عن نفسك: قراءة كتاب.",
+        "ru": "Скажи о себе: читать книгу."
       }
     },
     {
@@ -2047,6 +2107,12 @@
         "ru": {
           "assessDiacritics": false
         }
+      },
+      "clue": {
+        "it": "Racconta: tu + bere + acqua.",
+        "en": "Talk about yourself: drink water.",
+        "ar": "كوّن جملة عن نفسك: شرب الماء.",
+        "ru": "Скажи о себе: пить воду."
       }
     },
     {
@@ -2100,6 +2166,12 @@
         "ru": {
           "assessDiacritics": false
         }
+      },
+      "clue": {
+        "it": "Di’ quale lingua parli: inglese.",
+        "en": "Name the language you speak: English.",
+        "ar": "قل إن لغتك التي تتكلمها هي الإنجليزية.",
+        "ru": "Скажи, на каком языке говоришь: английский."
       }
     },
     {
@@ -2153,6 +2225,12 @@
         "ru": {
           "assessDiacritics": false
         }
+      },
+      "clue": {
+        "it": "Racconta: lei + leggere + un libro.",
+        "en": "Make a sentence: she + read + a book.",
+        "ar": "كوّن جملة: هي + قراءة كتاب.",
+        "ru": "Скажи: она + читать книгу."
       }
     },
     {
@@ -2206,6 +2284,12 @@
         "ru": {
           "assessDiacritics": false
         }
+      },
+      "clue": {
+        "it": "Racconta: lui + bere + tè.",
+        "en": "Make a sentence: he + drink + tea.",
+        "ar": "كوّن جملة: هو + شرب الشاي.",
+        "ru": "Скажи: он + пить чай."
       }
     },
     {
@@ -2258,6 +2342,12 @@
         "ru": {
           "assessDiacritics": false
         }
+      },
+      "clue": {
+        "it": "Di’ quale lingua parla lei: italiano.",
+        "en": "Name the language she speaks: Italian.",
+        "ar": "قل إن لغتها التي تتكلمها هي الإيطالية.",
+        "ru": "Скажи, на каком языке она говорит: итальянский."
       }
     },
     {
@@ -2314,6 +2404,12 @@
         "ru": {
           "assessDiacritics": false
         }
+      },
+      "clue": {
+        "it": "Nega: tu + bere + caffè.",
+        "en": "Say you do not drink coffee.",
+        "ar": "انفِ عن نفسك شرب القهوة.",
+        "ru": "Скажи о себе с отрицанием: пить кофе."
       }
     },
     {
@@ -2369,6 +2465,12 @@
         "ru": {
           "assessDiacritics": false
         }
+      },
+      "clue": {
+        "it": "Nega: tu + parlare + russo.",
+        "en": "Say you do not speak Russian.",
+        "ar": "انفِ عن نفسك التكلم بالروسية.",
+        "ru": "Скажи о себе с отрицанием: говорить по-русски."
       }
     },
     {
@@ -2425,6 +2527,12 @@
         "ru": {
           "assessDiacritics": false
         }
+      },
+      "clue": {
+        "it": "Nega: tu + leggere.",
+        "en": "Say you do not read.",
+        "ar": "انفِ عن نفسك القراءة.",
+        "ru": "Скажи о себе с отрицанием: читать."
       }
     },
     {
@@ -2475,6 +2583,12 @@
         "ru": {
           "assessDiacritics": false
         }
+      },
+      "clue": {
+        "it": "Dove si trova il libro? Sopra il tavolo.",
+        "en": "Where is the book? On the table.",
+        "ar": "أين الكتاب؟ على سطح الطاولة.",
+        "ru": "Где книга? На столе."
       }
     },
     {
@@ -2525,6 +2639,12 @@
         "ru": {
           "assessDiacritics": false
         }
+      },
+      "clue": {
+        "it": "Dove si trova il tè? Sopra il tavolo.",
+        "en": "Where is the tea? On the table.",
+        "ar": "أين الشاي؟ على سطح الطاولة.",
+        "ru": "Где чай? На столе."
       }
     },
     {
@@ -2575,6 +2695,12 @@
         "ru": {
           "assessDiacritics": false
         }
+      },
+      "clue": {
+        "it": "Dove si trova il caffè? Sopra il tavolo.",
+        "en": "Where is the coffee? On the table.",
+        "ar": "أين القهوة؟ على سطح الطاولة.",
+        "ru": "Где кофе? На столе."
       }
     },
     {
@@ -2628,6 +2754,12 @@
         "ru": {
           "assessDiacritics": false
         }
+      },
+      "clue": {
+        "it": "Chiedi dell’acqua con gentilezza.",
+        "en": "Politely ask for water.",
+        "ar": "اطلب ماءً بأدب.",
+        "ru": "Вежливо попроси воду."
       }
     },
     {
@@ -2681,6 +2813,12 @@
         "ru": {
           "assessDiacritics": false
         }
+      },
+      "clue": {
+        "it": "Chiedi del tè con gentilezza.",
+        "en": "Politely ask for tea.",
+        "ar": "اطلب شايًا بأدب.",
+        "ru": "Вежливо попроси чай."
       }
     },
     {
@@ -2734,6 +2872,12 @@
         "ru": {
           "assessDiacritics": false
         }
+      },
+      "clue": {
+        "it": "Chiedi del caffè con gentilezza.",
+        "en": "Politely ask for coffee.",
+        "ar": "اطلب قهوةً بأدب.",
+        "ru": "Вежливо попроси кофе."
       }
     },
     {
@@ -2770,6 +2914,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Saluta in modo informale.",
+        "en": "Give an informal greeting.",
+        "ar": "قل تحية غير رسمية.",
+        "ru": "Поздоровайся неформально."
       }
     },
     {
@@ -2806,6 +2956,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Saluta al mattino.",
+        "en": "Greet someone in the morning.",
+        "ar": "قل تحية الصباح.",
+        "ru": "Поздоровайся утром."
       }
     },
     {
@@ -2842,6 +2998,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Ringrazia una persona.",
+        "en": "Thank someone.",
+        "ar": "اشكر شخصًا.",
+        "ru": "Поблагодари человека."
       }
     },
     {
@@ -2878,6 +3040,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Conta: libro × 1.",
+        "en": "Count: book × 1.",
+        "ar": "عدّ: كتاب × ١.",
+        "ru": "Посчитай: книга × 1."
       }
     },
     {
@@ -2914,6 +3082,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Conta: libro × 2.",
+        "en": "Count: book × 2.",
+        "ar": "عدّ: كتاب × ٢.",
+        "ru": "Посчитай: книга × 2."
       }
     },
     {
@@ -2950,6 +3124,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Conta: libro × 3.",
+        "en": "Count: book × 3.",
+        "ar": "عدّ: كتاب × ٣.",
+        "ru": "Посчитай: книга × 3."
       }
     },
     {
@@ -2987,6 +3167,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Di’ che possiedi un libro.",
+        "en": "Say that you own a book.",
+        "ar": "قل إنك تملك كتابًا.",
+        "ru": "Скажи, что у тебя есть книга."
       }
     },
     {
@@ -3023,6 +3209,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Di’ che una donna possiede una casa.",
+        "en": "Say that a woman owns a house.",
+        "ar": "قل إن امرأة تملك بيتًا.",
+        "ru": "Скажи, что у женщины есть дом."
       }
     },
     {
@@ -3059,6 +3251,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Di’ che un uomo possiede una penna.",
+        "en": "Say that a man owns a pen.",
+        "ar": "قل إن رجلًا يملك قلمًا.",
+        "ru": "Скажи, что у мужчины есть ручка."
       }
     },
     {
@@ -3095,6 +3293,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Chiedi a una persona dove vive.",
+        "en": "Ask someone where they live.",
+        "ar": "اسأل شخصًا عن مكان سكنه.",
+        "ru": "Спроси человека, где он живёт."
       }
     },
     {
@@ -3131,6 +3335,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Chiedi a una persona che cosa sta leggendo.",
+        "en": "Ask someone what they read.",
+        "ar": "اسأل شخصًا عما يقرأ.",
+        "ru": "Спроси человека, что он читает."
       }
     },
     {
@@ -3167,6 +3377,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Chiedi a una persona se conosce l’inglese.",
+        "en": "Ask someone if they speak English.",
+        "ar": "اسأل شخصًا هل يتكلم الإنجليزية.",
+        "ru": "Спроси человека, говорит ли он по-английски."
       }
     },
     {
@@ -3203,6 +3419,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Descrivi più libri: non sono vecchi.",
+        "en": "Describe several books: they are not old.",
+        "ar": "صف عدة كتب: ليست قديمة.",
+        "ru": "Опиши несколько книг: они не старые."
       }
     },
     {
@@ -3239,6 +3461,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Descrivi più case: non sono piccole.",
+        "en": "Describe several houses: they are not small.",
+        "ar": "صف عدة بيوت: ليست صغيرة.",
+        "ru": "Опиши несколько домов: они не маленькие."
       }
     },
     {
@@ -3275,6 +3503,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Descrivi più porte: non sono vecchie.",
+        "en": "Describe several doors: they are not old.",
+        "ar": "صف عدة أبواب: ليست قديمة.",
+        "ru": "Опиши несколько дверей: они не старые."
       }
     },
     {
@@ -3311,6 +3545,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Ieri: Anna + leggere + un libro.",
+        "en": "Yesterday: Anna + read + a book.",
+        "ar": "أمس: آنا + قراءة كتاب.",
+        "ru": "Вчера: Анна + прочитать книгу."
       }
     },
     {
@@ -3347,6 +3587,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Ieri: Marco + bere + tè.",
+        "en": "Yesterday: Marco + drink + tea.",
+        "ar": "أمس: ماركو + شرب الشاي.",
+        "ru": "Вчера: Марко + пить чай."
       }
     },
     {
@@ -3383,6 +3629,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Ieri: Anna + scrivere + una lettera.",
+        "en": "Yesterday: Anna + write + a letter.",
+        "ar": "أمس: آنا + كتابة رسالة.",
+        "ru": "Вчера: Анна + написать письмо."
       }
     },
     {
@@ -3419,6 +3671,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Domani: tu + leggere + un libro.",
+        "en": "Say what you will do tomorrow: read a book.",
+        "ar": "غدًا: أنت + قراءة كتاب.",
+        "ru": "Скажи о себе: завтра прочитать книгу."
       }
     },
     {
@@ -3455,6 +3713,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Domani: tu + scrivere + una lettera.",
+        "en": "Say what you will do tomorrow: write a letter.",
+        "ar": "غدًا: أنت + كتابة رسالة.",
+        "ru": "Скажи о себе: завтра написать письмо."
       }
     },
     {
@@ -3491,6 +3755,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Domani: tu + andare + a scuola.",
+        "en": "Say what you will do tomorrow: go to school.",
+        "ar": "غدًا: أنت + الذهاب إلى المدرسة.",
+        "ru": "Скажи о себе: завтра пойти в школу."
       }
     },
     {
@@ -3528,6 +3798,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Esprimi capacità: tu + leggere questo libro.",
+        "en": "Express ability: you + read this book.",
+        "ar": "عبّر عن قدرتك على قراءة هذا الكتاب.",
+        "ru": "Скажи, что можешь прочитать эту книгу."
       }
     },
     {
@@ -3564,6 +3840,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Esprimi capacità: lei + aprire la porta.",
+        "en": "Express ability: she + open the door.",
+        "ar": "عبّر عن قدرتها على فتح الباب.",
+        "ru": "Скажи, что она может открыть дверь."
       }
     },
     {
@@ -3600,6 +3882,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Esprimi capacità: noi + aiutare Marco.",
+        "en": "Express ability: we + help Marco.",
+        "ar": "عبّر عن قدرتنا على مساعدة ماركو.",
+        "ru": "Скажи, что мы можем помочь Марко."
       }
     },
     {
@@ -3636,6 +3924,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Esprimi apprezzamento per questo libro.",
+        "en": "Say you enjoy this book.",
+        "ar": "عبّر عن إعجابك بهذا الكتاب.",
+        "ru": "Скажи, что тебе нравится эта книга."
       }
     },
     {
@@ -3672,6 +3966,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Esprimi apprezzamento per questi libri.",
+        "en": "Say you enjoy these books.",
+        "ar": "عبّر عن إعجابك بهذه الكتب.",
+        "ru": "Скажи, что тебе нравятся эти книги."
       }
     },
     {
@@ -3708,6 +4008,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Esprimi apprezzamento per la lettura.",
+        "en": "Say you enjoy reading.",
+        "ar": "عبّر عن إعجابك بالقراءة.",
+        "ru": "Скажи, что тебе нравится читать."
       }
     },
     {
@@ -3744,6 +4050,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Confronta le case: questa supera l’altra per dimensioni.",
+        "en": "Compare houses: this one is larger.",
+        "ar": "قارن البيوت: هذا أكبر حجمًا.",
+        "ru": "Сравни дома: этот больше другого."
       }
     },
     {
@@ -3780,6 +4092,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Confronta i libri: questo suscita più interesse.",
+        "en": "Compare books: this one holds more interest.",
+        "ar": "قارن الكتب: هذا أكثر إثارة للاهتمام.",
+        "ru": "Сравни книги: эта интереснее другой."
       }
     },
     {
@@ -3816,6 +4134,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Confronta due tè: questo ha qualità superiore.",
+        "en": "Compare two teas: this one has higher quality.",
+        "ar": "قارن نوعين من الشاي: هذا أفضل جودة.",
+        "ru": "Сравни два вида чая: этот лучше другого."
       }
     },
     {
@@ -3852,6 +4176,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Unisci causa e azione: leggere + piacere.",
+        "en": "Join action and reason: read + enjoy it.",
+        "ar": "اربط الفعل بالسبب: القراءة + حب القراءة.",
+        "ru": "Соедини действие и причину: читать + нравится."
       }
     },
     {
@@ -3889,6 +4219,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Unisci causa e azione: bere acqua + avere sete.",
+        "en": "Join action and reason: drink water + be thirsty.",
+        "ar": "اربط الفعل بالسبب: شرب الماء + العطش.",
+        "ru": "Соедини действие и причину: пить воду + хотеть пить."
       }
     },
     {
@@ -3925,6 +4261,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Unisci causa e azione: studiare + voler imparare.",
+        "en": "Join action and reason: study + want to learn.",
+        "ar": "اربط الفعل بالسبب: الدراسة + الرغبة في التعلم.",
+        "ru": "Соедини действие и причину: учиться + хотеть научиться."
       }
     },
     {
@@ -3962,6 +4304,12 @@
         "en": "The pronoun refers to a previously named object; its grammatical gender can change in translation.",
         "ar": "يعود الضمير على شيء سبق ذكره؛ وقد يختلف جنسه النحوي في الترجمة.",
         "ru": "Местоимение относится к ранее названному предмету; его род может меняться при переводе."
+      },
+      "clue": {
+        "it": "Sostituisci “il libro” con un pronome: io leggo il libro.",
+        "en": "Replace “the book” with a pronoun: I read the book.",
+        "ar": "استبدل الكتاب بضمير: أنا أقرأ الكتاب.",
+        "ru": "Замени книгу местоимением: я читаю книгу."
       }
     },
     {
@@ -3998,6 +4346,12 @@
         "en": "The pronoun refers to a previously named object; its grammatical gender can change in translation.",
         "ar": "يعود الضمير على شيء سبق ذكره؛ وقد يختلف جنسه النحوي في الترجمة.",
         "ru": "Местоимение относится к ранее названному предмету; его род может меняться при переводе."
+      },
+      "clue": {
+        "it": "Sostituisci “la porta” con un pronome: lei apre la porta.",
+        "en": "Replace “the door” with a pronoun: she opens the door.",
+        "ar": "استبدل الباب بضمير: هي تفتح الباب.",
+        "ru": "Замени дверь местоимением: она открывает дверь."
       }
     },
     {
@@ -4034,6 +4388,12 @@
         "en": "The pronoun refers to a previously named object; its grammatical gender can change in translation.",
         "ar": "يعود الضمير على شيء سبق ذكره؛ وقد يختلف جنسه النحوي في الترجمة.",
         "ru": "Местоимение относится к ранее названному предмету; его род может меняться при переводе."
+      },
+      "clue": {
+        "it": "Sostituisci “i libri” con un pronome: noi compriamo i libri.",
+        "en": "Replace “the books” with a pronoun: we buy the books.",
+        "ar": "استبدل الكتب بضمير: نحن نشتري الكتب.",
+        "ru": "Замени книги местоимением: мы покупаем книги."
       }
     },
     {
@@ -4071,6 +4431,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Unisci: questo è il libro + io leggo il libro.",
+        "en": "Join: this is the book + I read the book.",
+        "ar": "اربط: هذا هو الكتاب + أنا أقرأ الكتاب.",
+        "ru": "Соедини: это книга + я читаю книгу."
       }
     },
     {
@@ -4108,6 +4474,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Unisci: questa è la casa + io vedo la casa.",
+        "en": "Join: this is the house + I see the house.",
+        "ar": "اربط: هذا هو البيت + أنا أرى البيت.",
+        "ru": "Соедини: это дом + я вижу дом."
       }
     },
     {
@@ -4145,6 +4517,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Unisci: questa è la porta + io apro la porta.",
+        "en": "Join: this is the door + I open the door.",
+        "ar": "اربط: هذا هو الباب + أنا أفتح الباب.",
+        "ru": "Соедини: это дверь + я открываю дверь."
       }
     },
     {
@@ -4181,6 +4559,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Unisci condizione e azione: avere tempo → leggere.",
+        "en": "Join condition and action: have time → read.",
+        "ar": "اربط الشرط بالفعل: وجود وقت ← القراءة.",
+        "ru": "Соедини условие и действие: есть время → читать."
       }
     },
     {
@@ -4217,6 +4601,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Unisci condizione e azione: avere sete → bere acqua.",
+        "en": "Join condition and action: be thirsty → drink water.",
+        "ar": "اربط الشرط بالفعل: العطش ← شرب الماء.",
+        "ru": "Соедини условие и действие: хочется пить → пить воду."
       }
     },
     {
@@ -4253,6 +4643,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Unisci condizione e azione: pioggia → restare a casa.",
+        "en": "Join condition and action: rain → stay at home.",
+        "ar": "اربط الشرط بالفعل: المطر ← البقاء في البيت.",
+        "ru": "Соедини условие и действие: дождь → остаться дома."
       }
     },
     {
@@ -4289,6 +4685,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "L’azione è già conclusa: Anna + leggere questo libro.",
+        "en": "The action is already complete: Anna + read this book.",
+        "ar": "الفعل تم بالفعل: آنا + قراءة هذا الكتاب.",
+        "ru": "Действие уже завершено: Анна + прочитать эту книгу."
       }
     },
     {
@@ -4325,6 +4727,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "L’azione è già conclusa: Marco + scrivere la lettera.",
+        "en": "The action is already complete: Marco + write the letter.",
+        "ar": "الفعل تم بالفعل: ماركو + كتابة الرسالة.",
+        "ru": "Действие уже завершено: Марко + написать письмо."
       }
     },
     {
@@ -4361,6 +4769,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "L’azione è già conclusa: Anna + aprire la porta.",
+        "en": "The action is already complete: Anna + open the door.",
+        "ar": "الفعل تم بالفعل: آنا + فتح الباب.",
+        "ru": "Действие уже завершено: Анна + открыть дверь."
       }
     },
     {
@@ -4398,6 +4812,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Esprimi il desiderio che una persona venga da te.",
+        "en": "Express a wish for someone to come.",
+        "ar": "عبّر عن رغبتك في أن يأتي شخص إليك.",
+        "ru": "Скажи, что хочешь, чтобы человек пришёл."
       }
     },
     {
@@ -4434,6 +4854,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Esprimi il desiderio che lei legga questo libro.",
+        "en": "Express a wish for her to read this book.",
+        "ar": "عبّر عن رغبتك في أن تقرأ هي هذا الكتاب.",
+        "ru": "Скажи, что хочешь, чтобы она прочитала эту книгу."
       }
     },
     {
@@ -4470,6 +4896,12 @@
         "en": "Use the meaning and structure studied. The course accepts its explicit variants.",
         "ar": "استخدم المعنى والتركيب المدروسين. يقبل المقرر البدائل المحددة فيه.",
         "ru": "Используйте изученные смысл и конструкцию. Принимаются явно предусмотренные варианты."
+      },
+      "clue": {
+        "it": "Esprimi il desiderio che lui apra la porta.",
+        "en": "Express a wish for him to open the door.",
+        "ar": "عبّر عن رغبتك في أن يفتح هو الباب.",
+        "ru": "Скажи, что хочешь, чтобы он открыл дверь."
       }
     }
   ],
@@ -4503,7 +4935,13 @@
         ]
       },
       "unitId": "greetings",
-      "vocab": true
+      "vocab": true,
+      "clue": {
+        "it": "Risposta affermativa.",
+        "en": "An affirmative answer.",
+        "ar": "جواب بالموافقة.",
+        "ru": "Утвердительный ответ."
+      }
     },
     {
       "id": "v_no",
@@ -4534,7 +4972,13 @@
         ]
       },
       "unitId": "greetings",
-      "vocab": true
+      "vocab": true,
+      "clue": {
+        "it": "Risposta negativa.",
+        "en": "A negative answer.",
+        "ar": "جواب بالنفي.",
+        "ru": "Отрицательный ответ."
+      }
     },
     {
       "id": "v_please",
@@ -4565,7 +5009,13 @@
         ]
       },
       "unitId": "greetings",
-      "vocab": true
+      "vocab": true,
+      "clue": {
+        "it": "Espressione per chiedere con gentilezza.",
+        "en": "A word for a polite request.",
+        "ar": "تعبير للطلب بأدب.",
+        "ru": "Слово для вежливой просьбы."
+      }
     },
     {
       "id": "v_i",
@@ -4596,7 +5046,13 @@
         ]
       },
       "unitId": "greetings",
-      "vocab": true
+      "vocab": true,
+      "clue": {
+        "it": "Pronome: la persona che parla.",
+        "en": "Pronoun: the speaker.",
+        "ar": "ضمير المتكلم المفرد.",
+        "ru": "Местоимение: говорящий."
+      }
     },
     {
       "id": "v_she",
@@ -4627,7 +5083,13 @@
         ]
       },
       "unitId": "greetings",
-      "vocab": true
+      "vocab": true,
+      "clue": {
+        "it": "Pronome: una donna di cui parli.",
+        "en": "Pronoun: a woman you talk about.",
+        "ar": "ضمير الغائبة المفردة.",
+        "ru": "Местоимение: женщина, о которой говоришь."
+      }
     },
     {
       "id": "v_he",
@@ -4658,7 +5120,13 @@
         ]
       },
       "unitId": "greetings",
-      "vocab": true
+      "vocab": true,
+      "clue": {
+        "it": "Pronome: un uomo di cui parli.",
+        "en": "Pronoun: a man you talk about.",
+        "ar": "ضمير الغائب المفرد.",
+        "ru": "Местоимение: мужчина, о котором говоришь."
+      }
     }
   ],
   "languages": [

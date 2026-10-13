@@ -1,10 +1,12 @@
-# Parola 6.0.3 — Mahjong delle lingue
+# Parola 6.1.0 — Mahjong delle lingue
+
+La versione 6.1.0 aggiunge quattro percorsi monolingua e un percorso di alfabeto con 45 lezioni e 294 elementi. Dalla home puoi scegliere se iniziare dalle lettere o dalle frasi. Dettagli in `docs/ALFABETO_E_MONOLINGUA.md`.
 
 ## Apri il gioco
 
 Apri **index.html** con un browser. Il file consegnato incorpora il gioco e i 566 MP3 disponibili: non occorre installare librerie per giocare.
 
-Questa v6 è stata ricostruita dai sorgenti v5 effettivamente disponibili. Non è il recupero del vecchio archivio v6 citato in chat, che non era presente. La versione 6.0.3 è pubblicata su GitHub Pages: https://matteoawi.github.io/parola/. Sorgenti: https://github.com/matteoawi/parola. Gli aggiornamenti sono descritti in CHANGELOG.md e nella pagina pubblica changelog.html.
+Questa v6 è stata ricostruita dai sorgenti v5 effettivamente disponibili. Non è il recupero del vecchio archivio v6 citato in chat, che non era presente. La versione 6.1.0 è pubblicata su GitHub Pages: https://matteoawi.github.io/parola/. Sorgenti: https://github.com/matteoawi/parola. Gli aggiornamenti sono descritti in CHANGELOG.md e nella pagina pubblica changelog.html.
 
 ## Modifiche reali rispetto alla v5
 
@@ -60,7 +62,7 @@ python scripts/build.py --require-all-audio
 
 ## Verifiche originali della versione 6.0.0
 
-Per la pubblicazione 6.0.3 sono stati superati anche 25 controlli sul sito GitHub Pages reale, inclusi localStorage, copia di recupero, MP3 e ricarica offline. Il resoconto attuale è in `docs/PUBBLICAZIONE.md`; i risultati riportati sotto restano quelli storici della versione ricevuta.
+La pubblicazione originale 6.0.1 ha superato 25 controlli sul sito GitHub Pages reale; il resoconto storico è in `docs/PUBBLICAZIONE.md`. Le nuove verifiche di monolingua e alfabeto sono descritte in `docs/ALFABETO_E_MONOLINGUA.md` e nei report `docs/learning-verification-6.1.0.json` e `docs/pages-verification-6.1.0.json`. I risultati riportati sotto restano quelli storici della versione ricevuta.
 
 - **18 test Node superati**, inclusi grammatica degli abbinamenti, geometria, generazione delle sequenze, copie di recupero, migrazione e regressione del ripasso anticipato.
 - **6.320 tavoli simulati**: 4.320 tavoli negli scenari del motore e 2.000 simulazioni con scelte casuali di coppie valide; nessuno stallo osservato in questi scenari.

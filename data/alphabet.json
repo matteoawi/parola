@@ -1,0 +1,4647 @@
+{
+  "it": {
+    "direction": "ltr",
+    "letters": [
+      {
+        "symbol": "A",
+        "lower": "a",
+        "name": "a"
+      },
+      {
+        "symbol": "B",
+        "lower": "b",
+        "name": "bi"
+      },
+      {
+        "symbol": "C",
+        "lower": "c",
+        "name": "ci"
+      },
+      {
+        "symbol": "D",
+        "lower": "d",
+        "name": "di"
+      },
+      {
+        "symbol": "E",
+        "lower": "e",
+        "name": "e"
+      },
+      {
+        "symbol": "F",
+        "lower": "f",
+        "name": "effe"
+      },
+      {
+        "symbol": "G",
+        "lower": "g",
+        "name": "gi"
+      },
+      {
+        "symbol": "H",
+        "lower": "h",
+        "name": "acca"
+      },
+      {
+        "symbol": "I",
+        "lower": "i",
+        "name": "i"
+      },
+      {
+        "symbol": "L",
+        "lower": "l",
+        "name": "elle"
+      },
+      {
+        "symbol": "M",
+        "lower": "m",
+        "name": "emme"
+      },
+      {
+        "symbol": "N",
+        "lower": "n",
+        "name": "enne"
+      },
+      {
+        "symbol": "O",
+        "lower": "o",
+        "name": "o"
+      },
+      {
+        "symbol": "P",
+        "lower": "p",
+        "name": "pi"
+      },
+      {
+        "symbol": "Q",
+        "lower": "q",
+        "name": "cu"
+      },
+      {
+        "symbol": "R",
+        "lower": "r",
+        "name": "erre"
+      },
+      {
+        "symbol": "S",
+        "lower": "s",
+        "name": "esse"
+      },
+      {
+        "symbol": "T",
+        "lower": "t",
+        "name": "ti"
+      },
+      {
+        "symbol": "U",
+        "lower": "u",
+        "name": "u"
+      },
+      {
+        "symbol": "V",
+        "lower": "v",
+        "name": "vi"
+      },
+      {
+        "symbol": "Z",
+        "lower": "z",
+        "name": "zeta"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "letters_1",
+        "title": {
+          "it": "Lettere 1 · ABCDEF",
+          "en": "Letters 1 · ABCDEF",
+          "ar": "الحروف 1 · ABCDEF",
+          "ru": "Буквы 1 · ABCDEF"
+        },
+        "note": {
+          "it": "Prima riconosci il segno e il nome della lettera; poi scrivilo senza modello. Il nome di una lettera non è sempre il suo suono dentro una parola.",
+          "en": "First identify the symbol and its letter name; then type it without the model. A letter name is not always its sound in a word.",
+          "ar": "تعرف أولًا على شكل الحرف واسمه، ثم اكتبه دون نموذج. اسم الحرف ليس دائمًا صوته داخل الكلمة.",
+          "ru": "Сначала узнай знак и название буквы, затем напиши её без образца. Название буквы не всегда совпадает с её звуком в слове."
+        },
+        "stage": "letters",
+        "cards": [
+          {
+            "id": "it_letters_1_0",
+            "cue": "a",
+            "model": "a",
+            "speech": "a",
+            "answers": [
+              "a"
+            ],
+            "kind": "letters",
+            "upper": "A"
+          },
+          {
+            "id": "it_letters_1_1",
+            "cue": "bi",
+            "model": "b",
+            "speech": "bi",
+            "answers": [
+              "b"
+            ],
+            "kind": "letters",
+            "upper": "B"
+          },
+          {
+            "id": "it_letters_1_2",
+            "cue": "ci",
+            "model": "c",
+            "speech": "ci",
+            "answers": [
+              "c"
+            ],
+            "kind": "letters",
+            "upper": "C"
+          },
+          {
+            "id": "it_letters_1_3",
+            "cue": "di",
+            "model": "d",
+            "speech": "di",
+            "answers": [
+              "d"
+            ],
+            "kind": "letters",
+            "upper": "D"
+          },
+          {
+            "id": "it_letters_1_4",
+            "cue": "e",
+            "model": "e",
+            "speech": "e",
+            "answers": [
+              "e"
+            ],
+            "kind": "letters",
+            "upper": "E"
+          },
+          {
+            "id": "it_letters_1_5",
+            "cue": "effe",
+            "model": "f",
+            "speech": "effe",
+            "answers": [
+              "f"
+            ],
+            "kind": "letters",
+            "upper": "F"
+          }
+        ]
+      },
+      {
+        "id": "letters_2",
+        "title": {
+          "it": "Lettere 2 · GHILMN",
+          "en": "Letters 2 · GHILMN",
+          "ar": "الحروف 2 · GHILMN",
+          "ru": "Буквы 2 · GHILMN"
+        },
+        "note": {
+          "it": "Prima riconosci il segno e il nome della lettera; poi scrivilo senza modello. Il nome di una lettera non è sempre il suo suono dentro una parola.",
+          "en": "First identify the symbol and its letter name; then type it without the model. A letter name is not always its sound in a word.",
+          "ar": "تعرف أولًا على شكل الحرف واسمه، ثم اكتبه دون نموذج. اسم الحرف ليس دائمًا صوته داخل الكلمة.",
+          "ru": "Сначала узнай знак и название буквы, затем напиши её без образца. Название буквы не всегда совпадает с её звуком в слове."
+        },
+        "stage": "letters",
+        "cards": [
+          {
+            "id": "it_letters_2_0",
+            "cue": "gi",
+            "model": "g",
+            "speech": "gi",
+            "answers": [
+              "g"
+            ],
+            "kind": "letters",
+            "upper": "G"
+          },
+          {
+            "id": "it_letters_2_1",
+            "cue": "acca",
+            "model": "h",
+            "speech": "acca",
+            "answers": [
+              "h"
+            ],
+            "kind": "letters",
+            "upper": "H"
+          },
+          {
+            "id": "it_letters_2_2",
+            "cue": "i",
+            "model": "i",
+            "speech": "i",
+            "answers": [
+              "i"
+            ],
+            "kind": "letters",
+            "upper": "I"
+          },
+          {
+            "id": "it_letters_2_3",
+            "cue": "elle",
+            "model": "l",
+            "speech": "elle",
+            "answers": [
+              "l"
+            ],
+            "kind": "letters",
+            "upper": "L"
+          },
+          {
+            "id": "it_letters_2_4",
+            "cue": "emme",
+            "model": "m",
+            "speech": "emme",
+            "answers": [
+              "m"
+            ],
+            "kind": "letters",
+            "upper": "M"
+          },
+          {
+            "id": "it_letters_2_5",
+            "cue": "enne",
+            "model": "n",
+            "speech": "enne",
+            "answers": [
+              "n"
+            ],
+            "kind": "letters",
+            "upper": "N"
+          }
+        ]
+      },
+      {
+        "id": "letters_3",
+        "title": {
+          "it": "Lettere 3 · OPQRST",
+          "en": "Letters 3 · OPQRST",
+          "ar": "الحروف 3 · OPQRST",
+          "ru": "Буквы 3 · OPQRST"
+        },
+        "note": {
+          "it": "Prima riconosci il segno e il nome della lettera; poi scrivilo senza modello. Il nome di una lettera non è sempre il suo suono dentro una parola.",
+          "en": "First identify the symbol and its letter name; then type it without the model. A letter name is not always its sound in a word.",
+          "ar": "تعرف أولًا على شكل الحرف واسمه، ثم اكتبه دون نموذج. اسم الحرف ليس دائمًا صوته داخل الكلمة.",
+          "ru": "Сначала узнай знак и название буквы, затем напиши её без образца. Название буквы не всегда совпадает с её звуком в слове."
+        },
+        "stage": "letters",
+        "cards": [
+          {
+            "id": "it_letters_3_0",
+            "cue": "o",
+            "model": "o",
+            "speech": "o",
+            "answers": [
+              "o"
+            ],
+            "kind": "letters",
+            "upper": "O"
+          },
+          {
+            "id": "it_letters_3_1",
+            "cue": "pi",
+            "model": "p",
+            "speech": "pi",
+            "answers": [
+              "p"
+            ],
+            "kind": "letters",
+            "upper": "P"
+          },
+          {
+            "id": "it_letters_3_2",
+            "cue": "cu",
+            "model": "q",
+            "speech": "cu",
+            "answers": [
+              "q"
+            ],
+            "kind": "letters",
+            "upper": "Q"
+          },
+          {
+            "id": "it_letters_3_3",
+            "cue": "erre",
+            "model": "r",
+            "speech": "erre",
+            "answers": [
+              "r"
+            ],
+            "kind": "letters",
+            "upper": "R"
+          },
+          {
+            "id": "it_letters_3_4",
+            "cue": "esse",
+            "model": "s",
+            "speech": "esse",
+            "answers": [
+              "s"
+            ],
+            "kind": "letters",
+            "upper": "S"
+          },
+          {
+            "id": "it_letters_3_5",
+            "cue": "ti",
+            "model": "t",
+            "speech": "ti",
+            "answers": [
+              "t"
+            ],
+            "kind": "letters",
+            "upper": "T"
+          }
+        ]
+      },
+      {
+        "id": "letters_4",
+        "title": {
+          "it": "Lettere 4 · UVZ",
+          "en": "Letters 4 · UVZ",
+          "ar": "الحروف 4 · UVZ",
+          "ru": "Буквы 4 · UVZ"
+        },
+        "note": {
+          "it": "Prima riconosci il segno e il nome della lettera; poi scrivilo senza modello. Il nome di una lettera non è sempre il suo suono dentro una parola.",
+          "en": "First identify the symbol and its letter name; then type it without the model. A letter name is not always its sound in a word.",
+          "ar": "تعرف أولًا على شكل الحرف واسمه، ثم اكتبه دون نموذج. اسم الحرف ليس دائمًا صوته داخل الكلمة.",
+          "ru": "Сначала узнай знак и название буквы, затем напиши её без образца. Название буквы не всегда совпадает с её звуком в слове."
+        },
+        "stage": "letters",
+        "cards": [
+          {
+            "id": "it_letters_4_0",
+            "cue": "u",
+            "model": "u",
+            "speech": "u",
+            "answers": [
+              "u"
+            ],
+            "kind": "letters",
+            "upper": "U"
+          },
+          {
+            "id": "it_letters_4_1",
+            "cue": "vi",
+            "model": "v",
+            "speech": "vi",
+            "answers": [
+              "v"
+            ],
+            "kind": "letters",
+            "upper": "V"
+          },
+          {
+            "id": "it_letters_4_2",
+            "cue": "zeta",
+            "model": "z",
+            "speech": "zeta",
+            "answers": [
+              "z"
+            ],
+            "kind": "letters",
+            "upper": "Z"
+          }
+        ]
+      },
+      {
+        "id": "foreign",
+        "title": {
+          "it": "Le cinque lettere dei prestiti",
+          "en": "Five letters in loanwords",
+          "ar": "خمسة حروف في الكلمات الدخيلة",
+          "ru": "Пять букв в заимствованиях"
+        },
+        "note": {
+          "it": "L’alfabeto tradizionale ha 21 lettere. J, K, W, X e Y si incontrano anche in nomi, sigle e prestiti: fanno parte della lettura quotidiana.",
+          "en": "The traditional alphabet has 21 letters. J, K, W, X and Y also occur in names, abbreviations and loanwords.",
+          "ar": "تحتوي الأبجدية التقليدية على ٢١ حرفًا. تظهر J وK وW وX وY أيضًا في الأسماء والاختصارات والكلمات الدخيلة.",
+          "ru": "В традиционном алфавите 21 буква. J, K, W, X, Y встречаются в именах, сокращениях и заимствованиях."
+        },
+        "stage": "patterns",
+        "cards": [
+          {
+            "id": "it_foreign_0",
+            "cue": "i lunga",
+            "model": "j",
+            "speech": "i lunga",
+            "answers": [
+              "j"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "it_foreign_1",
+            "cue": "cappa",
+            "model": "k",
+            "speech": "cappa",
+            "answers": [
+              "k"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "it_foreign_2",
+            "cue": "doppia vu",
+            "model": "w",
+            "speech": "doppia vu",
+            "answers": [
+              "w"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "it_foreign_3",
+            "cue": "ics",
+            "model": "x",
+            "speech": "ics",
+            "answers": [
+              "x"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "it_foreign_4",
+            "cue": "ipsilon",
+            "model": "y",
+            "speech": "ipsilon",
+            "answers": [
+              "y"
+            ],
+            "kind": "patterns"
+          }
+        ]
+      },
+      {
+        "id": "accents",
+        "title": {
+          "it": "Accenti che cambiano la parola",
+          "en": "Accents that change a word",
+          "ar": "النبرات التي تميز الكلمات",
+          "ru": "Акценты, меняющие слово"
+        },
+        "note": {
+          "it": "Mantieni gli accenti: e ≠ è, si ≠ sì. In perché si usa é; in caffè si usa è. Non sostituire l’accento con un apostrofo.",
+          "en": "Keep accents: e ≠ è, si ≠ sì. Perché uses é; caffè uses è. An apostrophe is not an accent.",
+          "ar": "حافظ على النبرات: e ليست è وsi ليست sì. في perché نكتب é وفي caffè نكتب è. الفاصلة العليا ليست نبرة.",
+          "ru": "Сохраняй акценты: e ≠ è, si ≠ sì. В perché пишется é, в caffè — è. Апостроф не заменяет акцент."
+        },
+        "stage": "patterns",
+        "cards": [
+          {
+            "id": "it_accents_0",
+            "cue": "Lui ___ Marco. (essere)",
+            "model": "è",
+            "speech": "è",
+            "answers": [
+              "è"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "it_accents_1",
+            "cue": "Una risposta affermativa",
+            "model": "sì",
+            "speech": "sì",
+            "answers": [
+              "sì"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "it_accents_2",
+            "cue": "La bevanda: caf…",
+            "model": "caffè",
+            "speech": "caffè",
+            "answers": [
+              "caffè"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "it_accents_3",
+            "cue": "La domanda sulla causa: per…",
+            "model": "perché",
+            "speech": "perché",
+            "answers": [
+              "perché"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "it_accents_4",
+            "cue": "La bevanda: t…",
+            "model": "tè",
+            "speech": "tè",
+            "answers": [
+              "tè"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "it_accents_5",
+            "cue": "Un periodo della giornata: luned…",
+            "model": "lunedì",
+            "speech": "lunedì",
+            "answers": [
+              "lunedì"
+            ],
+            "kind": "patterns"
+          }
+        ]
+      },
+      {
+        "id": "hard_soft",
+        "title": {
+          "it": "C, G e H nel contesto",
+          "en": "C, G and H in context",
+          "ar": "C وG وH في السياق",
+          "ru": "C, G и H в контексте"
+        },
+        "note": {
+          "it": "C e G cambiano davanti a e/i; ch e gh mantengono i suoni duri. H non ha un suono autonomo. Leggi la parola intera: casa/cena, gatto/gelo, chi/che e ghiro.",
+          "en": "C and G change before e/i; ch and gh preserve hard sounds. H has no sound of its own. Compare whole words.",
+          "ar": "تتغير C وG قبل e وi، ويحافظ ch وgh على النطق الصلب. ليس لـH صوت مستقل. اقرأ الكلمة كاملة.",
+          "ru": "Перед e/i C и G меняют звучание; ch и gh сохраняют твёрдые звуки. H не имеет отдельного звука. Читай целое слово."
+        },
+        "stage": "patterns",
+        "cards": [
+          {
+            "id": "it_hard_soft_0",
+            "cue": "c + a + s + a",
+            "model": "casa",
+            "speech": "casa",
+            "answers": [
+              "casa"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "it_hard_soft_1",
+            "cue": "c + e + n + a",
+            "model": "cena",
+            "speech": "cena",
+            "answers": [
+              "cena"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "it_hard_soft_2",
+            "cue": "c + h + i",
+            "model": "chi",
+            "speech": "chi",
+            "answers": [
+              "chi"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "it_hard_soft_3",
+            "cue": "c + h + e",
+            "model": "che",
+            "speech": "che",
+            "answers": [
+              "che"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "it_hard_soft_4",
+            "cue": "g + a + t + t + o",
+            "model": "gatto",
+            "speech": "gatto",
+            "answers": [
+              "gatto"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "it_hard_soft_5",
+            "cue": "g + h + i + r + o",
+            "model": "ghiro",
+            "speech": "ghiro",
+            "answers": [
+              "ghiro"
+            ],
+            "kind": "patterns"
+          }
+        ]
+      },
+      {
+        "id": "groups",
+        "title": {
+          "it": "Gruppi di lettere",
+          "en": "Letter groups",
+          "ar": "مجموعات الحروف",
+          "ru": "Сочетания букв"
+        },
+        "note": {
+          "it": "Gn, gli, sc e sch vanno letti nel contesto: gn in gnomo; gli in figlio; sci in sciarpa; sc in scuola; sch in scheda. Non ogni sequenza gli ha lo stesso suono: confronta glicine.",
+          "en": "Read gn, gli, sc and sch in context: gnomo, figlio, sciarpa, scuola. Gli is not always the same sound: compare glicine.",
+          "ar": "اقرأ gn وgli وsc وsch في سياق الكلمة: gnomo وfiglio وsciarpa وscuola. لا تنطق gli دائمًا بالطريقة نفسها؛ قارن glicine.",
+          "ru": "Читай gn, gli, sc, sch в контексте: gnomo, figlio, sciarpa, scuola. Gli звучит не всегда одинаково: сравни glicine."
+        },
+        "stage": "patterns",
+        "cards": [
+          {
+            "id": "it_groups_0",
+            "cue": "g + n + o + m + o",
+            "model": "gnomo",
+            "speech": "gnomo",
+            "answers": [
+              "gnomo"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "it_groups_1",
+            "cue": "f + i + g + l + i + o",
+            "model": "figlio",
+            "speech": "figlio",
+            "answers": [
+              "figlio"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "it_groups_2",
+            "cue": "s + c + i + a + r + p + a",
+            "model": "sciarpa",
+            "speech": "sciarpa",
+            "answers": [
+              "sciarpa"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "it_groups_3",
+            "cue": "s + c + u + o + l + a",
+            "model": "scuola",
+            "speech": "scuola",
+            "answers": [
+              "scuola"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "it_groups_4",
+            "cue": "s + c + h + e + d + a",
+            "model": "scheda",
+            "speech": "scheda",
+            "answers": [
+              "scheda"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "it_groups_5",
+            "cue": "g + l + i + c + i + n + e",
+            "model": "glicine",
+            "speech": "glicine",
+            "answers": [
+              "glicine"
+            ],
+            "kind": "patterns"
+          }
+        ]
+      },
+      {
+        "id": "doubles",
+        "title": {
+          "it": "Doppie e apostrofo",
+          "en": "Double letters and apostrophes",
+          "ar": "الحروف المضعفة والفاصلة العليا",
+          "ru": "Двойные буквы и апостроф"
+        },
+        "note": {
+          "it": "Una consonante doppia può distinguere due parole: pala/palla, nono/nonno. L’apostrofo segnala un’elisione come l’acqua; è distinto dall’accento.",
+          "en": "Double consonants can distinguish words: pala/palla, nono/nonno. The apostrophe in l’acqua marks elision, not stress.",
+          "ar": "قد يميز تضعيف الحرف كلمتين: pala وpalla، nono وnonno. الفاصلة العليا في l’acqua تدل على حذف حركة وليست نبرة.",
+          "ru": "Двойные согласные различают слова: pala/palla, nono/nonno. Апостроф в l’acqua обозначает элизию, а не ударение."
+        },
+        "stage": "patterns",
+        "cards": [
+          {
+            "id": "it_doubles_0",
+            "cue": "p + a + l + a",
+            "model": "pala",
+            "speech": "pala",
+            "answers": [
+              "pala"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "it_doubles_1",
+            "cue": "p + a + l + l + a",
+            "model": "palla",
+            "speech": "palla",
+            "answers": [
+              "palla"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "it_doubles_2",
+            "cue": "n + o + n + o",
+            "model": "nono",
+            "speech": "nono",
+            "answers": [
+              "nono"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "it_doubles_3",
+            "cue": "n + o + n + n + o",
+            "model": "nonno",
+            "speech": "nonno",
+            "answers": [
+              "nonno"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "it_doubles_4",
+            "cue": "la + acqua: con elisione",
+            "model": "l’acqua",
+            "speech": "l’acqua",
+            "answers": [
+              "l’acqua",
+              "l'acqua"
+            ],
+            "kind": "patterns"
+          }
+        ]
+      },
+      {
+        "id": "first_words",
+        "title": {
+          "it": "Le prime frasi",
+          "en": "First phrases",
+          "ar": "الجمل الأولى",
+          "ru": "Первые фразы"
+        },
+        "note": {
+          "it": "Porta le lettere nella lettura di frasi brevi. Prima riconosci, poi scrivi e infine ascolta quando l’audio è disponibile.",
+          "en": "Use letters to read short phrases. First recognize, then type, then listen when audio is available.",
+          "ar": "استخدم الحروف لقراءة جمل قصيرة. تعرف عليها ثم اكتبها ثم استمع عندما يتوفر الصوت.",
+          "ru": "Применяй буквы для чтения коротких фраз. Сначала узнай, затем напиши и послушай, когда доступно аудио."
+        },
+        "stage": "phrases",
+        "cards": [
+          {
+            "id": "it_first_words_0",
+            "cue": "Saluta in modo informale.",
+            "model": "Ciao!",
+            "speech": "Ciao!",
+            "answers": [
+              "Ciao!"
+            ],
+            "kind": "phrases",
+            "context": "greetings_0"
+          },
+          {
+            "id": "it_first_words_1",
+            "cue": "Saluta al mattino.",
+            "model": "Buongiorno!",
+            "speech": "Buongiorno!",
+            "answers": [
+              "Buongiorno!"
+            ],
+            "kind": "phrases",
+            "context": "greetings_1"
+          },
+          {
+            "id": "it_first_words_2",
+            "cue": "Ringrazia una persona.",
+            "model": "Grazie!",
+            "speech": "Grazie!",
+            "answers": [
+              "Grazie!"
+            ],
+            "kind": "phrases",
+            "context": "greetings_2"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "direction": "ltr",
+    "letters": [
+      {
+        "symbol": "A",
+        "lower": "a",
+        "name": "ay"
+      },
+      {
+        "symbol": "B",
+        "lower": "b",
+        "name": "bee"
+      },
+      {
+        "symbol": "C",
+        "lower": "c",
+        "name": "cee"
+      },
+      {
+        "symbol": "D",
+        "lower": "d",
+        "name": "dee"
+      },
+      {
+        "symbol": "E",
+        "lower": "e",
+        "name": "ee"
+      },
+      {
+        "symbol": "F",
+        "lower": "f",
+        "name": "eff"
+      },
+      {
+        "symbol": "G",
+        "lower": "g",
+        "name": "gee"
+      },
+      {
+        "symbol": "H",
+        "lower": "h",
+        "name": "aitch"
+      },
+      {
+        "symbol": "I",
+        "lower": "i",
+        "name": "eye"
+      },
+      {
+        "symbol": "J",
+        "lower": "j",
+        "name": "jay"
+      },
+      {
+        "symbol": "K",
+        "lower": "k",
+        "name": "kay"
+      },
+      {
+        "symbol": "L",
+        "lower": "l",
+        "name": "ell"
+      },
+      {
+        "symbol": "M",
+        "lower": "m",
+        "name": "em"
+      },
+      {
+        "symbol": "N",
+        "lower": "n",
+        "name": "en"
+      },
+      {
+        "symbol": "O",
+        "lower": "o",
+        "name": "oh"
+      },
+      {
+        "symbol": "P",
+        "lower": "p",
+        "name": "pee"
+      },
+      {
+        "symbol": "Q",
+        "lower": "q",
+        "name": "cue"
+      },
+      {
+        "symbol": "R",
+        "lower": "r",
+        "name": "ar"
+      },
+      {
+        "symbol": "S",
+        "lower": "s",
+        "name": "ess"
+      },
+      {
+        "symbol": "T",
+        "lower": "t",
+        "name": "tee"
+      },
+      {
+        "symbol": "U",
+        "lower": "u",
+        "name": "you"
+      },
+      {
+        "symbol": "V",
+        "lower": "v",
+        "name": "vee"
+      },
+      {
+        "symbol": "W",
+        "lower": "w",
+        "name": "double you"
+      },
+      {
+        "symbol": "X",
+        "lower": "x",
+        "name": "ex"
+      },
+      {
+        "symbol": "Y",
+        "lower": "y",
+        "name": "why"
+      },
+      {
+        "symbol": "Z",
+        "lower": "z",
+        "name": "zee / zed"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "letters_1",
+        "title": {
+          "it": "Lettere 1 · ABCDEF",
+          "en": "Letters 1 · ABCDEF",
+          "ar": "الحروف 1 · ABCDEF",
+          "ru": "Буквы 1 · ABCDEF"
+        },
+        "note": {
+          "it": "Prima riconosci il segno e il nome della lettera; poi scrivilo senza modello. Il nome di una lettera non è sempre il suo suono dentro una parola.",
+          "en": "First identify the symbol and its letter name; then type it without the model. A letter name is not always its sound in a word.",
+          "ar": "تعرف أولًا على شكل الحرف واسمه، ثم اكتبه دون نموذج. اسم الحرف ليس دائمًا صوته داخل الكلمة.",
+          "ru": "Сначала узнай знак и название буквы, затем напиши её без образца. Название буквы не всегда совпадает с её звуком в слове."
+        },
+        "stage": "letters",
+        "cards": [
+          {
+            "id": "en_letters_1_0",
+            "cue": "ay",
+            "model": "a",
+            "speech": "ay",
+            "answers": [
+              "a"
+            ],
+            "kind": "letters",
+            "upper": "A"
+          },
+          {
+            "id": "en_letters_1_1",
+            "cue": "bee",
+            "model": "b",
+            "speech": "bee",
+            "answers": [
+              "b"
+            ],
+            "kind": "letters",
+            "upper": "B"
+          },
+          {
+            "id": "en_letters_1_2",
+            "cue": "cee",
+            "model": "c",
+            "speech": "cee",
+            "answers": [
+              "c"
+            ],
+            "kind": "letters",
+            "upper": "C"
+          },
+          {
+            "id": "en_letters_1_3",
+            "cue": "dee",
+            "model": "d",
+            "speech": "dee",
+            "answers": [
+              "d"
+            ],
+            "kind": "letters",
+            "upper": "D"
+          },
+          {
+            "id": "en_letters_1_4",
+            "cue": "ee",
+            "model": "e",
+            "speech": "ee",
+            "answers": [
+              "e"
+            ],
+            "kind": "letters",
+            "upper": "E"
+          },
+          {
+            "id": "en_letters_1_5",
+            "cue": "eff",
+            "model": "f",
+            "speech": "eff",
+            "answers": [
+              "f"
+            ],
+            "kind": "letters",
+            "upper": "F"
+          }
+        ]
+      },
+      {
+        "id": "letters_2",
+        "title": {
+          "it": "Lettere 2 · GHIJKL",
+          "en": "Letters 2 · GHIJKL",
+          "ar": "الحروف 2 · GHIJKL",
+          "ru": "Буквы 2 · GHIJKL"
+        },
+        "note": {
+          "it": "Prima riconosci il segno e il nome della lettera; poi scrivilo senza modello. Il nome di una lettera non è sempre il suo suono dentro una parola.",
+          "en": "First identify the symbol and its letter name; then type it without the model. A letter name is not always its sound in a word.",
+          "ar": "تعرف أولًا على شكل الحرف واسمه، ثم اكتبه دون نموذج. اسم الحرف ليس دائمًا صوته داخل الكلمة.",
+          "ru": "Сначала узнай знак и название буквы, затем напиши её без образца. Название буквы не всегда совпадает с её звуком в слове."
+        },
+        "stage": "letters",
+        "cards": [
+          {
+            "id": "en_letters_2_0",
+            "cue": "gee",
+            "model": "g",
+            "speech": "gee",
+            "answers": [
+              "g"
+            ],
+            "kind": "letters",
+            "upper": "G"
+          },
+          {
+            "id": "en_letters_2_1",
+            "cue": "aitch",
+            "model": "h",
+            "speech": "aitch",
+            "answers": [
+              "h"
+            ],
+            "kind": "letters",
+            "upper": "H"
+          },
+          {
+            "id": "en_letters_2_2",
+            "cue": "eye",
+            "model": "i",
+            "speech": "eye",
+            "answers": [
+              "i"
+            ],
+            "kind": "letters",
+            "upper": "I"
+          },
+          {
+            "id": "en_letters_2_3",
+            "cue": "jay",
+            "model": "j",
+            "speech": "jay",
+            "answers": [
+              "j"
+            ],
+            "kind": "letters",
+            "upper": "J"
+          },
+          {
+            "id": "en_letters_2_4",
+            "cue": "kay",
+            "model": "k",
+            "speech": "kay",
+            "answers": [
+              "k"
+            ],
+            "kind": "letters",
+            "upper": "K"
+          },
+          {
+            "id": "en_letters_2_5",
+            "cue": "ell",
+            "model": "l",
+            "speech": "ell",
+            "answers": [
+              "l"
+            ],
+            "kind": "letters",
+            "upper": "L"
+          }
+        ]
+      },
+      {
+        "id": "letters_3",
+        "title": {
+          "it": "Lettere 3 · MNOPQR",
+          "en": "Letters 3 · MNOPQR",
+          "ar": "الحروف 3 · MNOPQR",
+          "ru": "Буквы 3 · MNOPQR"
+        },
+        "note": {
+          "it": "Prima riconosci il segno e il nome della lettera; poi scrivilo senza modello. Il nome di una lettera non è sempre il suo suono dentro una parola.",
+          "en": "First identify the symbol and its letter name; then type it without the model. A letter name is not always its sound in a word.",
+          "ar": "تعرف أولًا على شكل الحرف واسمه، ثم اكتبه دون نموذج. اسم الحرف ليس دائمًا صوته داخل الكلمة.",
+          "ru": "Сначала узнай знак и название буквы, затем напиши её без образца. Название буквы не всегда совпадает с её звуком в слове."
+        },
+        "stage": "letters",
+        "cards": [
+          {
+            "id": "en_letters_3_0",
+            "cue": "em",
+            "model": "m",
+            "speech": "em",
+            "answers": [
+              "m"
+            ],
+            "kind": "letters",
+            "upper": "M"
+          },
+          {
+            "id": "en_letters_3_1",
+            "cue": "en",
+            "model": "n",
+            "speech": "en",
+            "answers": [
+              "n"
+            ],
+            "kind": "letters",
+            "upper": "N"
+          },
+          {
+            "id": "en_letters_3_2",
+            "cue": "oh",
+            "model": "o",
+            "speech": "oh",
+            "answers": [
+              "o"
+            ],
+            "kind": "letters",
+            "upper": "O"
+          },
+          {
+            "id": "en_letters_3_3",
+            "cue": "pee",
+            "model": "p",
+            "speech": "pee",
+            "answers": [
+              "p"
+            ],
+            "kind": "letters",
+            "upper": "P"
+          },
+          {
+            "id": "en_letters_3_4",
+            "cue": "cue",
+            "model": "q",
+            "speech": "cue",
+            "answers": [
+              "q"
+            ],
+            "kind": "letters",
+            "upper": "Q"
+          },
+          {
+            "id": "en_letters_3_5",
+            "cue": "ar",
+            "model": "r",
+            "speech": "ar",
+            "answers": [
+              "r"
+            ],
+            "kind": "letters",
+            "upper": "R"
+          }
+        ]
+      },
+      {
+        "id": "letters_4",
+        "title": {
+          "it": "Lettere 4 · STUVWX",
+          "en": "Letters 4 · STUVWX",
+          "ar": "الحروف 4 · STUVWX",
+          "ru": "Буквы 4 · STUVWX"
+        },
+        "note": {
+          "it": "Prima riconosci il segno e il nome della lettera; poi scrivilo senza modello. Il nome di una lettera non è sempre il suo suono dentro una parola.",
+          "en": "First identify the symbol and its letter name; then type it without the model. A letter name is not always its sound in a word.",
+          "ar": "تعرف أولًا على شكل الحرف واسمه، ثم اكتبه دون نموذج. اسم الحرف ليس دائمًا صوته داخل الكلمة.",
+          "ru": "Сначала узнай знак и название буквы, затем напиши её без образца. Название буквы не всегда совпадает с её звуком в слове."
+        },
+        "stage": "letters",
+        "cards": [
+          {
+            "id": "en_letters_4_0",
+            "cue": "ess",
+            "model": "s",
+            "speech": "ess",
+            "answers": [
+              "s"
+            ],
+            "kind": "letters",
+            "upper": "S"
+          },
+          {
+            "id": "en_letters_4_1",
+            "cue": "tee",
+            "model": "t",
+            "speech": "tee",
+            "answers": [
+              "t"
+            ],
+            "kind": "letters",
+            "upper": "T"
+          },
+          {
+            "id": "en_letters_4_2",
+            "cue": "you",
+            "model": "u",
+            "speech": "you",
+            "answers": [
+              "u"
+            ],
+            "kind": "letters",
+            "upper": "U"
+          },
+          {
+            "id": "en_letters_4_3",
+            "cue": "vee",
+            "model": "v",
+            "speech": "vee",
+            "answers": [
+              "v"
+            ],
+            "kind": "letters",
+            "upper": "V"
+          },
+          {
+            "id": "en_letters_4_4",
+            "cue": "double you",
+            "model": "w",
+            "speech": "double you",
+            "answers": [
+              "w"
+            ],
+            "kind": "letters",
+            "upper": "W"
+          },
+          {
+            "id": "en_letters_4_5",
+            "cue": "ex",
+            "model": "x",
+            "speech": "ex",
+            "answers": [
+              "x"
+            ],
+            "kind": "letters",
+            "upper": "X"
+          }
+        ]
+      },
+      {
+        "id": "letters_5",
+        "title": {
+          "it": "Lettere 5 · YZ",
+          "en": "Letters 5 · YZ",
+          "ar": "الحروف 5 · YZ",
+          "ru": "Буквы 5 · YZ"
+        },
+        "note": {
+          "it": "Prima riconosci il segno e il nome della lettera; poi scrivilo senza modello. Il nome di una lettera non è sempre il suo suono dentro una parola.",
+          "en": "First identify the symbol and its letter name; then type it without the model. A letter name is not always its sound in a word.",
+          "ar": "تعرف أولًا على شكل الحرف واسمه، ثم اكتبه دون نموذج. اسم الحرف ليس دائمًا صوته داخل الكلمة.",
+          "ru": "Сначала узнай знак и название буквы, затем напиши её без образца. Название буквы не всегда совпадает с её звуком в слове."
+        },
+        "stage": "letters",
+        "cards": [
+          {
+            "id": "en_letters_5_0",
+            "cue": "why",
+            "model": "y",
+            "speech": "why",
+            "answers": [
+              "y"
+            ],
+            "kind": "letters",
+            "upper": "Y"
+          },
+          {
+            "id": "en_letters_5_1",
+            "cue": "zee / zed",
+            "model": "z",
+            "speech": "zee",
+            "answers": [
+              "z"
+            ],
+            "kind": "letters",
+            "upper": "Z"
+          }
+        ]
+      },
+      {
+        "id": "short_vowels",
+        "title": {
+          "it": "Vocali brevi nelle parole",
+          "en": "Short vowels in words",
+          "ar": "الحركات القصيرة داخل الكلمات",
+          "ru": "Краткие гласные в словах"
+        },
+        "note": {
+          "it": "Distingui il nome della lettera dal suono. Esempi: a in cat /æ/, e in bed /e/, i in sit /ɪ/, o in hot (varia con l’accento), u in cup /ʌ/. Gli esempi non valgono per ogni parola.",
+          "en": "Separate letter names from sounds: cat /æ/, bed /e/, sit /ɪ/, hot (varies by accent), cup /ʌ/. These examples are not rules for every word.",
+          "ar": "ميز اسم الحرف عن صوته: cat /æ/ وbed /e/ وsit /ɪ/ وhot الذي يختلف حسب اللهجة وcup /ʌ/. هذه الأمثلة لا تنطبق على كل كلمة.",
+          "ru": "Различай название буквы и звук: cat /æ/, bed /e/, sit /ɪ/, hot (зависит от акцента), cup /ʌ/. Это не правила для каждого слова."
+        },
+        "stage": "patterns",
+        "cards": [
+          {
+            "id": "en_short_vowels_0",
+            "cue": "c + a + t",
+            "model": "cat",
+            "speech": "cat",
+            "answers": [
+              "cat"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "en_short_vowels_1",
+            "cue": "b + e + d",
+            "model": "bed",
+            "speech": "bed",
+            "answers": [
+              "bed"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "en_short_vowels_2",
+            "cue": "s + i + t",
+            "model": "sit",
+            "speech": "sit",
+            "answers": [
+              "sit"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "en_short_vowels_3",
+            "cue": "h + o + t",
+            "model": "hot",
+            "speech": "hot",
+            "answers": [
+              "hot"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "en_short_vowels_4",
+            "cue": "c + u + p",
+            "model": "cup",
+            "speech": "cup",
+            "answers": [
+              "cup"
+            ],
+            "kind": "patterns"
+          }
+        ]
+      },
+      {
+        "id": "vowel_patterns",
+        "title": {
+          "it": "Vocali lunghe e gruppi vocalici",
+          "en": "Long vowels and vowel teams",
+          "ar": "الحركات الطويلة ومجموعات الحركات",
+          "ru": "Долгие гласные и сочетания"
+        },
+        "note": {
+          "it": "Confronta cap/cape e kit/kite. La e finale può cambiare la vocale; ee in see, ai in rain e oa in boat sono altri schemi frequenti. Restano eccezioni, come have.",
+          "en": "Compare cap/cape and kit/kite. Final e can change the vowel; see, rain and boat show common vowel teams. Exceptions include have.",
+          "ar": "قارن cap وcape، kit وkite. قد تغير e الأخيرة صوت الحركة. تظهر مجموعات شائعة في see وrain وboat، لكن توجد استثناءات مثل have.",
+          "ru": "Сравни cap/cape и kit/kite. Конечная e может менять гласную; see, rain, boat показывают частые сочетания. Есть исключения, например have."
+        },
+        "stage": "patterns",
+        "cards": [
+          {
+            "id": "en_vowel_patterns_0",
+            "cue": "c + a + p",
+            "model": "cap",
+            "speech": "cap",
+            "answers": [
+              "cap"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "en_vowel_patterns_1",
+            "cue": "c + a + p + e",
+            "model": "cape",
+            "speech": "cape",
+            "answers": [
+              "cape"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "en_vowel_patterns_2",
+            "cue": "k + i + t + e",
+            "model": "kite",
+            "speech": "kite",
+            "answers": [
+              "kite"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "en_vowel_patterns_3",
+            "cue": "s + e + e",
+            "model": "see",
+            "speech": "see",
+            "answers": [
+              "see"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "en_vowel_patterns_4",
+            "cue": "r + a + i + n",
+            "model": "rain",
+            "speech": "rain",
+            "answers": [
+              "rain"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "en_vowel_patterns_5",
+            "cue": "b + o + a + t",
+            "model": "boat",
+            "speech": "boat",
+            "answers": [
+              "boat"
+            ],
+            "kind": "patterns"
+          }
+        ]
+      },
+      {
+        "id": "consonant_groups",
+        "title": {
+          "it": "Gruppi consonantici",
+          "en": "Consonant groups",
+          "ar": "مجموعات الحروف الساكنة",
+          "ru": "Сочетания согласных"
+        },
+        "note": {
+          "it": "Sh in ship, ch in chair e th in think/the non sono singoli nomi di lettere. Th ha più di un suono. Confronta anche kn in know e wr in write: la prima lettera è muta.",
+          "en": "Sh in ship, ch in chair and th in think/the are not letter names. Th has more than one sound. The first letter is silent in know and write.",
+          "ar": "ليست sh في ship وch في chair وth في think وthe أسماء حروف. لـth أكثر من صوت. الحرف الأول صامت في know وwrite.",
+          "ru": "Sh в ship, ch в chair и th в think/the — не названия букв. У th больше одного звука. В know и write первая буква не произносится."
+        },
+        "stage": "patterns",
+        "cards": [
+          {
+            "id": "en_consonant_groups_0",
+            "cue": "s + h + i + p",
+            "model": "ship",
+            "speech": "ship",
+            "answers": [
+              "ship"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "en_consonant_groups_1",
+            "cue": "c + h + a + i + r",
+            "model": "chair",
+            "speech": "chair",
+            "answers": [
+              "chair"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "en_consonant_groups_2",
+            "cue": "t + h + i + n + k",
+            "model": "think",
+            "speech": "think",
+            "answers": [
+              "think"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "en_consonant_groups_3",
+            "cue": "t + h + e",
+            "model": "the",
+            "speech": "the",
+            "answers": [
+              "the"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "en_consonant_groups_4",
+            "cue": "k + n + o + w",
+            "model": "know",
+            "speech": "know",
+            "answers": [
+              "know"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "en_consonant_groups_5",
+            "cue": "w + r + i + t + e",
+            "model": "write",
+            "speech": "write",
+            "answers": [
+              "write"
+            ],
+            "kind": "patterns"
+          }
+        ]
+      },
+      {
+        "id": "exceptions",
+        "title": {
+          "it": "Parole da imparare nel contesto",
+          "en": "Words to learn in context",
+          "ar": "كلمات تُتعلم في السياق",
+          "ru": "Слова, изучаемые в контексте"
+        },
+        "note": {
+          "it": "One e two non si decodificano con una sola regola. Read ha la stessa grafia al presente e al passato, ma cambia pronuncia. Per questi casi ascolta la frase intera, non una lettera isolata.",
+          "en": "One and two do not follow one simple spelling rule. Present and past read have the same spelling but different pronunciations. Listen to the whole sentence.",
+          "ar": "لا تتبع one وtwo قاعدة هجائية واحدة بسيطة. تتطابق كتابة read في المضارع والماضي لكن يختلف النطق. استمع إلى الجملة كاملة.",
+          "ru": "One и two не читаются по одному простому правилу. Read в настоящем и прошлом пишется одинаково, но звучит по-разному. Слушай целую фразу."
+        },
+        "stage": "patterns",
+        "cards": [
+          {
+            "id": "en_exceptions_0",
+            "cue": "1 → English",
+            "model": "one",
+            "speech": "one",
+            "answers": [
+              "one"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "en_exceptions_1",
+            "cue": "2 → English",
+            "model": "two",
+            "speech": "two",
+            "answers": [
+              "two"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "en_exceptions_2",
+            "cue": "3 → English",
+            "model": "three",
+            "speech": "three",
+            "answers": [
+              "three"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "en_exceptions_3",
+            "cue": "r + e + a + d",
+            "model": "read",
+            "speech": "read",
+            "answers": [
+              "read"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "en_exceptions_4",
+            "cue": "h + a + v + e",
+            "model": "have",
+            "speech": "have",
+            "answers": [
+              "have"
+            ],
+            "kind": "patterns"
+          }
+        ]
+      },
+      {
+        "id": "first_words",
+        "title": {
+          "it": "Le prime frasi",
+          "en": "First phrases",
+          "ar": "الجمل الأولى",
+          "ru": "Первые фразы"
+        },
+        "note": {
+          "it": "Porta le lettere nella lettura di frasi brevi. Prima riconosci, poi scrivi e infine ascolta quando l’audio è disponibile.",
+          "en": "Use letters to read short phrases. First recognize, then type, then listen when audio is available.",
+          "ar": "استخدم الحروف لقراءة جمل قصيرة. تعرف عليها ثم اكتبها ثم استمع عندما يتوفر الصوت.",
+          "ru": "Применяй буквы для чтения коротких фраз. Сначала узнай, затем напиши и послушай, когда доступно аудио."
+        },
+        "stage": "phrases",
+        "cards": [
+          {
+            "id": "en_first_words_0",
+            "cue": "Give an informal greeting.",
+            "model": "Hello!",
+            "speech": "Hello!",
+            "answers": [
+              "Hello!"
+            ],
+            "kind": "phrases",
+            "context": "greetings_0"
+          },
+          {
+            "id": "en_first_words_1",
+            "cue": "Greet someone in the morning.",
+            "model": "Good morning!",
+            "speech": "Good morning!",
+            "answers": [
+              "Good morning!"
+            ],
+            "kind": "phrases",
+            "context": "greetings_1"
+          },
+          {
+            "id": "en_first_words_2",
+            "cue": "Thank someone.",
+            "model": "Thank you!",
+            "speech": "Thank you!",
+            "answers": [
+              "Thank you!"
+            ],
+            "kind": "phrases",
+            "context": "greetings_2"
+          }
+        ]
+      }
+    ]
+  },
+  "ar": {
+    "direction": "rtl",
+    "letters": [
+      {
+        "symbol": "ا",
+        "lower": "ا",
+        "name": "ألف",
+        "forms": [
+          "ا",
+          null,
+          null,
+          "ـا"
+        ],
+        "joinsLeft": false
+      },
+      {
+        "symbol": "ب",
+        "lower": "ب",
+        "name": "باء",
+        "forms": [
+          "ب",
+          "بـ",
+          "ـبـ",
+          "ـب"
+        ],
+        "joinsLeft": true
+      },
+      {
+        "symbol": "ت",
+        "lower": "ت",
+        "name": "تاء",
+        "forms": [
+          "ت",
+          "تـ",
+          "ـتـ",
+          "ـت"
+        ],
+        "joinsLeft": true
+      },
+      {
+        "symbol": "ث",
+        "lower": "ث",
+        "name": "ثاء",
+        "forms": [
+          "ث",
+          "ثـ",
+          "ـثـ",
+          "ـث"
+        ],
+        "joinsLeft": true
+      },
+      {
+        "symbol": "ج",
+        "lower": "ج",
+        "name": "جيم",
+        "forms": [
+          "ج",
+          "جـ",
+          "ـجـ",
+          "ـج"
+        ],
+        "joinsLeft": true
+      },
+      {
+        "symbol": "ح",
+        "lower": "ح",
+        "name": "حاء",
+        "forms": [
+          "ح",
+          "حـ",
+          "ـحـ",
+          "ـح"
+        ],
+        "joinsLeft": true
+      },
+      {
+        "symbol": "خ",
+        "lower": "خ",
+        "name": "خاء",
+        "forms": [
+          "خ",
+          "خـ",
+          "ـخـ",
+          "ـخ"
+        ],
+        "joinsLeft": true
+      },
+      {
+        "symbol": "د",
+        "lower": "د",
+        "name": "دال",
+        "forms": [
+          "د",
+          null,
+          null,
+          "ـد"
+        ],
+        "joinsLeft": false
+      },
+      {
+        "symbol": "ذ",
+        "lower": "ذ",
+        "name": "ذال",
+        "forms": [
+          "ذ",
+          null,
+          null,
+          "ـذ"
+        ],
+        "joinsLeft": false
+      },
+      {
+        "symbol": "ر",
+        "lower": "ر",
+        "name": "راء",
+        "forms": [
+          "ر",
+          null,
+          null,
+          "ـر"
+        ],
+        "joinsLeft": false
+      },
+      {
+        "symbol": "ز",
+        "lower": "ز",
+        "name": "زاي",
+        "forms": [
+          "ز",
+          null,
+          null,
+          "ـز"
+        ],
+        "joinsLeft": false
+      },
+      {
+        "symbol": "س",
+        "lower": "س",
+        "name": "سين",
+        "forms": [
+          "س",
+          "سـ",
+          "ـسـ",
+          "ـس"
+        ],
+        "joinsLeft": true
+      },
+      {
+        "symbol": "ش",
+        "lower": "ش",
+        "name": "شين",
+        "forms": [
+          "ش",
+          "شـ",
+          "ـشـ",
+          "ـش"
+        ],
+        "joinsLeft": true
+      },
+      {
+        "symbol": "ص",
+        "lower": "ص",
+        "name": "صاد",
+        "forms": [
+          "ص",
+          "صـ",
+          "ـصـ",
+          "ـص"
+        ],
+        "joinsLeft": true
+      },
+      {
+        "symbol": "ض",
+        "lower": "ض",
+        "name": "ضاد",
+        "forms": [
+          "ض",
+          "ضـ",
+          "ـضـ",
+          "ـض"
+        ],
+        "joinsLeft": true
+      },
+      {
+        "symbol": "ط",
+        "lower": "ط",
+        "name": "طاء",
+        "forms": [
+          "ط",
+          "طـ",
+          "ـطـ",
+          "ـط"
+        ],
+        "joinsLeft": true
+      },
+      {
+        "symbol": "ظ",
+        "lower": "ظ",
+        "name": "ظاء",
+        "forms": [
+          "ظ",
+          "ظـ",
+          "ـظـ",
+          "ـظ"
+        ],
+        "joinsLeft": true
+      },
+      {
+        "symbol": "ع",
+        "lower": "ع",
+        "name": "عين",
+        "forms": [
+          "ع",
+          "عـ",
+          "ـعـ",
+          "ـع"
+        ],
+        "joinsLeft": true
+      },
+      {
+        "symbol": "غ",
+        "lower": "غ",
+        "name": "غين",
+        "forms": [
+          "غ",
+          "غـ",
+          "ـغـ",
+          "ـغ"
+        ],
+        "joinsLeft": true
+      },
+      {
+        "symbol": "ف",
+        "lower": "ف",
+        "name": "فاء",
+        "forms": [
+          "ف",
+          "فـ",
+          "ـفـ",
+          "ـف"
+        ],
+        "joinsLeft": true
+      },
+      {
+        "symbol": "ق",
+        "lower": "ق",
+        "name": "قاف",
+        "forms": [
+          "ق",
+          "قـ",
+          "ـقـ",
+          "ـق"
+        ],
+        "joinsLeft": true
+      },
+      {
+        "symbol": "ك",
+        "lower": "ك",
+        "name": "كاف",
+        "forms": [
+          "ك",
+          "كـ",
+          "ـكـ",
+          "ـك"
+        ],
+        "joinsLeft": true
+      },
+      {
+        "symbol": "ل",
+        "lower": "ل",
+        "name": "لام",
+        "forms": [
+          "ل",
+          "لـ",
+          "ـلـ",
+          "ـل"
+        ],
+        "joinsLeft": true
+      },
+      {
+        "symbol": "م",
+        "lower": "م",
+        "name": "ميم",
+        "forms": [
+          "م",
+          "مـ",
+          "ـمـ",
+          "ـم"
+        ],
+        "joinsLeft": true
+      },
+      {
+        "symbol": "ن",
+        "lower": "ن",
+        "name": "نون",
+        "forms": [
+          "ن",
+          "نـ",
+          "ـنـ",
+          "ـن"
+        ],
+        "joinsLeft": true
+      },
+      {
+        "symbol": "ه",
+        "lower": "ه",
+        "name": "هاء",
+        "forms": [
+          "ه",
+          "هـ",
+          "ـهـ",
+          "ـه"
+        ],
+        "joinsLeft": true
+      },
+      {
+        "symbol": "و",
+        "lower": "و",
+        "name": "واو",
+        "forms": [
+          "و",
+          null,
+          null,
+          "ـو"
+        ],
+        "joinsLeft": false
+      },
+      {
+        "symbol": "ي",
+        "lower": "ي",
+        "name": "ياء",
+        "forms": [
+          "ي",
+          "يـ",
+          "ـيـ",
+          "ـي"
+        ],
+        "joinsLeft": true
+      }
+    ],
+    "lessons": [
+      {
+        "id": "letters_1",
+        "title": {
+          "it": "Lettere 1 · ابتثجح",
+          "en": "Letters 1 · ابتثجح",
+          "ar": "الحروف 1 · ابتثجح",
+          "ru": "Буквы 1 · ابتثجح"
+        },
+        "note": {
+          "it": "Prima riconosci il segno e il nome della lettera; poi scrivilo senza modello. Il nome di una lettera non è sempre il suo suono dentro una parola.",
+          "en": "First identify the symbol and its letter name; then type it without the model. A letter name is not always its sound in a word.",
+          "ar": "تعرف أولًا على شكل الحرف واسمه، ثم اكتبه دون نموذج. اسم الحرف ليس دائمًا صوته داخل الكلمة.",
+          "ru": "Сначала узнай знак и название буквы, затем напиши её без образца. Название буквы не всегда совпадает с её звуком в слове."
+        },
+        "stage": "letters",
+        "cards": [
+          {
+            "id": "ar_letters_1_0",
+            "cue": "ألف",
+            "model": "ا",
+            "speech": "ألف",
+            "answers": [
+              "ا"
+            ],
+            "kind": "letters",
+            "upper": "ا"
+          },
+          {
+            "id": "ar_letters_1_1",
+            "cue": "باء",
+            "model": "ب",
+            "speech": "باء",
+            "answers": [
+              "ب"
+            ],
+            "kind": "letters",
+            "upper": "ب"
+          },
+          {
+            "id": "ar_letters_1_2",
+            "cue": "تاء",
+            "model": "ت",
+            "speech": "تاء",
+            "answers": [
+              "ت"
+            ],
+            "kind": "letters",
+            "upper": "ت"
+          },
+          {
+            "id": "ar_letters_1_3",
+            "cue": "ثاء",
+            "model": "ث",
+            "speech": "ثاء",
+            "answers": [
+              "ث"
+            ],
+            "kind": "letters",
+            "upper": "ث"
+          },
+          {
+            "id": "ar_letters_1_4",
+            "cue": "جيم",
+            "model": "ج",
+            "speech": "جيم",
+            "answers": [
+              "ج"
+            ],
+            "kind": "letters",
+            "upper": "ج"
+          },
+          {
+            "id": "ar_letters_1_5",
+            "cue": "حاء",
+            "model": "ح",
+            "speech": "حاء",
+            "answers": [
+              "ح"
+            ],
+            "kind": "letters",
+            "upper": "ح"
+          }
+        ]
+      },
+      {
+        "id": "letters_2",
+        "title": {
+          "it": "Lettere 2 · خدذرزس",
+          "en": "Letters 2 · خدذرزس",
+          "ar": "الحروف 2 · خدذرزس",
+          "ru": "Буквы 2 · خدذرزس"
+        },
+        "note": {
+          "it": "Prima riconosci il segno e il nome della lettera; poi scrivilo senza modello. Il nome di una lettera non è sempre il suo suono dentro una parola.",
+          "en": "First identify the symbol and its letter name; then type it without the model. A letter name is not always its sound in a word.",
+          "ar": "تعرف أولًا على شكل الحرف واسمه، ثم اكتبه دون نموذج. اسم الحرف ليس دائمًا صوته داخل الكلمة.",
+          "ru": "Сначала узнай знак и название буквы, затем напиши её без образца. Название буквы не всегда совпадает с её звуком в слове."
+        },
+        "stage": "letters",
+        "cards": [
+          {
+            "id": "ar_letters_2_0",
+            "cue": "خاء",
+            "model": "خ",
+            "speech": "خاء",
+            "answers": [
+              "خ"
+            ],
+            "kind": "letters",
+            "upper": "خ"
+          },
+          {
+            "id": "ar_letters_2_1",
+            "cue": "دال",
+            "model": "د",
+            "speech": "دال",
+            "answers": [
+              "د"
+            ],
+            "kind": "letters",
+            "upper": "د"
+          },
+          {
+            "id": "ar_letters_2_2",
+            "cue": "ذال",
+            "model": "ذ",
+            "speech": "ذال",
+            "answers": [
+              "ذ"
+            ],
+            "kind": "letters",
+            "upper": "ذ"
+          },
+          {
+            "id": "ar_letters_2_3",
+            "cue": "راء",
+            "model": "ر",
+            "speech": "راء",
+            "answers": [
+              "ر"
+            ],
+            "kind": "letters",
+            "upper": "ر"
+          },
+          {
+            "id": "ar_letters_2_4",
+            "cue": "زاي",
+            "model": "ز",
+            "speech": "زاي",
+            "answers": [
+              "ز"
+            ],
+            "kind": "letters",
+            "upper": "ز"
+          },
+          {
+            "id": "ar_letters_2_5",
+            "cue": "سين",
+            "model": "س",
+            "speech": "سين",
+            "answers": [
+              "س"
+            ],
+            "kind": "letters",
+            "upper": "س"
+          }
+        ]
+      },
+      {
+        "id": "letters_3",
+        "title": {
+          "it": "Lettere 3 · شصضطظع",
+          "en": "Letters 3 · شصضطظع",
+          "ar": "الحروف 3 · شصضطظع",
+          "ru": "Буквы 3 · شصضطظع"
+        },
+        "note": {
+          "it": "Prima riconosci il segno e il nome della lettera; poi scrivilo senza modello. Il nome di una lettera non è sempre il suo suono dentro una parola.",
+          "en": "First identify the symbol and its letter name; then type it without the model. A letter name is not always its sound in a word.",
+          "ar": "تعرف أولًا على شكل الحرف واسمه، ثم اكتبه دون نموذج. اسم الحرف ليس دائمًا صوته داخل الكلمة.",
+          "ru": "Сначала узнай знак и название буквы, затем напиши её без образца. Название буквы не всегда совпадает с её звуком в слове."
+        },
+        "stage": "letters",
+        "cards": [
+          {
+            "id": "ar_letters_3_0",
+            "cue": "شين",
+            "model": "ش",
+            "speech": "شين",
+            "answers": [
+              "ش"
+            ],
+            "kind": "letters",
+            "upper": "ش"
+          },
+          {
+            "id": "ar_letters_3_1",
+            "cue": "صاد",
+            "model": "ص",
+            "speech": "صاد",
+            "answers": [
+              "ص"
+            ],
+            "kind": "letters",
+            "upper": "ص"
+          },
+          {
+            "id": "ar_letters_3_2",
+            "cue": "ضاد",
+            "model": "ض",
+            "speech": "ضاد",
+            "answers": [
+              "ض"
+            ],
+            "kind": "letters",
+            "upper": "ض"
+          },
+          {
+            "id": "ar_letters_3_3",
+            "cue": "طاء",
+            "model": "ط",
+            "speech": "طاء",
+            "answers": [
+              "ط"
+            ],
+            "kind": "letters",
+            "upper": "ط"
+          },
+          {
+            "id": "ar_letters_3_4",
+            "cue": "ظاء",
+            "model": "ظ",
+            "speech": "ظاء",
+            "answers": [
+              "ظ"
+            ],
+            "kind": "letters",
+            "upper": "ظ"
+          },
+          {
+            "id": "ar_letters_3_5",
+            "cue": "عين",
+            "model": "ع",
+            "speech": "عين",
+            "answers": [
+              "ع"
+            ],
+            "kind": "letters",
+            "upper": "ع"
+          }
+        ]
+      },
+      {
+        "id": "letters_4",
+        "title": {
+          "it": "Lettere 4 · غفقكلم",
+          "en": "Letters 4 · غفقكلم",
+          "ar": "الحروف 4 · غفقكلم",
+          "ru": "Буквы 4 · غفقكلم"
+        },
+        "note": {
+          "it": "Prima riconosci il segno e il nome della lettera; poi scrivilo senza modello. Il nome di una lettera non è sempre il suo suono dentro una parola.",
+          "en": "First identify the symbol and its letter name; then type it without the model. A letter name is not always its sound in a word.",
+          "ar": "تعرف أولًا على شكل الحرف واسمه، ثم اكتبه دون نموذج. اسم الحرف ليس دائمًا صوته داخل الكلمة.",
+          "ru": "Сначала узнай знак и название буквы, затем напиши её без образца. Название буквы не всегда совпадает с её звуком в слове."
+        },
+        "stage": "letters",
+        "cards": [
+          {
+            "id": "ar_letters_4_0",
+            "cue": "غين",
+            "model": "غ",
+            "speech": "غين",
+            "answers": [
+              "غ"
+            ],
+            "kind": "letters",
+            "upper": "غ"
+          },
+          {
+            "id": "ar_letters_4_1",
+            "cue": "فاء",
+            "model": "ف",
+            "speech": "فاء",
+            "answers": [
+              "ف"
+            ],
+            "kind": "letters",
+            "upper": "ف"
+          },
+          {
+            "id": "ar_letters_4_2",
+            "cue": "قاف",
+            "model": "ق",
+            "speech": "قاف",
+            "answers": [
+              "ق"
+            ],
+            "kind": "letters",
+            "upper": "ق"
+          },
+          {
+            "id": "ar_letters_4_3",
+            "cue": "كاف",
+            "model": "ك",
+            "speech": "كاف",
+            "answers": [
+              "ك"
+            ],
+            "kind": "letters",
+            "upper": "ك"
+          },
+          {
+            "id": "ar_letters_4_4",
+            "cue": "لام",
+            "model": "ل",
+            "speech": "لام",
+            "answers": [
+              "ل"
+            ],
+            "kind": "letters",
+            "upper": "ل"
+          },
+          {
+            "id": "ar_letters_4_5",
+            "cue": "ميم",
+            "model": "م",
+            "speech": "ميم",
+            "answers": [
+              "م"
+            ],
+            "kind": "letters",
+            "upper": "م"
+          }
+        ]
+      },
+      {
+        "id": "letters_5",
+        "title": {
+          "it": "Lettere 5 · نهوي",
+          "en": "Letters 5 · نهوي",
+          "ar": "الحروف 5 · نهوي",
+          "ru": "Буквы 5 · نهوي"
+        },
+        "note": {
+          "it": "Prima riconosci il segno e il nome della lettera; poi scrivilo senza modello. Il nome di una lettera non è sempre il suo suono dentro una parola.",
+          "en": "First identify the symbol and its letter name; then type it without the model. A letter name is not always its sound in a word.",
+          "ar": "تعرف أولًا على شكل الحرف واسمه، ثم اكتبه دون نموذج. اسم الحرف ليس دائمًا صوته داخل الكلمة.",
+          "ru": "Сначала узнай знак и название буквы, затем напиши её без образца. Название буквы не всегда совпадает с её звуком в слове."
+        },
+        "stage": "letters",
+        "cards": [
+          {
+            "id": "ar_letters_5_0",
+            "cue": "نون",
+            "model": "ن",
+            "speech": "نون",
+            "answers": [
+              "ن"
+            ],
+            "kind": "letters",
+            "upper": "ن"
+          },
+          {
+            "id": "ar_letters_5_1",
+            "cue": "هاء",
+            "model": "ه",
+            "speech": "هاء",
+            "answers": [
+              "ه"
+            ],
+            "kind": "letters",
+            "upper": "ه"
+          },
+          {
+            "id": "ar_letters_5_2",
+            "cue": "واو",
+            "model": "و",
+            "speech": "واو",
+            "answers": [
+              "و"
+            ],
+            "kind": "letters",
+            "upper": "و"
+          },
+          {
+            "id": "ar_letters_5_3",
+            "cue": "ياء",
+            "model": "ي",
+            "speech": "ياء",
+            "answers": [
+              "ي"
+            ],
+            "kind": "letters",
+            "upper": "ي"
+          }
+        ]
+      },
+      {
+        "id": "forms_1",
+        "title": {
+          "it": "Forme collegate: Inizio",
+          "en": "Joined forms: Initial",
+          "ar": "الأشكال المتصلة: أول الكلمة",
+          "ru": "Соединённые формы: Начало"
+        },
+        "note": {
+          "it": "Leggi da destra a sinistra. Riconosci la lettera nella forma mostrata e digita la sua forma di base. Le forme vengono disegnate dal font, non sono alfabeti diversi.",
+          "en": "Read right to left. Identify the joined letter and type its base form. The font draws contextual shapes; these are not different alphabets.",
+          "ar": "اقرأ من اليمين إلى اليسار. تعرف على الحرف في الشكل المعروض واكتب صورته الأساسية. يرسم الخط الأشكال حسب السياق؛ ليست أبجديات مختلفة.",
+          "ru": "Читай справа налево. Узнай соединённую букву и введи её основную форму. Шрифт отображает контекстные формы; это не разные алфавиты."
+        },
+        "stage": "forms",
+        "cards": [
+          {
+            "id": "ar_forms_1_0",
+            "cue": "بـ",
+            "model": "ب",
+            "speech": "باء",
+            "answers": [
+              "ب"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_1_1",
+            "cue": "تـ",
+            "model": "ت",
+            "speech": "تاء",
+            "answers": [
+              "ت"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_1_2",
+            "cue": "ثـ",
+            "model": "ث",
+            "speech": "ثاء",
+            "answers": [
+              "ث"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_1_3",
+            "cue": "جـ",
+            "model": "ج",
+            "speech": "جيم",
+            "answers": [
+              "ج"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_1_4",
+            "cue": "حـ",
+            "model": "ح",
+            "speech": "حاء",
+            "answers": [
+              "ح"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_1_5",
+            "cue": "خـ",
+            "model": "خ",
+            "speech": "خاء",
+            "answers": [
+              "خ"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_1_6",
+            "cue": "سـ",
+            "model": "س",
+            "speech": "سين",
+            "answers": [
+              "س"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_1_7",
+            "cue": "شـ",
+            "model": "ش",
+            "speech": "شين",
+            "answers": [
+              "ش"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_1_8",
+            "cue": "صـ",
+            "model": "ص",
+            "speech": "صاد",
+            "answers": [
+              "ص"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_1_9",
+            "cue": "ضـ",
+            "model": "ض",
+            "speech": "ضاد",
+            "answers": [
+              "ض"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_1_10",
+            "cue": "طـ",
+            "model": "ط",
+            "speech": "طاء",
+            "answers": [
+              "ط"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_1_11",
+            "cue": "ظـ",
+            "model": "ظ",
+            "speech": "ظاء",
+            "answers": [
+              "ظ"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_1_12",
+            "cue": "عـ",
+            "model": "ع",
+            "speech": "عين",
+            "answers": [
+              "ع"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_1_13",
+            "cue": "غـ",
+            "model": "غ",
+            "speech": "غين",
+            "answers": [
+              "غ"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_1_14",
+            "cue": "فـ",
+            "model": "ف",
+            "speech": "فاء",
+            "answers": [
+              "ف"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_1_15",
+            "cue": "قـ",
+            "model": "ق",
+            "speech": "قاف",
+            "answers": [
+              "ق"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_1_16",
+            "cue": "كـ",
+            "model": "ك",
+            "speech": "كاف",
+            "answers": [
+              "ك"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_1_17",
+            "cue": "لـ",
+            "model": "ل",
+            "speech": "لام",
+            "answers": [
+              "ل"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_1_18",
+            "cue": "مـ",
+            "model": "م",
+            "speech": "ميم",
+            "answers": [
+              "م"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_1_19",
+            "cue": "نـ",
+            "model": "ن",
+            "speech": "نون",
+            "answers": [
+              "ن"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_1_20",
+            "cue": "هـ",
+            "model": "ه",
+            "speech": "هاء",
+            "answers": [
+              "ه"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_1_21",
+            "cue": "يـ",
+            "model": "ي",
+            "speech": "ياء",
+            "answers": [
+              "ي"
+            ],
+            "kind": "forms"
+          }
+        ]
+      },
+      {
+        "id": "forms_2",
+        "title": {
+          "it": "Forme collegate: Centro",
+          "en": "Joined forms: Medial",
+          "ar": "الأشكال المتصلة: وسط الكلمة",
+          "ru": "Соединённые формы: Середина"
+        },
+        "note": {
+          "it": "Leggi da destra a sinistra. Riconosci la lettera nella forma mostrata e digita la sua forma di base. Le forme vengono disegnate dal font, non sono alfabeti diversi.",
+          "en": "Read right to left. Identify the joined letter and type its base form. The font draws contextual shapes; these are not different alphabets.",
+          "ar": "اقرأ من اليمين إلى اليسار. تعرف على الحرف في الشكل المعروض واكتب صورته الأساسية. يرسم الخط الأشكال حسب السياق؛ ليست أبجديات مختلفة.",
+          "ru": "Читай справа налево. Узнай соединённую букву и введи её основную форму. Шрифт отображает контекстные формы; это не разные алфавиты."
+        },
+        "stage": "forms",
+        "cards": [
+          {
+            "id": "ar_forms_2_0",
+            "cue": "ـبـ",
+            "model": "ب",
+            "speech": "باء",
+            "answers": [
+              "ب"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_2_1",
+            "cue": "ـتـ",
+            "model": "ت",
+            "speech": "تاء",
+            "answers": [
+              "ت"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_2_2",
+            "cue": "ـثـ",
+            "model": "ث",
+            "speech": "ثاء",
+            "answers": [
+              "ث"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_2_3",
+            "cue": "ـجـ",
+            "model": "ج",
+            "speech": "جيم",
+            "answers": [
+              "ج"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_2_4",
+            "cue": "ـحـ",
+            "model": "ح",
+            "speech": "حاء",
+            "answers": [
+              "ح"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_2_5",
+            "cue": "ـخـ",
+            "model": "خ",
+            "speech": "خاء",
+            "answers": [
+              "خ"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_2_6",
+            "cue": "ـسـ",
+            "model": "س",
+            "speech": "سين",
+            "answers": [
+              "س"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_2_7",
+            "cue": "ـشـ",
+            "model": "ش",
+            "speech": "شين",
+            "answers": [
+              "ش"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_2_8",
+            "cue": "ـصـ",
+            "model": "ص",
+            "speech": "صاد",
+            "answers": [
+              "ص"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_2_9",
+            "cue": "ـضـ",
+            "model": "ض",
+            "speech": "ضاد",
+            "answers": [
+              "ض"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_2_10",
+            "cue": "ـطـ",
+            "model": "ط",
+            "speech": "طاء",
+            "answers": [
+              "ط"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_2_11",
+            "cue": "ـظـ",
+            "model": "ظ",
+            "speech": "ظاء",
+            "answers": [
+              "ظ"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_2_12",
+            "cue": "ـعـ",
+            "model": "ع",
+            "speech": "عين",
+            "answers": [
+              "ع"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_2_13",
+            "cue": "ـغـ",
+            "model": "غ",
+            "speech": "غين",
+            "answers": [
+              "غ"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_2_14",
+            "cue": "ـفـ",
+            "model": "ف",
+            "speech": "فاء",
+            "answers": [
+              "ف"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_2_15",
+            "cue": "ـقـ",
+            "model": "ق",
+            "speech": "قاف",
+            "answers": [
+              "ق"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_2_16",
+            "cue": "ـكـ",
+            "model": "ك",
+            "speech": "كاف",
+            "answers": [
+              "ك"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_2_17",
+            "cue": "ـلـ",
+            "model": "ل",
+            "speech": "لام",
+            "answers": [
+              "ل"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_2_18",
+            "cue": "ـمـ",
+            "model": "م",
+            "speech": "ميم",
+            "answers": [
+              "م"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_2_19",
+            "cue": "ـنـ",
+            "model": "ن",
+            "speech": "نون",
+            "answers": [
+              "ن"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_2_20",
+            "cue": "ـهـ",
+            "model": "ه",
+            "speech": "هاء",
+            "answers": [
+              "ه"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_2_21",
+            "cue": "ـيـ",
+            "model": "ي",
+            "speech": "ياء",
+            "answers": [
+              "ي"
+            ],
+            "kind": "forms"
+          }
+        ]
+      },
+      {
+        "id": "forms_3",
+        "title": {
+          "it": "Forme collegate: Fine",
+          "en": "Joined forms: Final",
+          "ar": "الأشكال المتصلة: آخر الكلمة",
+          "ru": "Соединённые формы: Конец"
+        },
+        "note": {
+          "it": "Leggi da destra a sinistra. Riconosci la lettera nella forma mostrata e digita la sua forma di base. Le forme vengono disegnate dal font, non sono alfabeti diversi.",
+          "en": "Read right to left. Identify the joined letter and type its base form. The font draws contextual shapes; these are not different alphabets.",
+          "ar": "اقرأ من اليمين إلى اليسار. تعرف على الحرف في الشكل المعروض واكتب صورته الأساسية. يرسم الخط الأشكال حسب السياق؛ ليست أبجديات مختلفة.",
+          "ru": "Читай справа налево. Узнай соединённую букву и введи её основную форму. Шрифт отображает контекстные формы; это не разные алфавиты."
+        },
+        "stage": "forms",
+        "cards": [
+          {
+            "id": "ar_forms_3_0",
+            "cue": "ـا",
+            "model": "ا",
+            "speech": "ألف",
+            "answers": [
+              "ا"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_3_1",
+            "cue": "ـب",
+            "model": "ب",
+            "speech": "باء",
+            "answers": [
+              "ب"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_3_2",
+            "cue": "ـت",
+            "model": "ت",
+            "speech": "تاء",
+            "answers": [
+              "ت"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_3_3",
+            "cue": "ـث",
+            "model": "ث",
+            "speech": "ثاء",
+            "answers": [
+              "ث"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_3_4",
+            "cue": "ـج",
+            "model": "ج",
+            "speech": "جيم",
+            "answers": [
+              "ج"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_3_5",
+            "cue": "ـح",
+            "model": "ح",
+            "speech": "حاء",
+            "answers": [
+              "ح"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_3_6",
+            "cue": "ـخ",
+            "model": "خ",
+            "speech": "خاء",
+            "answers": [
+              "خ"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_3_7",
+            "cue": "ـد",
+            "model": "د",
+            "speech": "دال",
+            "answers": [
+              "د"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_3_8",
+            "cue": "ـذ",
+            "model": "ذ",
+            "speech": "ذال",
+            "answers": [
+              "ذ"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_3_9",
+            "cue": "ـر",
+            "model": "ر",
+            "speech": "راء",
+            "answers": [
+              "ر"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_3_10",
+            "cue": "ـز",
+            "model": "ز",
+            "speech": "زاي",
+            "answers": [
+              "ز"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_3_11",
+            "cue": "ـس",
+            "model": "س",
+            "speech": "سين",
+            "answers": [
+              "س"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_3_12",
+            "cue": "ـش",
+            "model": "ش",
+            "speech": "شين",
+            "answers": [
+              "ش"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_3_13",
+            "cue": "ـص",
+            "model": "ص",
+            "speech": "صاد",
+            "answers": [
+              "ص"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_3_14",
+            "cue": "ـض",
+            "model": "ض",
+            "speech": "ضاد",
+            "answers": [
+              "ض"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_3_15",
+            "cue": "ـط",
+            "model": "ط",
+            "speech": "طاء",
+            "answers": [
+              "ط"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_3_16",
+            "cue": "ـظ",
+            "model": "ظ",
+            "speech": "ظاء",
+            "answers": [
+              "ظ"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_3_17",
+            "cue": "ـع",
+            "model": "ع",
+            "speech": "عين",
+            "answers": [
+              "ع"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_3_18",
+            "cue": "ـغ",
+            "model": "غ",
+            "speech": "غين",
+            "answers": [
+              "غ"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_3_19",
+            "cue": "ـف",
+            "model": "ف",
+            "speech": "فاء",
+            "answers": [
+              "ف"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_3_20",
+            "cue": "ـق",
+            "model": "ق",
+            "speech": "قاف",
+            "answers": [
+              "ق"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_3_21",
+            "cue": "ـك",
+            "model": "ك",
+            "speech": "كاف",
+            "answers": [
+              "ك"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_3_22",
+            "cue": "ـل",
+            "model": "ل",
+            "speech": "لام",
+            "answers": [
+              "ل"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_3_23",
+            "cue": "ـم",
+            "model": "م",
+            "speech": "ميم",
+            "answers": [
+              "م"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_3_24",
+            "cue": "ـن",
+            "model": "ن",
+            "speech": "نون",
+            "answers": [
+              "ن"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_3_25",
+            "cue": "ـه",
+            "model": "ه",
+            "speech": "هاء",
+            "answers": [
+              "ه"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_3_26",
+            "cue": "ـو",
+            "model": "و",
+            "speech": "واو",
+            "answers": [
+              "و"
+            ],
+            "kind": "forms"
+          },
+          {
+            "id": "ar_forms_3_27",
+            "cue": "ـي",
+            "model": "ي",
+            "speech": "ياء",
+            "answers": [
+              "ي"
+            ],
+            "kind": "forms"
+          }
+        ]
+      },
+      {
+        "id": "breaks",
+        "title": {
+          "it": "Le sei lettere che interrompono il legame",
+          "en": "Six letters that break the join",
+          "ar": "ستة حروف لا تتصل بما بعدها",
+          "ru": "Шесть букв, прерывающих соединение"
+        },
+        "note": {
+          "it": "ا د ذ ر ز و si collegano alla lettera precedente, quando possibile, ma non alla successiva nella direzione di scrittura. ء è separata. Non aggiungere un collegamento inventato.",
+          "en": "ا د ذ ر ز و can join the preceding letter but do not join the following letter in writing order. ء stands separately. Do not invent joins.",
+          "ar": "تتصل ا د ذ ر ز و بما قبلها عندما يكون الاتصال ممكنًا، ولا تتصل بما بعدها. ء منفصلة. لا تضف اتصالًا غير صحيح.",
+          "ru": "ا د ذ ر ز و могут соединяться с предыдущей буквой, но не со следующей по направлению письма. ء стоит отдельно. Не придумывай соединения."
+        },
+        "stage": "patterns",
+        "cards": [
+          {
+            "id": "ar_breaks_0",
+            "cue": "ألف",
+            "model": "ا",
+            "speech": "ا",
+            "answers": [
+              "ا"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ar_breaks_1",
+            "cue": "دال",
+            "model": "د",
+            "speech": "د",
+            "answers": [
+              "د"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ar_breaks_2",
+            "cue": "ذال",
+            "model": "ذ",
+            "speech": "ذ",
+            "answers": [
+              "ذ"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ar_breaks_3",
+            "cue": "راء",
+            "model": "ر",
+            "speech": "ر",
+            "answers": [
+              "ر"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ar_breaks_4",
+            "cue": "زاي",
+            "model": "ز",
+            "speech": "ز",
+            "answers": [
+              "ز"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ar_breaks_5",
+            "cue": "واو",
+            "model": "و",
+            "speech": "و",
+            "answers": [
+              "و"
+            ],
+            "kind": "patterns"
+          }
+        ]
+      },
+      {
+        "id": "short_vowels",
+        "title": {
+          "it": "Vocali brevi e assenza di vocale",
+          "en": "Short vowels and no vowel",
+          "ar": "الحركات القصيرة والسكون",
+          "ru": "Краткие гласные и отсутствие гласной"
+        },
+        "note": {
+          "it": "Fatha َ, kasra ِ e damma ُ distinguono ba/bi/bu. Sukun ْ indica assenza di vocale. Questi segni devono essere conservati negli esercizi che li valutano.",
+          "en": "Fatha َ, kasra ِ and damma ُ distinguish ba/bi/bu. Sukun ْ marks no vowel. Keep these marks in the exercises that assess them.",
+          "ar": "تميّز الفتحة والكسرة والضمة بَ وبِ وبُ. يدل السكون على غياب الحركة. حافظ على هذه العلامات في التمارين التي تختبرها.",
+          "ru": "Фатха َ, касра ِ, дамма ُ различают ba/bi/bu. Сукун ْ отмечает отсутствие гласной. В этих упражнениях знаки сохраняются."
+        },
+        "stage": "patterns",
+        "cards": [
+          {
+            "id": "ar_short_vowels_0",
+            "cue": "باء مع فتحة",
+            "model": "بَ",
+            "speech": "بَ",
+            "answers": [
+              "بَ"
+            ],
+            "kind": "patterns",
+            "distractors": [
+              "بِ",
+              "بُ",
+              "بْ"
+            ]
+          },
+          {
+            "id": "ar_short_vowels_1",
+            "cue": "باء مع كسرة",
+            "model": "بِ",
+            "speech": "بِ",
+            "answers": [
+              "بِ"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ar_short_vowels_2",
+            "cue": "باء مع ضمة",
+            "model": "بُ",
+            "speech": "بُ",
+            "answers": [
+              "بُ"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ar_short_vowels_3",
+            "cue": "باء مع سكون",
+            "model": "بْ",
+            "speech": "بْ",
+            "answers": [
+              "بْ"
+            ],
+            "kind": "patterns"
+          }
+        ]
+      },
+      {
+        "id": "length",
+        "title": {
+          "it": "Vocali lunghe, shadda e tanwin",
+          "en": "Long vowels, shadda and tanwin",
+          "ar": "المد والشدة والتنوين",
+          "ru": "Долгие гласные, шадда и танвин"
+        },
+        "note": {
+          "it": "Confronta بَ/بَا, بِ/بِي, بُ/بُو. Shadda ّ raddoppia la consonante; tanwin aggiunge una terminazione con n in contesti vocalizzati. Non confondere segni combinati e nuove lettere.",
+          "en": "Compare بَ/بَا, بِ/بِي, بُ/بُو. Shadda doubles the consonant; tanwin adds an n ending in vocalized contexts. Combining marks are not new letters.",
+          "ar": "قارن بَ وبَا، بِ وبِي، بُ وبُو. تدل الشدة على تضعيف الصامت ويضيف التنوين صوت ن في السياقات المشكولة. العلامات المركبة ليست حروفًا جديدة.",
+          "ru": "Сравни بَ/بَا, بِ/بِي, بُ/بُو. Шадда удваивает согласный; танвин добавляет окончание с n в огласованных контекстах. Знаки не являются новыми буквами."
+        },
+        "stage": "patterns",
+        "cards": [
+          {
+            "id": "ar_length_0",
+            "cue": "باء مع مد بالألف",
+            "model": "بَا",
+            "speech": "بَا",
+            "answers": [
+              "بَا"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ar_length_1",
+            "cue": "باء مع مد بالياء",
+            "model": "بِي",
+            "speech": "بِي",
+            "answers": [
+              "بِي"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ar_length_2",
+            "cue": "باء مع مد بالواو",
+            "model": "بُو",
+            "speech": "بُو",
+            "answers": [
+              "بُو"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ar_length_3",
+            "cue": "باء مشددة مفتوحة",
+            "model": "بَّ",
+            "speech": "بَّ",
+            "answers": [
+              "بَّ"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ar_length_4",
+            "cue": "باء مع تنوين الضم",
+            "model": "بٌ",
+            "speech": "بٌ",
+            "answers": [
+              "بٌ"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ar_length_5",
+            "cue": "باء مع تنوين الكسر",
+            "model": "بٍ",
+            "speech": "بٍ",
+            "answers": [
+              "بٍ"
+            ],
+            "kind": "patterns"
+          }
+        ]
+      },
+      {
+        "id": "variants",
+        "title": {
+          "it": "Hamza e segni distinti",
+          "en": "Hamza and distinct signs",
+          "ar": "الهمزة والأشكال المتميزة",
+          "ru": "Хамза и разные знаки"
+        },
+        "note": {
+          "it": "Distingui ء أ إ آ ؤ ئ; ة non è ه, e ى non è ي. لا combina ل e ا. Qui impari a riconoscerli: le regole complete di ortografia della hamza richiedono altri livelli.",
+          "en": "Distinguish ء أ إ آ ؤ ئ; ة is not ه, and ى is not ي. لا combines ل and ا. This is recognition practice; full hamza spelling rules require further levels.",
+          "ar": "ميز ء وأ وإ وآ وؤ وئ. ة ليست ه وى ليست ي. تتكون لا من ل وا. هذا تدريب على التعرف؛ تحتاج قواعد كتابة الهمزة الكاملة إلى مستويات أخرى.",
+          "ru": "Различай ء أ إ آ ؤ ئ; ة не ه, ى не ي. لا объединяет ل и ا. Здесь изучается распознавание; полные правила написания хамзы требуют следующих уровней."
+        },
+        "stage": "patterns",
+        "cards": [
+          {
+            "id": "ar_variants_0",
+            "cue": "همزة منفصلة",
+            "model": "ء",
+            "speech": "ء",
+            "answers": [
+              "ء"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ar_variants_1",
+            "cue": "همزة فوق الألف",
+            "model": "أ",
+            "speech": "أ",
+            "answers": [
+              "أ"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ar_variants_2",
+            "cue": "همزة تحت الألف",
+            "model": "إ",
+            "speech": "إ",
+            "answers": [
+              "إ"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ar_variants_3",
+            "cue": "ألف مع مدّة",
+            "model": "آ",
+            "speech": "آ",
+            "answers": [
+              "آ"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ar_variants_4",
+            "cue": "همزة على واو",
+            "model": "ؤ",
+            "speech": "ؤ",
+            "answers": [
+              "ؤ"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ar_variants_5",
+            "cue": "همزة على ياء",
+            "model": "ئ",
+            "speech": "ئ",
+            "answers": [
+              "ئ"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ar_variants_6",
+            "cue": "تاء مربوطة",
+            "model": "ة",
+            "speech": "ة",
+            "answers": [
+              "ة"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ar_variants_7",
+            "cue": "ألف مقصورة",
+            "model": "ى",
+            "speech": "ى",
+            "answers": [
+              "ى"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ar_variants_8",
+            "cue": "لام وألف",
+            "model": "لا",
+            "speech": "لا",
+            "answers": [
+              "لا"
+            ],
+            "kind": "patterns"
+          }
+        ]
+      },
+      {
+        "id": "reading",
+        "title": {
+          "it": "Dai segni alle parole",
+          "en": "From signs to words",
+          "ar": "من العلامات إلى الكلمات",
+          "ru": "От знаков к словам"
+        },
+        "note": {
+          "it": "Inizia con parole vocalizzate, poi passa agli esempi senza vocali brevi. I punti distinguono lettere come ب/ت/ث e ج/ح/خ. La tastiera controlla i caratteri, non il tratto manoscritto. Numeri e testo latino restano isolati visivamente dentro l’interfaccia RTL.",
+          "en": "Start with vocalized words, then read examples without short vowels. Dots distinguish ب/ت/ث and ج/ح/خ. Typing checks characters, not handwriting. Numbers and Latin text are visually isolated in RTL layouts.",
+          "ar": "ابدأ بكلمات مشكولة ثم اقرأ أمثلة دون حركات قصيرة. تميز النقاط ب وت وث، وج وح وخ. يقيم الإدخال الحروف لا الخط اليدوي. تُعزل الأرقام والنصوص اللاتينية بصريًا في الواجهة من اليمين إلى اليسار.",
+          "ru": "Начни с огласованных слов, затем переходи к примерам без кратких гласных. Точки различают ب/ت/ث и ج/ح/خ. Проверяется ввод символов, а не почерк. Числа и латинский текст изолированы в интерфейсе RTL."
+        },
+        "stage": "patterns",
+        "cards": [
+          {
+            "id": "ar_reading_0",
+            "cue": "كَ + تَ + بَ",
+            "model": "كَتَبَ",
+            "speech": "كَتَبَ",
+            "answers": [
+              "كَتَبَ"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ar_reading_1",
+            "cue": "كِ + تَا + ب",
+            "model": "كِتَاب",
+            "speech": "كِتَاب",
+            "answers": [
+              "كِتَاب"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ar_reading_2",
+            "cue": "بَ + ا + ب",
+            "model": "بَاب",
+            "speech": "بَاب",
+            "answers": [
+              "بَاب"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ar_reading_3",
+            "cue": "بَ + يْ + ت",
+            "model": "بَيْت",
+            "speech": "بَيْت",
+            "answers": [
+              "بَيْت"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ar_reading_4",
+            "cue": "حرف بثلاث نقاط فوقه",
+            "model": "ث",
+            "speech": "ث",
+            "answers": [
+              "ث"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ar_reading_5",
+            "cue": "حرف بنقطة تحته",
+            "model": "ب",
+            "speech": "ب",
+            "answers": [
+              "ب"
+            ],
+            "kind": "patterns"
+          }
+        ]
+      },
+      {
+        "id": "first_words",
+        "title": {
+          "it": "Le prime frasi",
+          "en": "First phrases",
+          "ar": "الجمل الأولى",
+          "ru": "Первые фразы"
+        },
+        "note": {
+          "it": "Porta le lettere nella lettura di frasi brevi. Prima riconosci, poi scrivi e infine ascolta quando l’audio è disponibile.",
+          "en": "Use letters to read short phrases. First recognize, then type, then listen when audio is available.",
+          "ar": "استخدم الحروف لقراءة جمل قصيرة. تعرف عليها ثم اكتبها ثم استمع عندما يتوفر الصوت.",
+          "ru": "Применяй буквы для чтения коротких фраз. Сначала узнай, затем напиши и послушай, когда доступно аудио."
+        },
+        "stage": "phrases",
+        "cards": [
+          {
+            "id": "ar_first_words_0",
+            "cue": "قل تحية غير رسمية.",
+            "model": "مرحبًا!",
+            "speech": "مرحبًا!",
+            "answers": [
+              "مرحبًا!"
+            ],
+            "kind": "phrases",
+            "context": "greetings_0"
+          },
+          {
+            "id": "ar_first_words_1",
+            "cue": "قل تحية الصباح.",
+            "model": "صباح الخير!",
+            "speech": "صباح الخير!",
+            "answers": [
+              "صباح الخير!"
+            ],
+            "kind": "phrases",
+            "context": "greetings_1"
+          },
+          {
+            "id": "ar_first_words_2",
+            "cue": "اشكر شخصًا.",
+            "model": "شكرًا!",
+            "speech": "شكرًا!",
+            "answers": [
+              "شكرًا!"
+            ],
+            "kind": "phrases",
+            "context": "greetings_2"
+          }
+        ]
+      }
+    ]
+  },
+  "ru": {
+    "direction": "ltr",
+    "letters": [
+      {
+        "symbol": "А",
+        "lower": "а",
+        "name": "а"
+      },
+      {
+        "symbol": "Б",
+        "lower": "б",
+        "name": "бэ"
+      },
+      {
+        "symbol": "В",
+        "lower": "в",
+        "name": "вэ"
+      },
+      {
+        "symbol": "Г",
+        "lower": "г",
+        "name": "гэ"
+      },
+      {
+        "symbol": "Д",
+        "lower": "д",
+        "name": "дэ"
+      },
+      {
+        "symbol": "Е",
+        "lower": "е",
+        "name": "е"
+      },
+      {
+        "symbol": "Ё",
+        "lower": "ё",
+        "name": "ё"
+      },
+      {
+        "symbol": "Ж",
+        "lower": "ж",
+        "name": "жэ"
+      },
+      {
+        "symbol": "З",
+        "lower": "з",
+        "name": "зэ"
+      },
+      {
+        "symbol": "И",
+        "lower": "и",
+        "name": "и"
+      },
+      {
+        "symbol": "Й",
+        "lower": "й",
+        "name": "и краткое"
+      },
+      {
+        "symbol": "К",
+        "lower": "к",
+        "name": "ка"
+      },
+      {
+        "symbol": "Л",
+        "lower": "л",
+        "name": "эль"
+      },
+      {
+        "symbol": "М",
+        "lower": "м",
+        "name": "эм"
+      },
+      {
+        "symbol": "Н",
+        "lower": "н",
+        "name": "эн"
+      },
+      {
+        "symbol": "О",
+        "lower": "о",
+        "name": "о"
+      },
+      {
+        "symbol": "П",
+        "lower": "п",
+        "name": "пэ"
+      },
+      {
+        "symbol": "Р",
+        "lower": "р",
+        "name": "эр"
+      },
+      {
+        "symbol": "С",
+        "lower": "с",
+        "name": "эс"
+      },
+      {
+        "symbol": "Т",
+        "lower": "т",
+        "name": "тэ"
+      },
+      {
+        "symbol": "У",
+        "lower": "у",
+        "name": "у"
+      },
+      {
+        "symbol": "Ф",
+        "lower": "ф",
+        "name": "эф"
+      },
+      {
+        "symbol": "Х",
+        "lower": "х",
+        "name": "ха"
+      },
+      {
+        "symbol": "Ц",
+        "lower": "ц",
+        "name": "цэ"
+      },
+      {
+        "symbol": "Ч",
+        "lower": "ч",
+        "name": "че"
+      },
+      {
+        "symbol": "Ш",
+        "lower": "ш",
+        "name": "ша"
+      },
+      {
+        "symbol": "Щ",
+        "lower": "щ",
+        "name": "ща"
+      },
+      {
+        "symbol": "Ъ",
+        "lower": "ъ",
+        "name": "твёрдый знак"
+      },
+      {
+        "symbol": "Ы",
+        "lower": "ы",
+        "name": "ы"
+      },
+      {
+        "symbol": "Ь",
+        "lower": "ь",
+        "name": "мягкий знак"
+      },
+      {
+        "symbol": "Э",
+        "lower": "э",
+        "name": "э"
+      },
+      {
+        "symbol": "Ю",
+        "lower": "ю",
+        "name": "ю"
+      },
+      {
+        "symbol": "Я",
+        "lower": "я",
+        "name": "я"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "letters_1",
+        "title": {
+          "it": "Lettere 1 · АБВГДЕ",
+          "en": "Letters 1 · АБВГДЕ",
+          "ar": "الحروف 1 · АБВГДЕ",
+          "ru": "Буквы 1 · АБВГДЕ"
+        },
+        "note": {
+          "it": "Prima riconosci il segno e il nome della lettera; poi scrivilo senza modello. Il nome di una lettera non è sempre il suo suono dentro una parola.",
+          "en": "First identify the symbol and its letter name; then type it without the model. A letter name is not always its sound in a word.",
+          "ar": "تعرف أولًا على شكل الحرف واسمه، ثم اكتبه دون نموذج. اسم الحرف ليس دائمًا صوته داخل الكلمة.",
+          "ru": "Сначала узнай знак и название буквы, затем напиши её без образца. Название буквы не всегда совпадает с её звуком в слове."
+        },
+        "stage": "letters",
+        "cards": [
+          {
+            "id": "ru_letters_1_0",
+            "cue": "а",
+            "model": "а",
+            "speech": "а",
+            "answers": [
+              "а"
+            ],
+            "kind": "letters",
+            "upper": "А"
+          },
+          {
+            "id": "ru_letters_1_1",
+            "cue": "бэ",
+            "model": "б",
+            "speech": "бэ",
+            "answers": [
+              "б"
+            ],
+            "kind": "letters",
+            "upper": "Б"
+          },
+          {
+            "id": "ru_letters_1_2",
+            "cue": "вэ",
+            "model": "в",
+            "speech": "вэ",
+            "answers": [
+              "в"
+            ],
+            "kind": "letters",
+            "upper": "В"
+          },
+          {
+            "id": "ru_letters_1_3",
+            "cue": "гэ",
+            "model": "г",
+            "speech": "гэ",
+            "answers": [
+              "г"
+            ],
+            "kind": "letters",
+            "upper": "Г"
+          },
+          {
+            "id": "ru_letters_1_4",
+            "cue": "дэ",
+            "model": "д",
+            "speech": "дэ",
+            "answers": [
+              "д"
+            ],
+            "kind": "letters",
+            "upper": "Д"
+          },
+          {
+            "id": "ru_letters_1_5",
+            "cue": "е",
+            "model": "е",
+            "speech": "е",
+            "answers": [
+              "е"
+            ],
+            "kind": "letters",
+            "upper": "Е"
+          }
+        ]
+      },
+      {
+        "id": "letters_2",
+        "title": {
+          "it": "Lettere 2 · ЁЖЗИЙК",
+          "en": "Letters 2 · ЁЖЗИЙК",
+          "ar": "الحروف 2 · ЁЖЗИЙК",
+          "ru": "Буквы 2 · ЁЖЗИЙК"
+        },
+        "note": {
+          "it": "Prima riconosci il segno e il nome della lettera; poi scrivilo senza modello. Il nome di una lettera non è sempre il suo suono dentro una parola.",
+          "en": "First identify the symbol and its letter name; then type it without the model. A letter name is not always its sound in a word.",
+          "ar": "تعرف أولًا على شكل الحرف واسمه، ثم اكتبه دون نموذج. اسم الحرف ليس دائمًا صوته داخل الكلمة.",
+          "ru": "Сначала узнай знак и название буквы, затем напиши её без образца. Название буквы не всегда совпадает с её звуком в слове."
+        },
+        "stage": "letters",
+        "cards": [
+          {
+            "id": "ru_letters_2_0",
+            "cue": "ё",
+            "model": "ё",
+            "speech": "ё",
+            "answers": [
+              "ё"
+            ],
+            "kind": "letters",
+            "upper": "Ё"
+          },
+          {
+            "id": "ru_letters_2_1",
+            "cue": "жэ",
+            "model": "ж",
+            "speech": "жэ",
+            "answers": [
+              "ж"
+            ],
+            "kind": "letters",
+            "upper": "Ж"
+          },
+          {
+            "id": "ru_letters_2_2",
+            "cue": "зэ",
+            "model": "з",
+            "speech": "зэ",
+            "answers": [
+              "з"
+            ],
+            "kind": "letters",
+            "upper": "З"
+          },
+          {
+            "id": "ru_letters_2_3",
+            "cue": "и",
+            "model": "и",
+            "speech": "и",
+            "answers": [
+              "и"
+            ],
+            "kind": "letters",
+            "upper": "И"
+          },
+          {
+            "id": "ru_letters_2_4",
+            "cue": "и краткое",
+            "model": "й",
+            "speech": "и краткое",
+            "answers": [
+              "й"
+            ],
+            "kind": "letters",
+            "upper": "Й"
+          },
+          {
+            "id": "ru_letters_2_5",
+            "cue": "ка",
+            "model": "к",
+            "speech": "ка",
+            "answers": [
+              "к"
+            ],
+            "kind": "letters",
+            "upper": "К"
+          }
+        ]
+      },
+      {
+        "id": "letters_3",
+        "title": {
+          "it": "Lettere 3 · ЛМНОПР",
+          "en": "Letters 3 · ЛМНОПР",
+          "ar": "الحروف 3 · ЛМНОПР",
+          "ru": "Буквы 3 · ЛМНОПР"
+        },
+        "note": {
+          "it": "Prima riconosci il segno e il nome della lettera; poi scrivilo senza modello. Il nome di una lettera non è sempre il suo suono dentro una parola.",
+          "en": "First identify the symbol and its letter name; then type it without the model. A letter name is not always its sound in a word.",
+          "ar": "تعرف أولًا على شكل الحرف واسمه، ثم اكتبه دون نموذج. اسم الحرف ليس دائمًا صوته داخل الكلمة.",
+          "ru": "Сначала узнай знак и название буквы, затем напиши её без образца. Название буквы не всегда совпадает с её звуком в слове."
+        },
+        "stage": "letters",
+        "cards": [
+          {
+            "id": "ru_letters_3_0",
+            "cue": "эль",
+            "model": "л",
+            "speech": "эль",
+            "answers": [
+              "л"
+            ],
+            "kind": "letters",
+            "upper": "Л"
+          },
+          {
+            "id": "ru_letters_3_1",
+            "cue": "эм",
+            "model": "м",
+            "speech": "эм",
+            "answers": [
+              "м"
+            ],
+            "kind": "letters",
+            "upper": "М"
+          },
+          {
+            "id": "ru_letters_3_2",
+            "cue": "эн",
+            "model": "н",
+            "speech": "эн",
+            "answers": [
+              "н"
+            ],
+            "kind": "letters",
+            "upper": "Н"
+          },
+          {
+            "id": "ru_letters_3_3",
+            "cue": "о",
+            "model": "о",
+            "speech": "о",
+            "answers": [
+              "о"
+            ],
+            "kind": "letters",
+            "upper": "О"
+          },
+          {
+            "id": "ru_letters_3_4",
+            "cue": "пэ",
+            "model": "п",
+            "speech": "пэ",
+            "answers": [
+              "п"
+            ],
+            "kind": "letters",
+            "upper": "П"
+          },
+          {
+            "id": "ru_letters_3_5",
+            "cue": "эр",
+            "model": "р",
+            "speech": "эр",
+            "answers": [
+              "р"
+            ],
+            "kind": "letters",
+            "upper": "Р"
+          }
+        ]
+      },
+      {
+        "id": "letters_4",
+        "title": {
+          "it": "Lettere 4 · СТУФХЦ",
+          "en": "Letters 4 · СТУФХЦ",
+          "ar": "الحروف 4 · СТУФХЦ",
+          "ru": "Буквы 4 · СТУФХЦ"
+        },
+        "note": {
+          "it": "Prima riconosci il segno e il nome della lettera; poi scrivilo senza modello. Il nome di una lettera non è sempre il suo suono dentro una parola.",
+          "en": "First identify the symbol and its letter name; then type it without the model. A letter name is not always its sound in a word.",
+          "ar": "تعرف أولًا على شكل الحرف واسمه، ثم اكتبه دون نموذج. اسم الحرف ليس دائمًا صوته داخل الكلمة.",
+          "ru": "Сначала узнай знак и название буквы, затем напиши её без образца. Название буквы не всегда совпадает с её звуком в слове."
+        },
+        "stage": "letters",
+        "cards": [
+          {
+            "id": "ru_letters_4_0",
+            "cue": "эс",
+            "model": "с",
+            "speech": "эс",
+            "answers": [
+              "с"
+            ],
+            "kind": "letters",
+            "upper": "С"
+          },
+          {
+            "id": "ru_letters_4_1",
+            "cue": "тэ",
+            "model": "т",
+            "speech": "тэ",
+            "answers": [
+              "т"
+            ],
+            "kind": "letters",
+            "upper": "Т"
+          },
+          {
+            "id": "ru_letters_4_2",
+            "cue": "у",
+            "model": "у",
+            "speech": "у",
+            "answers": [
+              "у"
+            ],
+            "kind": "letters",
+            "upper": "У"
+          },
+          {
+            "id": "ru_letters_4_3",
+            "cue": "эф",
+            "model": "ф",
+            "speech": "эф",
+            "answers": [
+              "ф"
+            ],
+            "kind": "letters",
+            "upper": "Ф"
+          },
+          {
+            "id": "ru_letters_4_4",
+            "cue": "ха",
+            "model": "х",
+            "speech": "ха",
+            "answers": [
+              "х"
+            ],
+            "kind": "letters",
+            "upper": "Х"
+          },
+          {
+            "id": "ru_letters_4_5",
+            "cue": "цэ",
+            "model": "ц",
+            "speech": "цэ",
+            "answers": [
+              "ц"
+            ],
+            "kind": "letters",
+            "upper": "Ц"
+          }
+        ]
+      },
+      {
+        "id": "letters_5",
+        "title": {
+          "it": "Lettere 5 · ЧШЩЪЫЬ",
+          "en": "Letters 5 · ЧШЩЪЫЬ",
+          "ar": "الحروف 5 · ЧШЩЪЫЬ",
+          "ru": "Буквы 5 · ЧШЩЪЫЬ"
+        },
+        "note": {
+          "it": "Prima riconosci il segno e il nome della lettera; poi scrivilo senza modello. Il nome di una lettera non è sempre il suo suono dentro una parola.",
+          "en": "First identify the symbol and its letter name; then type it without the model. A letter name is not always its sound in a word.",
+          "ar": "تعرف أولًا على شكل الحرف واسمه، ثم اكتبه دون نموذج. اسم الحرف ليس دائمًا صوته داخل الكلمة.",
+          "ru": "Сначала узнай знак и название буквы, затем напиши её без образца. Название буквы не всегда совпадает с её звуком в слове."
+        },
+        "stage": "letters",
+        "cards": [
+          {
+            "id": "ru_letters_5_0",
+            "cue": "че",
+            "model": "ч",
+            "speech": "че",
+            "answers": [
+              "ч"
+            ],
+            "kind": "letters",
+            "upper": "Ч"
+          },
+          {
+            "id": "ru_letters_5_1",
+            "cue": "ша",
+            "model": "ш",
+            "speech": "ша",
+            "answers": [
+              "ш"
+            ],
+            "kind": "letters",
+            "upper": "Ш"
+          },
+          {
+            "id": "ru_letters_5_2",
+            "cue": "ща",
+            "model": "щ",
+            "speech": "ща",
+            "answers": [
+              "щ"
+            ],
+            "kind": "letters",
+            "upper": "Щ"
+          },
+          {
+            "id": "ru_letters_5_3",
+            "cue": "твёрдый знак",
+            "model": "ъ",
+            "speech": "твёрдый знак",
+            "answers": [
+              "ъ"
+            ],
+            "kind": "letters",
+            "upper": "Ъ"
+          },
+          {
+            "id": "ru_letters_5_4",
+            "cue": "ы",
+            "model": "ы",
+            "speech": "ы",
+            "answers": [
+              "ы"
+            ],
+            "kind": "letters",
+            "upper": "Ы"
+          },
+          {
+            "id": "ru_letters_5_5",
+            "cue": "мягкий знак",
+            "model": "ь",
+            "speech": "мягкий знак",
+            "answers": [
+              "ь"
+            ],
+            "kind": "letters",
+            "upper": "Ь"
+          }
+        ]
+      },
+      {
+        "id": "letters_6",
+        "title": {
+          "it": "Lettere 6 · ЭЮЯ",
+          "en": "Letters 6 · ЭЮЯ",
+          "ar": "الحروف 6 · ЭЮЯ",
+          "ru": "Буквы 6 · ЭЮЯ"
+        },
+        "note": {
+          "it": "Prima riconosci il segno e il nome della lettera; poi scrivilo senza modello. Il nome di una lettera non è sempre il suo suono dentro una parola.",
+          "en": "First identify the symbol and its letter name; then type it without the model. A letter name is not always its sound in a word.",
+          "ar": "تعرف أولًا على شكل الحرف واسمه، ثم اكتبه دون نموذج. اسم الحرف ليس دائمًا صوته داخل الكلمة.",
+          "ru": "Сначала узнай знак и название буквы, затем напиши её без образца. Название буквы не всегда совпадает с её звуком в слове."
+        },
+        "stage": "letters",
+        "cards": [
+          {
+            "id": "ru_letters_6_0",
+            "cue": "э",
+            "model": "э",
+            "speech": "э",
+            "answers": [
+              "э"
+            ],
+            "kind": "letters",
+            "upper": "Э"
+          },
+          {
+            "id": "ru_letters_6_1",
+            "cue": "ю",
+            "model": "ю",
+            "speech": "ю",
+            "answers": [
+              "ю"
+            ],
+            "kind": "letters",
+            "upper": "Ю"
+          },
+          {
+            "id": "ru_letters_6_2",
+            "cue": "я",
+            "model": "я",
+            "speech": "я",
+            "answers": [
+              "я"
+            ],
+            "kind": "letters",
+            "upper": "Я"
+          }
+        ]
+      },
+      {
+        "id": "lookalikes",
+        "title": {
+          "it": "Cirillico: somiglianze ingannevoli",
+          "en": "Cyrillic lookalikes",
+          "ar": "التشابه المضلل في السيريلية",
+          "ru": "Похожие буквы разных алфавитов"
+        },
+        "note": {
+          "it": "В, Н, Р, С, У e Х sono cirilliche: non si leggono come le lettere latine somiglianti. Digita in cirillico; una a latina non è una а cirillica.",
+          "en": "В, Н, Р, С, У and Х are Cyrillic, not their Latin lookalikes. Use a Cyrillic keyboard: Latin a is not Cyrillic а.",
+          "ar": "الحروف В وН وР وС وУ وХ سيريلية ولا تقرأ مثل أشباهها اللاتينية. استخدم لوحة سيريلية؛ a اللاتينية ليست а السيريلية.",
+          "ru": "В, Н, Р, С, У, Х — кириллические буквы. Не путай их с латинскими. Латинская a и кириллическая а — разные символы."
+        },
+        "stage": "patterns",
+        "cards": [
+          {
+            "id": "ru_lookalikes_0",
+            "cue": "вэ",
+            "model": "в",
+            "speech": "в",
+            "answers": [
+              "в"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ru_lookalikes_1",
+            "cue": "эн",
+            "model": "н",
+            "speech": "н",
+            "answers": [
+              "н"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ru_lookalikes_2",
+            "cue": "эр",
+            "model": "р",
+            "speech": "р",
+            "answers": [
+              "р"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ru_lookalikes_3",
+            "cue": "эс",
+            "model": "с",
+            "speech": "с",
+            "answers": [
+              "с"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ru_lookalikes_4",
+            "cue": "у",
+            "model": "у",
+            "speech": "у",
+            "answers": [
+              "у"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ru_lookalikes_5",
+            "cue": "ха",
+            "model": "х",
+            "speech": "х",
+            "answers": [
+              "х"
+            ],
+            "kind": "patterns"
+          }
+        ]
+      },
+      {
+        "id": "vowels",
+        "title": {
+          "it": "Vocali e consonanti morbide",
+          "en": "Vowels and soft consonants",
+          "ar": "الحركات والصوامت اللينة",
+          "ru": "Гласные и мягкие согласные"
+        },
+        "note": {
+          "it": "Distingui и/й, е/ё e и/ы. Е, ё, ю, я e и possono segnalare la morbidezza della consonante precedente; non è una regola senza eccezioni. Ё e е restano distinte negli esercizi.",
+          "en": "Distinguish и/й, е/ё and и/ы. Е, ё, ю, я and и can mark a preceding consonant as soft, with exceptions. Keep ё distinct from е.",
+          "ar": "ميز и عن й وе عن ё وи عن ы. قد تشير е وё وю وя وи إلى لين الصامت السابق، مع وجود استثناءات. نحافظ على الفرق بين ё وе.",
+          "ru": "Различай и/й, е/ё, и/ы. Е, ё, ю, я, и могут обозначать мягкость предыдущего согласного, но есть исключения. В упражнениях ё не заменяется на е."
+        },
+        "stage": "patterns",
+        "cards": [
+          {
+            "id": "ru_vowels_0",
+            "cue": "и",
+            "model": "и",
+            "speech": "и",
+            "answers": [
+              "и"
+            ],
+            "kind": "patterns",
+            "distractors": [
+              "й",
+              "ы",
+              "е"
+            ]
+          },
+          {
+            "id": "ru_vowels_1",
+            "cue": "и краткое",
+            "model": "й",
+            "speech": "й",
+            "answers": [
+              "й"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ru_vowels_2",
+            "cue": "ё",
+            "model": "ё",
+            "speech": "ё",
+            "answers": [
+              "ё"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ru_vowels_3",
+            "cue": "ы",
+            "model": "ы",
+            "speech": "ы",
+            "answers": [
+              "ы"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ru_vowels_4",
+            "cue": "ю",
+            "model": "ю",
+            "speech": "ю",
+            "answers": [
+              "ю"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ru_vowels_5",
+            "cue": "я",
+            "model": "я",
+            "speech": "я",
+            "answers": [
+              "я"
+            ],
+            "kind": "patterns"
+          }
+        ]
+      },
+      {
+        "id": "signs",
+        "title": {
+          "it": "Segno morbido e segno duro",
+          "en": "Soft sign and hard sign",
+          "ar": "علامة اللين والعلامة الصلبة",
+          "ru": "Мягкий и твёрдый знаки"
+        },
+        "note": {
+          "it": "Ь e Ъ non hanno un suono autonomo. Ь può segnalare morbidezza o separazione; Ъ separa prima di una vocale iotizzata. Confronta день, семья e подъезд.",
+          "en": "Ь and Ъ have no sound of their own. Ь can mark softness or separation; Ъ separates before an iotated vowel. Compare день, семья and подъезд.",
+          "ar": "ليس لـЬ وЪ صوت مستقل. قد تشير Ь إلى اللين أو الفصل، وتفصل Ъ قبل حركة يوتية. قارن день وсемья وподъезд.",
+          "ru": "Ь и Ъ не имеют отдельного звука. Ь может обозначать мягкость или разделение; Ъ разделяет перед йотированной гласной. Сравни день, семья, подъезд."
+        },
+        "stage": "patterns",
+        "cards": [
+          {
+            "id": "ru_signs_0",
+            "cue": "мягкий знак",
+            "model": "ь",
+            "speech": "ь",
+            "answers": [
+              "ь"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ru_signs_1",
+            "cue": "твёрдый знак",
+            "model": "ъ",
+            "speech": "ъ",
+            "answers": [
+              "ъ"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ru_signs_2",
+            "cue": "д + е + н + ь",
+            "model": "день",
+            "speech": "день",
+            "answers": [
+              "день"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ru_signs_3",
+            "cue": "с + е + м + ь + я",
+            "model": "семья",
+            "speech": "семья",
+            "answers": [
+              "семья"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ru_signs_4",
+            "cue": "п + о + д + ъ + е + з + д",
+            "model": "подъезд",
+            "speech": "подъезд",
+            "answers": [
+              "подъезд"
+            ],
+            "kind": "patterns"
+          }
+        ]
+      },
+      {
+        "id": "stress",
+        "title": {
+          "it": "Accento e lettura delle parole",
+          "en": "Stress and reading words",
+          "ar": "النبر وقراءة الكلمات",
+          "ru": "Ударение и чтение слов"
+        },
+        "note": {
+          "it": "L’accento russo non è prevedibile dalla sola grafia. Nei modelli didattici può essere segnato: вода́, молоко́, кни́га. Qui conserva il segno quando è richiesto; nelle frasi normali è spesso omesso. Il corsivo manoscritto richiede un lavoro ulteriore, non viene valutato dalla tastiera.",
+          "en": "Russian stress is not predictable from spelling alone. Learning models can mark it: вода́, молоко́, кни́га. Keep a requested mark; ordinary text usually omits it. Typed exercises do not assess handwritten cursive.",
+          "ar": "لا يمكن استنتاج النبر الروسي من الكتابة وحدها. قد يظهر في النماذج التعليمية: вода́ وмолоко́ وкни́га. احتفظ بالعلامة عند طلبها. الكتابة بلوحة المفاتيح لا تقيم الخط اليدوي.",
+          "ru": "Ударение не всегда предсказуемо по написанию. В учебных моделях его отмечают: вода́, молоко́, кни́га. Сохраняй знак по заданию; в обычном тексте его часто нет. Печатный ввод не оценивает рукописный курсив."
+        },
+        "stage": "patterns",
+        "cards": [
+          {
+            "id": "ru_stress_0",
+            "cue": "вода + ударение на а",
+            "model": "вода́",
+            "speech": "вода́",
+            "answers": [
+              "вода́"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ru_stress_1",
+            "cue": "молоко + ударение на последнее о",
+            "model": "молоко́",
+            "speech": "молоко́",
+            "answers": [
+              "молоко́"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ru_stress_2",
+            "cue": "книга + ударение на и",
+            "model": "кни́га",
+            "speech": "кни́га",
+            "answers": [
+              "кни́га"
+            ],
+            "kind": "patterns"
+          },
+          {
+            "id": "ru_stress_3",
+            "cue": "м + а + м + а",
+            "model": "мама",
+            "speech": "мама",
+            "answers": [
+              "мама"
+            ],
+            "kind": "patterns"
+          }
+        ]
+      },
+      {
+        "id": "first_words",
+        "title": {
+          "it": "Le prime frasi",
+          "en": "First phrases",
+          "ar": "الجمل الأولى",
+          "ru": "Первые фразы"
+        },
+        "note": {
+          "it": "Porta le lettere nella lettura di frasi brevi. Prima riconosci, poi scrivi e infine ascolta quando l’audio è disponibile.",
+          "en": "Use letters to read short phrases. First recognize, then type, then listen when audio is available.",
+          "ar": "استخدم الحروف لقراءة جمل قصيرة. تعرف عليها ثم اكتبها ثم استمع عندما يتوفر الصوت.",
+          "ru": "Применяй буквы для чтения коротких фраз. Сначала узнай, затем напиши и послушай, когда доступно аудио."
+        },
+        "stage": "phrases",
+        "cards": [
+          {
+            "id": "ru_first_words_0",
+            "cue": "Поздоровайся неформально.",
+            "model": "Привет!",
+            "speech": "Привет!",
+            "answers": [
+              "Привет!"
+            ],
+            "kind": "phrases",
+            "context": "greetings_0"
+          },
+          {
+            "id": "ru_first_words_1",
+            "cue": "Поздоровайся утром.",
+            "model": "Доброе утро!",
+            "speech": "Доброе утро!",
+            "answers": [
+              "Доброе утро!"
+            ],
+            "kind": "phrases",
+            "context": "greetings_1"
+          },
+          {
+            "id": "ru_first_words_2",
+            "cue": "Поблагодари человека.",
+            "model": "Спасибо!",
+            "speech": "Спасибо!",
+            "answers": [
+              "Спасибо!"
+            ],
+            "kind": "phrases",
+            "context": "greetings_2"
+          }
+        ]
+      }
+    ]
+  }
+}

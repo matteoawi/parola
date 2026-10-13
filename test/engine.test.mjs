@@ -18,8 +18,8 @@ test('precise Mahjong covering and lateral blocking rules',()=>{
  assert.equal(E.free(b[0],b),false);assert.equal(E.free(b[1],b),false);assert.equal(E.free(b[2],b),true);assert.equal(E.free(b[3],b),true);
  b[0].gone=true;assert.equal(E.free(b[1],b),true);assert.equal(E.free(b[0],b),false);
 });
-test('all 12 directions × 24 units × 10 randomized pair boards have a solution',()=>{
- for(const target of E.LANGS)for(const support of E.LANGS.filter(s=>s!==target))for(const u of C.units)for(let seed=0;seed<10;seed++){
+test('all 16 bilingual/monolingual routes × 24 units × 10 randomized pair boards have a solution',()=>{
+ for(const target of E.LANGS)for(const support of E.LANGS)for(const u of C.units)for(let seed=0;seed<10;seed++){
   const rand=E.rng(seed+u.index*211),entries=[...unitItems(u),...C.vocab.slice(0,3)];let b=E.makePairs(entries,target,support,rand);let n=0;
   while(b.some(t=>!t.gone)){let ids=E.pairHint(b);assert.equal(ids.length,2,`stall ${target}/${support}/${u.id}/${seed}`);for(const id of ids){let t=b.find(t=>t.id===id);assert.ok(E.free(t,b));t.gone=true;}n++;}
   assert.equal(n,6);boards++;
@@ -57,7 +57,7 @@ test('review spacing, same-day repetition, assistance, errors, and direction iso
 });
 test('safe progress import and highest-score merge without accumulating duplicate XP',()=>{
  const a=E.newProgress();a.missions['en>it|pair|greetings']={score:100,stars:1,date:10};const b=E.newProgress();b.missions['en>it|pair|greetings']={score:90,stars:1,date:20};const c=E.mergeProgress(a,b);assert.equal(c.missions['en>it|pair|greetings'].score,100);assert.equal(Object.keys(c.missions).length,1);
- assert.throws(()=>E.validateProgress({version:3}));assert.throws(()=>E.validateProgress({...a,settings:{...a.settings,support:'it'}}));
+ assert.throws(()=>E.validateProgress({version:3}));assert.throws(()=>E.validateProgress({...a,settings:{...a.settings,support:'xx'}}));
  const evil=JSON.parse(JSON.stringify(a));evil.missions['<script>evil</script>']={score:900};assert.equal(Object.keys(E.validateProgress(evil).missions).length,1);
 });
 process.on('exit',()=>{const report={boards,sequenceMoves,randomStalls};console.log('SIMULATION_REPORT',JSON.stringify(report));fs.writeFileSync(new URL('../docs/engine-report.json',import.meta.url),JSON.stringify(report,null,2));});

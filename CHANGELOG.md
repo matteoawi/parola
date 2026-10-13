@@ -1,5 +1,17 @@
 # Aggiornamenti di Parola
 
+## 6.1.0 — 13 ottobre 2026
+
+- Quattro percorsi monolingua, uno per ogni lingua: frasi abbinate a indizi nella stessa lingua, con progressi distinti dai dodici percorsi bilingui. Accesso diretto dalla home e dalle Impostazioni.
+- Due ingressi: dall’alfabeto per chi inizia a leggere oppure dalle frasi per chi sa già leggere. Saltare una lezione non la segna come completata.
+- Alfabeto trasformato in un percorso di 45 lezioni e 294 elementi, con sessioni di massimo sei esercizi e progressi separati per riconoscimento, scrittura e ascolto.
+- Italiano: 21 lettere, cinque lettere dei prestiti, accenti, C/G/H, gruppi di lettere, doppie e apostrofo. Inglese: 26 lettere, nome e suono, vocali, gruppi consonantici e parole irregolari.
+- Russo: 33 lettere, somiglianze con il latino, е/ё, и/й/ы, segni morbido e duro, accento. Arabo: 28 lettere, forme collegate, sei lettere che interrompono il collegamento, vocali brevi e lunghe, sukun, shadda, tanwin, hamza e varianti.
+- Tastiere virtuali, direzione RTL, salvataggio della sessione e delle risposte, importazione/esportazione e contenuti disponibili offline.
+- Negli esercizi di alfabeto accenti e vocali arabe vengono valutati senza essere eliminati. Risposte assistite ed errori richiedono una nuova prova autonoma. L’ascolto viene registrato solo dopo una riproduzione riuscita.
+
+I nuovi audio di lettere e parole usano una voce della lingua sul dispositivo, se disponibile; gli esercizi visivi restano accessibili. Non sono inclusi nuovi MP3 arabi. La tastiera non valuta la grafia manoscritta o la pronuncia dell’utente.
+
 ## 6.0.3 — 13 ottobre 2026
 
 - Pubblicazione sull’account GitHub matteoawi: repository matteoawi/parola e sito https://matteoawi.github.io/parola/.

@@ -1,4 +1,5 @@
 /** Parola v6 — pure Mahjong geometry and language-game logic. No DOM dependencies. */
+import {sanitizeLiteracySessions} from './literacy.mjs';
 export const LANGS = ['it','en','ar','ru'];
 export const MODES = ['pair','listen','complete','compose','write'];
 export function norm(text, lang='it') {
@@ -36,12 +37,12 @@ function pairPlan(positions,random){
  throw Error('No geometric pair plan found');
 }
 export function makePairs(entries,target,support,random=Math.random,positions=null){
- if(target===support||!LANGS.includes(target)||!LANGS.includes(support))throw Error('Two distinct supported languages required');
+ if(!LANGS.includes(target)||!LANGS.includes(support))throw Error('Supported languages required');
  const board=(positions||geometry(entries.length*2)).map(t=>({...t}));
  const active=board.filter(t=>!t.gone);if(active.length!==entries.length*2)throw Error('Tile / entry mismatch');
  const plan=pairPlan(board,random),byId=new Map(board.map(t=>[t.id,t]));
  for(const [i,pair] of plan.entries()){
-  const ent=entries[i];for(const [j,id] of shuffled(pair,random).entries())Object.assign(byId.get(id),{itemId:ent.id,pairKey:ent.id,type:j?'support':'target',lang:j?support:target,text:ent.text[j?support:target]});
+  const ent=entries[i];for(const [j,id] of shuffled(pair,random).entries())Object.assign(byId.get(id),{itemId:ent.id,pairKey:ent.id,type:j?'support':'target',lang:j?support:target,text:j?supportText(ent,target,support):ent.text[target]});
  }
  return board;
 }
@@ -66,9 +67,15 @@ export function repairSequence(board,required,lang,random=Math.random){
  for(const word of required){const i=remaining.findIndex(t=>norm(t.text,lang)===norm(word,lang));if(i<0)throw Error('Required token missing');ordered.push(...remaining.splice(i,1));}
  return makeSequence([...ordered,...shuffled(remaining,random)],random,board);
 }
-export function routeKey(settings){if(!LANGS.includes(settings.target)||!LANGS.includes(settings.support)||settings.target===settings.support)throw Error('Invalid direction');return `${settings.support}>${settings.target}`;}
+export function supportText(item,target,support){
+ if(target!==support)return item.text[support];
+ const clue=item.clue?.[target];
+ if(!clue||norm(clue,target)===norm(item.text[target],target))throw Error('Missing monolingual clue');
+ return clue;
+}
+export function routeKey(settings){if(!LANGS.includes(settings.target)||!LANGS.includes(settings.support))throw Error('Invalid direction');return `${settings.support}>${settings.target}`;}
 export function localDay(now=Date.now()){const d=new Date(now);return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;}
-export function newProgress(){return{version:6,settings:{target:'it',support:'en',ui:'it',voice:'offline',effects:true,labels:true,large:false},missions:{},memory:{},seen:[],days:[],active:null};}
+export function newProgress(){return{version:6,settings:{target:'it',support:'en',ui:'it',voice:'offline',effects:true,labels:true,large:false},missions:{},memory:{},seen:[],days:[],active:null,alphabetSessions:{}};}
 export function memoryKey(route,skill,item){return `${route}|${skill}|${item}`;}
 export function updateMemory(prev,success,assisted,now=Date.now()) {
  if(!Number.isFinite(now)||now<0)throw Error('Invalid review timestamp');
@@ -91,6 +98,7 @@ export function validateProgress(p){
  if(!p||![5,6].includes(p.version)||typeof p.missions!=='object'||!p.missions||Array.isArray(p.missions)||typeof p.memory!=='object'||!p.memory||Array.isArray(p.memory)||!Array.isArray(p.seen)||!Array.isArray(p.days))throw Error('Invalid progress file');
  routeKey(p.settings);if(!LANGS.includes(p.settings.ui))throw Error('Invalid UI language');
  const clean=newProgress();
+ clean.alphabetSessions=sanitizeLiteracySessions(p.alphabetSessions);
  for(const k of ['target','support','ui','voice','effects','labels','large'])if(Object.hasOwn(p.settings,k))clean.settings[k]=p.settings[k];
  clean.settings.voice=['offline','auto'].includes(clean.settings.voice)?clean.settings.voice:'offline';
  for(const k of ['effects','labels','large'])clean.settings[k]=Boolean(clean.settings[k]);

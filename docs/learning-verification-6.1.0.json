@@ -1,0 +1,526 @@
+{
+  "version": "6.1.0",
+  "url": "http://127.0.0.1:8765/Parola-v6-sorgenti-e-verifiche/",
+  "checks": 90,
+  "alphabetLessons": 45,
+  "alphabetCards": 294,
+  "results": [
+    {
+      "check": "visible monolingual entry selects one language",
+      "passed": true
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "it",
+      "lesson": "letters_1"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "it",
+      "lesson": "letters_2"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "it",
+      "lesson": "letters_3"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "it",
+      "lesson": "letters_4"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "it",
+      "lesson": "foreign"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "it",
+      "lesson": "accents"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "it",
+      "lesson": "hard_soft"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "it",
+      "lesson": "groups"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "it",
+      "lesson": "doubles"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "it",
+      "lesson": "first_words"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "en",
+      "lesson": "letters_1"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "en",
+      "lesson": "letters_2"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "en",
+      "lesson": "letters_3"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "en",
+      "lesson": "letters_4"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "en",
+      "lesson": "letters_5"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "en",
+      "lesson": "short_vowels"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "en",
+      "lesson": "vowel_patterns"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "en",
+      "lesson": "consonant_groups"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "en",
+      "lesson": "exceptions"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "en",
+      "lesson": "first_words"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "ar",
+      "lesson": "letters_1"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "ar",
+      "lesson": "letters_2"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "ar",
+      "lesson": "letters_3"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "ar",
+      "lesson": "letters_4"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "ar",
+      "lesson": "letters_5"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "ar",
+      "lesson": "forms_1"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "ar",
+      "lesson": "forms_2"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "ar",
+      "lesson": "forms_3"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "ar",
+      "lesson": "breaks"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "ar",
+      "lesson": "short_vowels"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "ar",
+      "lesson": "length"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "ar",
+      "lesson": "variants"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "ar",
+      "lesson": "reading"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "ar",
+      "lesson": "first_words"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "ru",
+      "lesson": "letters_1"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "ru",
+      "lesson": "letters_2"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "ru",
+      "lesson": "letters_3"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "ru",
+      "lesson": "letters_4"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "ru",
+      "lesson": "letters_5"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "ru",
+      "lesson": "letters_6"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "ru",
+      "lesson": "lookalikes"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "ru",
+      "lesson": "vowels"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "ru",
+      "lesson": "signs"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "ru",
+      "lesson": "stress"
+    },
+    {
+      "check": "complete alphabet lesson in recognition and typing",
+      "passed": true,
+      "lang": "ru",
+      "lesson": "first_words"
+    },
+    {
+      "check": "Arabic vowel contrast is strict and an error makes the answer assisted",
+      "passed": true
+    },
+    {
+      "check": "alphabet session and draft survive real browser reload",
+      "passed": true
+    },
+    {
+      "check": "missing Arabic letter voice disables listening while visual learning remains available",
+      "passed": true
+    },
+    {
+      "check": "actual embedded MP3 is required before an alphabet listening answer is credited",
+      "passed": true
+    },
+    {
+      "check": "monolingual listening pair with actual MP3",
+      "passed": true,
+      "lang": "it"
+    },
+    {
+      "check": "monolingual listening pair with actual MP3",
+      "passed": true,
+      "lang": "en"
+    },
+    {
+      "check": "monolingual listening pair with actual MP3",
+      "passed": true,
+      "lang": "ru"
+    },
+    {
+      "check": "monolingual listening cannot remove pairs without the required Arabic audio",
+      "passed": true
+    },
+    {
+      "check": "complete monolingual game",
+      "passed": true,
+      "lang": "it",
+      "mode": "pair"
+    },
+    {
+      "check": "complete monolingual game",
+      "passed": true,
+      "lang": "it",
+      "mode": "write"
+    },
+    {
+      "check": "complete monolingual game",
+      "passed": true,
+      "lang": "it",
+      "mode": "complete"
+    },
+    {
+      "check": "complete monolingual game",
+      "passed": true,
+      "lang": "it",
+      "mode": "compose"
+    },
+    {
+      "check": "complete monolingual game",
+      "passed": true,
+      "lang": "en",
+      "mode": "pair"
+    },
+    {
+      "check": "complete monolingual game",
+      "passed": true,
+      "lang": "en",
+      "mode": "write"
+    },
+    {
+      "check": "complete monolingual game",
+      "passed": true,
+      "lang": "en",
+      "mode": "complete"
+    },
+    {
+      "check": "complete monolingual game",
+      "passed": true,
+      "lang": "en",
+      "mode": "compose"
+    },
+    {
+      "check": "complete monolingual game",
+      "passed": true,
+      "lang": "ar",
+      "mode": "pair"
+    },
+    {
+      "check": "complete monolingual game",
+      "passed": true,
+      "lang": "ar",
+      "mode": "write"
+    },
+    {
+      "check": "complete monolingual game",
+      "passed": true,
+      "lang": "ar",
+      "mode": "complete"
+    },
+    {
+      "check": "complete monolingual game",
+      "passed": true,
+      "lang": "ar",
+      "mode": "compose"
+    },
+    {
+      "check": "complete monolingual game",
+      "passed": true,
+      "lang": "ru",
+      "mode": "pair"
+    },
+    {
+      "check": "complete monolingual game",
+      "passed": true,
+      "lang": "ru",
+      "mode": "write"
+    },
+    {
+      "check": "complete monolingual game",
+      "passed": true,
+      "lang": "ru",
+      "mode": "complete"
+    },
+    {
+      "check": "complete monolingual game",
+      "passed": true,
+      "lang": "ru",
+      "mode": "compose"
+    },
+    {
+      "check": "alphabet responsive layout",
+      "passed": true,
+      "width": 390,
+      "lang": "it"
+    },
+    {
+      "check": "monolingual board fits the viewport and displays complete clues",
+      "passed": true,
+      "width": 390,
+      "lang": "it"
+    },
+    {
+      "check": "alphabet responsive layout",
+      "passed": true,
+      "width": 390,
+      "lang": "en"
+    },
+    {
+      "check": "monolingual board fits the viewport and displays complete clues",
+      "passed": true,
+      "width": 390,
+      "lang": "en"
+    },
+    {
+      "check": "alphabet responsive layout",
+      "passed": true,
+      "width": 390,
+      "lang": "ar"
+    },
+    {
+      "check": "monolingual board fits the viewport and displays complete clues",
+      "passed": true,
+      "width": 390,
+      "lang": "ar"
+    },
+    {
+      "check": "alphabet responsive layout",
+      "passed": true,
+      "width": 390,
+      "lang": "ru"
+    },
+    {
+      "check": "monolingual board fits the viewport and displays complete clues",
+      "passed": true,
+      "width": 390,
+      "lang": "ru"
+    },
+    {
+      "check": "alphabet responsive layout",
+      "passed": true,
+      "width": 1360,
+      "lang": "it"
+    },
+    {
+      "check": "monolingual board fits the viewport and displays complete clues",
+      "passed": true,
+      "width": 1360,
+      "lang": "it"
+    },
+    {
+      "check": "alphabet responsive layout",
+      "passed": true,
+      "width": 1360,
+      "lang": "en"
+    },
+    {
+      "check": "monolingual board fits the viewport and displays complete clues",
+      "passed": true,
+      "width": 1360,
+      "lang": "en"
+    },
+    {
+      "check": "alphabet responsive layout",
+      "passed": true,
+      "width": 1360,
+      "lang": "ar"
+    },
+    {
+      "check": "monolingual board fits the viewport and displays complete clues",
+      "passed": true,
+      "width": 1360,
+      "lang": "ar"
+    },
+    {
+      "check": "alphabet responsive layout",
+      "passed": true,
+      "width": 1360,
+      "lang": "ru"
+    },
+    {
+      "check": "monolingual board fits the viewport and displays complete clues",
+      "passed": true,
+      "width": 1360,
+      "lang": "ru"
+    },
+    {
+      "check": "settings can select a native-language path",
+      "passed": true
+    },
+    {
+      "check": "export and import preserve alphabet skills and sessions",
+      "passed": true
+    },
+    {
+      "check": "alphabet curriculum is available after offline reload",
+      "passed": true
+    },
+    {
+      "check": "no JavaScript errors or missing translations",
+      "passed": true
+    }
+  ]
+}
