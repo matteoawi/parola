@@ -4,7 +4,7 @@ Revisione 3 · 13 ottobre 2026 · proposta da realizzare, non funzionalità già
 
 Specifica di schermate, interazioni, aiuti, apprendimento, stati di recupero e criteri del prototipo: [UI/UX completa 7.0](UX-ESPERIENZA-7.0.md).
 
-La versione del gioco resta 6.10.2. Questo piano riguarda una ricostruzione dell’esperienza, delle tessere e dei gameplay, non una nuova passata di rifinitura dell’interfaccia attuale. La struttura proposta assume un percorso guidato principale con laboratorio libero sempre disponibile; la preferenza tra percorso e gioco libero è stata chiesta all’utente e resta aperta al momento della stesura. Il resto del piano funziona anche invertendo i due accessi.
+La versione del gioco resta 6.10.2. Questo piano riguarda una ricostruzione dell’esperienza, delle tessere e dei gameplay, non una nuova passata di rifinitura dell’interfaccia attuale. La struttura proposta assume un percorso guidato principale con laboratorio libero sempre disponibile; l’utente ha confermato percorso guidato più laboratorio libero. Il resto del piano funziona anche invertendo i due accessi.
 
 ## 1. Diagnosi concreta
 
@@ -165,7 +165,7 @@ Verifiche circoscritte per tappa: proprietà del motore per solvibilità e annul
 
 ## Decisioni ancora aperte
 
-- Percorso guidato o laboratorio libero come ingresso principale: struttura sopra proposta, non ancora confermata.
+- Ingresso principale confermato: percorso guidato, con laboratorio libero sempre accessibile.
 - Aspetto esatto delle tessere e palette: da scegliere sul prototipo A, evitando di rifare l’intero gioco prima di vedere il tavolo.
 - Regola di raccolta del cloze, quantità di novità e durata delle sessioni: da verificare nel prototipo.
 - Estensione delle costruzioni e revisione linguistica: dipendenza contenutistica della tappa D, non capacità universale già presente.

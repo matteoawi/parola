@@ -1,4 +1,4 @@
-# Parola 6.10.2 — Mahjong delle lingue
+# Parola 6.11.0 — Mahjong delle lingue
 
 La versione 6.1.0 aggiunge quattro percorsi monolingua e un percorso di alfabeto con 45 lezioni e 294 elementi. Dalla home puoi scegliere se iniziare dalle lettere o dalle frasi. Dettagli in `docs/ALFABETO_E_MONOLINGUA.md`.
 
@@ -26,7 +26,7 @@ La versione 6.10.0 riorganizza Gioca, Impara e Progressi, rinnova colori e tipog
 
 ## Apri il gioco
 
-Gioca su https://matteoawi.github.io/parola/ oppure apri **Parola-offline.html** con un browser. Il file offline incorpora il gioco e i 566 MP3 disponibili: non occorre installare librerie per giocare. `index.html` contiene il gioco con audio separati nella cartella `audio/`; sul sito vengono conservati offline i suoni caricati.
+Gioca su https://matteoawi.github.io/parola/ oppure apri **Parola-offline.html** con un browser. Il file offline incorpora il gioco e tutti gli MP3 delle quattro lingue: non occorre installare librerie per giocare. `index.html` contiene il gioco con audio separati nella cartella `audio/`; sul sito vengono conservati offline i suoni caricati.
 
 Questa v6 è stata ricostruita dai sorgenti v5 effettivamente disponibili. Non è il recupero del vecchio archivio v6 citato in chat, che non era presente. La versione corrente è pubblicata su GitHub Pages: https://matteoawi.github.io/parola/. Sorgenti: https://github.com/matteoawi/parola. Gli aggiornamenti sono descritti in CHANGELOG.md e nella pagina pubblica changelog.html.
 
@@ -107,7 +107,7 @@ python test/v6-browser.test.py
 
 ## Limiti da conoscere prima di pubblicare
 
-**L'audio arabo incorporato manca ancora.** Per l'arabo il lettore usa soltanto un'eventuale voce araba disponibile sul dispositivo, e segnala quando non è presente. Non sostituisce la lingua con un'altra. Il requisito di ascolto garantito indipendentemente dal dispositivo nelle quattro lingue non è quindi soddisfatto.
+**Dalla 6.11.0 è incluso il pacchetto arabo Microsoft Hoda.** Parole, frasi e 134 materiali alfabetici hanno registrazioni disponibili anche senza voce araba sul dispositivo. Si precaricano scegliendo la lingua e sono incorporati nel file offline. Frasi nuove fuori dai materiali registrati richiedono ancora una voce del dispositivo o l’ascolto separato delle parti disponibili. Pronuncia non ancora revisionata da madrelingua.
 
 Le tre lingue con MP3 inclusi usano voci sintetiche di base. La pronuncia e i contenuti non hanno una revisione madrelingua certificata. Componi e le risposte scritte riconoscono le frasi e varianti previste; non sono un correttore universale. Il metodo di ripasso è una regola configurabile di progettazione, non la prova di un risultato didattico ottimale.
 

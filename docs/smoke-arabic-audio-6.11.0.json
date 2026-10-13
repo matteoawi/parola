@@ -1,0 +1,69 @@
+{
+  "version": "6.11.0",
+  "url": "http://127.0.0.1:8073/",
+  "passed": true,
+  "mocks": false,
+  "pack": {
+    "status": "ready",
+    "loaded": 247,
+    "total": 247,
+    "bytes": 2881062,
+    "failed": 0
+  },
+  "playback": [
+    {
+      "text": "مرحبًا!",
+      "context": "greetings_0",
+      "ok": true,
+      "voice": "Microsoft Hoda (ar-EG)",
+      "kind": "file",
+      "elapsed": 1.6912000000029803
+    },
+    {
+      "text": "أنا أقرأ كتابًا.",
+      "context": "read",
+      "ok": true,
+      "voice": "Microsoft Hoda (ar-EG)",
+      "kind": "file",
+      "elapsed": 2.3569000000059606
+    },
+    {
+      "text": "باب",
+      "context": "pic_door",
+      "ok": true,
+      "voice": "Microsoft Hoda (ar-EG)",
+      "kind": "file",
+      "elapsed": 1.3974000000059605
+    },
+    {
+      "text": "باء",
+      "context": "alpha_ar_letters_1_1",
+      "ok": true,
+      "voice": "Microsoft Hoda (ar-EG)",
+      "kind": "file",
+      "elapsed": 1.1445999999940395
+    },
+    {
+      "text": "بَ",
+      "context": "alpha_ar_short_vowels_0",
+      "ok": true,
+      "voice": "Microsoft Hoda (ar-EG)",
+      "kind": "file",
+      "elapsed": 1.1466000000014902
+    }
+  ],
+  "durations": [
+    {
+      "rate": 1,
+      "ok": true,
+      "elapsed": 2.35610000000149
+    },
+    {
+      "rate": 0.8,
+      "ok": true,
+      "elapsed": 3.07579999999702
+    }
+  ],
+  "offline": true,
+  "errors": []
+}

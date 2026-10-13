@@ -1,0 +1,41 @@
+{
+  "version": "6.10.2",
+  "url": "https://matteoawi.github.io/parola/",
+  "checks": [
+    "52 introduced tiles fit both phone axes, retain proportions and contain their text",
+    "real two-finger pinch changes zoom without picks; one-finger pan and + / − / fit work",
+    "touch matching, collection and reusable audio; the effects switch mutes new sounds",
+    "alphabet recognition and writing keep fit, introduction gates and keyboard Send",
+    "small phone resize and reduced motion retain functional controls",
+    "desktop shared challenge fits, zoom stops at 220%, no page overflow"
+  ],
+  "phone": {
+    "zoom": 0.441,
+    "width": 346,
+    "height": 420.929931640625,
+    "spaceWidth": 366,
+    "spaceHeight": 571.3125,
+    "scrollWidth": 366,
+    "scrollHeight": 571,
+    "ratio": 1.2333333333333334,
+    "body": 390,
+    "viewport": 390,
+    "tools": 838,
+    "clipped": 0
+  },
+  "desktop": {
+    "zoom": 0.596,
+    "width": 467.7120361328125,
+    "height": 569,
+    "spaceWidth": 740,
+    "spaceHeight": 589,
+    "scrollWidth": 740,
+    "scrollHeight": 589,
+    "ratio": 1.2333333333333334,
+    "body": 1360,
+    "viewport": 1360,
+    "tools": 1133.296875,
+    "clipped": 0
+  },
+  "passed": true
+}

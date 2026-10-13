@@ -4,11 +4,13 @@ Gioco di lingue con 24 unità, sei modalità e 12 direzioni bilingui, quattro pe
 
 **Gioca:** https://matteoawi.github.io/parola/
 
-**Versione:** 6.10.2 · [Aggiornamenti pubblici](https://matteoawi.github.io/parola/changelog.html)
+**Versione:** 6.11.0 · [Aggiornamenti pubblici](https://matteoawi.github.io/parola/changelog.html)
 
-I 566 MP3 disponibili coprono italiano, inglese e russo. La pagina iniziale è leggera; scarica Parola-offline.html dal gioco per avere tutti gli MP3 in un unico file. Per l'arabo serve una voce disponibile sul dispositivo.
+Audio incluso nelle quattro lingue. Il nuovo pacchetto arabo usa Microsoft Hoda, copre parole, frasi e i 134 materiali dell’alfabeto, e si precarica scegliendo la lingua. La pagina iniziale è leggera; Parola-offline.html incorpora tutti gli audio. Dettagli: [Audio arabo 6.11](docs/AUDIO-ARABO-6.11.0.md).
 
 Primo avvio guidato, spedizioni di tre tavoli, passaporto delle parole, sfide condivisibili, sfida del giorno, tavoli da 6/12/18/32/52 tessere, obiettivi, nove traguardi e progressione XP. Dettagli: [Dinamiche 6.3](docs/GIOCO-6.3.0.md).
+
+Verifica automatica e manuale 6.11: [Risultati e limiti](docs/QA-COMPLETA-6.11.0.md).
 
 Coerenza dei gameplay e verifiche: [Revisione 6.10.1](docs/COERENZA-GAMEPLAY-6.10.1.md).
 

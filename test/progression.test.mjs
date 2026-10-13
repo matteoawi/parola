@@ -15,6 +15,6 @@ test('daily challenge is stable and limited to supplied learning units; streak f
  assert.equal(playerLevel(0).level,1);assert.equal(playerLevel(60).level,2);
 });
 test('old saves receive safe defaults; new table formats persist through export validation',()=>{
- const p=newProgress();delete p.daily;delete p.awards;delete p.settings.tableFormat;assert.equal(validateProgress(p).settings.tableFormat,'classic');
- p.settings.tableFormat='explorer';assert.equal(validateProgress(p).settings.tableFormat,'explorer');p.settings.tableFormat='wrong';assert.equal(validateProgress(p).settings.tableFormat,'classic');
+ const p=newProgress();delete p.daily;delete p.awards;delete p.settings.tableFormat;assert.equal(validateProgress(p).settings.tableFormat,'grand');
+ p.settings.tableFormat='explorer';assert.equal(validateProgress(p).settings.tableFormat,'explorer');p.settings.tableFormat='wrong';assert.equal(validateProgress(p).settings.tableFormat,'grand');
 });

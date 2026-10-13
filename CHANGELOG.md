@@ -1,5 +1,14 @@
 # Aggiornamenti di Parola
 
+## 6.11.0 — 13 ottobre 2026
+
+- Audio arabo incluso con Microsoft Hoda: 328 voci di inventario, 247 registrazioni MP3, per parole, frasi e tutti i 134 materiali alfabetici. Generazione locale gratuita; nessuna chiave o API necessaria al sito.
+- Pacchetto arabo precaricato alla scelta della lingua, conservato offline e incorporato nel file autonomo. Voci del dispositivo e controllo 0,8× restano disponibili; messaggi aggiornati nelle quattro lingue.
+
+- Correzioni dalla verifica automatica e manuale: nel laboratorio l’annuncio accessibile distingue ora una coppia da una frase riconosciuta.
+- Dopo la ripresa di un round già concluso, Annulla resta disabilitato; la cronologia della frase viene ricostruita solo quando è ancora in lavorazione.
+- Test storici riallineati alle sei modalità, al formato Grande predefinito e alla navigazione attuale. Nessuna modifica alle regole o ai progressi delle partite.
+
 ## 6.10.2 — 13 ottobre 2026
 
 - Correzioni emerse dalla prova dal vivo nel browser visibile: le immagini sono annunciate come immagini della parola nella lingua studiata e il nome del pulsante audio corrisponde alla pronuncia effettiva. Il disegno non viene più etichettato come appartenente alla lingua di supporto.

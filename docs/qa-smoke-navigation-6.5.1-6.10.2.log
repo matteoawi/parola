@@ -1,0 +1,10 @@
+locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('.mobile-play-actions [data-action="resume"]')
+
+    at C:\Users\Matteo\OneDrive\Desktop\Parola-v6-sorgenti-e-verifiche\scripts\smoke-navigation-6.5.1.cjs:17:469 {
+  log: [
+    `  - waiting for locator('.mobile-play-actions [data-action="resume"]')`
+  ],
+  name: 'TimeoutError'
+}

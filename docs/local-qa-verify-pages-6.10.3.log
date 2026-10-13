@@ -1,0 +1,26 @@
+PASS hosted boot, release version, 24 units and six modes {}
+PASS actual MP3 playback {"language":"it"}
+PASS actual MP3 playback {"language":"en"}
+PASS actual MP3 playback {"language":"ru"}
+PASS real localStorage keeps the active game after reload {}
+PASS real browser storage recovers a corrupt primary from backup {}
+PASS complete writing game {"target":"it","support":"en","pairs":6}
+PASS complete writing game {"target":"it","support":"ar","pairs":6}
+PASS complete writing game {"target":"it","support":"ru","pairs":6}
+PASS complete writing game {"target":"en","support":"it","pairs":6}
+PASS complete writing game {"target":"en","support":"ar","pairs":6}
+PASS complete writing game {"target":"en","support":"ru","pairs":6}
+PASS complete writing game {"target":"ar","support":"it","pairs":6}
+PASS complete writing game {"target":"ar","support":"en","pairs":6}
+PASS complete writing game {"target":"ar","support":"ru","pairs":6}
+PASS complete writing game {"target":"ru","support":"it","pairs":6}
+PASS complete writing game {"target":"ru","support":"en","pairs":6}
+PASS complete writing game {"target":"ru","support":"ar","pairs":6}
+PASS mobile layout and language {"ui":"it"}
+PASS mobile layout and language {"ui":"en"}
+PASS mobile layout and language {"ui":"ar"}
+PASS mobile layout and language {"ui":"ru"}
+PASS offline reload and actual embedded MP3 playback {}
+PASS public changelog accessible offline {}
+PASS no JavaScript errors or missing translations {}
+TOTAL 25

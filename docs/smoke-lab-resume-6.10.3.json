@@ -1,0 +1,11 @@
+{
+  "version": "6.10.3",
+  "url": "http://127.0.0.1:8073/",
+  "passed": true,
+  "checks": [
+    "finished round retains score and phase after reload; undo disabled and history empty",
+    "pair live announcement matches visible pair success"
+  ],
+  "audio": "stubbed for isolated logic",
+  "errors": []
+}

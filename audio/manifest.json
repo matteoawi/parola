@@ -1,13 +1,12 @@
 {
-  "version": 5,
+  "version": 6,
   "languages": [
     "it",
     "en",
+    "ar",
     "ru"
   ],
-  "missingLanguages": [
-    "ar"
-  ],
+  "missingLanguages": [],
   "entries": {
     "it|io sono anna": {
       "path": "audio/3c61f36df55705b760d7.mp3",
@@ -4536,6 +4535,2958 @@
       "voice": "eSpeak it",
       "quality": "basic-synthetic",
       "bytes": 6887
+    },
+    "ar|أنا آنا": {
+      "path": "audio/ar-hoda-17ddde9fd334053891e6.mp3",
+      "lang": "ar",
+      "text": "أنا آنا.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10257
+    },
+    "ar|أنا": {
+      "path": "audio/ar-hoda-f7cad5de937aaca51289.mp3",
+      "lang": "ar",
+      "text": "أنا",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8219
+    },
+    "ar|آنا": {
+      "path": "audio/ar-hoda-87e200cd17a93d0c3d00.mp3",
+      "lang": "ar",
+      "text": "آنا",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8533
+    },
+    "ar|هي ماريا": {
+      "path": "audio/ar-hoda-cd77c35613145f13ccf0.mp3",
+      "lang": "ar",
+      "text": "هي ماريا.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 11197
+    },
+    "ar|هي": {
+      "path": "audio/ar-hoda-b556e42888968ca5000d.mp3",
+      "lang": "ar",
+      "text": "هي",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 7749
+    },
+    "ar|ماريا": {
+      "path": "audio/ar-hoda-7d048934865880906581.mp3",
+      "lang": "ar",
+      "text": "ماريا",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9316
+    },
+    "ar|هو ماركو": {
+      "path": "audio/ar-hoda-4d1200ffcbbea3094e2e.mp3",
+      "lang": "ar",
+      "text": "هو ماركو.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10727
+    },
+    "ar|هو": {
+      "path": "audio/ar-hoda-2ac693bc93a739e8c5a7.mp3",
+      "lang": "ar",
+      "text": "هو",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8533
+    },
+    "ar|ماركو": {
+      "path": "audio/ar-hoda-5f7370d09b5cbd41fd59.mp3",
+      "lang": "ar",
+      "text": "ماركو",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9003
+    },
+    "ar|هذا كتاب": {
+      "path": "audio/ar-hoda-5d4971a00fcc4cedc9c9.mp3",
+      "lang": "ar",
+      "text": "هذا كتاب.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 12138
+    },
+    "ar|هذا": {
+      "path": "audio/ar-hoda-428a2064836ae8410dc7.mp3",
+      "lang": "ar",
+      "text": "هذا",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8533
+    },
+    "ar|كتاب": {
+      "path": "audio/ar-hoda-29bd352928cd0187d9ec.mp3",
+      "lang": "ar",
+      "text": "كتاب",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10100
+    },
+    "ar|هذا بيت": {
+      "path": "audio/ar-hoda-b41a204670d2d4969be9.mp3",
+      "lang": "ar",
+      "text": "هذا بيت.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 11511
+    },
+    "ar|بيت": {
+      "path": "audio/ar-hoda-2d6a1acefdf249a8dbbf.mp3",
+      "lang": "ar",
+      "text": "بيت",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9473
+    },
+    "ar|هذه مدرسة": {
+      "path": "audio/ar-hoda-4b08792f7b7c1d4d3ac0.mp3",
+      "lang": "ar",
+      "text": "هذه مدرسة.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 13391
+    },
+    "ar|هذه": {
+      "path": "audio/ar-hoda-ace1913cd525879eb881.mp3",
+      "lang": "ar",
+      "text": "هذه",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9160
+    },
+    "ar|مدرسة": {
+      "path": "audio/ar-hoda-4d3f529785c8f0653da1.mp3",
+      "lang": "ar",
+      "text": "مدرسة",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10570
+    },
+    "ar|الكتاب جديد": {
+      "path": "audio/ar-hoda-ad336b50ca091070b0e3.mp3",
+      "lang": "ar",
+      "text": "الكتاب جديد.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 14645
+    },
+    "ar|الكتاب": {
+      "path": "audio/ar-hoda-41c831e27a93b1c4eabe.mp3",
+      "lang": "ar",
+      "text": "الكتاب",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10884
+    },
+    "ar|جديد": {
+      "path": "audio/ar-hoda-d6d013503f62d12174e0.mp3",
+      "lang": "ar",
+      "text": "جديد",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10100
+    },
+    "ar|البيت كبير": {
+      "path": "audio/ar-hoda-8a40cfd37e834a15b73c.mp3",
+      "lang": "ar",
+      "text": "البيت كبير.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 13862
+    },
+    "ar|البيت": {
+      "path": "audio/ar-hoda-a3ad4bdced7f233e1c4e.mp3",
+      "lang": "ar",
+      "text": "البيت",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10100
+    },
+    "ar|كبير": {
+      "path": "audio/ar-hoda-0a530766d7187c659741.mp3",
+      "lang": "ar",
+      "text": "كبير",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10100
+    },
+    "ar|الباب جديد": {
+      "path": "audio/ar-hoda-67bbe7b3fa1fc8f14163.mp3",
+      "lang": "ar",
+      "text": "الباب جديد.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 13705
+    },
+    "ar|الباب": {
+      "path": "audio/ar-hoda-866ebf8661226c6679c5.mp3",
+      "lang": "ar",
+      "text": "الباب",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9787
+    },
+    "ar|أنا أقرأ كتابا": {
+      "path": "audio/ar-hoda-9a923642a70f9b572a1d.mp3",
+      "lang": "ar",
+      "text": "أنا أقرأ كتابًا.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 14802
+    },
+    "ar|أقرأ كتابا": {
+      "path": "audio/ar-hoda-41a7f71149dec9fe1496.mp3",
+      "lang": "ar",
+      "text": "أقرأ كتابًا.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 13235
+    },
+    "ar|أقرأ": {
+      "path": "audio/ar-hoda-a77b3f2b79e2bf9898e3.mp3",
+      "lang": "ar",
+      "text": "أقرأ",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9630
+    },
+    "ar|كتابا": {
+      "path": "audio/ar-hoda-b545bf84bda6c8bbadc4.mp3",
+      "lang": "ar",
+      "text": "كتابًا",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10100
+    },
+    "ar|أنا أشرب الماء": {
+      "path": "audio/ar-hoda-b63e90d8c15092d9210e.mp3",
+      "lang": "ar",
+      "text": "أنا أشرب الماء.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 14802
+    },
+    "ar|أشرب الماء": {
+      "path": "audio/ar-hoda-a8430ba136bd6eb16bc6.mp3",
+      "lang": "ar",
+      "text": "أشرب الماء.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 13078
+    },
+    "ar|أشرب": {
+      "path": "audio/ar-hoda-05eaf7e75db5cb5cef2c.mp3",
+      "lang": "ar",
+      "text": "أشرب",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9630
+    },
+    "ar|الماء": {
+      "path": "audio/ar-hoda-15c7c4e97528658d80fc.mp3",
+      "lang": "ar",
+      "text": "الماء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9943
+    },
+    "ar|أنا أتكلم الإنجليزية": {
+      "path": "audio/ar-hoda-f7852293ccef72b985fe.mp3",
+      "lang": "ar",
+      "text": "أنا أتكلم الإنجليزية.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 18250
+    },
+    "ar|أتكلم الإنجليزية": {
+      "path": "audio/ar-hoda-10fee4a544e46a466b00.mp3",
+      "lang": "ar",
+      "text": "أتكلم الإنجليزية.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 16840
+    },
+    "ar|أتكلم": {
+      "path": "audio/ar-hoda-e7d39bc0b70989f7f4af.mp3",
+      "lang": "ar",
+      "text": "أتكلم",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 11040
+    },
+    "ar|الإنجليزية": {
+      "path": "audio/ar-hoda-4619aefc5e54f2d7e33b.mp3",
+      "lang": "ar",
+      "text": "الإنجليزية",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 13235
+    },
+    "ar|هي تقرأ كتابا": {
+      "path": "audio/ar-hoda-b0d1352c695f1c3503f2.mp3",
+      "lang": "ar",
+      "text": "هي تقرأ كتابًا.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 14959
+    },
+    "ar|تقرأ كتابا": {
+      "path": "audio/ar-hoda-516f5c51debfe94ab39c.mp3",
+      "lang": "ar",
+      "text": "تقرأ كتابًا.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 13391
+    },
+    "ar|تقرأ": {
+      "path": "audio/ar-hoda-5f293b373935007fec16.mp3",
+      "lang": "ar",
+      "text": "تقرأ",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9787
+    },
+    "ar|هو يشرب الشاي": {
+      "path": "audio/ar-hoda-430b582ccf55eaefa616.mp3",
+      "lang": "ar",
+      "text": "هو يشرب الشاي.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 14018
+    },
+    "ar|يشرب الشاي": {
+      "path": "audio/ar-hoda-e5b051fc14901d5b017e.mp3",
+      "lang": "ar",
+      "text": "يشرب الشاي.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 11667
+    },
+    "ar|يشرب": {
+      "path": "audio/ar-hoda-1eca02528c38e43d2d14.mp3",
+      "lang": "ar",
+      "text": "يشرب",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9630
+    },
+    "ar|الشاي": {
+      "path": "audio/ar-hoda-8f18b0d3b06832fb5274.mp3",
+      "lang": "ar",
+      "text": "الشاي",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9943
+    },
+    "ar|هي تتكلم الإيطالية": {
+      "path": "audio/ar-hoda-2aac668acb1a219b4381.mp3",
+      "lang": "ar",
+      "text": "هي تتكلم الإيطالية.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 17467
+    },
+    "ar|تتكلم الإيطالية": {
+      "path": "audio/ar-hoda-a7ee827d0ced960b4ade.mp3",
+      "lang": "ar",
+      "text": "تتكلم الإيطالية.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 15899
+    },
+    "ar|تتكلم": {
+      "path": "audio/ar-hoda-19d08b72b79721f9dafa.mp3",
+      "lang": "ar",
+      "text": "تتكلم",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 11040
+    },
+    "ar|الإيطالية": {
+      "path": "audio/ar-hoda-eb84dcbc74a9c196ed6b.mp3",
+      "lang": "ar",
+      "text": "الإيطالية",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 12451
+    },
+    "ar|أنا لا أشرب القهوة": {
+      "path": "audio/ar-hoda-78fdc053e19346ada96b.mp3",
+      "lang": "ar",
+      "text": "أنا لا أشرب القهوة.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 15742
+    },
+    "ar|لا أشرب القهوة": {
+      "path": "audio/ar-hoda-702991697f0a83089602.mp3",
+      "lang": "ar",
+      "text": "لا أشرب القهوة.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 13862
+    },
+    "ar|لا": {
+      "path": "audio/ar-hoda-798c1441715d558679c5.mp3",
+      "lang": "ar",
+      "text": "لا",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 7592
+    },
+    "ar|القهوة": {
+      "path": "audio/ar-hoda-5a7f57c342d7c9be3595.mp3",
+      "lang": "ar",
+      "text": "القهوة",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10727
+    },
+    "ar|أنا لا أتكلم الروسية": {
+      "path": "audio/ar-hoda-ff4bcbc30257e900beda.mp3",
+      "lang": "ar",
+      "text": "أنا لا أتكلم الروسية.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 17623
+    },
+    "ar|لا أتكلم الروسية": {
+      "path": "audio/ar-hoda-4d91cd78ac46c9e72a96.mp3",
+      "lang": "ar",
+      "text": "لا أتكلم الروسية.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 15899
+    },
+    "ar|الروسية": {
+      "path": "audio/ar-hoda-cc5f59aa891cc0869f6f.mp3",
+      "lang": "ar",
+      "text": "الروسية",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 11354
+    },
+    "ar|أنا لا أقرأ": {
+      "path": "audio/ar-hoda-061d4eca0c565a76d0e7.mp3",
+      "lang": "ar",
+      "text": "أنا لا أقرأ.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 13078
+    },
+    "ar|لا أقرأ": {
+      "path": "audio/ar-hoda-5a9ad58e9ef0d676fe99.mp3",
+      "lang": "ar",
+      "text": "لا أقرأ.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10884
+    },
+    "ar|الكتاب على الطاولة": {
+      "path": "audio/ar-hoda-7bdabcdcf59ee4921f07.mp3",
+      "lang": "ar",
+      "text": "الكتاب على الطاولة.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 16369
+    },
+    "ar|على": {
+      "path": "audio/ar-hoda-8fd763a47cb7191248dc.mp3",
+      "lang": "ar",
+      "text": "على",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8533
+    },
+    "ar|الطاولة": {
+      "path": "audio/ar-hoda-60e1a15b98121ce02893.mp3",
+      "lang": "ar",
+      "text": "الطاولة",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 11197
+    },
+    "ar|الشاي على الطاولة": {
+      "path": "audio/ar-hoda-4c4ec52e7c0365ecaf5d.mp3",
+      "lang": "ar",
+      "text": "الشاي على الطاولة.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 15116
+    },
+    "ar|القهوة على الطاولة": {
+      "path": "audio/ar-hoda-4f37bee83e1678ba1128.mp3",
+      "lang": "ar",
+      "text": "القهوة على الطاولة.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 16526
+    },
+    "ar|ماء من فضلك": {
+      "path": "audio/ar-hoda-bea68c7aaffa30e56697.mp3",
+      "lang": "ar",
+      "text": "ماء، من فضلك.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 14645
+    },
+    "ar|ماء": {
+      "path": "audio/ar-hoda-570745c527ba9947ca9c.mp3",
+      "lang": "ar",
+      "text": "ماء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9003
+    },
+    "ar|من": {
+      "path": "audio/ar-hoda-f8884455e3cbd8340be8.mp3",
+      "lang": "ar",
+      "text": "من",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 7749
+    },
+    "ar|فضلك": {
+      "path": "audio/ar-hoda-74b566e475f648f35c6d.mp3",
+      "lang": "ar",
+      "text": "فضلك",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10570
+    },
+    "ar|شاي من فضلك": {
+      "path": "audio/ar-hoda-25b3bf0c4f89f3fa9d88.mp3",
+      "lang": "ar",
+      "text": "شاي، من فضلك.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 14959
+    },
+    "ar|شاي": {
+      "path": "audio/ar-hoda-8bd6f588e026d08b7ec0.mp3",
+      "lang": "ar",
+      "text": "شاي",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8846
+    },
+    "ar|قهوة من فضلك": {
+      "path": "audio/ar-hoda-733c06fac54f1c32fae2.mp3",
+      "lang": "ar",
+      "text": "قهوة، من فضلك.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 16840
+    },
+    "ar|قهوة": {
+      "path": "audio/ar-hoda-e0657b63a28f5f9871d0.mp3",
+      "lang": "ar",
+      "text": "قهوة",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10414
+    },
+    "ar|مرحبا": {
+      "path": "audio/ar-hoda-33a77c342b4feafd65dc.mp3",
+      "lang": "ar",
+      "text": "مرحبًا!",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10570
+    },
+    "ar|صباح الخير": {
+      "path": "audio/ar-hoda-d1763a38421ba0a2df11.mp3",
+      "lang": "ar",
+      "text": "صباح الخير!",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 12451
+    },
+    "ar|صباح": {
+      "path": "audio/ar-hoda-b2988c267b1934a0a973.mp3",
+      "lang": "ar",
+      "text": "صباح",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10257
+    },
+    "ar|الخير": {
+      "path": "audio/ar-hoda-901984998806da7c3f32.mp3",
+      "lang": "ar",
+      "text": "الخير",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9473
+    },
+    "ar|شكرا": {
+      "path": "audio/ar-hoda-f34e40108799e367d798.mp3",
+      "lang": "ar",
+      "text": "شكرًا!",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9316
+    },
+    "ar|كتاب واحد": {
+      "path": "audio/ar-hoda-3f6d0fb876dbeb11fa21.mp3",
+      "lang": "ar",
+      "text": "كتاب واحد",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 14175
+    },
+    "ar|واحد": {
+      "path": "audio/ar-hoda-ce5fba421345c7ee678e.mp3",
+      "lang": "ar",
+      "text": "واحد",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10884
+    },
+    "ar|كتابان": {
+      "path": "audio/ar-hoda-420b52f2cbc52eb9be39.mp3",
+      "lang": "ar",
+      "text": "كتابان",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10100
+    },
+    "ar|ثلاثة كتب": {
+      "path": "audio/ar-hoda-47a730d2a8389b70b7d5.mp3",
+      "lang": "ar",
+      "text": "ثلاثة كتب",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 13862
+    },
+    "ar|ثلاثة": {
+      "path": "audio/ar-hoda-5d6cb9c49fc863a6ed0b.mp3",
+      "lang": "ar",
+      "text": "ثلاثة",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10727
+    },
+    "ar|كتب": {
+      "path": "audio/ar-hoda-e662a0b1bcee2c2e9a35.mp3",
+      "lang": "ar",
+      "text": "كتب",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9473
+    },
+    "ar|عندي كتاب": {
+      "path": "audio/ar-hoda-9149b72d0a6d3a3670db.mp3",
+      "lang": "ar",
+      "text": "عندي كتاب.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 12608
+    },
+    "ar|عندي": {
+      "path": "audio/ar-hoda-241516e8826d91fcac6c.mp3",
+      "lang": "ar",
+      "text": "عندي",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9316
+    },
+    "ar|عندها بيت": {
+      "path": "audio/ar-hoda-ecdc16cb22c821e6aa66.mp3",
+      "lang": "ar",
+      "text": "عندها بيت.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 12138
+    },
+    "ar|عندها": {
+      "path": "audio/ar-hoda-7a584bf1b83452f7d641.mp3",
+      "lang": "ar",
+      "text": "عندها",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9473
+    },
+    "ar|عنده قلم": {
+      "path": "audio/ar-hoda-cea10ba64c10de262ccb.mp3",
+      "lang": "ar",
+      "text": "عنده قلم.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 12608
+    },
+    "ar|عنده": {
+      "path": "audio/ar-hoda-3df94e2cf8a033662db3.mp3",
+      "lang": "ar",
+      "text": "عنده",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9473
+    },
+    "ar|قلم": {
+      "path": "audio/ar-hoda-8c131cf61ba34f8d612c.mp3",
+      "lang": "ar",
+      "text": "قلم",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9943
+    },
+    "ar|أين تسكن": {
+      "path": "audio/ar-hoda-8a67cc06e4fcc91c64a1.mp3",
+      "lang": "ar",
+      "text": "أين تسكن؟",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 12608
+    },
+    "ar|أين": {
+      "path": "audio/ar-hoda-ac5af8d836bb220cb570.mp3",
+      "lang": "ar",
+      "text": "أين",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9316
+    },
+    "ar|تسكن": {
+      "path": "audio/ar-hoda-762f4845b0825ae08af8.mp3",
+      "lang": "ar",
+      "text": "تسكن",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10100
+    },
+    "ar|ماذا تقرأ": {
+      "path": "audio/ar-hoda-563103d3fd654820f048.mp3",
+      "lang": "ar",
+      "text": "ماذا تقرأ؟",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 11667
+    },
+    "ar|ماذا": {
+      "path": "audio/ar-hoda-37aef8ada98b0b86045e.mp3",
+      "lang": "ar",
+      "text": "ماذا",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8533
+    },
+    "ar|هل تتكلم الإنجليزية": {
+      "path": "audio/ar-hoda-cd968961db21dff6c164.mp3",
+      "lang": "ar",
+      "text": "هل تتكلم الإنجليزية؟",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 17780
+    },
+    "ar|هل": {
+      "path": "audio/ar-hoda-78e0525d0362161d56e9.mp3",
+      "lang": "ar",
+      "text": "هل",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 7436
+    },
+    "ar|الكتب جديدة": {
+      "path": "audio/ar-hoda-5d169a364cc191c83839.mp3",
+      "lang": "ar",
+      "text": "الكتب جديدة.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 14959
+    },
+    "ar|الكتب": {
+      "path": "audio/ar-hoda-aae29e8d17806f83426d.mp3",
+      "lang": "ar",
+      "text": "الكتب",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10570
+    },
+    "ar|جديدة": {
+      "path": "audio/ar-hoda-77ee03793004d9c03dfd.mp3",
+      "lang": "ar",
+      "text": "جديدة",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10570
+    },
+    "ar|البيوت كبيرة": {
+      "path": "audio/ar-hoda-ad62bd81075373dfe5b9.mp3",
+      "lang": "ar",
+      "text": "البيوت كبيرة.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 14959
+    },
+    "ar|البيوت": {
+      "path": "audio/ar-hoda-edcd799c502dd331e246.mp3",
+      "lang": "ar",
+      "text": "البيوت",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10570
+    },
+    "ar|كبيرة": {
+      "path": "audio/ar-hoda-7032238856b43b01c10b.mp3",
+      "lang": "ar",
+      "text": "كبيرة",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10727
+    },
+    "ar|الأبواب جديدة": {
+      "path": "audio/ar-hoda-eaf77e3313110a1f2adb.mp3",
+      "lang": "ar",
+      "text": "الأبواب جديدة.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 15116
+    },
+    "ar|الأبواب": {
+      "path": "audio/ar-hoda-440083ddf8dc46831672.mp3",
+      "lang": "ar",
+      "text": "الأبواب",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 11040
+    },
+    "ar|قرأت آنا كتابا أمس": {
+      "path": "audio/ar-hoda-d221b40929c7ac4965a7.mp3",
+      "lang": "ar",
+      "text": "قرأت آنا كتابًا أمس.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 17937
+    },
+    "ar|قرأت": {
+      "path": "audio/ar-hoda-fbe7e0ca3e8fd65693ce.mp3",
+      "lang": "ar",
+      "text": "قرأت",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10257
+    },
+    "ar|أمس": {
+      "path": "audio/ar-hoda-1326635db4a6efcd0d26.mp3",
+      "lang": "ar",
+      "text": "أمس",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9003
+    },
+    "ar|شرب ماركو الشاي أمس": {
+      "path": "audio/ar-hoda-b15ed49a630ff72c1df3.mp3",
+      "lang": "ar",
+      "text": "شرب ماركو الشاي أمس.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 17310
+    },
+    "ar|شرب": {
+      "path": "audio/ar-hoda-7610a63b47e455608955.mp3",
+      "lang": "ar",
+      "text": "شرب",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9473
+    },
+    "ar|كتبت آنا رسالة أمس": {
+      "path": "audio/ar-hoda-f512bc13ab45427f2e76.mp3",
+      "lang": "ar",
+      "text": "كتبت آنا رسالة أمس.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 18720
+    },
+    "ar|كتبت": {
+      "path": "audio/ar-hoda-f2627324d7cba8b52c4b.mp3",
+      "lang": "ar",
+      "text": "كتبت",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10257
+    },
+    "ar|رسالة": {
+      "path": "audio/ar-hoda-83f696a1d6542a47ae23.mp3",
+      "lang": "ar",
+      "text": "رسالة",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10884
+    },
+    "ar|غدا سأقرأ كتابا": {
+      "path": "audio/ar-hoda-5a913fefdd5206493ebc.mp3",
+      "lang": "ar",
+      "text": "غدًا سأقرأ كتابًا.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 16996
+    },
+    "ar|غدا": {
+      "path": "audio/ar-hoda-bed04f0fb324aa157c81.mp3",
+      "lang": "ar",
+      "text": "غدًا",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9316
+    },
+    "ar|سأقرأ": {
+      "path": "audio/ar-hoda-0425b3540da5608a51e2.mp3",
+      "lang": "ar",
+      "text": "سأقرأ",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10727
+    },
+    "ar|غدا سأكتب رسالة": {
+      "path": "audio/ar-hoda-974f79a26397da36d405.mp3",
+      "lang": "ar",
+      "text": "غدًا سأكتب رسالة.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 17623
+    },
+    "ar|سأكتب": {
+      "path": "audio/ar-hoda-cb176a7b20525083220a.mp3",
+      "lang": "ar",
+      "text": "سأكتب",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10414
+    },
+    "ar|غدا سأذهب إلى المدرسة": {
+      "path": "audio/ar-hoda-e05f2b1806a7cb9b3f9a.mp3",
+      "lang": "ar",
+      "text": "غدًا سأذهب إلى المدرسة.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 18564
+    },
+    "ar|سأذهب": {
+      "path": "audio/ar-hoda-f83ad782fe08c3de1f4b.mp3",
+      "lang": "ar",
+      "text": "سأذهب",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10414
+    },
+    "ar|إلى": {
+      "path": "audio/ar-hoda-d69d76403368e5af089d.mp3",
+      "lang": "ar",
+      "text": "إلى",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8376
+    },
+    "ar|المدرسة": {
+      "path": "audio/ar-hoda-f9e1fe108f5f64bc5430.mp3",
+      "lang": "ar",
+      "text": "المدرسة",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 11511
+    },
+    "ar|أستطيع قراءة هذا الكتاب": {
+      "path": "audio/ar-hoda-4901d668219083b019bf.mp3",
+      "lang": "ar",
+      "text": "أستطيع قراءة هذا الكتاب.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 19818
+    },
+    "ar|أستطيع": {
+      "path": "audio/ar-hoda-6ea39f3c027d61eaa233.mp3",
+      "lang": "ar",
+      "text": "أستطيع",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10884
+    },
+    "ar|قراءة": {
+      "path": "audio/ar-hoda-999e797c9bf77fde10d8.mp3",
+      "lang": "ar",
+      "text": "قراءة",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10727
+    },
+    "ar|تستطيع فتح الباب": {
+      "path": "audio/ar-hoda-1306050a587e791c579f.mp3",
+      "lang": "ar",
+      "text": "تستطيع فتح الباب.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 16213
+    },
+    "ar|تستطيع": {
+      "path": "audio/ar-hoda-758dd1a96461da84fec3.mp3",
+      "lang": "ar",
+      "text": "تستطيع",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 11040
+    },
+    "ar|فتح": {
+      "path": "audio/ar-hoda-2520a667318f3592b7b4.mp3",
+      "lang": "ar",
+      "text": "فتح",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9160
+    },
+    "ar|نستطيع مساعدة ماركو": {
+      "path": "audio/ar-hoda-e7e4926cd9ae91cc0298.mp3",
+      "lang": "ar",
+      "text": "نستطيع مساعدة ماركو.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 18720
+    },
+    "ar|نستطيع": {
+      "path": "audio/ar-hoda-95e98e746fbea772a3bb.mp3",
+      "lang": "ar",
+      "text": "نستطيع",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10884
+    },
+    "ar|مساعدة": {
+      "path": "audio/ar-hoda-60de7a2c7b6362229620.mp3",
+      "lang": "ar",
+      "text": "مساعدة",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 11511
+    },
+    "ar|يعجبني هذا الكتاب": {
+      "path": "audio/ar-hoda-a50d95ca24480193ef58.mp3",
+      "lang": "ar",
+      "text": "يعجبني هذا الكتاب.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 16213
+    },
+    "ar|يعجبني": {
+      "path": "audio/ar-hoda-24cd3c1cb8f8fbbb4f64.mp3",
+      "lang": "ar",
+      "text": "يعجبني",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 11197
+    },
+    "ar|تعجبني هذه الكتب": {
+      "path": "audio/ar-hoda-b91a49e541b6fe0dc76c.mp3",
+      "lang": "ar",
+      "text": "تعجبني هذه الكتب.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 16683
+    },
+    "ar|تعجبني": {
+      "path": "audio/ar-hoda-096a5441dd1dab3ae0fc.mp3",
+      "lang": "ar",
+      "text": "تعجبني",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 11197
+    },
+    "ar|تعجبني القراءة": {
+      "path": "audio/ar-hoda-b8636a8b69b03216e0db.mp3",
+      "lang": "ar",
+      "text": "تعجبني القراءة.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 15116
+    },
+    "ar|القراءة": {
+      "path": "audio/ar-hoda-4e23bba5b8920b9f7542.mp3",
+      "lang": "ar",
+      "text": "القراءة",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 11040
+    },
+    "ar|هذا البيت أكبر": {
+      "path": "audio/ar-hoda-758bfcd50b62c2df6a74.mp3",
+      "lang": "ar",
+      "text": "هذا البيت أكبر.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 14018
+    },
+    "ar|أكبر": {
+      "path": "audio/ar-hoda-1b06a1df46f05fd29827.mp3",
+      "lang": "ar",
+      "text": "أكبر",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9473
+    },
+    "ar|هذا الكتاب أكثر إثارة للاهتمام": {
+      "path": "audio/ar-hoda-d1e8b7a897075ac127c7.mp3",
+      "lang": "ar",
+      "text": "هذا الكتاب أكثر إثارة للاهتمام.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 23736
+    },
+    "ar|أكثر": {
+      "path": "audio/ar-hoda-7849177fe1f186ea9090.mp3",
+      "lang": "ar",
+      "text": "أكثر",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9473
+    },
+    "ar|إثارة": {
+      "path": "audio/ar-hoda-bf494c525f6541bf4e8f.mp3",
+      "lang": "ar",
+      "text": "إثارة",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10727
+    },
+    "ar|للاهتمام": {
+      "path": "audio/ar-hoda-e06b4c811468549947e9.mp3",
+      "lang": "ar",
+      "text": "للاهتمام",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 11511
+    },
+    "ar|هذا الشاي أفضل": {
+      "path": "audio/ar-hoda-172b4baef36c1ad07f86.mp3",
+      "lang": "ar",
+      "text": "هذا الشاي أفضل.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 13862
+    },
+    "ar|أفضل": {
+      "path": "audio/ar-hoda-97b763a2cf0cd90ce014.mp3",
+      "lang": "ar",
+      "text": "أفضل",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9473
+    },
+    "ar|أقرأ لأنني أحب القراءة": {
+      "path": "audio/ar-hoda-23c35b4195c02f784c95.mp3",
+      "lang": "ar",
+      "text": "أقرأ لأنني أحب القراءة.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 19504
+    },
+    "ar|لأنني": {
+      "path": "audio/ar-hoda-1850dd8424cc9f0184db.mp3",
+      "lang": "ar",
+      "text": "لأنني",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10414
+    },
+    "ar|أحب": {
+      "path": "audio/ar-hoda-bbf938b46b91efef1658.mp3",
+      "lang": "ar",
+      "text": "أحب",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9316
+    },
+    "ar|أشرب الماء لأنني عطشان": {
+      "path": "audio/ar-hoda-05e44570bd817c293c48.mp3",
+      "lang": "ar",
+      "text": "أشرب الماء لأنني عطشان.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 19818
+    },
+    "ar|أشرب الماء لأنني عطشانة": {
+      "path": "audio/ar-hoda-503b9ab60cf2079287fa.mp3",
+      "lang": "ar",
+      "text": "أشرب الماء لأنني عطشانة.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 21071
+    },
+    "ar|عطشان": {
+      "path": "audio/ar-hoda-f62b40deb5e6f1a5fb43.mp3",
+      "lang": "ar",
+      "text": "عطشان",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9473
+    },
+    "ar|أدرس لأنني أريد أن أتعلم": {
+      "path": "audio/ar-hoda-5725205407e6daa27ec7.mp3",
+      "lang": "ar",
+      "text": "أدرس لأنني أريد أن أتعلم.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 21698
+    },
+    "ar|أدرس": {
+      "path": "audio/ar-hoda-aed131c1e2ba14400482.mp3",
+      "lang": "ar",
+      "text": "أدرس",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9003
+    },
+    "ar|أريد": {
+      "path": "audio/ar-hoda-cb95e54fbff2fdbabe8a.mp3",
+      "lang": "ar",
+      "text": "أريد",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9473
+    },
+    "ar|أن": {
+      "path": "audio/ar-hoda-ccbbcb81272d14aee76e.mp3",
+      "lang": "ar",
+      "text": "أن",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8533
+    },
+    "ar|أتعلم": {
+      "path": "audio/ar-hoda-1e3b2ec8bf31c5368833.mp3",
+      "lang": "ar",
+      "text": "أتعلم",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 11040
+    },
+    "ar|أنا أقرؤه": {
+      "path": "audio/ar-hoda-503d709b84c95402be4f.mp3",
+      "lang": "ar",
+      "text": "أنا أقرؤه.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 11667
+    },
+    "ar|أقرؤه": {
+      "path": "audio/ar-hoda-0b3d9718d1dbfe915aea.mp3",
+      "lang": "ar",
+      "text": "أقرؤه",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10414
+    },
+    "ar|هي تفتحه": {
+      "path": "audio/ar-hoda-f83656969c5613ff5f79.mp3",
+      "lang": "ar",
+      "text": "هي تفتحه.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 12138
+    },
+    "ar|تفتحه": {
+      "path": "audio/ar-hoda-41e8a315523d4cf04fde.mp3",
+      "lang": "ar",
+      "text": "تفتحه",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10570
+    },
+    "ar|نحن نشتريها": {
+      "path": "audio/ar-hoda-bd4ae13e6395a3c1af83.mp3",
+      "lang": "ar",
+      "text": "نحن نشتريها.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 13391
+    },
+    "ar|نحن": {
+      "path": "audio/ar-hoda-29ed6af67177953f21a5.mp3",
+      "lang": "ar",
+      "text": "نحن",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9003
+    },
+    "ar|نشتريها": {
+      "path": "audio/ar-hoda-735671f98e34d3f5d4b9.mp3",
+      "lang": "ar",
+      "text": "نشتريها",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10884
+    },
+    "ar|هذا هو الكتاب الذي أقرؤه": {
+      "path": "audio/ar-hoda-90410bd79d40a6389d0e.mp3",
+      "lang": "ar",
+      "text": "هذا هو الكتاب الذي أقرؤه.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 19034
+    },
+    "ar|الذي": {
+      "path": "audio/ar-hoda-4cfe88926f51854c9455.mp3",
+      "lang": "ar",
+      "text": "الذي",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9473
+    },
+    "ar|هذا هو البيت الذي أراه": {
+      "path": "audio/ar-hoda-6166151e9a8b1b2c9a2c.mp3",
+      "lang": "ar",
+      "text": "هذا هو البيت الذي أراه.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 18250
+    },
+    "ar|أراه": {
+      "path": "audio/ar-hoda-1b163370835b90c934f4.mp3",
+      "lang": "ar",
+      "text": "أراه",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9630
+    },
+    "ar|هذا هو الباب الذي أفتحه": {
+      "path": "audio/ar-hoda-64c8441e02c3b1845711.mp3",
+      "lang": "ar",
+      "text": "هذا هو الباب الذي أفتحه.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 18877
+    },
+    "ar|أفتحه": {
+      "path": "audio/ar-hoda-788a7752bda217e158e7.mp3",
+      "lang": "ar",
+      "text": "أفتحه",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10570
+    },
+    "ar|إذا كان عندي وقت أقرأ": {
+      "path": "audio/ar-hoda-b179948e6cbb4a827ffe.mp3",
+      "lang": "ar",
+      "text": "إذا كان عندي وقت، أقرأ.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 20131
+    },
+    "ar|إذا": {
+      "path": "audio/ar-hoda-10d2f503f9870671a1a4.mp3",
+      "lang": "ar",
+      "text": "إذا",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8533
+    },
+    "ar|كان": {
+      "path": "audio/ar-hoda-93c02cffbcf73182f147.mp3",
+      "lang": "ar",
+      "text": "كان",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9003
+    },
+    "ar|وقت": {
+      "path": "audio/ar-hoda-3ee22c33412f395d926b.mp3",
+      "lang": "ar",
+      "text": "وقت",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10257
+    },
+    "ar|إذا كنت عطشانا أشرب الماء": {
+      "path": "audio/ar-hoda-681f74b15c2ed6e831d9.mp3",
+      "lang": "ar",
+      "text": "إذا كنت عطشانًا، أشرب الماء.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 22169
+    },
+    "ar|كنت": {
+      "path": "audio/ar-hoda-d6706c4044ff81e1715b.mp3",
+      "lang": "ar",
+      "text": "كنت",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9473
+    },
+    "ar|عطشانا": {
+      "path": "audio/ar-hoda-0e520431f3898f5b3f49.mp3",
+      "lang": "ar",
+      "text": "عطشانًا",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 11040
+    },
+    "ar|إذا أمطرت أبقى في البيت": {
+      "path": "audio/ar-hoda-4ffb5bea34d5f4487cae.mp3",
+      "lang": "ar",
+      "text": "إذا أمطرت، أبقى في البيت.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 19191
+    },
+    "ar|أمطرت": {
+      "path": "audio/ar-hoda-22b58eea4b7b6538d63d.mp3",
+      "lang": "ar",
+      "text": "أمطرت",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10100
+    },
+    "ar|أبقى": {
+      "path": "audio/ar-hoda-7f514b919af9a6a4ed27.mp3",
+      "lang": "ar",
+      "text": "أبقى",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8846
+    },
+    "ar|في": {
+      "path": "audio/ar-hoda-f914063e317d9b212a79.mp3",
+      "lang": "ar",
+      "text": "في",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 7436
+    },
+    "ar|لقد قرأت آنا هذا الكتاب": {
+      "path": "audio/ar-hoda-c8a9566fd124bfa5a9d8.mp3",
+      "lang": "ar",
+      "text": "لقد قرأت آنا هذا الكتاب.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 18877
+    },
+    "ar|لقد": {
+      "path": "audio/ar-hoda-b54fb25e55b50c6cff7f.mp3",
+      "lang": "ar",
+      "text": "لقد",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9316
+    },
+    "ar|لقد كتب ماركو الرسالة": {
+      "path": "audio/ar-hoda-a18fd21faeec3b9ccaef.mp3",
+      "lang": "ar",
+      "text": "لقد كتب ماركو الرسالة.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 18720
+    },
+    "ar|الرسالة": {
+      "path": "audio/ar-hoda-fe476c748794b5dde367.mp3",
+      "lang": "ar",
+      "text": "الرسالة",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 11040
+    },
+    "ar|لقد فتحت آنا الباب": {
+      "path": "audio/ar-hoda-41291ac57daec4fbb26a.mp3",
+      "lang": "ar",
+      "text": "لقد فتحت آنا الباب.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 17153
+    },
+    "ar|فتحت": {
+      "path": "audio/ar-hoda-fea8bda1ca67fe84d3dd.mp3",
+      "lang": "ar",
+      "text": "فتحت",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10100
+    },
+    "ar|أريد أن تأتي": {
+      "path": "audio/ar-hoda-e2365b9709902f101a5e.mp3",
+      "lang": "ar",
+      "text": "أريد أن تأتي.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 12921
+    },
+    "ar|تأتي": {
+      "path": "audio/ar-hoda-f3d6ad1a052f0d2d08e0.mp3",
+      "lang": "ar",
+      "text": "تأتي",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9316
+    },
+    "ar|أريد أن تقرأ هذا الكتاب": {
+      "path": "audio/ar-hoda-08efeb0e5c0da98b277b.mp3",
+      "lang": "ar",
+      "text": "أريد أن تقرأ هذا الكتاب.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 18407
+    },
+    "ar|أريد أن يفتح الباب": {
+      "path": "audio/ar-hoda-f071b38fb2788b30e420.mp3",
+      "lang": "ar",
+      "text": "أريد أن يفتح الباب.",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 16369
+    },
+    "ar|يفتح": {
+      "path": "audio/ar-hoda-b175085f97c45abda934.mp3",
+      "lang": "ar",
+      "text": "يفتح",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9943
+    },
+    "ar|نعم": {
+      "path": "audio/ar-hoda-74de8dd3f1d9a1681b00.mp3",
+      "lang": "ar",
+      "text": "نعم",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8846
+    },
+    "ar|من فضلك": {
+      "path": "audio/ar-hoda-0021882d34e4fe5492db.mp3",
+      "lang": "ar",
+      "text": "من فضلك",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 11511
+    },
+    "ar|ألف|alpha_ar_letters_1_0": {
+      "path": "audio/ar-hoda-2499f8db6cfc08fdb0c3.mp3",
+      "lang": "ar",
+      "text": "ألف",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9003
+    },
+    "ar|باء|alpha_ar_letters_1_1": {
+      "path": "audio/ar-hoda-0bca036b74bf7eedd364.mp3",
+      "lang": "ar",
+      "text": "باء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 7436
+    },
+    "ar|تاء|alpha_ar_letters_1_2": {
+      "path": "audio/ar-hoda-b055b9e24bc6d0cb948d.mp3",
+      "lang": "ar",
+      "text": "تاء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9160
+    },
+    "ar|ثاء|alpha_ar_letters_1_3": {
+      "path": "audio/ar-hoda-f76032f860984910d959.mp3",
+      "lang": "ar",
+      "text": "ثاء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9160
+    },
+    "ar|جيم|alpha_ar_letters_1_4": {
+      "path": "audio/ar-hoda-7036f8762eda19bacac2.mp3",
+      "lang": "ar",
+      "text": "جيم",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9160
+    },
+    "ar|حاء|alpha_ar_letters_1_5": {
+      "path": "audio/ar-hoda-4accb008335b79b3739a.mp3",
+      "lang": "ar",
+      "text": "حاء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8846
+    },
+    "ar|خاء|alpha_ar_letters_2_0": {
+      "path": "audio/ar-hoda-be04962d7fed96ed1575.mp3",
+      "lang": "ar",
+      "text": "خاء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9160
+    },
+    "ar|دال|alpha_ar_letters_2_1": {
+      "path": "audio/ar-hoda-c4f45c754760129c4648.mp3",
+      "lang": "ar",
+      "text": "دال",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 7749
+    },
+    "ar|ذال|alpha_ar_letters_2_2": {
+      "path": "audio/ar-hoda-09ab3e4991ea636f7175.mp3",
+      "lang": "ar",
+      "text": "ذال",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8689
+    },
+    "ar|راء|alpha_ar_letters_2_3": {
+      "path": "audio/ar-hoda-acae0f9c02d5538f5a66.mp3",
+      "lang": "ar",
+      "text": "راء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8846
+    },
+    "ar|زاي|alpha_ar_letters_2_4": {
+      "path": "audio/ar-hoda-ceadf4aad912aac8047a.mp3",
+      "lang": "ar",
+      "text": "زاي",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8219
+    },
+    "ar|سين|alpha_ar_letters_2_5": {
+      "path": "audio/ar-hoda-b3ebcd7c567478972171.mp3",
+      "lang": "ar",
+      "text": "سين",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9787
+    },
+    "ar|شين|alpha_ar_letters_3_0": {
+      "path": "audio/ar-hoda-2e3163cebd3d7147e76d.mp3",
+      "lang": "ar",
+      "text": "شين",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8689
+    },
+    "ar|صاد|alpha_ar_letters_3_1": {
+      "path": "audio/ar-hoda-f500dd1e6afd30057d7e.mp3",
+      "lang": "ar",
+      "text": "صاد",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9003
+    },
+    "ar|ضاد|alpha_ar_letters_3_2": {
+      "path": "audio/ar-hoda-9ab500a766503bfc2c20.mp3",
+      "lang": "ar",
+      "text": "ضاد",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9003
+    },
+    "ar|طاء|alpha_ar_letters_3_3": {
+      "path": "audio/ar-hoda-fda2848ea30eac7cb533.mp3",
+      "lang": "ar",
+      "text": "طاء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8846
+    },
+    "ar|ظاء|alpha_ar_letters_3_4": {
+      "path": "audio/ar-hoda-08aa60362f43bd08630c.mp3",
+      "lang": "ar",
+      "text": "ظاء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9160
+    },
+    "ar|عين|alpha_ar_letters_3_5": {
+      "path": "audio/ar-hoda-be79f9099799aae4947b.mp3",
+      "lang": "ar",
+      "text": "عين",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9473
+    },
+    "ar|غين|alpha_ar_letters_4_0": {
+      "path": "audio/ar-hoda-6f8bdc93e835489e3dc6.mp3",
+      "lang": "ar",
+      "text": "غين",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9630
+    },
+    "ar|فاء|alpha_ar_letters_4_1": {
+      "path": "audio/ar-hoda-0159425883902487f90c.mp3",
+      "lang": "ar",
+      "text": "فاء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9160
+    },
+    "ar|قاف|alpha_ar_letters_4_2": {
+      "path": "audio/ar-hoda-c9efef3809650fcdc7c1.mp3",
+      "lang": "ar",
+      "text": "قاف",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9630
+    },
+    "ar|كاف|alpha_ar_letters_4_3": {
+      "path": "audio/ar-hoda-8d1976c519dc9317077e.mp3",
+      "lang": "ar",
+      "text": "كاف",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9473
+    },
+    "ar|لام|alpha_ar_letters_4_4": {
+      "path": "audio/ar-hoda-4dc1f96ffc7f2e56d1ff.mp3",
+      "lang": "ar",
+      "text": "لام",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8689
+    },
+    "ar|ميم|alpha_ar_letters_4_5": {
+      "path": "audio/ar-hoda-ffb58c594ef071f58535.mp3",
+      "lang": "ar",
+      "text": "ميم",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9160
+    },
+    "ar|نون|alpha_ar_letters_5_0": {
+      "path": "audio/ar-hoda-598a7252f044baf6c1fd.mp3",
+      "lang": "ar",
+      "text": "نون",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8846
+    },
+    "ar|هاء|alpha_ar_letters_5_1": {
+      "path": "audio/ar-hoda-1c48a8bea1f3f2b82366.mp3",
+      "lang": "ar",
+      "text": "هاء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8846
+    },
+    "ar|واو|alpha_ar_letters_5_2": {
+      "path": "audio/ar-hoda-56e159dd310701be2e31.mp3",
+      "lang": "ar",
+      "text": "واو",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8846
+    },
+    "ar|ياء|alpha_ar_letters_5_3": {
+      "path": "audio/ar-hoda-3f54be4015d948d04693.mp3",
+      "lang": "ar",
+      "text": "ياء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8689
+    },
+    "ar|باء|alpha_ar_forms_1_0": {
+      "path": "audio/ar-hoda-0bca036b74bf7eedd364.mp3",
+      "lang": "ar",
+      "text": "باء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 7436
+    },
+    "ar|تاء|alpha_ar_forms_1_1": {
+      "path": "audio/ar-hoda-b055b9e24bc6d0cb948d.mp3",
+      "lang": "ar",
+      "text": "تاء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9160
+    },
+    "ar|ثاء|alpha_ar_forms_1_2": {
+      "path": "audio/ar-hoda-f76032f860984910d959.mp3",
+      "lang": "ar",
+      "text": "ثاء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9160
+    },
+    "ar|جيم|alpha_ar_forms_1_3": {
+      "path": "audio/ar-hoda-7036f8762eda19bacac2.mp3",
+      "lang": "ar",
+      "text": "جيم",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9160
+    },
+    "ar|حاء|alpha_ar_forms_1_4": {
+      "path": "audio/ar-hoda-4accb008335b79b3739a.mp3",
+      "lang": "ar",
+      "text": "حاء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8846
+    },
+    "ar|خاء|alpha_ar_forms_1_5": {
+      "path": "audio/ar-hoda-be04962d7fed96ed1575.mp3",
+      "lang": "ar",
+      "text": "خاء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9160
+    },
+    "ar|سين|alpha_ar_forms_1_6": {
+      "path": "audio/ar-hoda-b3ebcd7c567478972171.mp3",
+      "lang": "ar",
+      "text": "سين",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9787
+    },
+    "ar|شين|alpha_ar_forms_1_7": {
+      "path": "audio/ar-hoda-2e3163cebd3d7147e76d.mp3",
+      "lang": "ar",
+      "text": "شين",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8689
+    },
+    "ar|صاد|alpha_ar_forms_1_8": {
+      "path": "audio/ar-hoda-f500dd1e6afd30057d7e.mp3",
+      "lang": "ar",
+      "text": "صاد",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9003
+    },
+    "ar|ضاد|alpha_ar_forms_1_9": {
+      "path": "audio/ar-hoda-9ab500a766503bfc2c20.mp3",
+      "lang": "ar",
+      "text": "ضاد",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9003
+    },
+    "ar|طاء|alpha_ar_forms_1_10": {
+      "path": "audio/ar-hoda-fda2848ea30eac7cb533.mp3",
+      "lang": "ar",
+      "text": "طاء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8846
+    },
+    "ar|ظاء|alpha_ar_forms_1_11": {
+      "path": "audio/ar-hoda-08aa60362f43bd08630c.mp3",
+      "lang": "ar",
+      "text": "ظاء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9160
+    },
+    "ar|عين|alpha_ar_forms_1_12": {
+      "path": "audio/ar-hoda-be79f9099799aae4947b.mp3",
+      "lang": "ar",
+      "text": "عين",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9473
+    },
+    "ar|غين|alpha_ar_forms_1_13": {
+      "path": "audio/ar-hoda-6f8bdc93e835489e3dc6.mp3",
+      "lang": "ar",
+      "text": "غين",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9630
+    },
+    "ar|فاء|alpha_ar_forms_1_14": {
+      "path": "audio/ar-hoda-0159425883902487f90c.mp3",
+      "lang": "ar",
+      "text": "فاء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9160
+    },
+    "ar|قاف|alpha_ar_forms_1_15": {
+      "path": "audio/ar-hoda-c9efef3809650fcdc7c1.mp3",
+      "lang": "ar",
+      "text": "قاف",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9630
+    },
+    "ar|كاف|alpha_ar_forms_1_16": {
+      "path": "audio/ar-hoda-8d1976c519dc9317077e.mp3",
+      "lang": "ar",
+      "text": "كاف",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9473
+    },
+    "ar|لام|alpha_ar_forms_1_17": {
+      "path": "audio/ar-hoda-4dc1f96ffc7f2e56d1ff.mp3",
+      "lang": "ar",
+      "text": "لام",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8689
+    },
+    "ar|ميم|alpha_ar_forms_1_18": {
+      "path": "audio/ar-hoda-ffb58c594ef071f58535.mp3",
+      "lang": "ar",
+      "text": "ميم",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9160
+    },
+    "ar|نون|alpha_ar_forms_1_19": {
+      "path": "audio/ar-hoda-598a7252f044baf6c1fd.mp3",
+      "lang": "ar",
+      "text": "نون",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8846
+    },
+    "ar|هاء|alpha_ar_forms_1_20": {
+      "path": "audio/ar-hoda-1c48a8bea1f3f2b82366.mp3",
+      "lang": "ar",
+      "text": "هاء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8846
+    },
+    "ar|ياء|alpha_ar_forms_1_21": {
+      "path": "audio/ar-hoda-3f54be4015d948d04693.mp3",
+      "lang": "ar",
+      "text": "ياء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8689
+    },
+    "ar|باء|alpha_ar_forms_2_0": {
+      "path": "audio/ar-hoda-0bca036b74bf7eedd364.mp3",
+      "lang": "ar",
+      "text": "باء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 7436
+    },
+    "ar|تاء|alpha_ar_forms_2_1": {
+      "path": "audio/ar-hoda-b055b9e24bc6d0cb948d.mp3",
+      "lang": "ar",
+      "text": "تاء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9160
+    },
+    "ar|ثاء|alpha_ar_forms_2_2": {
+      "path": "audio/ar-hoda-f76032f860984910d959.mp3",
+      "lang": "ar",
+      "text": "ثاء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9160
+    },
+    "ar|جيم|alpha_ar_forms_2_3": {
+      "path": "audio/ar-hoda-7036f8762eda19bacac2.mp3",
+      "lang": "ar",
+      "text": "جيم",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9160
+    },
+    "ar|حاء|alpha_ar_forms_2_4": {
+      "path": "audio/ar-hoda-4accb008335b79b3739a.mp3",
+      "lang": "ar",
+      "text": "حاء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8846
+    },
+    "ar|خاء|alpha_ar_forms_2_5": {
+      "path": "audio/ar-hoda-be04962d7fed96ed1575.mp3",
+      "lang": "ar",
+      "text": "خاء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9160
+    },
+    "ar|سين|alpha_ar_forms_2_6": {
+      "path": "audio/ar-hoda-b3ebcd7c567478972171.mp3",
+      "lang": "ar",
+      "text": "سين",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9787
+    },
+    "ar|شين|alpha_ar_forms_2_7": {
+      "path": "audio/ar-hoda-2e3163cebd3d7147e76d.mp3",
+      "lang": "ar",
+      "text": "شين",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8689
+    },
+    "ar|صاد|alpha_ar_forms_2_8": {
+      "path": "audio/ar-hoda-f500dd1e6afd30057d7e.mp3",
+      "lang": "ar",
+      "text": "صاد",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9003
+    },
+    "ar|ضاد|alpha_ar_forms_2_9": {
+      "path": "audio/ar-hoda-9ab500a766503bfc2c20.mp3",
+      "lang": "ar",
+      "text": "ضاد",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9003
+    },
+    "ar|طاء|alpha_ar_forms_2_10": {
+      "path": "audio/ar-hoda-fda2848ea30eac7cb533.mp3",
+      "lang": "ar",
+      "text": "طاء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8846
+    },
+    "ar|ظاء|alpha_ar_forms_2_11": {
+      "path": "audio/ar-hoda-08aa60362f43bd08630c.mp3",
+      "lang": "ar",
+      "text": "ظاء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9160
+    },
+    "ar|عين|alpha_ar_forms_2_12": {
+      "path": "audio/ar-hoda-be79f9099799aae4947b.mp3",
+      "lang": "ar",
+      "text": "عين",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9473
+    },
+    "ar|غين|alpha_ar_forms_2_13": {
+      "path": "audio/ar-hoda-6f8bdc93e835489e3dc6.mp3",
+      "lang": "ar",
+      "text": "غين",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9630
+    },
+    "ar|فاء|alpha_ar_forms_2_14": {
+      "path": "audio/ar-hoda-0159425883902487f90c.mp3",
+      "lang": "ar",
+      "text": "فاء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9160
+    },
+    "ar|قاف|alpha_ar_forms_2_15": {
+      "path": "audio/ar-hoda-c9efef3809650fcdc7c1.mp3",
+      "lang": "ar",
+      "text": "قاف",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9630
+    },
+    "ar|كاف|alpha_ar_forms_2_16": {
+      "path": "audio/ar-hoda-8d1976c519dc9317077e.mp3",
+      "lang": "ar",
+      "text": "كاف",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9473
+    },
+    "ar|لام|alpha_ar_forms_2_17": {
+      "path": "audio/ar-hoda-4dc1f96ffc7f2e56d1ff.mp3",
+      "lang": "ar",
+      "text": "لام",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8689
+    },
+    "ar|ميم|alpha_ar_forms_2_18": {
+      "path": "audio/ar-hoda-ffb58c594ef071f58535.mp3",
+      "lang": "ar",
+      "text": "ميم",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9160
+    },
+    "ar|نون|alpha_ar_forms_2_19": {
+      "path": "audio/ar-hoda-598a7252f044baf6c1fd.mp3",
+      "lang": "ar",
+      "text": "نون",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8846
+    },
+    "ar|هاء|alpha_ar_forms_2_20": {
+      "path": "audio/ar-hoda-1c48a8bea1f3f2b82366.mp3",
+      "lang": "ar",
+      "text": "هاء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8846
+    },
+    "ar|ياء|alpha_ar_forms_2_21": {
+      "path": "audio/ar-hoda-3f54be4015d948d04693.mp3",
+      "lang": "ar",
+      "text": "ياء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8689
+    },
+    "ar|ألف|alpha_ar_forms_3_0": {
+      "path": "audio/ar-hoda-2499f8db6cfc08fdb0c3.mp3",
+      "lang": "ar",
+      "text": "ألف",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9003
+    },
+    "ar|باء|alpha_ar_forms_3_1": {
+      "path": "audio/ar-hoda-0bca036b74bf7eedd364.mp3",
+      "lang": "ar",
+      "text": "باء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 7436
+    },
+    "ar|تاء|alpha_ar_forms_3_2": {
+      "path": "audio/ar-hoda-b055b9e24bc6d0cb948d.mp3",
+      "lang": "ar",
+      "text": "تاء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9160
+    },
+    "ar|ثاء|alpha_ar_forms_3_3": {
+      "path": "audio/ar-hoda-f76032f860984910d959.mp3",
+      "lang": "ar",
+      "text": "ثاء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9160
+    },
+    "ar|جيم|alpha_ar_forms_3_4": {
+      "path": "audio/ar-hoda-7036f8762eda19bacac2.mp3",
+      "lang": "ar",
+      "text": "جيم",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9160
+    },
+    "ar|حاء|alpha_ar_forms_3_5": {
+      "path": "audio/ar-hoda-4accb008335b79b3739a.mp3",
+      "lang": "ar",
+      "text": "حاء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8846
+    },
+    "ar|خاء|alpha_ar_forms_3_6": {
+      "path": "audio/ar-hoda-be04962d7fed96ed1575.mp3",
+      "lang": "ar",
+      "text": "خاء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9160
+    },
+    "ar|دال|alpha_ar_forms_3_7": {
+      "path": "audio/ar-hoda-c4f45c754760129c4648.mp3",
+      "lang": "ar",
+      "text": "دال",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 7749
+    },
+    "ar|ذال|alpha_ar_forms_3_8": {
+      "path": "audio/ar-hoda-09ab3e4991ea636f7175.mp3",
+      "lang": "ar",
+      "text": "ذال",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8689
+    },
+    "ar|راء|alpha_ar_forms_3_9": {
+      "path": "audio/ar-hoda-acae0f9c02d5538f5a66.mp3",
+      "lang": "ar",
+      "text": "راء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8846
+    },
+    "ar|زاي|alpha_ar_forms_3_10": {
+      "path": "audio/ar-hoda-ceadf4aad912aac8047a.mp3",
+      "lang": "ar",
+      "text": "زاي",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8219
+    },
+    "ar|سين|alpha_ar_forms_3_11": {
+      "path": "audio/ar-hoda-b3ebcd7c567478972171.mp3",
+      "lang": "ar",
+      "text": "سين",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9787
+    },
+    "ar|شين|alpha_ar_forms_3_12": {
+      "path": "audio/ar-hoda-2e3163cebd3d7147e76d.mp3",
+      "lang": "ar",
+      "text": "شين",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8689
+    },
+    "ar|صاد|alpha_ar_forms_3_13": {
+      "path": "audio/ar-hoda-f500dd1e6afd30057d7e.mp3",
+      "lang": "ar",
+      "text": "صاد",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9003
+    },
+    "ar|ضاد|alpha_ar_forms_3_14": {
+      "path": "audio/ar-hoda-9ab500a766503bfc2c20.mp3",
+      "lang": "ar",
+      "text": "ضاد",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9003
+    },
+    "ar|طاء|alpha_ar_forms_3_15": {
+      "path": "audio/ar-hoda-fda2848ea30eac7cb533.mp3",
+      "lang": "ar",
+      "text": "طاء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8846
+    },
+    "ar|ظاء|alpha_ar_forms_3_16": {
+      "path": "audio/ar-hoda-08aa60362f43bd08630c.mp3",
+      "lang": "ar",
+      "text": "ظاء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9160
+    },
+    "ar|عين|alpha_ar_forms_3_17": {
+      "path": "audio/ar-hoda-be79f9099799aae4947b.mp3",
+      "lang": "ar",
+      "text": "عين",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9473
+    },
+    "ar|غين|alpha_ar_forms_3_18": {
+      "path": "audio/ar-hoda-6f8bdc93e835489e3dc6.mp3",
+      "lang": "ar",
+      "text": "غين",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9630
+    },
+    "ar|فاء|alpha_ar_forms_3_19": {
+      "path": "audio/ar-hoda-0159425883902487f90c.mp3",
+      "lang": "ar",
+      "text": "فاء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9160
+    },
+    "ar|قاف|alpha_ar_forms_3_20": {
+      "path": "audio/ar-hoda-c9efef3809650fcdc7c1.mp3",
+      "lang": "ar",
+      "text": "قاف",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9630
+    },
+    "ar|كاف|alpha_ar_forms_3_21": {
+      "path": "audio/ar-hoda-8d1976c519dc9317077e.mp3",
+      "lang": "ar",
+      "text": "كاف",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9473
+    },
+    "ar|لام|alpha_ar_forms_3_22": {
+      "path": "audio/ar-hoda-4dc1f96ffc7f2e56d1ff.mp3",
+      "lang": "ar",
+      "text": "لام",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8689
+    },
+    "ar|ميم|alpha_ar_forms_3_23": {
+      "path": "audio/ar-hoda-ffb58c594ef071f58535.mp3",
+      "lang": "ar",
+      "text": "ميم",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9160
+    },
+    "ar|نون|alpha_ar_forms_3_24": {
+      "path": "audio/ar-hoda-598a7252f044baf6c1fd.mp3",
+      "lang": "ar",
+      "text": "نون",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8846
+    },
+    "ar|هاء|alpha_ar_forms_3_25": {
+      "path": "audio/ar-hoda-1c48a8bea1f3f2b82366.mp3",
+      "lang": "ar",
+      "text": "هاء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8846
+    },
+    "ar|واو|alpha_ar_forms_3_26": {
+      "path": "audio/ar-hoda-56e159dd310701be2e31.mp3",
+      "lang": "ar",
+      "text": "واو",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8846
+    },
+    "ar|ياء|alpha_ar_forms_3_27": {
+      "path": "audio/ar-hoda-3f54be4015d948d04693.mp3",
+      "lang": "ar",
+      "text": "ياء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8689
+    },
+    "ar|ألف|alpha_ar_breaks_0": {
+      "path": "audio/ar-hoda-2499f8db6cfc08fdb0c3.mp3",
+      "lang": "ar",
+      "text": "ألف",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9003
+    },
+    "ar|دال|alpha_ar_breaks_1": {
+      "path": "audio/ar-hoda-c4f45c754760129c4648.mp3",
+      "lang": "ar",
+      "text": "دال",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 7749
+    },
+    "ar|ذال|alpha_ar_breaks_2": {
+      "path": "audio/ar-hoda-09ab3e4991ea636f7175.mp3",
+      "lang": "ar",
+      "text": "ذال",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8689
+    },
+    "ar|راء|alpha_ar_breaks_3": {
+      "path": "audio/ar-hoda-acae0f9c02d5538f5a66.mp3",
+      "lang": "ar",
+      "text": "راء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8846
+    },
+    "ar|زاي|alpha_ar_breaks_4": {
+      "path": "audio/ar-hoda-ceadf4aad912aac8047a.mp3",
+      "lang": "ar",
+      "text": "زاي",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8219
+    },
+    "ar|واو|alpha_ar_breaks_5": {
+      "path": "audio/ar-hoda-56e159dd310701be2e31.mp3",
+      "lang": "ar",
+      "text": "واو",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8846
+    },
+    "ar|ب|alpha_ar_short_vowels_0": {
+      "path": "audio/ar-hoda-27d626300382463bfbe1.mp3",
+      "lang": "ar",
+      "text": "بَ",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 7436
+    },
+    "ar|ب|alpha_ar_short_vowels_1": {
+      "path": "audio/ar-hoda-ed6e6fc5e6fd5ab03dc0.mp3",
+      "lang": "ar",
+      "text": "بِ",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 7592
+    },
+    "ar|ب|alpha_ar_short_vowels_2": {
+      "path": "audio/ar-hoda-ca13579ceccfda4ac1be.mp3",
+      "lang": "ar",
+      "text": "بُ",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 7436
+    },
+    "ar|ب|alpha_ar_short_vowels_3": {
+      "path": "audio/ar-hoda-45a80136857c5387c650.mp3",
+      "lang": "ar",
+      "text": "بْ",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 6338
+    },
+    "ar|با|alpha_ar_length_0": {
+      "path": "audio/ar-hoda-86a03fdaf22fa36b2571.mp3",
+      "lang": "ar",
+      "text": "بَا",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 7436
+    },
+    "ar|بي|alpha_ar_length_1": {
+      "path": "audio/ar-hoda-434f89ffec682d239a52.mp3",
+      "lang": "ar",
+      "text": "بِي",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8062
+    },
+    "ar|بو|alpha_ar_length_2": {
+      "path": "audio/ar-hoda-4a98ece3376af29c324a.mp3",
+      "lang": "ar",
+      "text": "بُو",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 7906
+    },
+    "ar|ب|alpha_ar_length_3": {
+      "path": "audio/ar-hoda-ecd4ac8e7b2d8232b792.mp3",
+      "lang": "ar",
+      "text": "بَّ",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 7906
+    },
+    "ar|ب|alpha_ar_length_4": {
+      "path": "audio/ar-hoda-4adc65624e227f7792a1.mp3",
+      "lang": "ar",
+      "text": "بٌ",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 7906
+    },
+    "ar|ب|alpha_ar_length_5": {
+      "path": "audio/ar-hoda-605cddc84e1a4a94208c.mp3",
+      "lang": "ar",
+      "text": "بٍ",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8062
+    },
+    "ar|همزة منفصلة|alpha_ar_variants_0": {
+      "path": "audio/ar-hoda-dd1075c7c64c0e57ce0b.mp3",
+      "lang": "ar",
+      "text": "همزة منفصلة",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 14959
+    },
+    "ar|همزة فوق الألف|alpha_ar_variants_1": {
+      "path": "audio/ar-hoda-270ad72c5fb9bd8cab94.mp3",
+      "lang": "ar",
+      "text": "همزة فوق الألف",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 15116
+    },
+    "ar|همزة تحت الألف|alpha_ar_variants_2": {
+      "path": "audio/ar-hoda-0134425efa6181be253d.mp3",
+      "lang": "ar",
+      "text": "همزة تحت الألف",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 14645
+    },
+    "ar|ألف مع مدة|alpha_ar_variants_3": {
+      "path": "audio/ar-hoda-adbc5b27f1a717859001.mp3",
+      "lang": "ar",
+      "text": "ألف مع مدّة",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 13862
+    },
+    "ar|همزة على واو|alpha_ar_variants_4": {
+      "path": "audio/ar-hoda-09c5f806057b469511e6.mp3",
+      "lang": "ar",
+      "text": "همزة على واو",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 13235
+    },
+    "ar|همزة على ياء|alpha_ar_variants_5": {
+      "path": "audio/ar-hoda-67e537d8ad66803e32b9.mp3",
+      "lang": "ar",
+      "text": "همزة على ياء",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 13862
+    },
+    "ar|تاء مربوطة|alpha_ar_variants_6": {
+      "path": "audio/ar-hoda-f307fc38de17f90a72e6.mp3",
+      "lang": "ar",
+      "text": "تاء مربوطة",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 13235
+    },
+    "ar|ألف مقصورة|alpha_ar_variants_7": {
+      "path": "audio/ar-hoda-d29ff9143b85fd5d94f2.mp3",
+      "lang": "ar",
+      "text": "ألف مقصورة",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 13548
+    },
+    "ar|لام وألف|alpha_ar_variants_8": {
+      "path": "audio/ar-hoda-6484cb4674e7f22a3a90.mp3",
+      "lang": "ar",
+      "text": "لام وألف",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 12294
+    },
+    "ar|كتب|alpha_ar_reading_0": {
+      "path": "audio/ar-hoda-c1530409bfe96940f984.mp3",
+      "lang": "ar",
+      "text": "كَتَبَ",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9473
+    },
+    "ar|كتاب|alpha_ar_reading_1": {
+      "path": "audio/ar-hoda-f79209f7b6729ff636e2.mp3",
+      "lang": "ar",
+      "text": "كِتَاب",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10100
+    },
+    "ar|باب|alpha_ar_reading_2": {
+      "path": "audio/ar-hoda-070f4041ddc589da07d1.mp3",
+      "lang": "ar",
+      "text": "بَاب",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9003
+    },
+    "ar|بيت|alpha_ar_reading_3": {
+      "path": "audio/ar-hoda-ddd6b2a152624b3a415e.mp3",
+      "lang": "ar",
+      "text": "بَيْت",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9473
+    },
+    "ar|ث|alpha_ar_reading_4": {
+      "path": "audio/ar-hoda-77f7e0bfd50224a075a7.mp3",
+      "lang": "ar",
+      "text": "ث",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 7592
+    },
+    "ar|ب|alpha_ar_reading_5": {
+      "path": "audio/ar-hoda-77c0d313c473ea71f831.mp3",
+      "lang": "ar",
+      "text": "ب",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 7592
+    },
+    "ar|مرحبا|greetings_0": {
+      "path": "audio/ar-hoda-33a77c342b4feafd65dc.mp3",
+      "lang": "ar",
+      "text": "مرحبًا!",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10570
+    },
+    "ar|صباح الخير|greetings_1": {
+      "path": "audio/ar-hoda-d1763a38421ba0a2df11.mp3",
+      "lang": "ar",
+      "text": "صباح الخير!",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 12451
+    },
+    "ar|شكرا|greetings_2": {
+      "path": "audio/ar-hoda-f34e40108799e367d798.mp3",
+      "lang": "ar",
+      "text": "شكرًا!",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9316
+    },
+    "ar|عطشانة": {
+      "path": "audio/ar-hoda-53657c807afa6ada56ad.mp3",
+      "lang": "ar",
+      "text": "عطشانة",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 10414
+    },
+    "ar|و": {
+      "path": "audio/ar-hoda-e5853766db4d189f3c3b.mp3",
+      "lang": "ar",
+      "text": "و",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 8062
+    },
+    "ar|باب": {
+      "path": "audio/ar-hoda-6f99da5f0da5f2815f12.mp3",
+      "lang": "ar",
+      "text": "باب",
+      "voice": "Microsoft Hoda (ar-EG)",
+      "quality": "system-synthetic-not-human-reviewed",
+      "provider": "Windows System.Speech; generated locally",
+      "bytes": 9003
     }
   },
   "reviewedByNativeSpeakers": false,

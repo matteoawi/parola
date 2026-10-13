@@ -24,9 +24,10 @@ function passed(check, details = {}) { checks.push({check, passed: true, ...deta
   assert.equal(await page.locator('.unitcard').count(), 24);
   assert.equal(await page.locator('a[href="./changelog.html"]').count(), 1);
   await page.evaluate(() => Parola.intro('identity', 'write'));
-  assert.equal(await page.locator('.mode-card').count(), 5);
-  passed('hosted boot, release version, 24 units and five modes');
-  for (const lang of ['it', 'en', 'ru']) {
+  assert.equal(await page.locator('.mode-card').count(), 6);
+  passed('hosted boot, release version, 24 units and six modes');
+  await page.locator('[data-action=tableFormat][data-format=classic]').click();
+  for (const lang of ['it', 'en', 'ar', 'ru']) {
    assert.equal(await page.evaluate(async lang => {
     const item = Parola.data.items.find(i => i.id === 'greetings_0');
     return Parola.player.speak(lang, item.text[lang], {context: item.id});
@@ -94,6 +95,7 @@ function passed(check, details = {}) { checks.push({check, passed: true, ...deta
   await page.evaluate(() => navigator.serviceWorker.ready);
   await page.waitForFunction(() => navigator.serviceWorker.controller !== null);
   assert.ok((await page.evaluate(() => caches.keys())).some(k => k.endsWith(version)));
+  await page.evaluate(()=>Parola.audioPacks.running);
   await context.setOffline(true);
   await page.reload(); await page.waitForFunction(() => !!window.Parola);
   assert.equal(await page.evaluate(() => Parola.state.store.version), 6);
@@ -104,7 +106,7 @@ function passed(check, details = {}) { checks.push({check, passed: true, ...deta
   passed('public changelog accessible offline');
   assert.deepEqual(errors, []);
   passed('no JavaScript errors or missing translations');
-  const report = {version, url, checks: checks.length, storage: 'real browser localStorage', offline: true, audioTested: ['it', 'en', 'ru'], arabicAudioIncluded: false, errors, results: checks};
+  const report = {version, url, checks: checks.length, storage: 'real browser localStorage', offline: true, audioTested: ['it', 'en', 'ar', 'ru'], arabicAudioIncluded: true, errors, results: checks};
   fs.writeFileSync(path.join(root, `docs/pages-verification-${version}.json`), JSON.stringify(report, null, 2) + '\n');
   console.log('TOTAL', checks.length);
  } finally {await browser.close();}

@@ -1,0 +1,17 @@
+{
+  "version": "6.10.2",
+  "url": "https://matteoawi.github.io/parola/",
+  "checks": [
+    "one active home section, next table and actionable goals, local display font, mobile containment",
+    "lesson and milestone back navigation preserve home sections; all five table formats and start remain visible",
+    "profile tabs expose language, all four saved voice choices, and data tools without changing the voice default",
+    "real Cyrillic Mahjong, introduction gate, daily table credit and truthful weekly progress",
+    "exclusive game keyboard and Send fit narrow portrait and touch landscape",
+    "reward disclosure, immediate replay and deterministic challenge parameters",
+    "desktop matches mobile sections, Arabic RTL and keyboard tabs, reduced motion and 360-pixel layout"
+  ],
+  "alphabetDailyTables": [
+    "alpha:ru:recognize:3360289615"
+  ],
+  "passed": true
+}

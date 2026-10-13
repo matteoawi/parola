@@ -1,0 +1,389 @@
+TAP version 13
+# Subtest: tour checkpoints advance once and survive save validation and merge
+ok 1 - tour checkpoints advance once and survive save validation and merge
+  ---
+  duration_ms: 30.4826
+  type: 'test'
+  ...
+# Subtest: challenge links preserve the table settings and reject invalid invitations
+ok 2 - challenge links preserve the table settings and reject invalid invitations
+  ---
+  duration_ms: 5.1361
+  type: 'test'
+  ...
+# Subtest: passport stamps require independent recall and old players bypass onboarding
+ok 3 - passport stamps require independent recall and old players bypass onboarding
+  ---
+  duration_ms: 1.1776
+  type: 'test'
+  ...
+# Subtest: letter recognition matches the same script glyph; listening and writing retain the sound/name clue
+ok 4 - letter recognition matches the same script glyph; listening and writing retain the sound/name clue
+  ---
+  duration_ms: 30.4512
+  type: 'test'
+  ...
+# Subtest: all literacy lessons have real, solvable Mahjong geometry in all three skills
+ok 5 - all literacy lessons have real, solvable Mahjong geometry in all three skills
+  ---
+  duration_ms: 81.6844
+  type: 'test'
+  ...
+# Subtest: resume preserves out-of-order pairs and layout; shuffle has a valid remaining solution
+ok 6 - resume preserves out-of-order pairs and layout; shuffle has a valid remaining solution
+  ---
+  duration_ms: 5.6972
+  type: 'test'
+  ...
+# Subtest: legacy completed answers migrate without rewarding or replaying completed items
+ok 7 - legacy completed answers migrate without rewarding or replaying completed items
+  ---
+  duration_ms: 2.0988
+  type: 'test'
+  ...
+# Subtest: Arabic pack covers all authored phrases, alternatives, vocabulary and component words
+ok 8 - Arabic pack covers all authored phrases, alternatives, vocabulary and component words
+  ---
+  duration_ms: 35.9562
+  type: 'test'
+  ...
+# Subtest: all Arabic alphabet sounds retain their distinct context and real included file
+ok 9 - all Arabic alphabet sounds retain their distinct context and real included file
+  ---
+  duration_ms: 27.1563
+  type: 'test'
+  ...
+# Subtest: language pack avoids duplicate downloads and reports readiness only after preparation
+ok 10 - language pack avoids duplicate downloads and reports readiness only after preparation
+  ---
+  duration_ms: 195.221
+  type: 'test'
+  ...
+# Subtest: data saver requires an explicit download and failed packs remain retryable
+ok 11 - data saver requires an explicit download and failed packs remain retryable
+  ---
+  duration_ms: 1.6478
+  type: 'test'
+  ...
+# Subtest: slow playback recovers its requested rate after metadata and player resets
+ok 12 - slow playback recovers its requested rate after metadata and player resets
+  ---
+  duration_ms: 15.4844
+  type: 'test'
+  ...
+# Subtest: milestones expose honest progress, include big tables and preserve earned awards
+ok 13 - milestones expose honest progress, include big tables and preserve earned awards
+  ---
+  duration_ms: 9.6303
+  type: 'test'
+  ...
+# Subtest: practice calendar reflects seven real local dates across a year boundary
+ok 14 - practice calendar reflects seven real local dates across a year boundary
+  ---
+  duration_ms: 31.4632
+  type: 'test'
+  ...
+# Subtest: alphabet completion joins daily rewards once and survives merge/import
+ok 15 - alphabet completion joins daily rewards once and survives merge/import
+  ---
+  duration_ms: 6.4129
+  type: 'test'
+  ...
+# Subtest: 24 units, 72 aligned phrases, four complete UI languages, 12 directions
+ok 16 - 24 units, 72 aligned phrases, four complete UI languages, 12 directions
+  ---
+  duration_ms: 34.5409
+  type: 'test'
+  ...
+# Subtest: precise Mahjong covering and lateral blocking rules
+ok 17 - precise Mahjong covering and lateral blocking rules
+  ---
+  duration_ms: 0.6996
+  type: 'test'
+  ...
+# Subtest: all 16 bilingual/monolingual routes × 24 units × 10 randomized pair boards have a solution
+ok 18 - all 16 bilingual/monolingual routes × 24 units × 10 randomized pair boards have a solution
+  ---
+  duration_ms: 583.0591
+  type: 'test'
+  ...
+# Subtest: random legal pair choices: record any deadlocks instead of hiding them
+ok 19 - random legal pair choices: record any deadlocks instead of hiding them
+  ---
+  duration_ms: 144.5836
+  type: 'test'
+  ...
+# Subtest: all sentence boards can be completed; alternative identical tiles repaired safely
+ok 20 - all sentence boards can be completed; alternative identical tiles repaired safely
+  ---
+  duration_ms: 463.1521
+  type: 'test'
+  ...
+# Subtest: prefixes, variants, ordered words and preservation of important spelling distinctions
+ok 21 - prefixes, variants, ordered words and preservation of important spelling distinctions
+  ---
+  duration_ms: 13.6179
+  type: 'test'
+  ...
+# Subtest: review spacing, same-day repetition, assistance, errors, and direction isolation
+ok 22 - review spacing, same-day repetition, assistance, errors, and direction isolation
+  ---
+  duration_ms: 1.4509
+  type: 'test'
+  ...
+# Subtest: safe progress import and highest-score merge without accumulating duplicate XP
+ok 23 - safe progress import and highest-score merge without accumulating duplicate XP
+  ---
+  duration_ms: 2.1257
+  type: 'test'
+  ...
+# SIMULATION_REPORT {"boards":5280,"sequenceMoves":16035,"randomStalls":0}
+# Subtest: seen, played and old imported progress cannot stand in for an introduction
+ok 24 - seen, played and old imported progress cannot stand in for an introduction
+  ---
+  duration_ms: 7.2364
+  type: 'test'
+  ...
+# Subtest: different route, clue, word sequence and content changes require a fresh presentation
+ok 25 - different route, clue, word sequence and content changes require a fresh presentation
+  ---
+  duration_ms: 29.5979
+  type: 'test'
+  ...
+# Subtest: spring starts at its current presentation and settles while carrying its velocity
+ok 26 - spring starts at its current presentation and settles while carrying its velocity
+  ---
+  duration_ms: 0.4378
+  type: 'test'
+  ...
+# Subtest: 32 and 52 tile tables have six columns, three supported layers and solvable pairs
+ok 27 - 32 and 52 tile tables have six columns, three supported layers and solvable pairs
+  ---
+  duration_ms: 62.2061
+  type: 'test'
+  ...
+# Subtest: all alphabets can form 26 unique material pairs and preserve their saved layout
+ok 28 - all alphabets can form 26 unique material pairs and preserve their saved layout
+  ---
+  duration_ms: 53.6524
+  type: 'test'
+  ...
+# Subtest: new formats, legacy links and one-time default migration remain coherent
+ok 29 - new formats, legacy links and one-time default migration remain coherent
+  ---
+  duration_ms: 4.5077
+  type: 'test'
+  ...
+# Subtest: all four scripts have their full core alphabet and distinct, localized learning objectives
+ok 30 - all four scripts have their full core alphabet and distinct, localized learning objectives
+  ---
+  duration_ms: 45.6924
+  type: 'test'
+  ...
+# Subtest: literacy preserves Arabic vowel marks, hamza, Russian yo and Italian accents
+ok 31 - literacy preserves Arabic vowel marks, hamza, Russian yo and Italian accents
+  ---
+  duration_ms: 2.1275
+  type: 'test'
+  ...
+# Subtest: six-item queues prioritize unlearned skills, never count assisted recall as mastery
+ok 32 - six-item queues prioritize unlearned skills, never count assisted recall as mastery
+  ---
+  duration_ms: 1.6576
+  type: 'test'
+  ...
+# Subtest: monolingual routes have semantic clues for every phrase and preserve language-specific saves
+ok 33 - monolingual routes have semantic clues for every phrase and preserve language-specific saves
+  ---
+  duration_ms: 19.7807
+  type: 'test'
+  ...
+# Subtest: malformed literacy sessions cannot break resume or create arbitrary exercise ids
+ok 34 - malformed literacy sessions cannot break resume or create arbitrary exercise ids
+  ---
+  duration_ms: 0.4321
+  type: 'test'
+  ...
+# Subtest: daily rewards and imported activities do not duplicate XP
+ok 35 - daily rewards and imported activities do not duplicate XP
+  ---
+  duration_ms: 19.8267
+  type: 'test'
+  ...
+# Subtest: daily challenge is stable and limited to supplied learning units; streak follows calendar days
+ok 36 - daily challenge is stable and limited to supplied learning units; streak follows calendar days
+  ---
+  duration_ms: 5.9519
+  type: 'test'
+  ...
+# Subtest: old saves receive safe defaults; new table formats persist through export validation
+ok 37 - old saves receive safe defaults; new table formats persist through export validation
+  ---
+  duration_ms: 1.2895
+  type: 'test'
+  ...
+# Subtest: four language grammars accept supported combinations and reward length, reject agreement errors and repeated clauses
+ok 38 - four language grammars accept supported combinations and reward length, reject agreement errors and repeated clauses
+  ---
+  duration_ms: 24.2486
+  type: 'test'
+  ...
+# Subtest: every lab board provides an accessible pair and a long sentence, using only introduced source words
+ok 39 - every lab board provides an accessible pair and a long sentence, using only introduced source words
+  ---
+  duration_ms: 472.1283
+  type: 'test'
+  ...
+# Subtest: cloze contains one known answer reachable by Mahjong rules, distractors, all languages and formats
+ok 40 - cloze contains one known answer reachable by Mahjong rules, distractors, all languages and formats
+  ---
+  duration_ms: 12.3749
+  type: 'test'
+  ...
+# Subtest: picture vocabulary is distinct, has all translations, mono clues, assets and no ambiguous coffee/tea drawing
+ok 41 - picture vocabulary is distinct, has all translations, mono clues, assets and no ambiguous coffee/tea drawing
+  ---
+  duration_ms: 1.9539
+  type: 'test'
+  ...
+# Subtest: lab can continue valid models without paid help and all bank words belong to a recognised structure
+ok 42 - lab can continue valid models without paid help and all bank words belong to a recognised structure
+  ---
+  duration_ms: 717.9731
+  type: 'test'
+  ...
+# Subtest: hints and models follow three and four coordinated clauses, including an already used short sentence
+ok 43 - hints and models follow three and four coordinated clauses, including an already used short sentence
+  ---
+  duration_ms: 4.5866
+  type: 'test'
+  ...
+# Subtest: XP matches total progression across rounding boundaries; picture and word formats award real board size
+ok 44 - XP matches total progression across rounding boundaries; picture and word formats award real board size
+  ---
+  duration_ms: 0.5607
+  type: 'test'
+  ...
+# Subtest: fit preserves proportions within both axes; zoom has stable limits
+ok 45 - fit preserves proportions within both axes; zoom has stable limits
+  ---
+  duration_ms: 2.1137
+  type: 'test'
+  ...
+# Subtest: all nine game sounds use one context, bounded volume, and respect mute
+ok 46 - all nine game sounds use one context, bounded volume, and respect mute
+  ---
+  duration_ms: 31.6971
+  type: 'test'
+  ...
+# Subtest: v6 has six modes including pictures and migrates v5 progress without changing the input
+ok 47 - v6 has six modes including pictures and migrates v5 progress without changing the input
+  ---
+  duration_ms: 16.3148
+  type: 'test'
+  ...
+# Subtest: early success on a different day keeps the original review deadline and assessment timestamp
+ok 48 - early success on a different day keeps the original review deadline and assessment timestamp
+  ---
+  duration_ms: 5.1811
+  type: 'test'
+  ...
+# Subtest: repeated early study cannot postpone a scheduled check indefinitely
+ok 49 - repeated early study cannot postpone a scheduled check indefinitely
+  ---
+  duration_ms: 1.7014
+  type: 'test'
+  ...
+# Subtest: negative or nonfinite review timestamps rejected
+ok 50 - negative or nonfinite review timestamps rejected
+  ---
+  duration_ms: 1.5166
+  type: 'test'
+  ...
+# Subtest: first save includes a recovery copy and next save keeps previous valid data
+ok 51 - first save includes a recovery copy and next save keeps previous valid data
+  ---
+  duration_ms: 6.1765
+  type: 'test'
+  ...
+# Subtest: corrupt primary recovers previous save; corruption cannot overwrite backup
+ok 52 - corrupt primary recovers previous save; corruption cannot overwrite backup
+  ---
+  duration_ms: 2.6202
+  type: 'test'
+  ...
+# Subtest: read of a v5 legacy key leaves the legacy content intact
+ok 53 - read of a v5 legacy key leaves the legacy content intact
+  ---
+  duration_ms: 1.0208
+  type: 'test'
+  ...
+# Subtest: quota errors do not destroy the last primary save
+ok 54 - quota errors do not destroy the last primary save
+  ---
+  duration_ms: 4.3782
+  type: 'test'
+  ...
+# Subtest: unavailable storage returns a playable fresh session
+ok 55 - unavailable storage returns a playable fresh session
+  ---
+  duration_ms: 1.0005
+  type: 'test'
+  ...
+# Subtest: invalid save data cannot replace valid primary or backup
+ok 56 - invalid save data cannot replace valid primary or backup
+  ---
+  duration_ms: 1.584
+  type: 'test'
+  ...
+# Subtest: rank matching languages and enhanced metadata; honor a manual voice
+ok 57 - rank matching languages and enhanced metadata; honor a manual voice
+  ---
+  duration_ms: 4.9619
+  type: 'test'
+  ...
+# Subtest: device first, explicit rate and neutral pitch; speech activity spans playback
+ok 58 - device first, explicit rate and neutral pitch; speech activity spans playback
+  ---
+  duration_ms: 2.7799
+  type: 'test'
+  ...
+# Subtest: failed device speech cancels before file fallback, never substituting language
+ok 59 - failed device speech cancels before file fallback, never substituting language
+  ---
+  duration_ms: 1.1452
+  type: 'test'
+  ...
+# Subtest: interrupting a voice cannot clear the newer speech or leave its queue alive
+ok 60 - interrupting a voice cannot clear the newer speech or leave its queue alive
+  ---
+  duration_ms: 1.1476
+  type: 'test'
+  ...
+# Subtest: late browser voices can be used on the first playback
+ok 61 - late browser voices can be used on the first playback
+  ---
+  duration_ms: 14.6564
+  type: 'test'
+  ...
+# Subtest: old defaults migrate once; explicit new choices survive validation and exports
+ok 62 - old defaults migrate once; explicit new choices survive validation and exports
+  ---
+  duration_ms: 5.0703
+  type: 'test'
+  ...
+# Subtest: device pronunciation keeps contextual read and Russian stress overrides
+ok 63 - device pronunciation keeps contextual read and Russian stress overrides
+  ---
+  duration_ms: 2.0348
+  type: 'test'
+  ...
+1..63
+# tests 63
+# suites 0
+# pass 63
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2183.7952

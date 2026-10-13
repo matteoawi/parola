@@ -1,0 +1,12 @@
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+6 !== 5
+
+    at C:\Users\Matteo\OneDrive\Desktop\Parola-v6-sorgenti-e-verifiche\scripts\verify-pages.cjs:27:10 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: 6,
+  expected: 5,
+  operator: 'strictEqual',
+  diff: 'simple'
+}

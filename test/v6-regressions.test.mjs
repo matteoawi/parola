@@ -8,8 +8,8 @@ class MemoryStorage {
  setItem(k,v){if(this.fail)throw Error('Quota exceeded');this.data.set(k,String(v));}
 }
 const validator=validateProgress,key='v6';
-test('v6 has five modes and migrates v5 progress without changing the input',()=>{
- assert.deepEqual(MODES,['pair','listen','complete','compose','write']);
+test('v6 has six modes including pictures and migrates v5 progress without changing the input',()=>{
+ assert.deepEqual(MODES,['pair','picture','listen','complete','compose','write']);
  const p=newProgress();p.version=5;p.missions['en>it|pair|greetings']={score:90,stars:2,date:100};
  const migrated=validateProgress(p);assert.equal(migrated.version,6);assert.equal(p.version,5);assert.equal(migrated.missions['en>it|pair|greetings'].score,90);
 });

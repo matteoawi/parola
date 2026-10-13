@@ -3785,5 +3785,824 @@
     "lang": "ar",
     "text": "من فضلك",
     "say": "من فضلك"
+  },
+  "ar|ألف|alpha_ar_letters_1_0": {
+    "lang": "ar",
+    "text": "ألف",
+    "say": "ألف",
+    "context": "alpha_ar_letters_1_0"
+  },
+  "ar|باء|alpha_ar_letters_1_1": {
+    "lang": "ar",
+    "text": "باء",
+    "say": "باء",
+    "context": "alpha_ar_letters_1_1"
+  },
+  "ar|تاء|alpha_ar_letters_1_2": {
+    "lang": "ar",
+    "text": "تاء",
+    "say": "تاء",
+    "context": "alpha_ar_letters_1_2"
+  },
+  "ar|ثاء|alpha_ar_letters_1_3": {
+    "lang": "ar",
+    "text": "ثاء",
+    "say": "ثاء",
+    "context": "alpha_ar_letters_1_3"
+  },
+  "ar|جيم|alpha_ar_letters_1_4": {
+    "lang": "ar",
+    "text": "جيم",
+    "say": "جيم",
+    "context": "alpha_ar_letters_1_4"
+  },
+  "ar|حاء|alpha_ar_letters_1_5": {
+    "lang": "ar",
+    "text": "حاء",
+    "say": "حاء",
+    "context": "alpha_ar_letters_1_5"
+  },
+  "ar|خاء|alpha_ar_letters_2_0": {
+    "lang": "ar",
+    "text": "خاء",
+    "say": "خاء",
+    "context": "alpha_ar_letters_2_0"
+  },
+  "ar|دال|alpha_ar_letters_2_1": {
+    "lang": "ar",
+    "text": "دال",
+    "say": "دال",
+    "context": "alpha_ar_letters_2_1"
+  },
+  "ar|ذال|alpha_ar_letters_2_2": {
+    "lang": "ar",
+    "text": "ذال",
+    "say": "ذال",
+    "context": "alpha_ar_letters_2_2"
+  },
+  "ar|راء|alpha_ar_letters_2_3": {
+    "lang": "ar",
+    "text": "راء",
+    "say": "راء",
+    "context": "alpha_ar_letters_2_3"
+  },
+  "ar|زاي|alpha_ar_letters_2_4": {
+    "lang": "ar",
+    "text": "زاي",
+    "say": "زاي",
+    "context": "alpha_ar_letters_2_4"
+  },
+  "ar|سين|alpha_ar_letters_2_5": {
+    "lang": "ar",
+    "text": "سين",
+    "say": "سين",
+    "context": "alpha_ar_letters_2_5"
+  },
+  "ar|شين|alpha_ar_letters_3_0": {
+    "lang": "ar",
+    "text": "شين",
+    "say": "شين",
+    "context": "alpha_ar_letters_3_0"
+  },
+  "ar|صاد|alpha_ar_letters_3_1": {
+    "lang": "ar",
+    "text": "صاد",
+    "say": "صاد",
+    "context": "alpha_ar_letters_3_1"
+  },
+  "ar|ضاد|alpha_ar_letters_3_2": {
+    "lang": "ar",
+    "text": "ضاد",
+    "say": "ضاد",
+    "context": "alpha_ar_letters_3_2"
+  },
+  "ar|طاء|alpha_ar_letters_3_3": {
+    "lang": "ar",
+    "text": "طاء",
+    "say": "طاء",
+    "context": "alpha_ar_letters_3_3"
+  },
+  "ar|ظاء|alpha_ar_letters_3_4": {
+    "lang": "ar",
+    "text": "ظاء",
+    "say": "ظاء",
+    "context": "alpha_ar_letters_3_4"
+  },
+  "ar|عين|alpha_ar_letters_3_5": {
+    "lang": "ar",
+    "text": "عين",
+    "say": "عين",
+    "context": "alpha_ar_letters_3_5"
+  },
+  "ar|غين|alpha_ar_letters_4_0": {
+    "lang": "ar",
+    "text": "غين",
+    "say": "غين",
+    "context": "alpha_ar_letters_4_0"
+  },
+  "ar|فاء|alpha_ar_letters_4_1": {
+    "lang": "ar",
+    "text": "فاء",
+    "say": "فاء",
+    "context": "alpha_ar_letters_4_1"
+  },
+  "ar|قاف|alpha_ar_letters_4_2": {
+    "lang": "ar",
+    "text": "قاف",
+    "say": "قاف",
+    "context": "alpha_ar_letters_4_2"
+  },
+  "ar|كاف|alpha_ar_letters_4_3": {
+    "lang": "ar",
+    "text": "كاف",
+    "say": "كاف",
+    "context": "alpha_ar_letters_4_3"
+  },
+  "ar|لام|alpha_ar_letters_4_4": {
+    "lang": "ar",
+    "text": "لام",
+    "say": "لام",
+    "context": "alpha_ar_letters_4_4"
+  },
+  "ar|ميم|alpha_ar_letters_4_5": {
+    "lang": "ar",
+    "text": "ميم",
+    "say": "ميم",
+    "context": "alpha_ar_letters_4_5"
+  },
+  "ar|نون|alpha_ar_letters_5_0": {
+    "lang": "ar",
+    "text": "نون",
+    "say": "نون",
+    "context": "alpha_ar_letters_5_0"
+  },
+  "ar|هاء|alpha_ar_letters_5_1": {
+    "lang": "ar",
+    "text": "هاء",
+    "say": "هاء",
+    "context": "alpha_ar_letters_5_1"
+  },
+  "ar|واو|alpha_ar_letters_5_2": {
+    "lang": "ar",
+    "text": "واو",
+    "say": "واو",
+    "context": "alpha_ar_letters_5_2"
+  },
+  "ar|ياء|alpha_ar_letters_5_3": {
+    "lang": "ar",
+    "text": "ياء",
+    "say": "ياء",
+    "context": "alpha_ar_letters_5_3"
+  },
+  "ar|باء|alpha_ar_forms_1_0": {
+    "lang": "ar",
+    "text": "باء",
+    "say": "باء",
+    "context": "alpha_ar_forms_1_0"
+  },
+  "ar|تاء|alpha_ar_forms_1_1": {
+    "lang": "ar",
+    "text": "تاء",
+    "say": "تاء",
+    "context": "alpha_ar_forms_1_1"
+  },
+  "ar|ثاء|alpha_ar_forms_1_2": {
+    "lang": "ar",
+    "text": "ثاء",
+    "say": "ثاء",
+    "context": "alpha_ar_forms_1_2"
+  },
+  "ar|جيم|alpha_ar_forms_1_3": {
+    "lang": "ar",
+    "text": "جيم",
+    "say": "جيم",
+    "context": "alpha_ar_forms_1_3"
+  },
+  "ar|حاء|alpha_ar_forms_1_4": {
+    "lang": "ar",
+    "text": "حاء",
+    "say": "حاء",
+    "context": "alpha_ar_forms_1_4"
+  },
+  "ar|خاء|alpha_ar_forms_1_5": {
+    "lang": "ar",
+    "text": "خاء",
+    "say": "خاء",
+    "context": "alpha_ar_forms_1_5"
+  },
+  "ar|سين|alpha_ar_forms_1_6": {
+    "lang": "ar",
+    "text": "سين",
+    "say": "سين",
+    "context": "alpha_ar_forms_1_6"
+  },
+  "ar|شين|alpha_ar_forms_1_7": {
+    "lang": "ar",
+    "text": "شين",
+    "say": "شين",
+    "context": "alpha_ar_forms_1_7"
+  },
+  "ar|صاد|alpha_ar_forms_1_8": {
+    "lang": "ar",
+    "text": "صاد",
+    "say": "صاد",
+    "context": "alpha_ar_forms_1_8"
+  },
+  "ar|ضاد|alpha_ar_forms_1_9": {
+    "lang": "ar",
+    "text": "ضاد",
+    "say": "ضاد",
+    "context": "alpha_ar_forms_1_9"
+  },
+  "ar|طاء|alpha_ar_forms_1_10": {
+    "lang": "ar",
+    "text": "طاء",
+    "say": "طاء",
+    "context": "alpha_ar_forms_1_10"
+  },
+  "ar|ظاء|alpha_ar_forms_1_11": {
+    "lang": "ar",
+    "text": "ظاء",
+    "say": "ظاء",
+    "context": "alpha_ar_forms_1_11"
+  },
+  "ar|عين|alpha_ar_forms_1_12": {
+    "lang": "ar",
+    "text": "عين",
+    "say": "عين",
+    "context": "alpha_ar_forms_1_12"
+  },
+  "ar|غين|alpha_ar_forms_1_13": {
+    "lang": "ar",
+    "text": "غين",
+    "say": "غين",
+    "context": "alpha_ar_forms_1_13"
+  },
+  "ar|فاء|alpha_ar_forms_1_14": {
+    "lang": "ar",
+    "text": "فاء",
+    "say": "فاء",
+    "context": "alpha_ar_forms_1_14"
+  },
+  "ar|قاف|alpha_ar_forms_1_15": {
+    "lang": "ar",
+    "text": "قاف",
+    "say": "قاف",
+    "context": "alpha_ar_forms_1_15"
+  },
+  "ar|كاف|alpha_ar_forms_1_16": {
+    "lang": "ar",
+    "text": "كاف",
+    "say": "كاف",
+    "context": "alpha_ar_forms_1_16"
+  },
+  "ar|لام|alpha_ar_forms_1_17": {
+    "lang": "ar",
+    "text": "لام",
+    "say": "لام",
+    "context": "alpha_ar_forms_1_17"
+  },
+  "ar|ميم|alpha_ar_forms_1_18": {
+    "lang": "ar",
+    "text": "ميم",
+    "say": "ميم",
+    "context": "alpha_ar_forms_1_18"
+  },
+  "ar|نون|alpha_ar_forms_1_19": {
+    "lang": "ar",
+    "text": "نون",
+    "say": "نون",
+    "context": "alpha_ar_forms_1_19"
+  },
+  "ar|هاء|alpha_ar_forms_1_20": {
+    "lang": "ar",
+    "text": "هاء",
+    "say": "هاء",
+    "context": "alpha_ar_forms_1_20"
+  },
+  "ar|ياء|alpha_ar_forms_1_21": {
+    "lang": "ar",
+    "text": "ياء",
+    "say": "ياء",
+    "context": "alpha_ar_forms_1_21"
+  },
+  "ar|باء|alpha_ar_forms_2_0": {
+    "lang": "ar",
+    "text": "باء",
+    "say": "باء",
+    "context": "alpha_ar_forms_2_0"
+  },
+  "ar|تاء|alpha_ar_forms_2_1": {
+    "lang": "ar",
+    "text": "تاء",
+    "say": "تاء",
+    "context": "alpha_ar_forms_2_1"
+  },
+  "ar|ثاء|alpha_ar_forms_2_2": {
+    "lang": "ar",
+    "text": "ثاء",
+    "say": "ثاء",
+    "context": "alpha_ar_forms_2_2"
+  },
+  "ar|جيم|alpha_ar_forms_2_3": {
+    "lang": "ar",
+    "text": "جيم",
+    "say": "جيم",
+    "context": "alpha_ar_forms_2_3"
+  },
+  "ar|حاء|alpha_ar_forms_2_4": {
+    "lang": "ar",
+    "text": "حاء",
+    "say": "حاء",
+    "context": "alpha_ar_forms_2_4"
+  },
+  "ar|خاء|alpha_ar_forms_2_5": {
+    "lang": "ar",
+    "text": "خاء",
+    "say": "خاء",
+    "context": "alpha_ar_forms_2_5"
+  },
+  "ar|سين|alpha_ar_forms_2_6": {
+    "lang": "ar",
+    "text": "سين",
+    "say": "سين",
+    "context": "alpha_ar_forms_2_6"
+  },
+  "ar|شين|alpha_ar_forms_2_7": {
+    "lang": "ar",
+    "text": "شين",
+    "say": "شين",
+    "context": "alpha_ar_forms_2_7"
+  },
+  "ar|صاد|alpha_ar_forms_2_8": {
+    "lang": "ar",
+    "text": "صاد",
+    "say": "صاد",
+    "context": "alpha_ar_forms_2_8"
+  },
+  "ar|ضاد|alpha_ar_forms_2_9": {
+    "lang": "ar",
+    "text": "ضاد",
+    "say": "ضاد",
+    "context": "alpha_ar_forms_2_9"
+  },
+  "ar|طاء|alpha_ar_forms_2_10": {
+    "lang": "ar",
+    "text": "طاء",
+    "say": "طاء",
+    "context": "alpha_ar_forms_2_10"
+  },
+  "ar|ظاء|alpha_ar_forms_2_11": {
+    "lang": "ar",
+    "text": "ظاء",
+    "say": "ظاء",
+    "context": "alpha_ar_forms_2_11"
+  },
+  "ar|عين|alpha_ar_forms_2_12": {
+    "lang": "ar",
+    "text": "عين",
+    "say": "عين",
+    "context": "alpha_ar_forms_2_12"
+  },
+  "ar|غين|alpha_ar_forms_2_13": {
+    "lang": "ar",
+    "text": "غين",
+    "say": "غين",
+    "context": "alpha_ar_forms_2_13"
+  },
+  "ar|فاء|alpha_ar_forms_2_14": {
+    "lang": "ar",
+    "text": "فاء",
+    "say": "فاء",
+    "context": "alpha_ar_forms_2_14"
+  },
+  "ar|قاف|alpha_ar_forms_2_15": {
+    "lang": "ar",
+    "text": "قاف",
+    "say": "قاف",
+    "context": "alpha_ar_forms_2_15"
+  },
+  "ar|كاف|alpha_ar_forms_2_16": {
+    "lang": "ar",
+    "text": "كاف",
+    "say": "كاف",
+    "context": "alpha_ar_forms_2_16"
+  },
+  "ar|لام|alpha_ar_forms_2_17": {
+    "lang": "ar",
+    "text": "لام",
+    "say": "لام",
+    "context": "alpha_ar_forms_2_17"
+  },
+  "ar|ميم|alpha_ar_forms_2_18": {
+    "lang": "ar",
+    "text": "ميم",
+    "say": "ميم",
+    "context": "alpha_ar_forms_2_18"
+  },
+  "ar|نون|alpha_ar_forms_2_19": {
+    "lang": "ar",
+    "text": "نون",
+    "say": "نون",
+    "context": "alpha_ar_forms_2_19"
+  },
+  "ar|هاء|alpha_ar_forms_2_20": {
+    "lang": "ar",
+    "text": "هاء",
+    "say": "هاء",
+    "context": "alpha_ar_forms_2_20"
+  },
+  "ar|ياء|alpha_ar_forms_2_21": {
+    "lang": "ar",
+    "text": "ياء",
+    "say": "ياء",
+    "context": "alpha_ar_forms_2_21"
+  },
+  "ar|ألف|alpha_ar_forms_3_0": {
+    "lang": "ar",
+    "text": "ألف",
+    "say": "ألف",
+    "context": "alpha_ar_forms_3_0"
+  },
+  "ar|باء|alpha_ar_forms_3_1": {
+    "lang": "ar",
+    "text": "باء",
+    "say": "باء",
+    "context": "alpha_ar_forms_3_1"
+  },
+  "ar|تاء|alpha_ar_forms_3_2": {
+    "lang": "ar",
+    "text": "تاء",
+    "say": "تاء",
+    "context": "alpha_ar_forms_3_2"
+  },
+  "ar|ثاء|alpha_ar_forms_3_3": {
+    "lang": "ar",
+    "text": "ثاء",
+    "say": "ثاء",
+    "context": "alpha_ar_forms_3_3"
+  },
+  "ar|جيم|alpha_ar_forms_3_4": {
+    "lang": "ar",
+    "text": "جيم",
+    "say": "جيم",
+    "context": "alpha_ar_forms_3_4"
+  },
+  "ar|حاء|alpha_ar_forms_3_5": {
+    "lang": "ar",
+    "text": "حاء",
+    "say": "حاء",
+    "context": "alpha_ar_forms_3_5"
+  },
+  "ar|خاء|alpha_ar_forms_3_6": {
+    "lang": "ar",
+    "text": "خاء",
+    "say": "خاء",
+    "context": "alpha_ar_forms_3_6"
+  },
+  "ar|دال|alpha_ar_forms_3_7": {
+    "lang": "ar",
+    "text": "دال",
+    "say": "دال",
+    "context": "alpha_ar_forms_3_7"
+  },
+  "ar|ذال|alpha_ar_forms_3_8": {
+    "lang": "ar",
+    "text": "ذال",
+    "say": "ذال",
+    "context": "alpha_ar_forms_3_8"
+  },
+  "ar|راء|alpha_ar_forms_3_9": {
+    "lang": "ar",
+    "text": "راء",
+    "say": "راء",
+    "context": "alpha_ar_forms_3_9"
+  },
+  "ar|زاي|alpha_ar_forms_3_10": {
+    "lang": "ar",
+    "text": "زاي",
+    "say": "زاي",
+    "context": "alpha_ar_forms_3_10"
+  },
+  "ar|سين|alpha_ar_forms_3_11": {
+    "lang": "ar",
+    "text": "سين",
+    "say": "سين",
+    "context": "alpha_ar_forms_3_11"
+  },
+  "ar|شين|alpha_ar_forms_3_12": {
+    "lang": "ar",
+    "text": "شين",
+    "say": "شين",
+    "context": "alpha_ar_forms_3_12"
+  },
+  "ar|صاد|alpha_ar_forms_3_13": {
+    "lang": "ar",
+    "text": "صاد",
+    "say": "صاد",
+    "context": "alpha_ar_forms_3_13"
+  },
+  "ar|ضاد|alpha_ar_forms_3_14": {
+    "lang": "ar",
+    "text": "ضاد",
+    "say": "ضاد",
+    "context": "alpha_ar_forms_3_14"
+  },
+  "ar|طاء|alpha_ar_forms_3_15": {
+    "lang": "ar",
+    "text": "طاء",
+    "say": "طاء",
+    "context": "alpha_ar_forms_3_15"
+  },
+  "ar|ظاء|alpha_ar_forms_3_16": {
+    "lang": "ar",
+    "text": "ظاء",
+    "say": "ظاء",
+    "context": "alpha_ar_forms_3_16"
+  },
+  "ar|عين|alpha_ar_forms_3_17": {
+    "lang": "ar",
+    "text": "عين",
+    "say": "عين",
+    "context": "alpha_ar_forms_3_17"
+  },
+  "ar|غين|alpha_ar_forms_3_18": {
+    "lang": "ar",
+    "text": "غين",
+    "say": "غين",
+    "context": "alpha_ar_forms_3_18"
+  },
+  "ar|فاء|alpha_ar_forms_3_19": {
+    "lang": "ar",
+    "text": "فاء",
+    "say": "فاء",
+    "context": "alpha_ar_forms_3_19"
+  },
+  "ar|قاف|alpha_ar_forms_3_20": {
+    "lang": "ar",
+    "text": "قاف",
+    "say": "قاف",
+    "context": "alpha_ar_forms_3_20"
+  },
+  "ar|كاف|alpha_ar_forms_3_21": {
+    "lang": "ar",
+    "text": "كاف",
+    "say": "كاف",
+    "context": "alpha_ar_forms_3_21"
+  },
+  "ar|لام|alpha_ar_forms_3_22": {
+    "lang": "ar",
+    "text": "لام",
+    "say": "لام",
+    "context": "alpha_ar_forms_3_22"
+  },
+  "ar|ميم|alpha_ar_forms_3_23": {
+    "lang": "ar",
+    "text": "ميم",
+    "say": "ميم",
+    "context": "alpha_ar_forms_3_23"
+  },
+  "ar|نون|alpha_ar_forms_3_24": {
+    "lang": "ar",
+    "text": "نون",
+    "say": "نون",
+    "context": "alpha_ar_forms_3_24"
+  },
+  "ar|هاء|alpha_ar_forms_3_25": {
+    "lang": "ar",
+    "text": "هاء",
+    "say": "هاء",
+    "context": "alpha_ar_forms_3_25"
+  },
+  "ar|واو|alpha_ar_forms_3_26": {
+    "lang": "ar",
+    "text": "واو",
+    "say": "واو",
+    "context": "alpha_ar_forms_3_26"
+  },
+  "ar|ياء|alpha_ar_forms_3_27": {
+    "lang": "ar",
+    "text": "ياء",
+    "say": "ياء",
+    "context": "alpha_ar_forms_3_27"
+  },
+  "ar|ألف|alpha_ar_breaks_0": {
+    "lang": "ar",
+    "text": "ألف",
+    "say": "ألف",
+    "context": "alpha_ar_breaks_0"
+  },
+  "ar|دال|alpha_ar_breaks_1": {
+    "lang": "ar",
+    "text": "دال",
+    "say": "دال",
+    "context": "alpha_ar_breaks_1"
+  },
+  "ar|ذال|alpha_ar_breaks_2": {
+    "lang": "ar",
+    "text": "ذال",
+    "say": "ذال",
+    "context": "alpha_ar_breaks_2"
+  },
+  "ar|راء|alpha_ar_breaks_3": {
+    "lang": "ar",
+    "text": "راء",
+    "say": "راء",
+    "context": "alpha_ar_breaks_3"
+  },
+  "ar|زاي|alpha_ar_breaks_4": {
+    "lang": "ar",
+    "text": "زاي",
+    "say": "زاي",
+    "context": "alpha_ar_breaks_4"
+  },
+  "ar|واو|alpha_ar_breaks_5": {
+    "lang": "ar",
+    "text": "واو",
+    "say": "واو",
+    "context": "alpha_ar_breaks_5"
+  },
+  "ar|ب|alpha_ar_short_vowels_0": {
+    "lang": "ar",
+    "text": "بَ",
+    "say": "بَ",
+    "context": "alpha_ar_short_vowels_0"
+  },
+  "ar|ب|alpha_ar_short_vowels_1": {
+    "lang": "ar",
+    "text": "بِ",
+    "say": "بِ",
+    "context": "alpha_ar_short_vowels_1"
+  },
+  "ar|ب|alpha_ar_short_vowels_2": {
+    "lang": "ar",
+    "text": "بُ",
+    "say": "بُ",
+    "context": "alpha_ar_short_vowels_2"
+  },
+  "ar|ب|alpha_ar_short_vowels_3": {
+    "lang": "ar",
+    "text": "بْ",
+    "say": "بْ",
+    "context": "alpha_ar_short_vowels_3"
+  },
+  "ar|با|alpha_ar_length_0": {
+    "lang": "ar",
+    "text": "بَا",
+    "say": "بَا",
+    "context": "alpha_ar_length_0"
+  },
+  "ar|بي|alpha_ar_length_1": {
+    "lang": "ar",
+    "text": "بِي",
+    "say": "بِي",
+    "context": "alpha_ar_length_1"
+  },
+  "ar|بو|alpha_ar_length_2": {
+    "lang": "ar",
+    "text": "بُو",
+    "say": "بُو",
+    "context": "alpha_ar_length_2"
+  },
+  "ar|ب|alpha_ar_length_3": {
+    "lang": "ar",
+    "text": "بَّ",
+    "say": "بَّ",
+    "context": "alpha_ar_length_3"
+  },
+  "ar|ب|alpha_ar_length_4": {
+    "lang": "ar",
+    "text": "بٌ",
+    "say": "بٌ",
+    "context": "alpha_ar_length_4"
+  },
+  "ar|ب|alpha_ar_length_5": {
+    "lang": "ar",
+    "text": "بٍ",
+    "say": "بٍ",
+    "context": "alpha_ar_length_5"
+  },
+  "ar|همزة منفصلة|alpha_ar_variants_0": {
+    "lang": "ar",
+    "text": "همزة منفصلة",
+    "say": "همزة منفصلة",
+    "context": "alpha_ar_variants_0"
+  },
+  "ar|همزة فوق الألف|alpha_ar_variants_1": {
+    "lang": "ar",
+    "text": "همزة فوق الألف",
+    "say": "همزة فوق الألف",
+    "context": "alpha_ar_variants_1"
+  },
+  "ar|همزة تحت الألف|alpha_ar_variants_2": {
+    "lang": "ar",
+    "text": "همزة تحت الألف",
+    "say": "همزة تحت الألف",
+    "context": "alpha_ar_variants_2"
+  },
+  "ar|ألف مع مدة|alpha_ar_variants_3": {
+    "lang": "ar",
+    "text": "ألف مع مدّة",
+    "say": "ألف مع مدّة",
+    "context": "alpha_ar_variants_3"
+  },
+  "ar|همزة على واو|alpha_ar_variants_4": {
+    "lang": "ar",
+    "text": "همزة على واو",
+    "say": "همزة على واو",
+    "context": "alpha_ar_variants_4"
+  },
+  "ar|همزة على ياء|alpha_ar_variants_5": {
+    "lang": "ar",
+    "text": "همزة على ياء",
+    "say": "همزة على ياء",
+    "context": "alpha_ar_variants_5"
+  },
+  "ar|تاء مربوطة|alpha_ar_variants_6": {
+    "lang": "ar",
+    "text": "تاء مربوطة",
+    "say": "تاء مربوطة",
+    "context": "alpha_ar_variants_6"
+  },
+  "ar|ألف مقصورة|alpha_ar_variants_7": {
+    "lang": "ar",
+    "text": "ألف مقصورة",
+    "say": "ألف مقصورة",
+    "context": "alpha_ar_variants_7"
+  },
+  "ar|لام وألف|alpha_ar_variants_8": {
+    "lang": "ar",
+    "text": "لام وألف",
+    "say": "لام وألف",
+    "context": "alpha_ar_variants_8"
+  },
+  "ar|كتب|alpha_ar_reading_0": {
+    "lang": "ar",
+    "text": "كَتَبَ",
+    "say": "كَتَبَ",
+    "context": "alpha_ar_reading_0"
+  },
+  "ar|كتاب|alpha_ar_reading_1": {
+    "lang": "ar",
+    "text": "كِتَاب",
+    "say": "كِتَاب",
+    "context": "alpha_ar_reading_1"
+  },
+  "ar|باب|alpha_ar_reading_2": {
+    "lang": "ar",
+    "text": "بَاب",
+    "say": "بَاب",
+    "context": "alpha_ar_reading_2"
+  },
+  "ar|بيت|alpha_ar_reading_3": {
+    "lang": "ar",
+    "text": "بَيْت",
+    "say": "بَيْت",
+    "context": "alpha_ar_reading_3"
+  },
+  "ar|ث|alpha_ar_reading_4": {
+    "lang": "ar",
+    "text": "ث",
+    "say": "ث",
+    "context": "alpha_ar_reading_4"
+  },
+  "ar|ب|alpha_ar_reading_5": {
+    "lang": "ar",
+    "text": "ب",
+    "say": "ب",
+    "context": "alpha_ar_reading_5"
+  },
+  "ar|مرحبا|greetings_0": {
+    "lang": "ar",
+    "text": "مرحبًا!",
+    "say": "مرحبًا!",
+    "context": "greetings_0"
+  },
+  "ar|صباح الخير|greetings_1": {
+    "lang": "ar",
+    "text": "صباح الخير!",
+    "say": "صباح الخير!",
+    "context": "greetings_1"
+  },
+  "ar|شكرا|greetings_2": {
+    "lang": "ar",
+    "text": "شكرًا!",
+    "say": "شكرًا!",
+    "context": "greetings_2"
+  },
+  "ar|عطشانة": {
+    "lang": "ar",
+    "text": "عطشانة",
+    "say": "عطشانة"
+  },
+  "ar|و": {
+    "lang": "ar",
+    "text": "و",
+    "say": "و"
+  },
+  "ar|باب": {
+    "lang": "ar",
+    "text": "باب",
+    "say": "باب"
   }
 }

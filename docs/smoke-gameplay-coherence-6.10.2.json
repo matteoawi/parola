@@ -1,0 +1,16 @@
+{
+  "version": "6.10.2",
+  "url": "https://matteoawi.github.io/parola/",
+  "checks": [
+    "pairs: full real free-tile solution, shuffle marks guidance, two stars, next activity is listening",
+    "listening: audio evidence before matches, successful table, course continues to cloze",
+    "writing: game keyboard letters and Send unlock a tile, all three word/meaning pairs complete",
+    "pictures: accessible complete set, relevant help practice, no false 18-tile badge and return to unfinished course activity",
+    "cloze: six contextual introduced sources, wrong answer leaves board intact, three filled gaps and real sentence summary",
+    "lab: saved selection clear, 12-word three-clause sentence, contextual long hint, four mixed pairs, real board badge and global best score",
+    "course: four unit-specific activities and 96 missions, six selectable modes, three distinct word formats",
+    "alphabet: monolingual real Mahjong recognition, introduced materials and completion counted"
+  ],
+  "passed": true,
+  "voiceProvider": "simulated successful playback; real voice quality is outside this gameplay check"
+}
