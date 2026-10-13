@@ -1,6 +1,6 @@
 {
   "version": "6.10.0",
-  "url": "http://127.0.0.1:8765/Parola-v6-sorgenti-e-verifiche/",
+  "url": "https://matteoawi.github.io/parola/",
   "checks": [
     "lab: actual long sentence, source introductions, reload/resume, four simple pairs, refills, scoring and truthful summary/memory",
     "cloze: exactly one blank, accessible correct answer, three rounds, all four languages and monolingual routes",

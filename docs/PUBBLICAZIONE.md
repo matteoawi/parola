@@ -131,3 +131,13 @@ Controllo funzionale aggiuntivo circoscritto alla tastiera orizzontale: la vecch
 
 
 Commit funzionale 9740aa2 pubblicato su master; GitHub Pages ha completato la build senza errori. Sette gruppi dello smoke superati anche sul sito ufficiale, versione 6.9.0 confermata. Report pubblico smoke-design-6.9.0.json separato dal locale. Verificati font locale, obiettivi e record alfabetico reali, navigazione e ritorni, tutti i formati, schede del profilo, righe della tastiera e Invia interamente nel pannello, replay e RTL. Lo script audio precedente è stato adattato al nuovo accesso alla scheda Audio, senza ripetere la suite vocale completa. Sorgenti, artefatti, licenze, versione, changelog, report e checksum conservati; fetch/merge e push normali su master.
+
+## 6.10.0 — laboratorio, cloze e immagini
+
+Pubblicazione su `matteoawi/parola`, ramo master: commit funzionale `6fa4bff40de949b540efb392a4d8007d14fcb6f4`. Build GitHub Pages completata senza errori. Gioco pubblico: https://matteoawi.github.io/parola/.
+
+Sette test Node mirati superati (grammatica nelle quattro lingue, punteggi, 100 tavoli laboratorio, provenienza delle parole e dei disegni, risposte cloze raggiungibili e presentazioni). Quattro gruppi Chromium superati sull’origine locale e sul sito pubblico: introduzioni, frase lunga e coppie miste, rifornimenti e punteggio, ricarica/ripresa/annullamento, riepilogo senza falsa padronanza, cloze nelle quattro lingue, immagini russo bilingue e arabo monolingua, sei modalità e layout mobile/desktop. Nessun errore JavaScript o traduzione mancante osservato. Verifica di originalità per 36 Lucide e otto Twemoji, con incorporamento offline.
+
+Report: `docs/local-smoke-sentence-games-6.10.0.json` e `docs/smoke-sentence-games-6.10.0.json`. Documentazione e limiti: `docs/MODALITA-6.10.0.md`. Il test disabilita la riproduzione vocale per isolare la logica di gioco; non misura la qualità delle voci sul telefono. Nessun nuovo file audio o servizio vocale introdotto.
+
+Fetch e merge di origin/master prima del push; nessun aggiornamento remoto da integrare. Changelog, crediti, cache, manifest, corso, pagina e standalone aggiornati alla versione 6.10.0.
