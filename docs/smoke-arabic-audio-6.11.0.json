@@ -1,6 +1,6 @@
 {
   "version": "6.11.0",
-  "url": "http://127.0.0.1:8073/",
+  "url": "https://matteoawi.github.io/parola/",
   "passed": true,
   "mocks": false,
   "pack": {
@@ -17,7 +17,7 @@
       "ok": true,
       "voice": "Microsoft Hoda (ar-EG)",
       "kind": "file",
-      "elapsed": 1.6912000000029803
+      "elapsed": 1.6817000000029803
     },
     {
       "text": "أنا أقرأ كتابًا.",
@@ -25,7 +25,7 @@
       "ok": true,
       "voice": "Microsoft Hoda (ar-EG)",
       "kind": "file",
-      "elapsed": 2.3569000000059606
+      "elapsed": 2.3622000000029804
     },
     {
       "text": "باب",
@@ -33,7 +33,7 @@
       "ok": true,
       "voice": "Microsoft Hoda (ar-EG)",
       "kind": "file",
-      "elapsed": 1.3974000000059605
+      "elapsed": 1.3963000000044703
     },
     {
       "text": "باء",
@@ -41,7 +41,7 @@
       "ok": true,
       "voice": "Microsoft Hoda (ar-EG)",
       "kind": "file",
-      "elapsed": 1.1445999999940395
+      "elapsed": 1.1488000000044702
     },
     {
       "text": "بَ",
@@ -49,19 +49,19 @@
       "ok": true,
       "voice": "Microsoft Hoda (ar-EG)",
       "kind": "file",
-      "elapsed": 1.1466000000014902
+      "elapsed": 1.1617000000029802
     }
   ],
   "durations": [
     {
       "rate": 1,
       "ok": true,
-      "elapsed": 2.35610000000149
+      "elapsed": 2.3575
     },
     {
       "rate": 0.8,
       "ok": true,
-      "elapsed": 3.07579999999702
+      "elapsed": 3.6315
     }
   ],
   "offline": true,

@@ -1,0 +1,11 @@
+{
+  "version": "6.11.0",
+  "url": "https://matteoawi.github.io/parola/",
+  "passed": true,
+  "checks": [
+    "finished round retains score and phase after reload; undo disabled and history empty",
+    "pair live announcement matches visible pair success"
+  ],
+  "audio": "stubbed for isolated logic",
+  "errors": []
+}
