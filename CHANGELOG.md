@@ -1,5 +1,10 @@
 # Aggiornamenti di Parola
 
+## 6.0.3 — 13 ottobre 2026
+
+- Pubblicazione sull’account GitHub matteoawi: repository matteoawi/parola e sito https://matteoawi.github.io/parola/.
+- Conservati tutti i commit precedenti. Per trasferire i progressi tra indirizzi usare esportazione e importazione nelle Impostazioni.
+
 ## 6.0.2 — 13 ottobre 2026
 
 - Nome del repository corretto in florame-ai/parola e indirizzo GitHub Pages corretto in https://florame-ai.github.io/parola/.

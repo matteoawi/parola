@@ -2,9 +2,9 @@
 
 Gioco di lingue con 24 unità, cinque modalità e 12 direzioni di apprendimento tra italiano, inglese, arabo e russo.
 
-**Gioca:** https://florame-ai.github.io/parola/
+**Gioca:** https://matteoawi.github.io/parola/
 
-**Versione:** 6.0.2 · [Aggiornamenti pubblici](https://florame-ai.github.io/parola/changelog.html)
+**Versione:** 6.0.3 · [Aggiornamenti pubblici](https://matteoawi.github.io/parola/changelog.html)
 
 I 566 MP3 inclusi coprono italiano, inglese e russo. Per l'arabo serve una voce disponibile sul dispositivo.
 
