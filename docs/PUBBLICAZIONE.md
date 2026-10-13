@@ -82,3 +82,14 @@ Commit funzionale 8e4c7f4. GitHub Pages compilato e sito ufficiale https://matte
 Quattordici test puri mirati superati. Il requisito di ascolto è verificato con provider simulato; non viene dichiarata una nuova voce per le lettere. La velocità del file reale è verificata a 0,8× con mantenimento del tono: 2,47 secondi di contenuto riprodotti in circa 3,31 secondi nel browser pubblico, inclusa la partenza. Nessun nuovo file audio pubblicato o API TTS dichiarata attiva. Proposta gratuita documentata: Gemini Flash Preview TTS tramite proxy Cloudflare e buffer del tavolo nel browser, con quote da verificare nel progetto dell’account.
 
 Manifest, cache, corso, numero versione, sito, standalone e changelog allineati alla 6.6.0. Build delle licenze reso atomico dopo un blocco OneDrive. Sorgenti, immagini e verifiche conservati; push normali su master, nessuna suite storica completa ripetuta.
+
+
+## Release 6.7.0 — 13 ottobre 2026
+
+Commit funzionale 345d7c1. GitHub Pages ha completato la build; sette gruppi dello smoke passati sul sito ufficiale https://matteoawi.github.io/parola/. Report pubblico smoke-large-6.7.0.json e locale local-smoke-large-6.7.0.json.
+
+Nuovi formati Grande 32 e Maratona 52, con 26 coppie, sei colonne e tre livelli sostenuti. Frasi e alfabeto ampliano il materiale, mantenendo le presentazioni obbligatorie. La ripresa conserva layout e coppie rimosse; i vecchi link mantengono le dimensioni precedenti. Nuovo default Grande con migrazione unica della preferenza, senza alterare le sessioni in corso. Completa e Componi conservano il tavolo di parole della lezione.
+
+Tastiera compatta con tasto Invia chiaro e verifica nel contesto corretto. Testato invio del segno russo e della frase dopo lo switch di tastiera. Vista intera, ingrandimento e contenimento: pagina mobile 390 px, tavolo ingrandito interno 546 px e comandi raggiungibili. Indicatori delle 26 coppie a capo nel desktop. Nessun errore JavaScript nello smoke.
+
+Tre nuovi test puri e otto regressioni mirate superati; ispezione mobile/desktop riunita con una correzione e conferma. Fonti SVG originali Lucide verificate. Versione, corso, manifest, cache, changelog, sorgenti, standalone, report e checksum aggiornati. Fetch/merge e push normali su master; nessuna suite storica completa ripetuta.

@@ -1,6 +1,6 @@
 {
   "version": "6.7.0",
-  "url": "http://127.0.0.1:8765/Parola-v6-sorgenti-e-verifiche/",
+  "url": "https://matteoawi.github.io/parola/",
   "checks": [
     "32-tile default, five reachable formats and full presentation",
     "52 phrase tiles on three levels, pan and overview without page overflow",

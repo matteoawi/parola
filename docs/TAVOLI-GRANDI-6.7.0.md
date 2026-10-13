@@ -27,3 +27,7 @@ Tre nuovi test puri e otto regressioni mirate superati. Verificati geometria sos
 Sette gruppi Chromium: default 32, presentazioni complete, 52 tessere su tre livelli, contenimento e zoom mobile, ripresa delle frasi, alfabeto russo con ripresa fuori ordine, Invia per lettera e frase dopo lo switch, invito 52 sul desktop. Report `local-smoke-large-6.7.0.json`. Nessun errore JavaScript nello smoke. Immagini `table-52-mobile-6.7.0.png`, `keyboard-send-mobile-6.7.0.png`, `table-52-desktop-6.7.0.png`.
 
 Ispezione visiva riunita su mobile e desktop, una correzione di contenimento e indicatori e una conferma. Restano i tre avvisi storici sui bordi delle tessere. Le SVG rimangono originali Lucide. Nessuna suite storica completa ripetuta o collaudo dichiarato su tutti i telefoni fisici.
+
+## Pubblicazione verificata
+
+Commit funzionale `345d7c1` inviato a master dopo fetch/merge senza aggiornamenti concorrenti. GitHub Pages ha completato la build e il sito https://matteoawi.github.io/parola/ ha superato gli stessi sette gruppi: report pubblico `smoke-large-6.7.0.json`, distinto dal locale. Pagina mobile larga 390 px con tavolo interno da 546 px in modalità ingrandita, comandi entro il viewport e tasto Invia a circa 770 px. Verificati invito 52 sul desktop, ripresa delle frasi e del tavolo cirillico, invio corretto della lettera e della frase. Nessun errore JavaScript nello smoke pubblico.
