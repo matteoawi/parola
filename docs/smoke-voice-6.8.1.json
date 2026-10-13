@@ -1,6 +1,6 @@
 {
   "version": "6.8.1",
-  "url": "http://127.0.0.1:8765/Parola-v6-sorgenti-e-verifiche/",
+  "url": "https://matteoawi.github.io/parola/",
   "checks": [
     "auto default, four language choices and settings fit phone and desktop",
     "real existing MP3 completes at 0.8 with longer duration; explicit preference survives reload",
@@ -45,7 +45,7 @@
     "ok": true,
     "requestedRate": 0.8,
     "duration": 0.986757,
-    "elapsed": 1.4345999999977648,
+    "elapsed": 3.272199999999255,
     "voice": "eSpeak it"
   },
   "deviceVoiceTests": "simulated; sound quality on the user device is not measured",
