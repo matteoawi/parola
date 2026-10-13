@@ -151,3 +151,7 @@ Dieci test Node mirati superati e originalità Lucide/Twemoji verificata. Otto g
 Report: `docs/local-smoke-gameplay-coherence-6.10.1.json`, `docs/smoke-gameplay-coherence-6.10.1.json`, `docs/local-smoke-sentence-games-6.10.1.json`. Resoconto e limiti: `docs/COERENZA-GAMEPLAY-6.10.1.md`. La voce è simulata nei test di gameplay; qualità vocale, efficacia dell’apprendimento e fidelizzazione non sono misurate da queste verifiche. Nessun nuovo file audio o API introdotto.
 
 Versione, manifest, cache, corso, README, LEGGIMI, changelog pubblico, crediti e standalone coerenti alla 6.10.1. Due attività libere continuano a essere selezionabili insieme alle quattro attività del percorso. Server locale di verifica arrestato al termine.
+
+## Ripubblicazione richiesta — 6.10.1
+
+Richiesta una nuova build GitHub Pages tramite API sul repository ufficiale `matteoawi/parola`, ramo master e cartella radice, senza modifiche al gioco. Recuperati e integrati gli aggiornamenti remoti (già aggiornato). Versione 6.10.1 conservata perché si ripubblica lo stesso contenuto. Verifica dell’indirizzo https://matteoawi.github.io/parola/: HTTP 200 e metadati versione 6.10.1. Nessun push all’account florame. Questo commit conserva lo step di ripubblicazione.
