@@ -240,3 +240,10 @@ progress{appearance:none;border:0;border-radius:8px;height:6px;background:#dde5d
 
 .mode-grid{grid-template-columns:repeat(6,minmax(0,1fr))}
 @media(max-width:1000px){.mode-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.mode-card:last-child{grid-column:auto}}
+
+/* Each gameplay exposes only genuinely distinct board sizes. */
+.table-formats>div{grid-template-columns:repeat(var(--formats,5),minmax(0,1fr))}
+.lab-prompt~.tray-actions{display:grid;grid-template-columns:auto auto minmax(150px,1fr) auto;gap:8px}
+@media(max-width:620px){.lab-prompt~.tray-actions{grid-template-columns:1fr 1fr}.lab-prompt~.tray-actions .button{grid-column:1/-1;grid-row:2}.lab-prompt~.tray-actions [data-action=model]{grid-column:1/-1;justify-self:center;min-height:36px}.lab-prompt~.tray-actions .textbtn{min-height:36px}}
+
+@media(max-width:620px){.intro-wrap .mode-card,.settings-card .mode-card{padding:7px;gap:4px}.mode-card .modeicon{width:18px;height:22px}.mode-card .modeicon svg{width:18px;height:18px}.mode-card strong{min-width:0;font-size:12px;line-height:1.25;overflow-wrap:anywhere}}

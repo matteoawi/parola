@@ -1,5 +1,14 @@
 # Aggiornamenti di Parola
 
+## 6.10.1 — 13 ottobre 2026
+
+- Revisione dei gameplay: indizi e modelli del laboratorio seguono anche tre o quattro parti collegate. Una continuazione riconosciuta che resta bloccata viene riaperta sul Mahjong senza consumare un aiuto; resta possibile annullare ogni scelta. Comando Svuota frase per recuperare anche dopo una ripresa.
+- Banca del laboratorio più varia, senza parole estranee alle strutture riconosciute. I formati 24, 32 e 52 sono distinti e prevedono rispettivamente un modello costruibile di due, tre o quattro parti; nessuna ripetizione necessaria per allungare una frase.
+- Percorso delle unità composto da Coppie, Ascolta, Completa e Scrivi. Immagini e Laboratorio restano visibili nelle sei modalità dei Tavoli, senza essere riproposti identici come requisito di ogni unità. Il miglior punteggio delle due attività libere è unico per lingua, evitando XP duplicati cambiando unità.
+- Completa usa un gruppo di sei materiali contestuali per risposta e distrattori, tutti introdotti, invece di richiedere fino a 26 frasi non pertinenti. Obiettivi e contatori distinguono parole mancanti, frasi e coppie; regole delle immagini coerenti anche nel riepilogo e nel ripasso che sblocca gli aiuti.
+- XP del riepilogo allineati all’incremento reale, incluse le soglie di arrotondamento. Le tre stelle richiedono una soluzione senza aiuti; rimescolare segna correttamente le risposte guidate. Traguardo Esploratore assegnato ai tavoli grandi di parole, senza attribuirlo alle 16 tessere delle immagini.
+- Verifiche mirate su continuazioni, indizi lunghi, ricompense, percorso, sei modalità e alfabeto. Non si tratta di una misura dell’apprendimento su utenti reali: il laboratorio continua a riconoscere un repertorio definito, non qualsiasi frase.
+
 ## 6.10.0 — 13 ottobre 2026
 
 - Laboratorio di frasi sul Mahjong: parole con categorie grammaticali, strutture studiate e combinazioni compatibili per le bevande. Si possono collegare fino a quattro parti distinte con e/and/و/и, fino a 48 parole. Punti per parole, lunghezza e collegamenti; una frase ripetuta non dà punti di nuovo. Il verificatore riconosce questo repertorio definito, non qualsiasi frase della lingua.

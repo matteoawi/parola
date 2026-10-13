@@ -1,7 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {LAB_IDS,LAB_LINK,wordTableSize,labCatalog,validateLabSentence,makeLabBoard,clozeIndex,makeClozeBoard,labPairHint} from '../src/sentence-games.mjs';
+import {LAB_IDS,LAB_LINK,wordTableSize,labCatalog,validateLabSentence,makeLabBoard,clozeIndex,makeClozeBoard,labPairHint,labModel,continueLabBoard} from '../src/sentence-games.mjs';
+import {missionXP,tableAchievementFormat} from '../src/progression.mjs';
 import {tokens,norm,rng,freeTiles,canSpell,sequenceHint,repairSequence} from '../src/engine.mjs';
 const course=JSON.parse(fs.readFileSync(new URL('../data/course.json',import.meta.url))),items=[...course.items,...course.vocab],lab=LAB_IDS.map(id=>items.find(i=>i.id===id));
 test('four language grammars accept supported combinations and reward length, reject agreement errors and repeated clauses',()=>{
@@ -25,4 +26,22 @@ test('cloze contains one known answer reachable by Mahjong rules, distractors, a
 });
 test('picture vocabulary is distinct, has all translations, mono clues, assets and no ambiguous coffee/tea drawing',()=>{
  const pictures=course.vocab.filter(i=>i.picture);assert.equal(pictures.length,8);assert.equal(new Set(pictures.map(i=>i.picture)).size,8);for(const item of pictures){assert.ok(fs.existsSync(new URL('../'+item.picture.slice(2),import.meta.url)));for(const lang of course.languages){assert.ok(item.text[lang]&&item.clue[lang]);assert.notEqual(norm(item.text[lang],lang),norm(item.clue[lang],lang));}}
+});
+test('lab can continue valid models without paid help and all bank words belong to a recognised structure',()=>{
+ for(const lang of course.languages)for(let seed=0;seed<25;seed++){
+  let board=makeLabBoard(lab,lang,'grand',rng(seed)),catalog=labCatalog(lab,lang),prefix=[];
+  const allowed=new Set([...catalog.flatMap(c=>tokens(c.text).map(w=>norm(w,lang))),LAB_LINK[lang]]);assert.ok(board.every(t=>allowed.has(norm(t.text,lang))));
+  for(let i=0;i<30;i++){const model=labModel(board,lab,lang,[],prefix,true);if(!model)break;const continued=continueLabBoard(board,prefix,lab,lang,[],rng(seed+i));board=continued.board;const id=sequenceHint(board,model.remaining[0],lang)[0];assert.ok(id!=null,'forced shuffle on a supported continuation');const tile=board.find(t=>t.id===id);tile.gone=true;prefix.push(tile.text);if(validateLabSentence(prefix,lab,lang).clauses>=2)break;}
+  assert.ok(validateLabSentence(prefix,lab,lang).ok);assert.ok(validateLabSentence(prefix,lab,lang).clauses>=2);
+ }
+});
+test('hints and models follow three and four coordinated clauses, including an already used short sentence',()=>{
+ for(const lang of course.languages)for(const count of [3,4]){
+  const catalog=labCatalog(lab,lang),words=tokens(catalog.slice(0,count).map(c=>c.text).join(' '+LAB_LINK[lang]+' ')),prefix=words.slice(0,-1),board=words.slice(-1).map((text,id)=>({text,id,gone:false})),model=labModel(board,lab,lang,[],prefix,true);
+  assert.ok(model);assert.equal(norm(model.text,lang),norm(words.join(' '),lang));assert.deepEqual(model.remaining,words.slice(-1));
+ }
+});
+test('XP matches total progression across rounding boundaries; picture and word formats award real board size',()=>{
+ assert.equal(missionXP(9,0,1),1);assert.equal(missionXP(15,15,21),1);assert.equal(missionXP(15,15,14),0);assert.equal(missionXP(23,0,5),0);
+ assert.equal(tableAchievementFormat({mode:'picture',tableFormat:'explorer',board:Array(16)}),'classic');assert.equal(tableAchievementFormat({mode:'compose',sentenceVersion:2,tableFormat:'marathon',board:Array(52)}),'marathon');assert.equal(tableAchievementFormat({mode:'complete',sentenceVersion:2,tableFormat:'classic',board:Array(24)}),'explorer');assert.equal(tableAchievementFormat({mode:'complete',tableFormat:'grand',board:Array(15)}),'classic');
 });

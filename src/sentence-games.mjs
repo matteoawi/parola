@@ -1,9 +1,10 @@
 /** Bounded grammar: authored clauses, compatible beverage slots and coordination.
  * Never infer grammatical agreement by swapping arbitrary words between languages. */
-import {norm,tokens,shuffled,makeSequence,canSpell,freeTiles} from './engine.mjs';
+import {norm,tokens,shuffled,makeSequence,canSpell,freeTiles,sequenceHint,repairSequence} from './engine.mjs';
 export const LAB_IDS=['read','water','english','she_reads','he_drinks','she_speaks','no_coffee','new_book','big_house','new_door','book_table','tea_table','coffee_table','possession_0','possession_1','possession_2','reasons_0','reasons_1','reasons_2','lab_link'];
 export const LAB_LINK={it:'e',en:'and',ru:'и',ar:'و'};
 export const SENTENCE_GOAL=5;
+export function wordFormat(format){return format==='marathon'?'marathon':['grand','explorer'].includes(format)?'grand':'classic';}
 export function wordTableSize(format){return {focus:24,classic:24,explorer:32,grand:32,marathon:52}[format]||32;}
 export function labCatalog(items,lang){
  const byId=new Map(items.map(i=>[i.id,i])),catalog=[];
@@ -26,18 +27,33 @@ export function validateLabSentence(words,items,lang){
  return {ok:true,text:words.join(' '),sources,words:words.length,clauses:clauses.length,points:Math.min(1500,30+words.length*8+Math.max(0,words.length-5)**2+20*(clauses.length-1))};
 }
 export function labPayloads(items,lang){return items.flatMap(item=>tokens(item.text[lang]).map((text,tokenIndex)=>({text,itemId:item.id,lang,tokenIndex,type:'word'})));}
-export function labModel(board,items,lang,used=[],prefix=[]){
- const catalog=labCatalog(items,lang),options=[...catalog];
- for(const a of catalog)for(const b of catalog)if(a!==b)options.push({text:a.text+' '+LAB_LINK[lang]+' '+b.text,sources:[...a.sources,...b.sources,'lab_link']});
- return options.find(c=>!used.includes(norm(c.text,lang))&&prefix.every((w,i)=>norm(w,lang)===norm(tokens(c.text)[i]||'',lang))&&canSpell(tokens(c.text).slice(prefix.length),board,lang));
+export function labModel(board,items,lang,used=[],prefix=[],extend=false){
+ const catalog=labCatalog(items,lang).map(c=>({...c,words:tokens(c.text)})),ps=prefix.map(w=>norm(w,lang));
+ function search(chosen,words){
+  if(words.length>48||!ps.slice(0,words.length).every((w,i)=>w===norm(words[i],lang)))return;
+  const remaining=words.slice(prefix.length);if(!canSpell(remaining,board,lang))return;
+  const text=words.join(' ');
+  if(words.length>=prefix.length+(extend?1:0)&&!used.includes(norm(text,lang)))return {text,sources:[...new Set(chosen.flatMap(c=>c.sources))],remaining};
+  if(chosen.length===4)return;
+  for(const next of catalog.filter(c=>!chosen.includes(c))){const result=search([...chosen,next],[...words,LAB_LINK[lang],...next.words]);if(result)return result;}
+ }
+ for(const clause of catalog){const result=search([clause],clause.words);if(result)return result;}
+}
+export function continueLabBoard(board,prefix,items,lang,used=[],random=Math.random){
+ const model=labModel(board,items,lang,used,prefix,true);
+ if(!model)return {board,reopened:false,ready:validateLabSentence(prefix,items,lang).ok};
+ if(sequenceHint(board,model.remaining[0],lang).length)return {board,reopened:false,ready:false};
+ return {board:repairSequence(board,model.remaining,lang,random),reopened:true,ready:false};
 }
 export function makeLabBoard(items,lang,format,random=Math.random,round=0,used=[]){
- const payloads=labPayloads(items,lang),catalog=labCatalog(items,lang),a=catalog[round%catalog.length],b=catalog[(round+1)%catalog.length];
- const required=tokens(a.text+' '+LAB_LINK[lang]+' '+b.text),ordered=required.map(word=>({...payloads.find(p=>norm(p.text,lang)===norm(word,lang))}));
+ const catalog=labCatalog(items,lang),allowed=new Set([...catalog.flatMap(c=>tokens(c.text).map(w=>norm(w,lang))),LAB_LINK[lang]]),payloads=labPayloads(items,lang).filter(p=>allowed.has(norm(p.text,lang))),a=catalog[round%catalog.length],b=catalog[(round+1)%catalog.length];
+ const parts=wordFormat(format)==='marathon'?4:wordFormat(format)==='grand'?3:2;
+ const required=tokens(Array.from({length:parts},(_,i)=>catalog[(round+i)%catalog.length].text).join(' '+LAB_LINK[lang]+' ')),ordered=required.map(word=>({...payloads.find(p=>norm(p.text,lang)===norm(word,lang))}));
  // First two removable tiles form a real simple pair; the model stays available.
  const pair=payloads.find(p=>norm(p.text,lang)===norm(tokens(a.text)[0],lang)&&!used.includes('pair:'+norm(p.text,lang)))||payloads.find(p=>!used.includes('pair:'+norm(p.text,lang)));
  const out=[{...pair},{...pair},...ordered];
- while(out.length<wordTableSize(format))out.push({...shuffled(payloads,random)[0]});
+ const distinct=[...new Map(payloads.map(p=>[norm(p.text,lang),p])).values()];
+ while(out.length<wordTableSize(format))for(const p of shuffled(distinct,random)){if(out.length===wordTableSize(format))break;out.push({...p});}
  return makeSequence(out.slice(0,wordTableSize(format)).map((p,i)=>({...p,tokenIndex:i})),random);
 }
 export function clozeIndex(item,lang,seed,round){const ts=tokens(item.text[lang]),choices=ts.map((w,i)=>({w,i})).filter(x=>x.w.length>2);return (choices.length?choices:ts.map((w,i)=>({w,i})))[((seed>>>0)+round)%(choices.length||ts.length)].i;}

@@ -1,6 +1,8 @@
 /** Local progression: deterministic challenges and rewards backed by unique activities. */
 export const TABLE_FORMATS={focus:3,classic:6,explorer:9,grand:16,marathon:26};
 export const BADGES=['first','mono','traveller','alphabet','writer','combo','explorer','habit','tour'];
+export function missionXP(previousTotal,previousBest,score){return Math.floor((previousTotal+Math.max(0,score-previousBest))/10)-Math.floor(previousTotal/10);}
+export function tableAchievementFormat(game){if(game.mode==='picture'||game.sentenceVersion===2){const count=game.board.length;return count>=52?'marathon':count>=32?'grand':count>=18?'explorer':count>=12?'classic':'focus';}return ['complete','compose'].includes(game.mode)?'classic':game.tableFormat;}
 export function seedFor(text){return Array.from(text).reduce((n,c)=>Math.imul(n^c.charCodeAt(0),16777619),2166136261)>>>0;}
 export function challengePlan(day,route,units){const seed=seedFor(day+'|'+route);return {day,unit:units[seed%units.length].id,mode:['pair','write','complete','compose'][(seed>>>8)%4],seed};}
 export function practiceStreak(days,today){const known=new Set(days);let day=today,n=0;if(!known.has(day))day=previousDay(day);while(known.has(day)){n++;day=previousDay(day);}return n;}
