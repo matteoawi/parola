@@ -1,4 +1,4 @@
-# Parola 6.7.0 — Mahjong delle lingue
+# Parola 6.8.0 — Mahjong delle lingue
 
 La versione 6.1.0 aggiunge quattro percorsi monolingua e un percorso di alfabeto con 45 lezioni e 294 elementi. Dalla home puoi scegliere se iniziare dalle lettere o dalle frasi. Dettagli in `docs/ALFABETO_E_MONOLINGUA.md`.
 
@@ -17,6 +17,8 @@ La versione 6.5.2 sostituisce tutte le SVG del gioco con originali Lucide conser
 La versione 6.6.0 porta tutte e tre le modalità dell’alfabeto sul tavolo Mahjong e aggiunge lo switch tra tastiera del gioco e tastiera del dispositivo.
 
 La versione 6.7.0 aggiunge tavoli da 32 e 52 tessere, anche nell’alfabeto, con vista intera e ingrandimento su mobile.
+
+La versione 6.8.0 ridisegna le tessere, aggiunge pinch e controlli di zoom a tutti i tavoli e distingue nove effetti sonori sintetizzati. Dettagli in `docs/TESSERE-E-ZOOM-6.8.0.md`.
 
 ## Apri il gioco
 

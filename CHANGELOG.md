@@ -1,5 +1,12 @@
 # Aggiornamenti di Parola
 
+## 6.8.0 — 13 ottobre 2026
+
+- Tessere ridisegnate in avorio e lilla, con proporzioni equilibrate, testo centrato, spessore morbido e audio separato in basso. I testi lunghi si adattano alla singola tessera; quelle bloccate mantengono un contrasto leggibile.
+- Vista iniziale adattata allo schermo con priorità alla leggibilità; Vista intera adatta il tavolo sia alla larghezza sia all’altezza disponibile in ogni formato, nelle frasi e nell’alfabeto. Pinch a due dita per ingrandire e ridurre, scorrimento con un dito, pulsanti − / +, percentuale e Vista intera. Lo zoom mantiene le proporzioni e non seleziona tessere durante il gesto.
+- Nuovi suoni sintetizzati per selezione, coppia, serie, errore, suggerimento, mescolamento, sblocco, annullamento e vittoria. Un solo motore riutilizzato; nessun file audio aggiunto. Tutti rispettano la preferenza Effetti audio.
+- Coppie che raggiungono il punteggio, risposta del contatore e comparsa delle tessere appena liberate. Animazioni corrette anche con lo zoom e con il movimento ridotto attivo.
+
 ## 6.7.0 — 13 ottobre 2026
 
 - Tavoli Grande da 32 tessere e Maratona da 52 tessere, oltre ai formati 6, 12 e 18. Grande diventa la scelta iniziale dei nuovi percorsi; la vecchia preferenza predefinita Classico viene aggiornata, mantenendo le partite già salvate.

@@ -1,0 +1,37 @@
+{
+  "version": "6.8.0",
+  "url": "http://127.0.0.1:8765/Parola-v6-sorgenti-e-verifiche/",
+  "checks": [
+    "52 introduced tiles fit both phone axes, retain proportions and contain their text",
+    "real two-finger pinch changes zoom without picks; one-finger pan and + / − / fit work",
+    "touch matching, collection and reusable audio; the effects switch mutes new sounds",
+    "alphabet recognition and writing keep fit, introduction gates and keyboard Send",
+    "small phone resize and reduced motion retain functional controls",
+    "desktop shared challenge fits, zoom stops at 220%, no page overflow"
+  ],
+  "phone": {
+    "zoom": 0.436,
+    "width": 342,
+    "height": 416.063720703125,
+    "spaceWidth": 362,
+    "spaceHeight": 561,
+    "ratio": 1.2333333333333334,
+    "body": 390,
+    "viewport": 390,
+    "tools": 834,
+    "clipped": 0
+  },
+  "desktop": {
+    "zoom": 0.596,
+    "width": 467.7120361328125,
+    "height": 569,
+    "spaceWidth": 736,
+    "spaceHeight": 589,
+    "ratio": 1.2333333333333334,
+    "body": 1360,
+    "viewport": 1360,
+    "tools": 1198.296875,
+    "clipped": 0
+  },
+  "passed": true
+}

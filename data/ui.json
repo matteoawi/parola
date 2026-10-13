@@ -436,7 +436,11 @@
     "boardOverview": "Vista intera",
     "boardReadable": "Ingrandisci",
     "keyboardSend": "Invia",
-    "keyboardCase": "Maiuscole / minuscole"
+    "keyboardCase": "Maiuscole / minuscole",
+    "boardZoomLabel": "Zoom del tavolo",
+    "zoomIn": "Ingrandisci tessere",
+    "zoomOut": "Riduci tessere",
+    "boardGesture": "Due dita per lo zoom · un dito per spostarti"
   },
   "en": {
     "tagline": "A world of words. One idea at a time.",
@@ -875,7 +879,11 @@
     "boardOverview": "Full view",
     "boardReadable": "Enlarge",
     "keyboardSend": "Send",
-    "keyboardCase": "Uppercase / lowercase"
+    "keyboardCase": "Uppercase / lowercase",
+    "boardZoomLabel": "Table zoom",
+    "zoomIn": "Enlarge tiles",
+    "zoomOut": "Reduce tiles",
+    "boardGesture": "Pinch to zoom · drag to move"
   },
   "ar": {
     "tagline": "عالم من الكلمات. قاعدة واحدة في كل مرة.",
@@ -1314,7 +1322,11 @@
     "boardOverview": "عرض كامل",
     "boardReadable": "تكبير",
     "keyboardSend": "إرسال",
-    "keyboardCase": "الأحرف الكبيرة والصغيرة"
+    "keyboardCase": "الأحرف الكبيرة والصغيرة",
+    "boardZoomLabel": "تكبير اللوحة",
+    "zoomIn": "تكبير القطع",
+    "zoomOut": "تصغير القطع",
+    "boardGesture": "إصبعان للتكبير · إصبع واحد للتحريك"
   },
   "ru": {
     "tagline": "Мир слов. Одно правило за раз.",
@@ -1753,6 +1765,10 @@
     "boardOverview": "Весь стол",
     "boardReadable": "Увеличить",
     "keyboardSend": "Отправить",
-    "keyboardCase": "Заглавные / строчные"
+    "keyboardCase": "Заглавные / строчные",
+    "boardZoomLabel": "Масштаб стола",
+    "zoomIn": "Увеличить плитки",
+    "zoomOut": "Уменьшить плитки",
+    "boardGesture": "Два пальца — масштаб · один — перемещение"
   }
 }

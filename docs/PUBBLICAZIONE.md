@@ -93,3 +93,12 @@ Nuovi formati Grande 32 e Maratona 52, con 26 coppie, sei colonne e tre livelli 
 Tastiera compatta con tasto Invia chiaro e verifica nel contesto corretto. Testato invio del segno russo e della frase dopo lo switch di tastiera. Vista intera, ingrandimento e contenimento: pagina mobile 390 px, tavolo ingrandito interno 546 px e comandi raggiungibili. Indicatori delle 26 coppie a capo nel desktop. Nessun errore JavaScript nello smoke.
 
 Tre nuovi test puri e otto regressioni mirate superati; ispezione mobile/desktop riunita con una correzione e conferma. Fonti SVG originali Lucide verificate. Versione, corso, manifest, cache, changelog, sorgenti, standalone, report e checksum aggiornati. Fetch/merge e push normali su master; nessuna suite storica completa ripetuta.
+
+
+## Release 6.8.0 — 13 ottobre 2026
+
+Tessere ridisegnate con rapporto altezza/larghezza tra 1,19 e 1,23, tipografia adattata al contenuto, audio dedicato in basso e contrasto conservato anche sui pezzi bloccati. Zoom uniforme, vista iniziale leggibile, Vista intera su entrambi gli assi, pinch, scorrimento con un dito, − / + e limite 220%. Contenitore dello zoom ritaglia lo spazio di layout non scalato, evitando scorrimento vuoto.
+
+Nove effetti sonori procedurali con un solo AudioContext; rispetto del muto e sospensione in background. Animazioni di raccolta corrette allo zoom, riscontro del punteggio e tessere liberate; movimento ridotto rispettato. Nessun nuovo file audio o servizio vocale.
+
+Nove test Node mirati e sei gruppi dello smoke Chromium locale superati. Pinch e pan verificati con eventi touch CDP reali. Due formati di telefono, desktop, coppie, presentazioni obbligatorie, alfabeto, tastiera Invia, muto, movimento ridotto e limiti zoom. L’automazione attende la fine dell’inerzia dello scorrimento prima di toccare una coppia. Ispezione visiva mobile/desktop riunita con una correzione e conferma; due segnalazioni storiche del detector su controlli fuori dal tavolo conservate. SVG originali Lucide verificate. Report locale local-smoke-tiles-6.8.0.json.
