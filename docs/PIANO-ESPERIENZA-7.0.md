@@ -1,6 +1,6 @@
 # Parola — piano dell’esperienza 7.0
 
-Revisione 1 · 13 ottobre 2026 · proposta da realizzare, non funzionalità già pubblicate.
+Revisione 2 · 13 ottobre 2026 · proposta da realizzare, non funzionalità già pubblicate.
 
 La versione del gioco resta 6.10.2. Questo piano riguarda una ricostruzione dell’esperienza, delle tessere e dei gameplay, non una nuova passata di rifinitura dell’interfaccia attuale. La struttura proposta assume un percorso guidato principale con laboratorio libero sempre disponibile; la preferenza tra percorso e gioco libero è stata chiesta all’utente e resta aperta al momento della stesura. Il resto del piano funziona anche invertendo i due accessi.
 
@@ -46,6 +46,26 @@ Regole visibili e stabili in tutte le attività: tessere sovrapposte, tessere li
 Sei tessere possono essere una dimostrazione dentro il tutorial, non un livello completo né il formato iniziale del gioco normale. Più tessere non significa presentare 26 novità insieme: proporre inizialmente 3–5 novità, completando il tavolo con elementi già introdotti. Il numero di novità è un parametro separato dalla quantità di tessere. I valori vanno regolati con prove su giocatori, non dichiarati didatticamente ottimali.
 
 Ripetizioni mirate sono possibili, ma i conteggi distinguono tessere e contenuti diversi. Una partita da 32 tessere con tre lettere nuove non viene descritta come 16 lettere imparate. Niente aumento artificiale dei traguardi per copie identiche.
+
+### Forma del tavolo, profondità e leggibilità degli strati
+
+Correzione richiesta dall’utente: oggi non si capisce se ci siano pezzi sotto, e le composizioni sono troppo uniformi. Nel codice i tavoli comuni sono griglie da quattro o cinque colonne con un piccolo blocco superiore; quelli da 32/52 pezzi usano un rettangolo di base e blocchi centrali. Lo scostamento fra livelli è di soli 5 px orizzontali e 6 px verticali. Aumentare ombre e numero di pezzi senza cambiare questa struttura non risolve il problema.
+
+**Composizioni progettate:** creare una biblioteca di sagome, con versioni per 24/32/52 pezzi: tartaruga compatta, farfalla, ponte con vuoto centrale, terrazze sfalsate, due isole collegate e corona. Ali, bracci, rientranze, vuoti, larghezze diverse per fila e livelli distribuiti devono produrre percorsi di liberazione differenti. Anche una sagoma simmetrica può funzionare; ciò che va eliminato è il rettangolo riproposto quasi identico. Obiettivo iniziale: almeno sei sagome distinguibili alla dimensione classica, non sei semplici mescolamenti delle stesse posizioni. Sono adattamenti al Mahjong educativo, non repliche dichiarate del tradizionale tavolo da 144 pezzi.
+
+**Strati leggibili:** faccia superiore, fianco e bordo inferiore separati; prospettiva leggera e costante, con gli strati inferiori che sporgono quanto basta per essere riconoscibili. Ombra di contatto sotto il pezzo che copre, distinta dall’ombra sul fondale. Il disegno deve mostrare dove finisce una tessera e comincia quella sottostante. Non usare solo il colore per distinguere l’altezza. Niente decorazioni che assomiglino a pezzi reali.
+
+**Informazione sullo stack:** al tocco o al focus di una tessera bloccata, spiegare Coperta dall’alto oppure Bloccata sui due lati ed evidenziare brevemente il bordo dei pezzi responsabili. Quando c’è una pila, il dettaglio può indicare il numero effettivo di strati rimasti, senza svelare la parola nascosta. Quando una raccolta scopre una tessera, la faccia emerge con una breve animazione e resta al proprio posto: è il momento che rende comprensibile la struttura.
+
+**Geometria coerente:** posizioni a mezze unità per terrazze sfalsate e sovrapposizioni parziali. Render, blocco superiore, contatto laterale, indicazione degli aiuti e hit testing devono derivare dalla stessa impronta geometrica. L’attuale controllo di vicinanza su righe intere non basta per queste sagome. Un pezzo che sembra scoperto non può essere bloccato da una regola invisibile; un bordo decorativo non deve diventare una zona cliccabile della tessera sotto. Nessuna rotazione casuale che renda ambiguo il contatto.
+
+**Progressione spaziale:** primo tavolo con due livelli e blocchi chiaramente leggibili; poi tre livelli, rientranze e più fronti di apertura. La difficoltà geometrica è separata da nuove parole e grammatica. Evitare di introdurre contemporaneamente una lingua più difficile e una nuova struttura complessa. Scelta della sagoma deterministica dal seed, con varietà fra le partite e ripresa identica al salvataggio. Per le sfide condivise si conservano layoutId e layoutVersion.
+
+**Solvibilità e stalli:** distribuire i contenuti a partire da un piano completo di rimozione valido per la sagoma. Per frasi e cloze il generatore deve considerare anche vincoli linguistici e pezzi residui, non soltanto la geometria. Le decisioni del giocatore possono creare uno stallo: indicarlo e proporre aiuti espliciti, senza cambiare la struttura di nascosto.
+
+**Mobile:** adattare zoom e inquadratura all’ingombro reale della sagoma e alla profondità, non al solo numero di colonne. Panoramica più vista leggibile per i tavoli grandi; bordi degli strati riconoscibili anche nella vista normale. L’allargamento dei fianchi non può ridurre parole e zone di tocco fino a renderle inutilizzabili.
+
+Criteri del prototipo: un nuovo giocatore distingue una tessera con altri pezzi sotto, spiega perché un pezzo è bloccato e vede quale pezzo viene liberato; riconosce tre sagome come diverse prima di leggere le parole. Controlli geometrici mirati per copertura parziale, lati liberi, ordine dei livelli, selezione del pezzo visibile e rimozione completa. Confronto visivo su telefono con una coppia prima/dopo che scopre un livello inferiore.
 
 ## 4. Gameplay ricostruiti
 
@@ -130,8 +150,8 @@ Migrare progressi e XP senza azzerarli. Le partite 6.x aperte si possono conclud
 
 | Tappa | Risultato concreto | Criterio prima di proseguire |
 | --- | --- | --- |
-| A — prototipo dell’esperienza | Home, tavolo 32 tessere, aiuti e riepilogo, con contenuti reali; confronto di due varianti delle tessere nella direzione cartoon | Su mobile si distingue un pezzo libero, si trova Modello e si continua senza riaprire il catalogo; direzione visiva scelta dall’utente |
-| B — motore e sessione | Tavolo persistente, formati comuni, raccolta/annullamento, navigazione e salvataggio | Ricarica e ripresa conservano ogni azione; geometria e gesti non cambiano le regole; niente riordino silenzioso |
+| A — prototipo dell’esperienza | Home, tavolo 32 tessere, aiuti e riepilogo, con contenuti reali; due varianti delle tessere cartoon e tre sagome con strati leggibili | Su mobile si capisce che cosa c’è sotto, perché un pezzo è bloccato e che cosa viene liberato; si trova Modello e si continua senza riaprire il catalogo; direzione visiva scelta dall’utente |
+| B — motore e sessione | Tavolo persistente, biblioteca di sagome, geometria condivisa fra render e regole, formati comuni, raccolta/annullamento, navigazione e salvataggio | Ricarica e ripresa conservano ogni azione e sagoma; coperture parziali e lati coerenti con il disegno; gesti corretti; niente riordino silenzioso |
 | C — percorso completo | Nuovo ingresso, introduzioni brevi, alfabeto→parole→frasi, coppie/immagini, collezione | Nessun contenuto nuovo nel tavolo prima dell’introduzione; una sequenza completa senza scelte duplicate; immagini sufficienti per la varietà promessa |
 | D — costruzioni linguistiche | Primo capitolo compositivo per ciascuna lingua, grammatica strutturata, diagnostica e modelli | Più soluzioni effettivamente diverse, accordi/casi corretti, esiti fuori repertorio distinti dagli errori; revisione dei materiali per lingua |
 | E — cloze, ascolto e scrittura | Tutte le attività nella stessa shell e sul tavolo persistente | Partite complete, aiuti chiari, disponibilità audio reale e tastiera nativa verificata su telefono |
