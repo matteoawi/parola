@@ -64,3 +64,12 @@ Commit funzionali 15fde04 e 990ee5d. GitHub Pages ha completato la build di 990e
 Indietro/Avanti del browser e pulsanti di ritorno collegati a schermata, sezione, lezione, focus e scorrimento. Partite salvate prima di cambiare schermata, riprese con lo stesso identificativo e presentazioni obbligatorie mantenute. Rigioca conserva il tavolo dell’invito e il suo obiettivo; spedizioni e primo successo hanno una continuazione principale coerente. Inviti e anteprima impostazioni monolingua allineano interfaccia, supporto e audio. Changelog offline collegato alla pagina pubblica.
 
 Verifiche locali: nove gruppi di navigazione, undici di mobile/presentazioni e tre test mirati. Ispezione mobile/desktop riunita, con una correzione delle etichette Indietro. Nessun collaudo dichiarato su hardware fisico o ripetizione della suite completa. Versione, cache, manifest, sorgenti, standalone, changelog e checksum aggiornati; fetch/merge e push normali su master.
+
+
+## Release 6.5.2 — 13 ottobre 2026
+
+Commit funzionale 1bd9e9d. Build Pages completata e confronto pubblico superato su https://matteoawi.github.io/parola/: 21 superfici con geometrie coincidenti con gli originali, tutti i 36 disegni renderizzati, favicon Lucide e pagina credits.html con licenze ISC/MIT disponibile. Report pubblico smoke-icons-6.5.2.json e locale local-smoke-icons-6.5.2.json; nessun errore JavaScript nei due smoke.
+
+Tutte le SVG del gioco corrente provengono dal pacchetto ufficiale lucide-static 1.56.0. Originali e licenze in assets/icons/lucide, con provenienza del pacchetto e impronte per file. Logo e icona installabile condividono layers-2; sito e standalone incorporano la stessa libreria, senza CDN. Il file offline incorpora anche il favicon. Provenienza verificabile e build ripetibile dalla copia locale, senza modificare i disegni.
+
+Versione, cache, manifest, changelog, sorgenti, artefatti, report e checksum aggiornati. Fetch/merge e push normali su master; nessuna suite storica ripetuta. Ispezione visiva mobile/desktop e tavola completa riunita in una sola passata.

@@ -20,3 +20,7 @@ Fonti ufficiali: https://lucide.dev/ e https://github.com/lucide-icons/lucide. L
 `scripts/smoke-icons.cjs`: geometrie effettivamente renderizzate confrontate con gli originali su 21 superfici, incluse lettere, presentazioni obbligatorie, partita, dialogo, risultati e condivisione. Tutti e 36 i disegni renderizzati nella tavola di confronto; pagina licenze e favicon disponibili. Nessun errore JavaScript nello smoke locale. Report `local-smoke-icons-6.5.2.json`.
 
 Ispezione visiva riunita di home mobile 390 px, desktop 1360 px e tavola completa: icone coerenti e leggibili, dimensioni dei comandi preservate. Immagini `icons-mobile-6.5.2.png`, `icons-desktop-6.5.2.png`, `icons-all-6.5.2.png`. Il rilevatore ha segnalato soltanto i tre bordi delle tessere già presenti nella CSS storica; nessun cambiamento estraneo a questa richiesta. Non è stata ripetuta la suite storica completa.
+
+## Pubblicazione
+
+Commit funzionale `1bd9e9d`, inviato a master dopo fetch/merge senza aggiornamenti remoti da integrare. Build GitHub Pages completata. Lo smoke sul sito ufficiale https://matteoawi.github.io/parola/ conferma geometria originale su 21 superfici, tutti i 36 disegni, favicon Lucide, versione 6.5.2 e pagina licenze disponibile. Report pubblico `smoke-icons-6.5.2.json`; report locale separato conservato. Nessun errore JavaScript nello smoke pubblico.
