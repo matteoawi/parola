@@ -1,5 +1,16 @@
 # Aggiornamenti di Parola
 
+## 6.5.0 — 13 ottobre 2026
+
+- Home mobile divisa in Gioca, Percorso e Oggi, con navigazione in basso. Sfida e continuazione sono compatte; capitoli, regole, esempi, catalogo dell’alfabeto e strumenti secondari si aprono su richiesta.
+- Partita mobile dedicata al tavolo, con comandi sempre raggiungibili e regola disponibile dal pulsante informativo. Il tavolo scorre internamente quando il materiale è ampio; i testi lunghi mantengono l’altezza necessaria per essere letti. Supportati schermi piccoli e orientamento orizzontale.
+- Le parole del tavolo vengono introdotte prima della partita, comprese quelle aggiunte dai formati grandi. Una scheda alla volta presenta frase, significato o indizio monolingua e parole nel contesto; occorre confermarla prima di giocare.
+- Presentazioni salvate per contenuto e percorso, separate da parole viste, partite e padronanza. Il materiale già introdotto non si ripete; contenuti cambiati, un’altra direzione linguistica o vecchi salvataggi senza presentazioni richiedono il passaggio pertinente.
+- Il controllo si applica alle cinque modalità, alle spedizioni, agli inviti, alle riprese e ai tavoli di ripasso. Anche gli esercizi di alfabeto presentano prima i modelli e le possibili forme da distinguere della sessione. Nessun premio o avanzamento di abilità viene assegnato per la sola presentazione.
+- Tessere ed elemento di scorrimento conservati durante gli aggiornamenti del gioco. Spostamenti che ripartono dalla posizione visibile e mantengono la velocità, raccolta delle coppie verso il punteggio, feedback al tocco e movimento ridotto rispettato.
+
+Tre test mirati e undici gruppi Chromium sui nuovi flussi, compresi profilo nuovo, vecchia sessione, 320 px, mobile orizzontale e RTL. Verificati layout emulati e continuità degli elementi; non viene dichiarata una misura del frame rate su ogni telefono reale. I progressi precedenti sono mantenuti.
+
 ## 6.4.0 — 13 ottobre 2026
 
 - Gli audio disponibili delle lingue scelte vengono caricati integralmente, con avanzamento visibile. Il caricamento parte alla scelta della lingua o alla riapertura di un percorso già avviato, senza bloccare il gioco.

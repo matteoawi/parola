@@ -2,6 +2,7 @@
 import {sanitizeLiteracySessions} from './literacy.mjs';
 import {sanitizeDaily,mergeDaily,BADGES,TABLE_FORMATS} from './progression.mjs';
 import {sanitizeTours,mergeTours} from './adventure.mjs';
+import {sanitizeIntroductions} from './introduction.mjs';
 export const LANGS = ['it','en','ar','ru'];
 export const MODES = ['pair','listen','complete','compose','write'];
 export function norm(text, lang='it') {
@@ -77,7 +78,7 @@ export function supportText(item,target,support){
 }
 export function routeKey(settings){if(!LANGS.includes(settings.target)||!LANGS.includes(settings.support))throw Error('Invalid direction');return `${settings.support}>${settings.target}`;}
 export function localDay(now=Date.now()){const d=new Date(now);return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;}
-export function newProgress(){return{version:6,settings:{target:'it',support:'en',ui:'it',voice:'offline',effects:true,labels:true,large:false,tableFormat:'classic'},missions:{},memory:{},seen:[],days:[],active:null,alphabetSessions:{},daily:{},awards:[],tours:{},onboarded:false};}
+export function newProgress(){return{version:6,settings:{target:'it',support:'en',ui:'it',voice:'offline',effects:true,labels:true,large:false,tableFormat:'classic'},missions:{},memory:{},seen:[],days:[],active:null,alphabetSessions:{},daily:{},awards:[],tours:{},onboarded:false,introduced:{}};}
 export function memoryKey(route,skill,item){return `${route}|${skill}|${item}`;}
 export function updateMemory(prev,success,assisted,now=Date.now()) {
  if(!Number.isFinite(now)||now<0)throw Error('Invalid review timestamp');
@@ -101,6 +102,7 @@ export function validateProgress(p){
  routeKey(p.settings);if(!LANGS.includes(p.settings.ui))throw Error('Invalid UI language');
  const clean=newProgress();
  clean.alphabetSessions=sanitizeLiteracySessions(p.alphabetSessions);
+ clean.introduced=sanitizeIntroductions(p.introduced);
  clean.daily=sanitizeDaily(p.daily);clean.awards=BADGES.filter(id=>p.awards?.includes?.(id));
  clean.tours=sanitizeTours(p.tours);clean.onboarded=Boolean(p.onboarded||Object.keys(p.missions).length||p.days.length||p.seen.length||Object.keys(p.sessions||{}).length||Object.keys(p.alphabetSessions||{}).length);
  clean.settings.tableFormat=Object.hasOwn(TABLE_FORMATS,p.settings.tableFormat)?p.settings.tableFormat:'classic';
@@ -116,6 +118,7 @@ export function validateProgress(p){
 }
 export function mergeProgress(a,b){
  const out=validateProgress(a),other=validateProgress(b);
+ out.introduced={...other.introduced,...out.introduced};
  out.daily=mergeDaily(out.daily,other.daily);out.awards=[...new Set([...out.awards,...other.awards])];
  out.tours=mergeTours(out.tours,other.tours);out.onboarded=out.onboarded||other.onboarded;
  for(const [k,v]of Object.entries(other.missions))if(!out.missions[k]||out.missions[k].score<v.score)out.missions[k]=v;

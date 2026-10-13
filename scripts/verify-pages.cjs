@@ -12,6 +12,7 @@ function passed(check, details = {}) { checks.push({check, passed: true, ...deta
  const browser = await chromium.launch({headless: true, args: ['--autoplay-policy=no-user-gesture-required']});
  try {
   const context = await browser.newContext({viewport: {width: 1360, height: 950}, acceptDownloads: true, reducedMotion: 'reduce'});
+  await require('./legacy-introductions.cjs')(context);
   const page = await context.newPage();
   page.on('pageerror', e => errors.push(String(e)));
   page.on('console', m => {if (m.type() === 'error') errors.push(m.text());});
