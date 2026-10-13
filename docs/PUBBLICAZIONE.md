@@ -141,3 +141,13 @@ Sette test Node mirati superati (grammatica nelle quattro lingue, punteggi, 100 
 Report: `docs/local-smoke-sentence-games-6.10.0.json` e `docs/smoke-sentence-games-6.10.0.json`. Documentazione e limiti: `docs/MODALITA-6.10.0.md`. Il test disabilita la riproduzione vocale per isolare la logica di gioco; non misura la qualità delle voci sul telefono. Nessun nuovo file audio o servizio vocale introdotto.
 
 Fetch e merge di origin/master prima del push; nessun aggiornamento remoto da integrare. Changelog, crediti, cache, manifest, corso, pagina e standalone aggiornati alla versione 6.10.0.
+
+## 6.10.1 — revisione della coerenza dei gameplay
+
+Commit funzionale `ec31765e6d3396832c286b0ce090ed351c6d4767`, pubblicato su master dopo fetch e merge di origin/master (già aggiornato). Build Pages completata senza errori. Metadati pubblici versione 6.10.1.
+
+Dieci test Node mirati superati e originalità Lucide/Twemoji verificata. Otto gruppi Chromium superati sia in locale sia su https://matteoawi.github.io/parola/: partite complete delle sei modalità e alfabeto, ascolto richiesto prima del match, invio dalla tastiera di gioco, ripresa e svuotamento, indizio su tre parti coordinate, ricompense guidate, traguardi fisici, percorso da 96 missioni e formati distinti. Quattro gruppi aggiuntivi superati in locale per cloze e immagini nelle quattro lingue, inclusi arabo monolingua e russo bilingue. Nessun errore JavaScript o traduzione mancante osservato.
+
+Report: `docs/local-smoke-gameplay-coherence-6.10.1.json`, `docs/smoke-gameplay-coherence-6.10.1.json`, `docs/local-smoke-sentence-games-6.10.1.json`. Resoconto e limiti: `docs/COERENZA-GAMEPLAY-6.10.1.md`. La voce è simulata nei test di gameplay; qualità vocale, efficacia dell’apprendimento e fidelizzazione non sono misurate da queste verifiche. Nessun nuovo file audio o API introdotto.
+
+Versione, manifest, cache, corso, README, LEGGIMI, changelog pubblico, crediti e standalone coerenti alla 6.10.1. Due attività libere continuano a essere selezionabili insieme alle quattro attività del percorso. Server locale di verifica arrestato al termine.
