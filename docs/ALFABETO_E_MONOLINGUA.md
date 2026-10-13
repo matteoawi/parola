@@ -33,8 +33,6 @@ L’ascolto richiede un file effettivamente disponibile o una voce del dispositi
 
 La sessione conserva posizione e bozza. L’esportazione include sessioni e competenze. I risultati di ascolto non certificano la pronuncia dell’utente e i risultati di scrittura non valutano la grafia a mano. Non sono stati aggiunti MP3 arabi o una revisione madrelingua certificata.
 
-## Fonti e scelte di progetto
-
 ## Verifiche della release
 
 23 test Node superati: compatibilità dei salvataggi, quattro percorsi monolingua, copertura delle lettere, unicità delle scelte, valutazione dei segni e contabilità delle risposte assistite. Le simulazioni del motore comprendono 5.280 scenari di tavolo e 2.000 partite con scelte casuali valide, senza stalli osservati.
@@ -54,3 +52,5 @@ Per l’inglese, la distinzione tra lettere e suoni e il lavoro su parole intere
 Per il russo, il riferimento introduttivo è la lezione sull’alfabeto nei [materiali didattici della Cornell University](https://russian.cornell.edu/russian.web/courses/121/Leed_Less_1-21.pdf).
 
 Sessioni da sei elementi, ingresso libero, indizi monolingua e criterio di acquisizione sono scelte di progetto, non risultati sperimentali o dichiarazioni di efficacia didattica certificata.
+
+La verifica delle due suite è stata completata sia in locale sia su https://matteoawi.github.io/parola/, con 115 controlli browser pubblici superati in totale. I report locali restano separati in `local-learning-verification-6.1.0.json` e `local-pages-verification-6.1.0.json`.
