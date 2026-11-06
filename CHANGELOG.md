@@ -1,5 +1,9 @@
 # Aggiornamenti di Parola
 
+## 6.11.1 — 2026-11-06
+
+- Firma discreta con link al portfolio di Matteo, tradotta nelle quattro lingue. Cache offline aggiornata per ricevere la nuova versione; lezioni, audio e progressi invariati.
+
 ## 6.11.0 — 13 ottobre 2026
 
 - Audio arabo incluso con Microsoft Hoda: 328 voci di inventario, 247 registrazioni MP3, per parole, frasi e tutti i 134 materiali alfabetici. Generazione locale gratuita; nessuna chiave o API necessaria al sito.
