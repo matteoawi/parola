@@ -4,7 +4,7 @@ Gioco di lingue con 24 unità, sei modalità e 12 direzioni bilingui, quattro pe
 
 **Gioca:** https://matteoawi.github.io/parola/
 
-**Versione:** 6.11.1 · [Aggiornamenti pubblici](https://matteoawi.github.io/parola/changelog.html)
+**Versione:** 6.11.2 · [Aggiornamenti pubblici](https://matteoawi.github.io/parola/changelog.html)
 
 Audio incluso nelle quattro lingue. Il nuovo pacchetto arabo usa Microsoft Hoda, copre parole, frasi e i 134 materiali dell’alfabeto, e si precarica scegliendo la lingua. La pagina iniziale è leggera; Parola-offline.html incorpora tutti gli audio. Dettagli: [Audio arabo 6.11](docs/AUDIO-ARABO-6.11.0.md).
 

@@ -514,8 +514,7 @@
     "audioTextUnavailable": "Per questo testo manca una registrazione e non è disponibile una voce della lingua sul dispositivo. Gli altri audio già inclusi restano utilizzabili.",
     "letterExample": "Una parola con questo segno",
     "alphaSameLetters": "Abbina due lettere uguali. Il nome e la parola sotto aiutano a riconoscere il segno nella sua lingua.",
-    "alphaMixedTitle": "Alfabeto · {lang} · Tavolo misto",
-    "creatorCredit": "Creato da"
+    "alphaMixedTitle": "Alfabeto · {lang} · Tavolo misto"
   },
   "en": {
     "tagline": "A world of words. One idea at a time.",
@@ -1032,8 +1031,7 @@
     "audioTextUnavailable": "This text has no recording and no matching device voice is available. Other included recordings still work.",
     "letterExample": "A word containing this letter",
     "alphaSameLetters": "Match two identical letters. The name and word below connect the shape to its language.",
-    "alphaMixedTitle": "Alphabet · {lang} · Mixed table",
-    "creatorCredit": "Made by"
+    "alphaMixedTitle": "Alphabet · {lang} · Mixed table"
   },
   "ar": {
     "tagline": "عالم من الكلمات. قاعدة واحدة في كل مرة.",
@@ -1550,8 +1548,7 @@
     "audioTextUnavailable": "لا يوجد تسجيل لهذا النص ولا صوت مطابق على الجهاز. التسجيلات الأخرى المضمّنة ما زالت متاحة.",
     "letterExample": "كلمة تحتوي هذا الحرف",
     "alphaSameLetters": "طابق حرفين متماثلين. يساعد الاسم والكلمة أسفله على ربط الشكل بلغته.",
-    "alphaMixedTitle": "الأبجدية · {lang} · لوحة مختلطة",
-    "creatorCredit": "من تطوير"
+    "alphaMixedTitle": "الأبجدية · {lang} · لوحة مختلطة"
   },
   "ru": {
     "tagline": "Мир слов. Одно правило за раз.",
@@ -2068,7 +2065,6 @@
     "audioTextUnavailable": "Для этого текста нет записи и подходящего голоса на устройстве. Другие включённые записи доступны.",
     "letterExample": "Слово с этой буквой",
     "alphaSameLetters": "Соедини две одинаковые буквы. Название и слово внизу помогают связать знак с его языком.",
-    "alphaMixedTitle": "Алфавит · {lang} · Смешанное поле",
-    "creatorCredit": "Автор"
+    "alphaMixedTitle": "Алфавит · {lang} · Смешанное поле"
   }
 }

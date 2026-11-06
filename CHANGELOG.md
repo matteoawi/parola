@@ -1,5 +1,9 @@
 # Aggiornamenti di Parola
 
+## 6.11.2 — 2026-11-06
+
+- Rimossa la firma visibile; il riferimento autore rimane soltanto nei metadati. Cache offline aggiornata, senza modifiche a lezioni, audio o progressi.
+
 ## 6.11.1 — 2026-11-06
 
 - Firma discreta con link al portfolio di Matteo, tradotta nelle quattro lingue. Cache offline aggiornata per ricevere la nuova versione; lezioni, audio e progressi invariati.
